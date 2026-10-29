@@ -1,0 +1,1846 @@
+TY  - CONF
+AU  - Ahmed, H.
+AU  - Iqbal, S.
+AU  - Pinto Neto, E.C.
+AU  - Buffett, S.
+AU  - Sultana, M.
+AU  - Taylor, A.
+TI  - Autonomous Multi-agent Cyber Defense: A Novel Approach Using Reinforcement Learning with Hierarchical LLM Critics
+PY  - 2025
+T2  - 2025 Cyber Awareness and Research Symposium, CARS 2025
+DO  - 10.1109/CARS67163.2025.11337724
+UR  - https://www.scopus.com/pages/publications/105033544987?origin=resultslist
+AB  - Modern enterprise networks are continuously ex-panding in both scale and complexity. Alongside this, cyber threats have become more dangerous and dynamic. Consequently, automating cyber tasks by creating AI agents is essential for effectively countering these evolving threats. Reinforcement learning (RL) and Deep Learning (DL) models have shown promise in this area, but suffer from a high false-positive rate, slow convergence, and a lack of context-aware strategies. Incorporation of cyber domain knowledge (threat reports, attack behavior descriptions, LLMs trained on cyber data, etc.) might enable these agents to make informed decisions. In this work, we propose a novel multi-agent architecture to enhance RL-based autonomous agents using a hierarchy of large language models (LLMs). Our proposed approach enables real-time adaptation to new attack patterns, potentially without retraining the LLMs. We discuss the use of prompt engineering (to encode organizational policies and shape agent behavior) and retrieval augmented generation to facilitate communication between LLMs and ensure actions are aligned with organizational policies. Our approach aims to bridge semantic understanding with strategic RL-agentic control, offering a scalable and modular solution for autonomous multi-agent cyber defense.  © 2025 IEEE.
+KW  - Cyber Defense
+KW  - Large Language Models
+KW  - Multi-Agent Systems
+KW  - Network Security
+KW  - Reinforcement Learning
+KW  - Autonomous agents
+KW  - Deep learning
+KW  - Hierarchical systems
+KW  - Intelligent agents
+KW  - Network security
+KW  - Semantics
+KW  - Cyber threats
+KW  - Cyber-defense
+KW  - Enterprise networks
+KW  - Language model
+KW  - Large language model
+KW  - Multi agent
+KW  - Multiagent systems (MASs)
+KW  - Networks security
+KW  - Organizational policies
+KW  - Reinforcement learnings
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105033544987
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 2
+ER  -
+
+TY  - CONF
+AU  - Jiang, G.
+AU  - Imani, M.
+AU  - Bastian, N.D.
+AU  - Lan, T.
+TI  - Agentic AI for Cyber Defense: LLM-Guided Hierarchical Multi-Agent Reinforcement Learning
+PY  - 2025
+T2  - Proceedings - IEEE Military Communications Conference MILCOM
+SP  - 1518
+EP  - 1523
+DO  - 10.1109/MILCOM64451.2025.11310253
+UR  - https://www.scopus.com/pages/publications/105031769878?origin=resultslist
+AB  - In cyber defense, agentic AI in the form of distributed multi-agent teams must rapidly adapt to evolving threats across dynamic network environments. Hierarchical Reinforcement Learning (HRL) mitigates sample complexity by decomposing complex objectives into simpler subskills, yet handcrafting these skills and their intrinsic rewards remains expertise-dependent and resource-intensive. We introduce a novel agentic AI framework that harnesses the task decomposition and planning capabilities of Large Language Models (LLMs) to automate both skill discovery and reward shaping within HRL. By prompting an LLM to identify semantically meaningful skills and craft corresponding intrinsic reward functions, our method significantly reduces manual engineering effort. We validate our approach in CAGE Challenge 4, a Multi-Agent Reinforcement Learning (MARL) cybersecurity environment, showing that our LLM-guided hierarchical policy achieves faster convergence and improved performance in cyber defense relative to flat MARL baselines. These results underscore the potential of integrating agentic AI into multi-agent HRL for scalable, interpretable, and efficient cyber-defense.  © 2025 IEEE.
+KW  - Agentic AI
+KW  - Cybersecurity
+KW  - Hierarchical Reinforcement Learning
+KW  - Large Language Models
+KW  - Multi-Agent Reinforcement Learning
+KW  - Complex networks
+KW  - Computational methods
+KW  - Cybersecurity
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Network security
+KW  - Agentic AI
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Dynamic network environment
+KW  - Hierarchical reinforcement learning
+KW  - Intrinsic rewards
+KW  - Language model
+KW  - Large language model
+KW  - Multi-agent reinforcement learning
+KW  - Multiagent teams
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105031769878
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 3
+ER  -
+
+TY  - CONF
+AU  - Dadashova, L.T.
+AU  - Alekberli, R.Z.
+TI  - From AI Strategy to Executable Controls: A PRISMA-Guided Systematic Review of AI Governance for Cybersecurity Efficiency in Azerbaijan
+PY  - 2026
+T2  - 2026 International Conference on Cybersecurity, Digital Forensics, and AI Applications, ICCSDFAI 2026
+SP  - 1261
+EP  - 1267
+DO  - 10.1109/ICCSDFAI70505.2026.11647955
+UR  - https://www.scopus.com/pages/publications/105049051679?origin=resultslist
+AB  - The deployment of artificial intelligence across public-sector services, critical infrastructure, and national security operations creates an urgent demand for governance systems that can translate strategic principles into auditable, executable technical controls. This paper reports a completed PRISMA 2020 systematic literature review (n = 38; inter-rater reliability κ = 0.83) and derives from it a nine-pillar national AI governance control taxonomy tailored to Azerbaijan's legislative context. Each pillar is grounded in peer-reviewed evidence spanning responsible AI ethics, LLM security, MLOps governance, privacy-preserving computing, explainability, continuous monitoring, and agentic AI safety. All nine pillars are mapped to three operative national policy instruments - the AI Development Strategy 2025-2028, the Information Security and Cybersecurity Strategy 2023-2027, and the Law on Protection of Critical Information Infrastructure No. 949 - at the article level. Concrete technical implementation artefacts are proposed for each pillar together with five measurable operational efficiency KPIs, including Mean Time to Detect (MTTD ≤ 24 h) and Mean Time to Respond (MTTR ≤ 72 h), calibrated against CISA, ENISA, and NIST baselines and adjusted to reflect Azerbaijan's current SOC maturity and CII enforcement capacity. Cross-pillar dependency analysis and a structural comparison with the EU AI Act are also provided. The framework addresses a documented gap in post-Soviet AI governance scholarship by offering a replicable, evidence-based pathway from national AI strategy to operational cybersecurity control. © 2026 IEEE.
+KW  - agentic AI
+KW  - AI governance
+KW  - Azerbaijan
+KW  - control taxonomy
+KW  - cybersecurity
+KW  - LLM security
+KW  - MLOps
+KW  - MTTD
+KW  - MTTR
+KW  - PRISMA 2020
+KW  - SIEM
+KW  - XAI
+KW  - Computer privacy
+KW  - Critical infrastructures
+KW  - Cybersecurity
+KW  - Data privacy
+KW  - Life cycle
+KW  - National security
+KW  - Prisms
+KW  - Public policy
+KW  - Public works
+KW  - Agentic AI
+KW  - AI governance
+KW  - Azerbaijan
+KW  - Control taxonomy
+KW  - Cyber security
+KW  - LLM security
+KW  - MLOp
+KW  - MTTD
+KW  - MTTR
+KW  - PRISMA 2020
+KW  - SIEM
+KW  - XAI
+KW  - Efficiency
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105049051679
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Diaz-Santos, A.
+AU  - Socha, K.
+TI  - Adaptive Ticket Routing through Retrieval-Augmented In-Context Learning from Analyst Behaviour at CERT-EU
+PY  - 2026
+T2  - Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining
+VL  - 2-B
+SP  - 7151
+EP  - 7161
+DO  - 10.1145/3770855.3818313
+UR  - https://www.scopus.com/pages/publications/105051112240?origin=resultslist
+AB  - Ticket routing is a critical operational task: organisations must triage incoming requests to specialised teams, typically via queues, but routing policies are organisation-specific and evolve continuously. Rule-based systems demand constant maintenance, while supervised classifiers suffer from concept drift and require periodic retraining. These challenges intensify in regulated environments where sensitive data prevents cloud-based AI services, annotation capacity is limited, and misrouting carries significant cost. We present an adaptive ticket routing system that frames routing as retrieval-augmented in-context learning with temporal feedback learning. Rather than training a static model, the system retrieves similar successfully routed tickets as demonstrations, grounding predictions in accumulated organisational expertise. It learns continuously from routine analyst behaviour: corrections are captured as error signals, while predictions unchanged beyond a calibrated time threshold are interpreted as implicit confirmation - -transforming everyday workflow into supervision at zero incremental annotation cost. Predictions are constrained to queues present in retrieved demonstrations; an on-premises LLM resolves conflicts only when demonstrations disagree. Deployed at CERT-EU (cybersecurity service provider for European Union entities), the system operates in two modes: assisted routing, where analysts receive recommendations based on similar historical cases (2× speedup); and selective autonomy, where tickets assigned to high-confidence queues are routed automatically (22× speedup). Over six months of production deployment (1900 tickets), it achieves 86.3% weighted F1, outperforming supervised baselines by 4.5 points and zero-shot LLM inference by 15 points. The system runs entirely on-premises and adapts continuously without retraining or dedicated annotation, offering a practical blueprint for organisations operating under strict data-sovereignty constraints. © 2026 Owner/Author.
+KW  - continual adaptation
+KW  - human-in-the-loop
+KW  - in-context learning
+KW  - retrieval-augmented classification
+KW  - security operations
+KW  - Artificial intelligence
+KW  - Behavioral research
+KW  - Information systems
+KW  - Learning systems
+KW  - Metadata
+KW  - Network security
+KW  - Queueing theory
+KW  - Context learning
+KW  - Continual adaptation
+KW  - Human-in-the-loop
+KW  - In contexts
+KW  - In-context learning
+KW  - Operational tasks
+KW  - Retrieval-augmented classification
+KW  - Routing policies
+KW  - Routings
+KW  - Security operations
+KW  - Demonstrations
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105051112240
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Wang, J.
+AU  - Zhou, C.
+AU  - Yi, Y.
+AU  - Sun, Q.
+AU  - Yan, T.
+AU  - Qi, F.
+TI  - ChatSOC: A Large Language Model Powered Autonomous Agent for Security Operations Center
+PY  - 2025
+T2  - Proceedings of Science
+VL  - 488
+C7  - 009
+DO  - 10.22323/1.488.0009
+UR  - https://www.scopus.com/pages/publications/105038009761?origin=resultslist
+AB  - To defend against numerous cyberattacks, the Security Operations Center at the Institute of High Energy Physics (IHEP SOC) was established in 2021. IHEP SOC implemented a standardized procedure for invoking several security tools to execute automated response tasks. This standardized process utilizes a predefined set of tools to ensure that the IHEP SOC maintains minute-level response times, with a remarkably low false block rate of one in ten thousand. However, the fixed process of tool invoking is often challenging to update and manage, and it typically addresses isolated security operational tasks. To address this issue, this paper introduces ChatSOC, an autonomous agent for network security operations empowered by an LLM, capable of completing various operational tasks: identification, protection, detection, and response. ChatSOC streamlines these operations by dynamically planning and executing tasks without relying on fixed processes for tool invocation. Through its deployment at the Institute of High Energy Physics (IHEP), ChatSOC has proven highly effective, enhancing security operations by automatically planning and invoking different tools. © Copyright owned by the author(s)
+KW  - Agents
+KW  - High energy physics
+KW  - Network security
+KW  - Security systems
+KW  - Automated response
+KW  - Cyber-attacks
+KW  - High-energy physics
+KW  - Language model
+KW  - Operational tasks
+KW  - Predefined sets
+KW  - Security operation center
+KW  - Security operations
+KW  - Security tools
+KW  - Standardized procedure
+KW  - Autonomous agents
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105038009761
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Dobrovodsky, P.
+AU  - Kail, E.
+AU  - Fleiner, R.
+AU  - Nyilas, G.
+AU  - Szarvak, A.
+AU  - Poser, V.
+TI  - Data validation: SOC and LLM approaches
+PY  - 2026
+T2  - CANDO-EPE 2026 - IEEE 8th International Conference and Workshop in Obuda on Electrical and Power Engineering, Proceedings
+SP  - 329
+EP  - 334
+DO  - 10.1109/CANDO-EPE71091.2026.11569448
+UR  - https://www.scopus.com/pages/publications/105043975771?origin=resultslist
+AB  - Data validation has evolved from a static preprocessing step into a continuous requirement in modern AI-driven systems operating in high-volume and adversarial environments. This paper analyzes validation challenges across two domains: Security Operations Centers (SOC) and Retrieval-Augmented Generation (RAG) pipelines. While traditional validation focuses on structural correctness and consistency, SOC and RAG systems require additional guarantees related to semantic integrity, temporal validity, and resilience against adversarial manipulation.Based on a structured analysis of recent approaches, we identify common validation patterns across these domains and highlight the increasing role of AI-Assisted techniques, LLM-based reasoning, multi-Agent validation, and reliability-Aware retrieval. To support this analysis, we provide a comparative overview of existing validation methods, emphasizing their trade-offs in terms of real-Time applicability and computational cost.Building on these observations, we outline a conceptual, agent-based validation architecture that integrates structural, semantic, and adversarial validation layers. A feasibility-oriented analysis shows that such systems are most practical as selective and hybrid pipelines, where high-cost LLM-based validation is applied only to high-risk cases. We conclude that data validation should be treated as a multi-layered architectural component essential for ensuring trust and robustness in both AI and security systems.  © 2026 IEEE.
+KW  - Data Validation
+KW  - Large Language Models
+KW  - Retrieval-Augmented Generation
+KW  - Security Operation Center
+KW  - Autonomous agents
+KW  - Computation theory
+KW  - Computational methods
+KW  - Cost benefit analysis
+KW  - Multi agent systems
+KW  - Reliability analysis
+KW  - Security systems
+KW  - Semantics
+KW  - Verification
+KW  - Adversarial environments
+KW  - Data validation
+KW  - Driven system
+KW  - High volumes
+KW  - Language model
+KW  - Large language model
+KW  - Paper analysis
+KW  - Pre-processing step
+KW  - Retrieval-augmented generation
+KW  - Security operation center
+KW  - Economic and social effects
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105043975771
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Mohammadi, H.
+AU  - Davis, J.J.
+AU  - Kiely, M.
+TI  - Leveraging Large Language Models for Autonomous Cyber Defense: Insights from CAGE-2 Simulations
+PY  - 2025
+T2  - IEEE Intelligent Systems
+VL  - 40
+IS  - 4
+SP  - 29
+EP  - 36
+DO  - 10.1109/MIS.2025.3568209
+UR  - https://www.scopus.com/pages/publications/105004928451?origin=resultslist
+AB  - The ability of large language models (LLMs) to interpret and generate human-like text, along with their inbuilt knowledge and reasoning skills, has opened the door for many new applications. We develop a novel LLM agent as an autonomous cyber defender and benchmark it using the CAGE-2 public challenge, which evaluates submitted agents in a simulated network. The agent uses a pretrained LLM to interpret a text description of the challenge and choose the best defensive action given a network observation. Its performance is on par with the most successful reinforcement learning agent submitted to CAGE-2 with the advantages of explainability and avoiding training episodes, but with the cost of requiring LLM prompt engineering. Finally, we test the LLM agent experimentally to explore how LLM temperature and prompt complexity affect performance. We show that higher complexity prompts significantly improve performance, while LLM temperature has only a minor effect. © 2001-2011 IEEE.
+KW  - Cyber-defense
+KW  - Human like
+KW  - Language model
+KW  - Model agents
+KW  - Model temperatures
+KW  - Network observation
+KW  - New applications
+KW  - Performance
+KW  - Reinforcement learning agent
+KW  - Simulated networks
+KW  - Reinforcement learning
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105004928451
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 10
+ER  -
+
+TY  - CONF
+AU  - Bogdanov, I.
+AU  - Lung, C.-H.
+AU  - Kunz, T.
+AU  - Gao, J.
+AU  - Taylor, A.
+AU  - Zaman, M.
+TI  - FORGE: Self-Evolving Agent Memory with No Weight Updates via Population Broadcast
+PY  - 2026
+T2  - Proceedings of the ACM Conference on AI and Agentic Systems, CAIS 2026
+SP  - 292
+EP  - 310
+DO  - 10.1145/3786335.3813155
+UR  - https://www.scopus.com/pages/publications/105046353162?origin=resultslist
+AB  - Can LLM agents improve decision-making through self-generated memory without gradient updates? We propose FORGE (Failure-Optimized Reflective Graduation and Evolution), a staged, population-based protocol that evolves prompt-injected natural-language memory for hierarchical ReAct agents. FORGE wraps a Reflexion-style inner loop, where a dedicated reflection agent (using the same underlying LLM, no distillation from a stronger model) converts failed trajectories into reusable knowledge artifacts: textual heuristics (Rules), few-shot demonstrations (Examples), or both (Mixed), with an outer loop that propagates the best-performing instance's memory to the population between stages and freezes converged instances via a graduation criterion. We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP at a 30-step horizon against the B_line attacker, where all four tested LLM families (Gemini-2.5-Flash-Lite, Grok-4-Fast, Llama-4-Maverick, Qwen3-235B) exhibit strongly negative, heavy-tailed zero-shot rewards. Compared against both a zero-shot baseline and a Reflexion baseline (isolated single-stream learning), FORGE improves average evaluation return by 1.7-7.7 × over zero-shot and by 29-72% over Reflexion in all 12 model-representation conditions, reducing major-failure rates (below - 100) to as low as ∼1%. We find that (1) population broadcast is the critical mechanism, with a no-graduation ablation confirming that broadcast carries the performance gains while graduation primarily saves compute; (2) Examples achieves the strongest returns for three of four models, while Rules offers the best cost-reliability profile with ∼40% fewer tokens; and (3) weaker baseline models benefit disproportionately, suggesting FORGE may mitigate capability gaps rather than amplify strong models. All evidence is confined to CAGE-2 B_line; cross-family findings are directional evidence.  © 2026 Copyright is held by the owner/author(s). Publication rights licensed to ACM.
+KW  - cyber defense
+KW  - LLM agents
+KW  - memory evolution
+KW  - POMDP
+KW  - population-based training
+KW  - prompt-only learning
+KW  - self-improvement
+KW  - Artificial intelligence
+KW  - Computer software reusability
+KW  - Decision making
+KW  - Failure (mechanical)
+KW  - Failure analysis
+KW  - Stochastic models
+KW  - Cyber-defense
+KW  - Decisions makings
+KW  - LLM agent
+KW  - Memory evolution
+KW  - Natural languages
+KW  - POMDP
+KW  - Population-based training
+KW  - Prompt-only learning
+KW  - Self-improvement
+KW  - Weight update
+KW  - Stochastic systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105046353162
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Paduraru, C.
+AU  - Patilea, C.C.
+AU  - Stefanescu, A.
+TI  - CyberGuardian 2: Integrating LLMs and Agentic AI Assistants for Securing Distributed Networks
+PY  - 2025
+T2  - International Conference on Evaluation of Novel Approaches to Software Engineering, ENASE - Proceedings
+SP  - 660
+EP  - 667
+DO  - 10.5220/0013406000003928
+UR  - https://www.scopus.com/pages/publications/105004984413?origin=resultslist
+AB  - Robust cybersecurity measures are essential to protect complex information systems from a variety of cyber threats, which requires sophisticated security solutions. This paper explores the integration of Large Language Models (LLMs) to improve cybersecurity operations within Security Operations Centers (SOCs). The proposed framework has a modular plugin architecture where Agentic AI controls the information flow, includes Retrieval Augmented Generation (RAG), protection methods for human-chatbot interactions and tools for managing tasks such as database interactions, code generation and execution. By utilizing these techniques, the framework aims to streamline the workflows of SOC analysts, allowing them to focus on critical tasks rather than redundant activities. The study also explores the dynamic customization of LLMs based on client data, user experience, potential risks and language preferences to ensure a user-centric approach. The results show improvements in efficiency and effectiveness and highlight the potential of LLMs in cybersecurity applications. Copyright © 2025 by SCITEPRESS - Science and Technology Publications, Lda.
+KW  - Agentic AI
+KW  - Cybersecurity Assistant
+KW  - Fine-Tuning
+KW  - Large Language Models
+KW  - Retrieval Augmented Generation
+KW  - Security Officers
+KW  - Client server computer systems
+KW  - Cluster computing
+KW  - Distributed cloud
+KW  - Grid computing
+KW  - Information use
+KW  - Multi agent systems
+KW  - Agentic AI
+KW  - Cyber security
+KW  - Cybersecurity assistant
+KW  - Distributed networks
+KW  - Fine tuning
+KW  - Language model
+KW  - Large language model
+KW  - Retrieval augmented generation
+KW  - Security officers
+KW  - Security operation center
+KW  - Cyber attacks
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105004984413
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 5
+ER  -
+
+TY  - CONF
+AU  - O'Rourke, N.
+AU  - Eaman, A.
+AU  - Shakshuki, E.
+AU  - Hassan, E.
+TI  - LLM-Generated Heuristics for Guiding Reinforcement Learning in Autonomous Cyber Defense
+PY  - 2026
+T2  - Procedia Computer Science
+VL  - 290
+SP  - 226
+EP  - 233
+DO  - 10.1016/j.procs.2026.08.388
+UR  - https://www.scopus.com/pages/publications/105052809635?origin=resultslist
+AB  - Reinforcement learning has been successfully applied to autonomous cyber defense, but it suffers from high sample complexity which hinders its adaptability to new environments and threats. LLM-based teacher-guided techniques have been used to mitigate these issues, but LLMs have a high inference cost and use a great deal of computational resources, making them difficult to apply in real-world autonomous cyber defense scenarios. In this paper, we introduce a novel LLM-based action masking strategy for autonomous cyber defense where an LLM produces a collection of heuristics to guide reinforcement learning. The LLM generated heuristics are implemented as action masks throughout the training process as a means of providing guidance to the RL agent in order to mitigate poor initial performance. We distinguish between recommendation heuristics, which specify actions that should be taken in a specific scenario, and constraint heuristics, which specify actions that should not be taken in a specific scenario. We apply action masks according to these heuristics in two ways: 1) only allowing recommended actions to be selected, and 2) disallowing actions based on constraint heuristics. We compare our LLM enhanced reinforcement learning agent to a baseline reinforcement learning agent with no LLM guidance in the CybORG++ reinforcement learning environment. We evaluate training convergence and performance across 10 independent runs and analyze how the heuristic-based action masks influence action selection.  © 2026 The Authors. Published by Elsevier B.V.
+KW  - Autonomous Cyber Defense
+KW  - Large Language Models
+KW  - Reinforcement Learning
+KW  - Teacher-Guided Reinforcement Learning
+KW  - Computational methods
+KW  - Computer aided instruction
+KW  - Intelligent agents
+KW  - Network security
+KW  - Personnel training
+KW  - Teaching
+KW  - Autonomous cybe defense
+KW  - Cyber-defense
+KW  - Language model
+KW  - Large language model
+KW  - Performance
+KW  - Reinforcement learning agent
+KW  - Reinforcement learnings
+KW  - Teacher-guided reinforcement learning
+KW  - Teachers'
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105052809635
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Diganto, A.
+AU  - Lohrasbi, S.
+AU  - Neto, E.C.P.
+AU  - Iqbal, S.
+TI  - Can LLM Agents Replace Reinforcement Learning Agents in Cyber Defence Automation: A Case Study Using the DARPA CAGE-2 Challenge
+PY  - 2026
+T2  - 2026 International Conference on Smart Applications, Communications and Networking, SmartNets 2026
+DO  - 10.1109/SmartNets69662.2026.11604963
+UR  - https://www.scopus.com/pages/publications/105045853201?origin=resultslist
+AB  - As cyber attacks grow more sophisticated, defenders need autonomous systems that are fast, adaptable, and explainable. Over the last decade, various strategies have been proposed for automated cyber defence (as opposed to static rule-based or signature-based), including those based on reinforcement learning (RL). Researchers have proposed various algorithms to improve RL-based defenders and evaluated them using simulation-based frameworks like the DARPA CAGE-2. Although RL showed promise, it has many limitations, for example, the lack of a realworld training environment and the need for extensive training, which is time-consuming. In this case study, we investigate whether LLM agents can be used instead of RL agents to automate cyber defence. Large Language Models (LLMs) can reason over natural language and generalize from extensive pretraining. They are attractive for cyber defence because they can read textbased system states and make human-like, explainable decisions. We propose a unique way to convert CAGE-2 states to natural language and a domain-specific fine-tuning method that improve the average reward and reduce hallucination significantly, beating existing RL-based agents and state-of-the-art LLM agents. © 2026 IEEE.
+KW  - Blue Agent
+KW  - Fine-Tuning
+KW  - LLM
+KW  - Prompt-Engineering
+KW  - Automation
+KW  - Intelligent agents
+KW  - Natural language processing systems
+KW  - Network security
+KW  - Blue agent
+KW  - Case-studies
+KW  - Cyber-defense
+KW  - Fine tuning
+KW  - Language model
+KW  - Large language model
+KW  - Model agents
+KW  - Prompt-engineering
+KW  - Reinforcement learning agent
+KW  - Reinforcement learnings
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105045853201
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Bogdanov, I.
+AU  - Lung, C.-H.
+AU  - Kunz, T.
+AU  - Gao, J.
+AU  - Taylor, A.
+AU  - Zaman, M.
+TI  - Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP
+PY  - 2026
+T2  - Proceedings of the ACM Conference on AI and Agentic Systems, CAIS 2026
+SP  - 17
+EP  - 45
+DO  - 10.1145/3786335.3813149
+UR  - https://www.scopus.com/pages/publications/105046406178?origin=resultslist
+AB  - Deploying compound LLM agents in adversarial, partially observable sequential environments requires navigating several interacting design dimensions: (1) what the agent sees, (2) how it reasons, and (3) how tasks are decomposed across components. Yet practitioners lack guidance on which design choices improve performance versus merely increase inference costs. We present a controlled study of compound LLM agent design in CybORG CAGE-2, a cyber defense environment modeled as a Partially Observable Markov Decision Process (POMDP). Reward is non-positive, so all configurations operate in a failure-mitigation mode and errors compound over time. Our evaluation spans five model families, six models, and twelve configurations (3,475 episodes) with token-level cost accounting. We systematically vary context representation (raw observations vs. a deterministic, programmatic environment state-tracking layer with compressed history), deliberation (self-questioning, self-critique, and self-improvement tools, with optional chain-of-thought prompting), and hierarchical decomposition (monolithic ReAct vs. delegation to specialized sub-agents). We find that: (1) Programmatic state abstraction delivers the largest returns per token spent (RPTS), improving mean return by up to 76% over raw observations. (2) Distributing deliberation tools across a hierarchy degrades performance relative to hierarchy alone for all five model families, reaching up to 3.4 × worse mean return while using 1.8-2.7 × more tokens. We call this destructive interaction pattern a deliberation cascade. (3) Hierarchical decomposition without deliberation tools achieves the best absolute performance for most models, and context engineering is generally more cost-effective than deliberation. These findings suggest a design principle for structured adversarial POMDPs: invest in programmatic infrastructure and clean task decomposition rather than deeper per-agent reasoning, as these strategies can interfere when combined.  © 2026 Copyright is held by the owner/author(s). Publication rights licensed to ACM.
+KW  - adversarial POMDP
+KW  - autonomous cyber defense
+KW  - catastrophic failures
+KW  - compound AI systems
+KW  - context engineering
+KW  - cost-performance trade-offs
+KW  - hierarchical agent architectures
+KW  - inference-time scaling
+KW  - LLM agents
+KW  - token efficiency
+KW  - tool-augmented language models
+KW  - Artificial intelligence
+KW  - Behavioral research
+KW  - Cost accounting
+KW  - Cost effectiveness
+KW  - Cost engineering
+KW  - Hierarchical systems
+KW  - Interactive computer systems
+KW  - Markov processes
+KW  - Adversarial partially observable markov decision process
+KW  - Agent architectures
+KW  - AI systems
+KW  - Autonomous cybe defense
+KW  - Catastrophic failures
+KW  - Compound AI system
+KW  - Context engineering
+KW  - Cost performance
+KW  - Cost-performance trade-offs
+KW  - Cyber-defense
+KW  - Hierarchical agent architecture
+KW  - Inference-time scaling
+KW  - Language model
+KW  - LLM agent
+KW  - Partially observable Markov decision process
+KW  - Performance tradeoff
+KW  - Time-scaling
+KW  - Token efficiency
+KW  - Tool-augmented language model
+KW  - Economic and social effects
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105046406178
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Chou, C.-H.
+AU  - Sudheer, A.
+AU  - Park, Y.
+TI  - An LLM-Based Agentic Network Traffic Incident-Report Approach Towards Explainable-AI Network Defense
+PY  - 2026
+T2  - Journal of Sensor and Actuator Networks
+VL  - 15
+IS  - 2
+C7  - 32
+DO  - 10.3390/jsan15020032
+UR  - https://www.scopus.com/pages/publications/105038072603?origin=resultslist
+AB  - Traditional intrusion detection systems for IoT networks achieve high classification accuracy but lack interpretability and actionable incident-response capabilities, limiting their operational value in security-critical environments. This paper presents a graph-based multi-agent framework that integrates ensemble machine learning with Large Language Model (LLM)-powered incident report generation via Retrieval-Augmented Generation (RAG). The system employs a three-phase architecture: (1) a lightweight Random Forest binary pre-detection, achieving 99.49% accuracy with a 6 MB model size for edge deployment; (2) ensemble classification combining Multi-Layer Perceptron, Random Forest, and XGBoost with soft voting and SHAP-based feature attribution for explainability; and (3) a ReAct-based summary agent that synthesizes classification results with external threat intelligence from Web search and scholarly databases to generate evidence-grounded incident reports. To address the challenge of evaluating non-deterministic LLM outputs, we introduce custom RAG evaluation metrics—faithfulness and groundedness implemented via the LLM-as-Judge framework. Experimental validation on the ACI IoT Network Dataset 2023 demonstrates ensemble accuracy exceeding 99.8% across 11 attack classes; perfect groundedness scores (1.0), indicating all generated claims derive from the retrieved context; and moderate faithfulness (0.64), reflecting appropriate analytical synthesis. The ensemble approach mitigates individual model weaknesses, improving the UDP Flood F1 score from 48% (MLP alone) to 95% through soft voting. This work bridges the gap between high-accuracy detection and trustworthy, actionable security analysis for automated incident-response systems. © 2026 by the authors.
+KW  - agentic system
+KW  - ensemble learning
+KW  - explainable AI
+KW  - intrusion detection
+KW  - IoT security
+KW  - large language model
+KW  - retrieval-augmented generation
+KW  - SHAP
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105038072603
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 1
+ER  -
+
+TY  - CONF
+AU  - Chakravarthy, N.S.K.
+AU  - Rao, J.S.
+AU  - Gopinath, V.
+AU  - Jagadeesan, S.
+AU  - Mohan, B.P.
+AU  - Masood, J.A.I.S.
+TI  - Future-Proof: An Application of AI to Multi-Agent Cyber Defence System for Predictive Threat Analysis
+PY  - 2025
+T2  - 3rd International Conference on Emerging Research in Computational Science, ICERCS 2025
+DO  - 10.1109/ICERCS65898.2025.11581040
+UR  - https://www.scopus.com/pages/publications/105044522146?origin=resultslist
+AB  - Generative Artificial Intelligence (AI) has become a life-changing contributor to contemporary computing systems, making machines capable of producing human-like outputs in various domains, including text, image, music and code. Although these capabilities open up new vistas of automation and creativity, they also bring a spectrum of ethical issues, durability and interoperability in machines; data privacy breaches; algorithmic biases; concerns about content authenticity and the possibility for misuse. In this paper, we explore the ethical aspect of Generative AI and provide a responsible governance-based approach to achieve a balance between openness and accountability. Building on a review of recent literature and on empirical evidence from real-world AI deployments, we investigate how ethical lapses may become visible in generative models and point to the limitations in existing regulation and design practices. We present an end-to-end framework that systematically embeds transparency, fairness, and accountability in the AI lifecycle by applying bias mitigation methods, explainable AI modules, and risk-aware optimization techniques. The key part of our approach is to tradeoff between content fluency and ethical considerations on real datasets. Experimental results show that our method can maintain the performance and reduce the population of ethical violations. The findings suggest that incorporating ethical reasoning into Generative AI models does not come at the cost of stifled innovation. The paper ends by presenting institutional-level recommendations to utilize Generative AI with a sense of responsibility across the university, industry and governance.  © 2025 IEEE.
+KW  - AI-driven security
+KW  - Cyber defense
+KW  - multi-agent systems
+KW  - predictive threat analysis
+KW  - proactive threat mitigation
+KW  - Artificial life
+KW  - Data privacy
+KW  - Ethical technology
+KW  - Human computer interaction
+KW  - Intelligent agents
+KW  - Life cycle
+KW  - Network security
+KW  - Predictive analytics
+KW  - Risk analysis
+KW  - Risk assessment
+KW  - Artificial intelligence-driven security
+KW  - Cyber-defense
+KW  - Defence systems
+KW  - Future proofs
+KW  - Multi agent
+KW  - Multiagent systems (MASs)
+KW  - Predictive threat analyze
+KW  - Proactive threat mitigation
+KW  - Threats analysis
+KW  - Threats mitigations
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105044522146
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Jacques, T.
+TI  - A systematic evaluation of large language models for autonomous cyber defense
+PY  - 2026
+T2  - Applied Intelligence
+VL  - 56
+IS  - 11
+C7  - 367
+DO  - 10.1007/s10489-026-07386-9
+UR  - https://www.scopus.com/pages/publications/105046184136?origin=resultslist
+AB  - Large language models (LLMs) have general capabilities that make them promising candidates for autonomous cyber defense (ACD). However, their reliability remains uncertain, and a thorough comparison with traditional reinforcement learning (RL) approaches is lacking. This paper presents a systematic evaluation of LLM-based defense agents in the CybORG++ environment. We compare multiple models and prompting strategies against a specific pretrained Proximal Policy Optimization (PPO) reinforcement learning baseline across multiple adversaries and network topologies. We find that the best-performing LLM agents can outperform the RL baseline over long horizons. They also avoid false positives when only benign traffic is present. However, LLM agents show higher variance across runs than the RL agent. In addition, their performance is sensitive to prompt design, and the best results relative to the RL baseline are obtained with prompts that combine examples with explicit, manually specified strategy rules. In contrast, with zero-shot prompts, LLM effectiveness drops. Zero-shot results can be improved by adding memory via autoregressive prompting and, for some models, by including explicit action feedback, but they do not match the best few-shot rule-based prompts. With regard to generalization, although LLMs can be applied to new adversaries or network topologies without major prompt changes, this transfer is not reliable. Finally, all LLM agents show higher latency than the RL policy. Overall, our results show that LLMs can produce competitive defense policies without fine-tuning but require manually engineered prompts. Furthermore, their higher variance and slower response times could render them unsuitable for some real-world scenarios. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2026.
+KW  - Artificial intelligence for cybersecurity
+KW  - Autonomous cyber defense
+KW  - Defensive agents
+KW  - Large language models
+KW  - Reinforcement learning
+KW  - Autonomous agents
+KW  - Computational methods
+KW  - Intelligent agents
+KW  - Network security
+KW  - Network topology
+KW  - Artificial intelligence for cybersecurity
+KW  - Autonomous cybe defense
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Defensive agent
+KW  - Language model
+KW  - Large language model
+KW  - Model agents
+KW  - Reinforcement learnings
+KW  - Systematic evaluation
+KW  - Reinforcement learning
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105046184136
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Lee, J.
+AU  - Wang, Z.
+AU  - Lemieux, V.
+AU  - Leung, V.
+AU  - Song, J.
+TI  - The AI Agent Who Cried Wolf: Boundary-Oriented Threat Models for Model Context Protocol (MCP)
+PY  - 2026
+T2  - IEEE Communications Magazine
+DO  - 10.1109/MCOM.001.2600567
+UR  - https://www.scopus.com/pages/publications/105053976293?origin=resultslist
+AB  - Model Context Protocol (MCP) is rapidly emerging as a core interface that lets Large Language Model (LLM) applications interact with external tools, resources, and real-world services. Yet in MCPbased systems, user intent, accepted capability, and external execution can diverge across separate stages. We map this divergence to three boundary-specific threat models: T1 Meaning-in-the-Middle for Host-side interpretation of user intent and approval context, T2 Trojan Capability for the acceptance of server-supplied capability semantics, and T3 Hidden Execution for externally realized side effects. For each threat model, we describe exposed assets, attacker insertion points, manipulation strategies, and the paths by which compromise propagates into later stages. We further use an implemented shopping-agent case and an AI-assisted telecom security-operations scenario to show how boundary failures produce hidden economic and network-operational effects. Finally, we derive architectural requirements for secure MCP systems, organize them around context verification, explicit capability acceptance, and State-Locked Execution, and illustrate them through a structured architecture. © 1979-2012 IEEE.
+KW  - Malware
+KW  - Network architecture
+KW  - Network security
+KW  - Core interfaces
+KW  - External tools
+KW  - Language model
+KW  - Manipulation strategy
+KW  - Model application
+KW  - Model contexts
+KW  - Real-world
+KW  - Side effect
+KW  - Threat modeling
+KW  - Trojans
+KW  - Semantics
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105053976293
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Towhid, M.S.
+AU  - Iqbal, S.
+AU  - Neto, E.C.P.
+AU  - Shahriar, N.
+AU  - Buffett, S.
+AU  - Sultana, M.
+AU  - Taylor, A.
+TI  - Cyber Task Automation With Knowledge-Infused Reinforcement Learning and LLM-Guided Policies
+PY  - 2026
+T2  - IEEE Transactions on Network Science and Engineering
+VL  - 13
+SP  - 10656
+EP  - 10673
+DO  - 10.1109/TNSE.2026.3715407
+UR  - https://www.scopus.com/pages/publications/105048067475?origin=resultslist
+AB  - As cyber threats continue to evolve, there is a need for Autonomous Cyber Defense (ACD) strategies capable of fast and context-aware responses. Reinforcement learning (RL) has shown promise in automating cyber defense by exploring and learning effective countermeasures. However, RL often struggles with sparse reward signals and insufficient context to handle diverse attack scenarios. Furthermore, the convergence time of an RL agent is often high, making it difficult to train the agent in online settings. To address these challenges, we propose a large language model (LLM)-enhanced RL method that builds and queries a knowledge base (KB) derived from agent-environment interactions. We leverage the pre-trained knowledge of an LLM on different cybersecurity frameworks and use the LLM to analyze parts of the KB to generate appropriate actions for the RL agent. The LLM-generated output is infused into the RL training process to improve performance and reduce convergence time. To validate our approach, we formulate two RL problems: a contextual bandit problem, which accounts for possible misclassifications of network flows by the detection module, and a multi-step RL problem, which considers that adversarial actions may be missed by monitoring or detection tools. For the contextual bandit problem, we develop a custom environment guided by the MITRE ATT&CK framework, while for the multi-step RL problem, we use a prominent Cybersecurity simulation platform named CybORG. Experimental results show that our proposed approach outperforms the baseline RL by over 75% and 65% in the contextual bandit and multi-step RL settings, respectively, in terms of selecting more effective actions.  © 2013 IEEE.
+KW  - autonomous cyber defense
+KW  - knowledge graphs
+KW  - large language models
+KW  - Reinforcement learning
+KW  - Adversarial machine learning
+KW  - Autonomous agents
+KW  - Cybersecurity
+KW  - Knowledge graph
+KW  - Knowledge management
+KW  - Network security
+KW  - Simulation platform
+KW  - Autonomous cybe defense
+KW  - Contextual banditti
+KW  - Convergence time
+KW  - Cyber-defense
+KW  - Knowledge graphs
+KW  - Language model
+KW  - Large language model
+KW  - Learning problem
+KW  - Multisteps
+KW  - Reinforcement learnings
+KW  - Reinforcement learning
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105048067475
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Matsuhashi, A.
+AU  - Akiyama, M.
+AU  - Yamanaka, Y.
+AU  - Furutani, S.
+AU  - Hara, T.
+TI  - Collaboration between People and AI to Evolve Security Activities into a New Form for People
+PY  - 2025
+T2  - NTT Technical Review
+VL  - 23
+IS  - 11
+SP  - 59
+EP  - 65
+DO  - 10.53829/ntr202511fa7
+UR  - https://www.scopus.com/pages/publications/105022092104?origin=resultslist
+AB  - Cyber-attacks targeting systems are intensifying yearly, and the shortage of security personnel is becoming serious. Therefore, a fundamental review of security operations based on automation using artificial intelligence (AI) is required. In today’s information society, it is difficult to maintain people’s autonomous decision-making due to misinformation and disinformation, and the object of security is expanding from systems to human cognition. In this article, we introduce innovative cybersecurity operations using generative AI and cognitive security that supports autonomous human decision-making. © 2025, Nippon Telegraph and Telephone Corp. All rights reserved.
+KW  - cognitive security
+KW  - cybersecurity
+KW  - generative AI
+KW  - Artificial intelligence
+KW  - Behavioral research
+KW  - Cognitive systems
+KW  - Cyber attacks
+KW  - Network security
+KW  - Cognitive security
+KW  - Cyber security
+KW  - Cyber-attacks
+KW  - Generative artificial intelligence
+KW  - Information society
+KW  - New forms
+KW  - Security activities
+KW  - Security operations
+KW  - Security personnel
+KW  - Targeting Systems
+KW  - Decision making
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105022092104
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Chichurov, V.
+AU  - Ibragimova, A.
+AU  - Tararykov, A.
+TI  - The Adaptive AI SOC Agent - Moving Beyond Linear Playbooks with Cognitive Reasoning
+PY  - 2026
+T2  - 2026 IEEE 5th International Conference on AI in Cybersecurity, ICAIC 2026
+DO  - 10.1109/ICAIC67076.2026.11395880
+UR  - https://www.scopus.com/pages/publications/105041767020?origin=resultslist
+AB  - This paper presents an architecture for an autonomous Tier 1 security analyst designed to operate across heterogeneous SOC environments. Unlike static automation, the proposed framework utilizes a schema-agnostic abstraction layer to normalize diverse security logs into a unified investigation context. The system employs a Solver-Critic cognitive loop, where distinct agents propose and verify investigation traces against raw evidence to mitigate hallucination. This enables the autonomous triage of high-volume alerts without hardcoded integrations.  © 2026 IEEE.
+KW  - Autonomous Agents
+KW  - Hallucination Mitigation
+KW  - Incident Triage
+KW  - Large Language Models (LLM)
+KW  - Security Automation
+KW  - Security Information and Event Management (SIEM)
+KW  - Security Operations Center (SOC)
+KW  - Solver-Critic Architecture
+KW  - Automation
+KW  - Computation theory
+KW  - Computational methods
+KW  - Information management
+KW  - Intelligent agents
+KW  - Security systems
+KW  - Hallucination mitigation
+KW  - Incident triage
+KW  - Language model
+KW  - Large language model
+KW  - Security automation
+KW  - Security information and event management
+KW  - Security information and event managements
+KW  - Security operation center
+KW  - Solver-critic architecture
+KW  - Autonomous agents
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105041767020
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Kim, W.
+AU  - Yoo, H.-K.
+AU  - Moon, N.
+TI  - SecureMCP: Policy-Enforced Defense Against Prompt Injection in LLM-Generated SQL for AIoT Databases
+PY  - 2026
+T2  - Applied Sciences (Switzerland)
+VL  - 16
+IS  - 16
+C7  - 7974
+DO  - 10.3390/app16167974
+UR  - https://www.scopus.com/pages/publications/105048317568?origin=resultslist
+AB  - Featured Application: SecureMCP provides a reusable, threat-informed security layer for LLM-driven natural-language data access interfaces in production AIoT environments such as smart city, industrial monitoring, and network-security operations, enabling fine-grained role-based protection of sensitive IoT databases against prompt injection attacks. The deployment of Large Language Model (LLM)-generated SQL in Artificial Intelligence of Things (AIoT) systems introduces critical security risks, as prompt injection attacks can manipulate LLMs into producing unauthorized queries that expose sensitive data or execute destructive operations. Existing Natural Language to SQL (NL2SQL) research targets query accuracy, while current Model Context Protocol (MCP) servers offer only SQL-level protection without fine-grained, role-based access control. This paper proposes SecureMCP, a policy-enforced framework that integrates Role-Based Access Control (RBAC) with an MCP server to establish multi-layer defense for LLM-generated SQL execution. Grounded in an explicit threat model, the framework chains five defense modules in a sequential fail-closed pipeline addressing six prompt injection types spanning four adversary goals. We evaluate SecureMCP on the IoT-SQL dataset using Qwen3-8B, reporting filter performance—false positive rate (FPR) and false negative rate (FNR)—separately from LLM generation quality. On benign queries, the framework maintains a low false positive rate (0.3–2.2%) across four RBAC roles while keeping execution accuracy among allowed queries within 65.1–76.4%, matching the unprotected baseline of 63.8% and confirming that the defenses act as a transparent pre-execution filter. On 2400 adversarial queries, SecureMCP limits the effective false negative rate—computed over realized threats in which the injection payload was actually incorporated—to 3.98%, and an ablation confirms that RBAC and MCP-level defenses are complementary, as neither blocks the full range of injection vectors alone. The 72.5% injection incorporation rate confirms high LLM susceptibility, establishing the necessity of external policy enforcement. © 2026 by the authors.
+KW  - AIoT security
+KW  - IoT database security
+KW  - large language model
+KW  - model context protocol
+KW  - multi-layer defense
+KW  - natural language to SQL
+KW  - prompt injection
+KW  - role-based access control
+KW  - Access control
+KW  - Artificial intelligence
+KW  - Computer software reusability
+KW  - Internet protocols
+KW  - Natural language processing systems
+KW  - Network security
+KW  - Query languages
+KW  - Search engines
+KW  - Sensitive data
+KW  - Smart city
+KW  - Artificial intelligence of thing security
+KW  - Database security
+KW  - IoT database security
+KW  - Language model
+KW  - Large language model
+KW  - Model context protocol
+KW  - Model contexts
+KW  - Multi-layer defense
+KW  - Multi-layers
+KW  - Natural language to SQL
+KW  - Natural languages
+KW  - Prompt injection
+KW  - Role-based Access Control
+KW  - analysis
+KW  - Article
+KW  - artificial intelligence
+KW  - community assessment
+KW  - computer analysis
+KW  - data accuracy
+KW  - data analysis
+KW  - data base
+KW  - evaluation study
+KW  - false negative result
+KW  - false positive result
+KW  - functional assessment
+KW  - implementation science
+KW  - large language model
+KW  - natural language processing
+KW  - network analysis
+KW  - nonhuman
+KW  - pressure
+KW  - prompt injection
+KW  - quantitative analysis
+KW  - risk assessment
+KW  - SecureMCP
+KW  - sensitivity analysis
+KW  - temperature
+KW  - tool use
+KW  - Query processing
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105048317568
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Gourlet, Y.
+AU  - Lefeuvre, T.
+AU  - Loevenich, J.F.
+AU  - Hurten, T.
+AU  - Spelter, F.
+AU  - Adler, E.
+AU  - Braun, J.
+AU  - Moxon, L.
+AU  - Lopes, R.R.F.
+TI  - BRETAGNE: Building a Reproducible and Efficient Training AI Gym for Network Environments
+PY  - 2024
+T2  - Proceedings - IEEE Military Communications Conference MILCOM
+SP  - 164
+EP  - 169
+DO  - 10.1109/MILCOM61039.2024.10773848
+UR  - https://www.scopus.com/pages/publications/85214588086?origin=resultslist
+AB  - This paper introduces BRETAGNE, a network simulation environment designed to serve as a training ground for autonomous defense agents using hybrid AI models in simulations. The platform integrates docker, a lightweight virtualization technology orchestrated by Kathara with widely used network protocols such as BGP, OSPF, HTTP, SSH and others to simulate production-like environments, thereby addressing the limitations of existing simulators that often lack applicability in real-world networks. We present a multi-agent architecture involving blue, red, green, and white agents, designed to create dynamic, communicative environments for training purposes. Furthermore, our work includes a comparative analysis of large language models (LLMs) for detecting cyber attacks, which highlights the benefits and constraints of using AI for autonomous decision-making in cybersecurity. Overall, the BRETAGNE framework offers a realistic and scalable solution for the training and deployment of autonomous agents in operational networks. © 2024 IEEE.
+KW  - Autonomous Cyber Defence
+KW  - Cyber Security
+KW  - Multi-Agent Reinforcement Learning
+KW  - Network Virtualization
+KW  - Autonomous agents
+KW  - Chatbots
+KW  - Computer viruses
+KW  - Cyber attacks
+KW  - HTTP
+KW  - Intelligent agents
+KW  - Reinforcement learning
+KW  - Virtual environments
+KW  - Virtualization
+KW  - Autonomous cybe defense
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Multi-agent reinforcement learning
+KW  - Network environments
+KW  - Network simulation
+KW  - Network virtualization
+KW  - Real-world networks
+KW  - Simulation environment
+KW  - Virtualization technologies
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85214588086
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 7
+ER  -
+
+TY  - CONF
+AU  - Bilinski, M.
+AU  - Gabrys, R.
+AU  - Silva, D.
+TI  - SkyQuery: Evaluating LLMs for Decision Making in the CAGE Challenge
+PY  - 2025
+T2  - Proceedings - 2025 IEEE Conference on Artificial Intelligence, CAI 2025
+SP  - 1133
+EP  - 1138
+DO  - 10.1109/CAI64502.2025.00196
+UR  - https://www.scopus.com/pages/publications/105011259677?origin=resultslist
+AB  - ─This paper presents a novel framework for developing autonomous cyber defense agents that incorporate defender goals into their decision-making processes. Evaluated within the CAGE Challenge 2 simulation environment, the framework enables agents to adapt their strategies to align with specific objectives, such as maximizing rewards or deploying deception. Leveraging previously validated strategies, the proposed approach enhances the adaptability and effectiveness of cyber defense systems, providing a foundation for addressing evolving threats in dynamic cyber environments.  © 2025 IEEE.
+KW  - cage
+KW  - deception
+KW  - llm
+KW  - Network security
+KW  - Cage
+KW  - Cyber-defense
+KW  - Deception
+KW  - Decision-making process
+KW  - Decisions makings
+KW  - Defence systems
+KW  - Llm
+KW  - Simulation environment
+KW  - Decision making
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105011259677
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Simões, R.T.P.
+AU  - Larriva-Novo, X.
+AU  - Sánchez-Zas, C.
+AU  - Villagrá, V.A.
+AU  - López, A.I.M.
+TI  - Design of a Security Framework for Multi-Agent Systems Based on Model Context Protocol in SOC Environments
+PY  - 2026
+T2  - Applied Sciences (Switzerland)
+VL  - 16
+IS  - 16
+C7  - 7915
+DO  - 10.3390/app16167915
+UR  - https://www.scopus.com/pages/publications/105048330242?origin=resultslist
+AB  - Featured Application: The proposed framework can be deployed as a drop-in middleware layer to secure MCP-based AI agent pipelines in production Security Operations Centers, protecting SIEM-integrated multi-agent deployments against attacks such as tool poisoning, prompt injection, and confused deputy exploitation without modifying the underlying agents or MCP servers. Security Operations Centers (SOCs) rely on Level 1 analysts to triage increasing alert volumes amid alert fatigue and tool fragmentation. LLM-based multi-agent systems using the Model Context Protocol (MCP) are being adopted to automate these tasks, but their autonomy and tool access expose them to attacks such as tool poisoning, indirect prompt injection, and confused deputy exploitation. To address this gap, this work proposes a security framework for MCP-based multi-agent SOC pipelines, implemented as a middleware layer comprising a tool registration validator and five execution layers: access control, rate limiting, input validation, output validation, and audit logging. The framework is applied to a triage-enrichment-response pipeline connected to a Wazuh SIEM through a custom MCP server. Of the 35 attack vectors considered in a threat model derived from different threat taxonomies, including OWASP, MITRE ATLAS, and ATFAA, 29 are addressable at the middleware level and are covered by the framework’s controls. These controls are then validated experimentally using a purpose-built malicious MCP server and targeted test-harness injections, organized into six test suites that together exercise the covered vectors across 600 executions. Every attack instance in the evaluated threat model was blocked, none bypassed the framework, and no legitimate call in the evaluated set was incorrectly rejected; obfuscated variants, however, evade the lexical content-inspection controls, delimiting the scope of this result. A full-pipeline demonstration confirms that the framework preserves benign operational outputs. These results indicate that systematic middleware controls can secure MCP-based agentic SOC deployments without modifying the underlying agents or MCP servers. © 2026 by the authors.
+KW  - agentic AI security
+KW  - MCP security
+KW  - model context protocol
+KW  - multi-agent systems
+KW  - prompt injection
+KW  - security operations center
+KW  - SIEM integration
+KW  - tool poisoning
+KW  - Access control models
+KW  - Autonomous agents
+KW  - Intelligent agents
+KW  - Middleware
+KW  - Network security
+KW  - Pipelines
+KW  - Programmable logic controllers
+KW  - Security systems
+KW  - System-on-chip
+KW  - Agentic AI security
+KW  - Model context protocol
+KW  - Model context protocol security
+KW  - Model contexts
+KW  - Multiagent systems (MASs)
+KW  - Prompt injection
+KW  - Protocol security
+KW  - Security operation center
+KW  - SIEM integration
+KW  - Tool poisoning
+KW  - algorithm
+KW  - Article
+KW  - content analysis
+KW  - environment
+KW  - knowledge
+KW  - large language model
+KW  - logging
+KW  - memory
+KW  - methodology
+KW  - model context protocol
+KW  - performance
+KW  - post hoc analysis
+KW  - protocol
+KW  - responsibility
+KW  - secure hash algorithm
+KW  - security
+KW  - security operations center environment
+KW  - validation study
+KW  - vulnerability
+KW  - Multi agent systems
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105048330242
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Gao, L.
+AU  - Liu, Y.
+AU  - Chen, H.
+AU  - Liu, D.
+AU  - Zhang, Y.
+AU  - Sun, J.
+TI  - Exploring Traffic Simulation and Cybersecurity Strategies Using Large Language Models
+PY  - 2025
+T2  - Proceedings - 46th IEEE Symposium on Security and Privacy Workshops, SPW 2025
+SP  - 346
+EP  - 351
+DO  - 10.1109/SPW67851.2025.00048
+UR  - https://www.scopus.com/pages/publications/105010829028?origin=resultslist
+AB  - Intelligent Transportation Systems (ITS) are increasingly vulnerable to sophisticated cyberattacks due to their complex, interconnected nature. Ensuring the cybersecurity of these systems is paramount to maintaining road safety and minimizing traffic disruptions. This study presents a novel multi-agent framework leveraging Large Language Models (LLMs) to enhance traffic simulation and cybersecurity testing. The framework automates the creation of traffic scenarios, the design of cyberattack strategies, and the development of defense mechanisms. A case study demonstrates the framework's ability to simulate a cyberattack targeting connected vehicle broadcasts, evaluate its impact, and implement a defense mechanism that significantly mitigates traffic delays. Results show a 10.2% increase in travel time during an attack, which is reduced by 3.3% with the defense strategy. This research highlights the potential of LLM-driven multi-agent systems in advancing transportation cybersecurity and offers a scalable approach for future research in traffic simulation and cyber defense. © 2025 IEEE.
+KW  - Autonomous Connected Vehicles
+KW  - Cybersecurity
+KW  - Large Language Model (LLM)
+KW  - Multi-Agent LLM
+KW  - Simulation
+KW  - Accident prevention
+KW  - Cybersecurity
+KW  - Intelligent agents
+KW  - Intelligent systems
+KW  - Intelligent vehicle highway systems
+KW  - Motor transportation
+KW  - Network security
+KW  - Street traffic control
+KW  - Travel time
+KW  - Autonomous connected vehicle
+KW  - Cyber security
+KW  - Cyber-attacks
+KW  - Language model
+KW  - Large language model
+KW  - Multi agent
+KW  - Multi-agent large language model
+KW  - Simulation
+KW  - Traffic simulations
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105010829028
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 4
+ER  -
+
+TY  - CONF
+AU  - Boubakri, M.
+AU  - Nafil, K.
+TI  - Gamification Empowered by LLM-Based Agents: A Systematic Literature Review
+PY  - 2025
+T2  - SITA 2025 - 15th International Conference on Intelligent Systems: Theories and Applications
+DO  - 10.1109/SITA67914.2025.11273696
+UR  - https://www.scopus.com/pages/publications/105030471788?origin=resultslist
+AB  - The combination of gamification and agent systems based on Large Language Models (LLMs) presents a great opportunity in the design of adaptable, interactive systems that offer engagement and personalized interactions. In this systematic literature review, we examine the state of the art at this intersection, drawing on 11 studies published from 2019 to 2025, using the PRISMA 2020 framework, and investigating the following seven research questions related to: publication trends, areas of application, agent roles, gamification strategies, design goals, and limitations. We find LLM agents are being deployed across multiple application areas in gamified systems, in the fields of education, mental health, cyber defense, and commerce, while functioning in multiple roles such as tutors, an emotional companions, and being involved in the co-design process. Yet, we identified key challenges including weak connectivity between gamification mechanics and agents’ behaviors and capabilities, limited longitudinal evaluation, and ethical concerns for LLMs related to persuasion and autonomy of the user. Our review provides a foundation for furthering the study and development of gamification systems involving LLM agents. ©2025 IEEE.
+KW  - AI agent
+KW  - Gamification
+KW  - Large Language Models
+KW  - LLM agent
+KW  - Systematic Literature Review
+KW  - Artificial intelligence
+KW  - Arts computing
+KW  - Behavioral research
+KW  - Education computing
+KW  - Intelligent agents
+KW  - Reviews
+KW  - Agent systems
+KW  - AI agent
+KW  - Gamification
+KW  - Language model
+KW  - Large language model
+KW  - Large language model agent
+KW  - Model agents
+KW  - Model-based OPC
+KW  - Systematic literature review
+KW  - Gamification
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105030471788
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Tang, Y.
+AU  - Liu, Y.
+AU  - Lan, J.
+AU  - Yan, Z.
+AU  - Gelenbe, E.
+TI  - Security of LLM-based agents regarding attacks, defenses, and applications: A comprehensive survey
+PY  - 2026
+T2  - Information Fusion
+VL  - 127
+C7  - 103941
+DO  - 10.1016/j.inffus.2025.103941
+UR  - https://www.scopus.com/pages/publications/105021982213?origin=resultslist
+AB  - Large Language Model (LLM) based agents that employ an LLM as a core reasoning engine, are autonomous or semi-autonomous systems. Equipped with dedicated perception and action modules, they can sense their environment and take autonomous actions to execute complex tasks. Increasingly used for automated decision-making and real-world interactions that need multi-step planning capabilities and persistent engagement with external tools and environments, these agents face substantial and complex security risks. Compared to single-turn LLM inference, the agentic execution of complex tasks significantly expands the attack surface. Although prior work has surveyed security threats and defenses for LLM-based agents, two key issues remain to be addressed: (i) lack of a comprehensive review on attack and defense methods under unified evaluation criteria, and (ii) under-exploration of the security applications of LLM-based agents, ranging from enabling cyberattacks to strengthening cyber defense. This paper addresses these gaps with a comprehensive survey of attacks against, and defenses of, the LLM-based agents, as well as a review of the security-related applications enabled by LLM-based agents. We first introduce the foundations of LLM-based agents, and describe the structure and scope of this review. We then propose two complementary sets of evaluation criteria for rigorously evaluating the performance of attacks and defenses. Using these criteria, we analyze the strengths and limitations of the work presented in the relevant literature. In addition, we propose a taxonomy of security-related applications enabled by LLM-based agents and summarize the existing work from two perspectives: cyber offense and cyber defense. Finally, we identify key open challenges and propose future research directions to advance the secure development and deployment of LLM-based agents. © 2025 Elsevier B.V.
+KW  - Attack
+KW  - Defense
+KW  - LLM-based agent
+KW  - Security
+KW  - Autonomous agents
+KW  - Decision making
+KW  - Human computer interaction
+KW  - Network security
+KW  - Security systems
+KW  - Attack
+KW  - Complex task
+KW  - Cyber-defense
+KW  - Defense
+KW  - Evaluation criteria
+KW  - Language model
+KW  - Large language model-based agent
+KW  - Model-based OPC
+KW  - Reasoning engine
+KW  - Security
+KW  - Surveying
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105021982213
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 9
+ER  -
+
+TY  - CONF
+AU  - Newsham, L.
+AU  - Prince, D.
+TI  - Personality-Driven Decision-Making in LLM-Based Autonomous Agents
+PY  - 2025
+T2  - Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS
+SP  - 1538
+EP  - 1547
+UR  - https://www.scopus.com/pages/publications/105009838181?origin=resultslist
+AB  - The embedding of Large Language Models (LLMs) into autonomous agents is a rapidly developing field which enables dynamic, configurable behaviours without the need for extensive domain-specific training. In our previous work, we introduced SANDMAN, a Deceptive Agent architecture leveraging the Five-Factor OCEAN personality model, demonstrating that personality induction significantly influences agent task planning. Building on these findings, this study presents a novel method for measuring and evaluating how induced personality traits affect task selection processes-specifically planning, scheduling, and decision-making-in LLM-based agents. Our results reveal distinct task-selection patterns aligned with induced OCEAN attributes, underscoring the feasibility of designing highly plausible Deceptive Agents for proactive cyber defense strategies. © 2025 International Foundation for Autonomous Agents and Multiagent Systems (www.ifaamas.org).
+KW  - Autonomous Agents
+KW  - Decision-Making
+KW  - Language Agents
+KW  - Large Language Models
+KW  - Personality Induction
+KW  - Planning
+KW  - Task Selection
+KW  - Behavioral research
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Agent architectures
+KW  - Decisions makings
+KW  - Domain specific
+KW  - Embeddings
+KW  - Language agent
+KW  - Language model
+KW  - Large language model
+KW  - Model-based OPC
+KW  - Personality induction
+KW  - Task selection
+KW  - Autonomous agents
+KW  - Decision making
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105009838181
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 8
+ER  -
+
+TY  - CONF
+AU  - Holz, L.
+AU  - Loevenich, J.
+AU  - Lopes, R.R.F.
+TI  - Towards Robust Autonomous Cyber Defence Agents Using Hybrid AI Models
+PY  - 2025
+T2  - Proceedings of the 11th IEEE International Conference on Network Softwarization, NetSoft 2025
+SP  - 269
+EP  - 272
+DO  - 10.1109/NetSoft64993.2025.11080605
+UR  - https://www.scopus.com/pages/publications/105012573284?origin=resultslist
+AB  - Recent developments in Software-Defined Defence (SDD) provide the interfaces for multi-layer monitoring and control to realise Autonomous Cyber Defence (ACD) in critical network infrastructure used by the military. As a result, autonomous agents can enforce cybersecurity measures at different layers (link, IP, transport and application) using hybrid Artificial Intelligence (AI) models. For example, Multi-Agent Reinforcement Learning (MARL) can be combined with symbolic AI (knowledge graphs) and augmented/fine-tuned Large Language Models (LLMs) to detect, predict, protect, respond and recover from cyberattacks. This thesis starts from the hypothesis that the robustness of ACD agents can be formally verified, ensuring their safe development in mission critical environments. By applying Formal Verification (FV) techniques to MARL systems, the aim is to provide mathematically grounded guarantees such as correctness, safety, and adversarial resilience, thereby enabling trustworthy autonomous decision-making in SDD-enabled infrastructures. © 2025 IEEE.
+KW  - Autonomous Cyber Defence
+KW  - Cyber Security
+KW  - Multi-Agent Reinforcement Learning
+KW  - Software-Defined Defence
+KW  - Autonomous agents
+KW  - Computation theory
+KW  - Computational methods
+KW  - Computer crime
+KW  - Cybersecurity
+KW  - Formal verification
+KW  - Intelligent agents
+KW  - Military applications
+KW  - Military communications
+KW  - Network layers
+KW  - Network security
+KW  - Autonomous cybe defense
+KW  - Critical networks
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Hybrid artificial intelligences
+KW  - Intelligence models
+KW  - Monitoring and control
+KW  - Multi-agent reinforcement learning
+KW  - Multi-layers
+KW  - Software-defined defense
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105012573284
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 7
+ER  -
+
+TY  - CONF
+AU  - Kanjalkar, J.
+AU  - Sahni, H.
+AU  - Agrawal, I.
+AU  - Sahishnu, G.
+AU  - Meshram, H.
+AU  - Divekar, V.
+AU  - Kanjalkar, P.
+TI  - Cognitive Cyber Deception: An Agentic AI Framework for Dynamically Adaptive Collaborative Honeypots
+PY  - 2025
+T2  - 2nd Asian Conference on Intelligent Technologies, ACOIT 2025
+DO  - 10.1109/ACOIT66109.2025.11436162
+UR  - https://www.scopus.com/pages/publications/105035994901?origin=resultslist
+AB  - The escalating sophistication of cyber threats necessitates a paradigm shift from static, signature-based defenses to proactive, intelligent, and adaptive security measures. Honeypots, a foundational tool in cyber deception, have traditionally been limited by their static nature, rendering them susceptible to fingerprinting and evasion by skilled adversaries. This paper presents a novel framework for a cognitive, adaptive honeypot system that leverages an agentic Generative AI framework to create a dynamic and evolving deception environment. Our system architecture integrates distributed medium-interaction Cowrie honeypots with a periodic data pipeline using the MQTT protocol, which transfers attacker activity logs to a central analysis module for deep semantic analysis. This module, whose logic is partitioned into several functional roles, interprets attacker intent, identifies complex Tactics, Techniques, and Procedures (TTPs), and autonomously generates tailored bash scripts to dynamically reconfigure the honeypot's environment, thereby enhancing its realism and prolonging attacker engagement. A Pinecone vector database provides the system with long-term contextual memory, enabling the recognition of recurring attack patterns and facilitating more sophisticated, stateful deception strategies. Comparative analysis demonstrates that our adaptive honeypot detains attackers over 400% longer than a static counterpart, captures a significantly richer dataset of malicious activities, and successfully elicits more advanced attack tools and payloads. This research pioneers a closed-loop, AI-driven deception-feedback mechanism, laying the groundwork for next-generation autonomous cyber defense systems. © 2025 IEEE.
+KW  - Agentic AI
+KW  - Cowrie
+KW  - Cyber Deception
+KW  - Cybersecurity
+KW  - Generative AI
+KW  - Honeypot
+KW  - Large Language Models (LLM)
+KW  - MQTT
+KW  - Vector Database
+KW  - Artificial intelligence
+KW  - Cognitive systems
+KW  - Computation theory
+KW  - Computer architecture
+KW  - Computer crime
+KW  - Distributed computer systems
+KW  - Large datasets
+KW  - Network security
+KW  - Agentic AI
+KW  - Cowrie
+KW  - Cybe deception
+KW  - Cyber security
+KW  - Generative AI
+KW  - Honeypots
+KW  - Language model
+KW  - Large language model
+KW  - MQTT
+KW  - Vector database
+KW  - Semantics
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105035994901
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Kluge, S.
+AU  - Holz, L.
+AU  - Loevenich, J.F.
+AU  - Lopes, R.R.F.
+TI  - Explaining Hybrid RL Agents for Cyber Defense using SHAP and Reward Decomposition
+PY  - 2025
+T2  - Proceedings - IEEE Military Communications Conference MILCOM
+SP  - 1602
+EP  - 1607
+DO  - 10.1109/MILCOM64451.2025.11310039
+UR  - https://www.scopus.com/pages/publications/105031780485?origin=resultslist
+AB  - In high-stakes domains such as cybersecurity for military networks, the ability to interpret and trust the behavior of autonomous agents is essential. In this work, we apply post hoc explainability methods to a Deep Reinforcement Learning (DRL)-based cyber defense agent developed for the CAGE Challenge 2. The agent employs a hybrid architecture that integrates DRL, rule-based systems, and Large Language Models (LLMs). We analyze the agent's decision-making using two complementary explainability techniques: SHapley Additive exPlanations (SHAP) and reward decomposition. SHAP highlights which input features most influence the agent's actions, while reward decomposition attributes the agent's rewards to semantically meaningful environmental events. Our results show that the agent prioritizes clean, low-risk host states and exhibits a conservative strategy shaped by penalties associated with administrator access and restore actions. Furthermore, we propose possible enhancements such as LLM-generated textual explanations and formal verification to improve trust, transparency, and usability. This work lays the foundation for extending explainability methods to multi-agent reinforcement learning settings, with a focus on future Software-Defined Defense (SDD) scenarios.  © 2025 IEEE.
+KW  - Autonomous Cyber Defense
+KW  - Deep Reinforcement Learning
+KW  - Explainable Artificial Intelligence
+KW  - Autonomous agents
+KW  - Computation theory
+KW  - Computational methods
+KW  - Decision making
+KW  - Deep learning
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Network security
+KW  - Autonomous cybe defense
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Explainable artificial intelligence
+KW  - Hybrid architectures
+KW  - Language model
+KW  - Learning rules
+KW  - Military networks
+KW  - Reinforcement learnings
+KW  - Shapley
+KW  - Formal verification
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105031780485
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 1
+ER  -
+
+TY  - CONF
+AU  - Vinay, V.
+TI  - The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines
+PY  - 2026
+T2  - 2026 IEEE 5th International Conference on AI in Cybersecurity, ICAIC 2026
+DO  - 10.1109/ICAIC67076.2026.11395809
+UR  - https://www.scopus.com/pages/publications/105041769746?origin=resultslist
+AB  - Cybersecurity operations are increasingly adopting agentic AI solutions due to the time-critical and complex decision-making in security operations centers (SOCs). While large language models (LLMs) are good with summarization tasks or interpreting structured and unstructured reports, real-world SOC workflows have additional requirements such as access to original logs, reproducibility and accountability to triage security incidents. For example, analysts routinely correlate alerts to understand the kill-chain of the cyber-attack and analyze the event telemetries to identify the root cause event which may not have triggered an alert. Incorrect and incomplete automations in such settings can directly impact production systems and business operations.In this survey, we examine the architectural shifts from single-model assistants to tool-augmented agents, distributed multiagent systems, and schema-constrained investigation pipelines. We introduce a five-generation taxonomy that represents the evolution of agentic AI systems, their limitations and risks across different parameters, such as reasoning depth, tool interaction, memory, reproducibility and safety. We also review the emerging benchmarks to evaluate cyber-oriented agents and identify open challenges including response validation, tool-use correctness, multi-agent coordination, long-horizon reasoning and safeguards for high-impact actions. Finally, we discuss how these challenges influence deployment decisions in operational SOC environments. Our analysis provides a structured perspective on the current state of agentic AI in cybersecurity and highlights the technical and governance considerations necessary for its deployment.  © 2026 IEEE.
+KW  - agentic AI
+KW  - AI safety and verification
+KW  - benchmarking of AI agents
+KW  - cybersecurity automation
+KW  - large language models
+KW  - multi-agent systems
+KW  - security operations center (SOC)
+KW  - Automation
+KW  - Autonomous agents
+KW  - Benchmarking
+KW  - Cybersecurity
+KW  - Decision making
+KW  - Intelligent agents
+KW  - Network security
+KW  - Pipelines
+KW  - Security systems
+KW  - Agentic AI
+KW  - AI safety and verification
+KW  - Benchmarking of AI agent
+KW  - Cyber security
+KW  - Cybersecurity automation
+KW  - Language model
+KW  - Large language model
+KW  - Multiagent systems (MASs)
+KW  - Security operation center
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105041769746
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 3
+ER  -
+
+TY  - CONF
+AU  - D'Arcy, A.E.
+TI  - From Code to Combat: Introducing the Role of AI in Cyber and Kinetic Warfare in 2024
+PY  - 2025
+T2  - 2025 Cyber Research Conference - Ireland, Cyber-RCI 2025
+DO  - 10.1109/Cyber-RCI68134.2025.11384950
+UR  - https://www.scopus.com/pages/publications/105035059005?origin=resultslist
+AB  - Artificial intelligence (AI) has become rapidly integral to modern warfare, transforming both cyber operations and conventional military tactics in 2024. This review surveys AI deployment in offensive and defensive roles across kinetic battlefields and digital domains, examines shifting geopolitical dynamics and ethical debates, evaluates security risks and vulnerabilities, and extrapolates emerging trends. AI-enabled targeting systems, autonomous drones, and cyber defense platforms saw practical use in disputes (Ukraine, Middle East), offering unprecedented speed and efficiency while introducing vulnerabilities including adversarial attacks, algorithmic bias, and eroded accountability. Major powers accelerated AI integration, driving a global arms race. Simultaneously, urgent ethical and legal questions arose about autonomous lethal decision-making. AI tools unveiled capabilities for strengthening defenses and enabling new offensive tactics like automated malware generation, enhancing the AI attacker-defender duel. Looking ahead, generative AI, multidomain hybrid warfare, and fully autonomous systems will transform warfare while policymakers grapple with ensuring meaningful human control and international law compliance. © 2025 IEEE.
+KW  - Artificial intelligence
+KW  - autonomous weapons
+KW  - cyber warfare
+KW  - drone swarms
+KW  - ethical AI
+KW  - generative AI
+KW  - hybrid warfare
+KW  - military AI
+KW  - security vulnerabilities
+KW  - Behavioral research
+KW  - Chemical warfare
+KW  - Decision making
+KW  - Drones
+KW  - Electronic warfare
+KW  - Ethical aspects
+KW  - International law
+KW  - Malware
+KW  - Man machine systems
+KW  - Military applications
+KW  - Network security
+KW  - Target drones
+KW  - Autonomous weapon
+KW  - Cyber operations
+KW  - Cyber warfare
+KW  - Drone swarm
+KW  - Ethical artificial intelligence
+KW  - Generative artificial intelligence
+KW  - Hybrid warfare
+KW  - Military artificial intelligence
+KW  - Modern warfare
+KW  - Security vulnerabilities
+KW  - Artificial intelligence
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105035059005
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Singh, A.
+AU  - Alzubi, J.A.
+AU  - Hosseinzadeh, M.
+AU  - Salhi, A.
+AU  - Aurangzeb, K.
+TI  - AI2-Defense: An Autonomous Counter-AI Framework Against AI-Generated Threats in Consumer Systems
+PY  - 2026
+T2  - IEEE Transactions on Consumer Electronics
+VL  - 72
+IS  - 3
+SP  - 6851
+EP  - 6860
+DO  - 10.1109/TCE.2026.3707231
+UR  - https://www.scopus.com/pages/publications/105042927919?origin=resultslist
+AB  - The rapid advancement of generative and autonomous artificial intelligence has enabled adaptive cyber threats targeting consumer systems. Traditional security mechanisms struggle against AI-driven attacks such as polymorphic phishing, prompt injection, and autonomous malware. However, existing defenses lack autonomous and adaptive counter-AI capabilities for real-time threat response. This paper introduces AI2-Defense, an autonomous Counter-AI framework implementing an AI-against-AI security paradigm through generative origin intelligence, adversarial dual-model discrimination, dynamic sandboxing, reinforcement-driven deception, and secure lifecycle governance. Experimental evaluation across CIC-IDS2017, EMBER, and ISCX URL datasets demonstrates detection accuracy up to 98.3%. Under PGD-based adversarial attacks, evasion rates are reduced from 31.4% to 12.6%. The results demonstrate that the residual attack probability is reduced to below 10% under adaptive reinforcement-based attacks. The framework introduces moderate computational overhead, increasing inference latency by 4-7 ms and GPU utilization by 9-12%, while maintaining real-time feasibility for consumer deployments.  © 2026 IEEE.
+KW  - adversarial machine learning
+KW  - AI-generated threats
+KW  - autonomous cyber defense
+KW  - consumer AI security
+KW  - Counter-AI
+KW  - generative AI attacks
+KW  - Adversarial machine learning
+KW  - Generative adversarial networks
+KW  - Learning systems
+KW  - Malware
+KW  - Network security
+KW  - AI-generated threat
+KW  - Autonomous cybe defense
+KW  - Consumer AI security
+KW  - Consumer systems
+KW  - Counter-AI
+KW  - Cyber threats
+KW  - Cyber-defense
+KW  - Generative AI attack
+KW  - Machine-learning
+KW  - Real- time
+KW  - Reinforcement
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105042927919
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Loevenich, J.F.
+AU  - Adler, E.
+AU  - Mercier, R.
+AU  - Velazquez, A.
+AU  - Lopes, R.R.F.
+TI  - Design of an Autonomous Cyber Defence Agent using Hybrid AI models
+PY  - 2024
+T2  - 2024 International Conference on Military Communication and Information Systems, ICMCIS 2024
+DO  - 10.1109/ICMCIS61231.2024.10540988
+UR  - https://www.scopus.com/pages/publications/85195693813?origin=resultslist
+AB  - This paper extends the design of an autonomous cyber defence (ACD) agent to monitor and actuate within a protected core network segment. The goal is to take advantage of recent developments in AI models to define a hybrid architecture that combines deep reinforcement learning (DRL), large language models (LLMs), and rule-based models. The motivation comes from the fact that modern network segments within colored clouds are using software-defined controllers with the means to host ACD agents and other cybersecurity tools implementing hybrid AI models. For example, our ACD agent uses a DRL model and the chatbot uses an LLM to create an interface with human cybersecurity experts. The ACD agent was evaluated against two red agent strategies in a gym environment using a set of actions to defend services in the network (monitor, analyse, decoy, remove, and restore). Our chatbot was developed using retrieval augmented generation and a prompting agent to augment a pre-trained LLM with data from cybersecurity knowledge graphs. We performed a comparative analysis between a baseline implementation and our chatbot using generation/retrieval metrics. The results suggest that both ACD agent and chatbot can potentially enhance the defence of critical networks connected to untrusted infrastructure.  © 2024 IEEE.
+KW  - Autonomous Cyber Defence
+KW  - Cybersecurity
+KW  - Deep Reinforcement Learning
+KW  - Large Language Model
+KW  - Autonomous agents
+KW  - Computational linguistics
+KW  - Cybersecurity
+KW  - Deep learning
+KW  - Learning systems
+KW  - Autonomous cybe defense
+KW  - Chatbots
+KW  - Core networks
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Deep reinforcement learning
+KW  - Language model
+KW  - Large language model
+KW  - Network segment
+KW  - Reinforcement learnings
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85195693813
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 34
+ER  -
+
+TY  - CONF
+AU  - Mosciatti, G.
+AU  - Meier, R.
+AU  - Himmelmann, L.
+AU  - Lenders, V.
+TI  - Leveraging Agentic AI for loT Security Operations
+PY  - 2026
+T2  - International Conference on Cyber Conflict, CYCON
+SP  - 381
+EP  - 404
+DO  - 10.23919/CyCon70911.2026.11609433
+UR  - https://www.scopus.com/pages/publications/105046112694?origin=resultslist
+AB  - Today's enterprise environments consist of a large number of heterogeneous internet of things (IoT) devices, many of which have no standardized remote management interfaces. As a result, routine but security-critical operations-including credential rotation, certificate updates, configuration hardening, or compliance verification-remain largely manual, time-consuming, and difficult to scale. While prior work has explored automation and decision support for cyber defense, most approaches predate recent advances in agentic artificial intelligence and assume structured inputs and programmatic interfaces. In this paper, we explore how agentic artificial intelligence (AI), and in particular browser agents interacting with large language models (LLMs), can automate IoT security operations. We propose a multi-agent architecture that interacts with remote web-based management interfaces to harden, update, or restore systems. By enforcing separation of duties among agents, restricting access control permissions, and minimizing shared context, our architecture reduces the risks associated with non-deterministic agent behavior and adversarial manipulation of web interfaces that could lead to security being compromised. We implement a prototype agentic system for automated password rotation and evaluate it across 12 real-world applications commonly found in enterprise environments. Our results show that our system can reliably perform credential rotation across diverse web management interfaces (100% success rate in our experiments) fairly fast (154 seconds on average) and within reasonable cost limits (USD 0.108 on average for the LLM application programming interface [API] calls). More broadly, our findings suggest that carefully constrained agentic AI systems can serve as a practical complement to human-led cybersecurity operations and provide a foundation for enhanced automation of security tasks in environments that were not designed with automation in mind. © NATO CCDCOE Publications, Tallinn.
+KW  - agentic AI
+KW  - browser agents
+KW  - IoT security automation
+KW  - large language models
+KW  - password rotation
+KW  - system hardening
+KW  - Access control
+KW  - Application programming interfaces (API)
+KW  - Automation
+KW  - Computer architecture
+KW  - Computer systems programming
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Network security
+KW  - Rotation
+KW  - Security systems
+KW  - Software prototyping
+KW  - Websites
+KW  - Agentic artificial intelligence
+KW  - Browser agent
+KW  - Enterprise environment
+KW  - Internet of thing security automation
+KW  - Language model
+KW  - Large language model
+KW  - Management interfaces
+KW  - Password rotation
+KW  - Security operations
+KW  - System hardening
+KW  - Decision support systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105046112694
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Tilbury, J.
+AU  - Flowerday, S.
+AU  - Bott, G.
+AU  - Chua, Y.T.
+AU  - Olson, E.
+AU  - Foltz, B.
+TI  - Human-factor vulnerabilities of automation in SOCs: A mixed-methods multigroup analysis
+PY  - 2026
+T2  - Computers and Security
+VL  - 166
+C7  - 104871
+DO  - 10.1016/j.cose.2026.104871
+UR  - https://www.scopus.com/pages/publications/105032511832?origin=resultslist
+AB  - The rapid proliferation of cybersecurity automation is transforming Security Operations Centers (SOCs), introducing new complexities to operational dynamics and altering the traditional role of the security analyst. This rapid deployment, particularly with the rise of generative AI, increases analysts' susceptibility to an uncritical overreliance on technology, a phenomenon known as automation bias, which presents a significant human-factor vulnerability. To investigate this vulnerability, this study uses a multigroup approach to analyze how an analyst's fundamental preference for human versus automation-led activity moderates their perception and use of cybersecurity tools. We conducted a mixed-methods study, comprising a quantitative structural model with 661 participants (N = 440 human-centered and N = 221 automation-centered analysts) and qualitative interviews with 40 analysts. Participant preferences were reassessed 12 months later. Our findings reveal two distinct analyst profiles with opposing risks. Pro-automation analysts practice cognitive offloading, achieving efficiency but fostering a vulnerability to confirmation bias, evidenced by a counterintuitive positive link between systematic thinking and automation bias. Conversely, pro-human analysts experience cognitive tethering, in which inherent skepticism may be linked to disuse of automation and a vulnerability to cognitive overload. Further group differences were revealed in the optimal levels of automation selected, with participants in the pro-automation group doubling down on their willingness for security tools to possess complete autonomy, opting for levels 7–10 where human involvement is minimal. This study contributes a framework for understanding the human factor in cybersecurity by identifying preference as a key moderator of socio-technical risk, providing a basis for tailored training, intelligent task allocation, and balanced team composition. © 2026
+KW  - Automation Bias
+KW  - Human-Factor Vulnerabilities
+KW  - Multigroup Analysis
+KW  - Security Operations Center
+KW  - Structural Equation Modeling
+KW  - Cybersecurity
+KW  - Factor analysis
+KW  - Human engineering
+KW  - Network security
+KW  - Security systems
+KW  - Automation bias
+KW  - Cyber security
+KW  - Human-factor vulnerability
+KW  - Mixed method
+KW  - Multi-group
+KW  - Multigroup analyze
+KW  - Rapid deployments
+KW  - Securities analysts
+KW  - Security operation center
+KW  - Structural equation models
+KW  - Automation
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105032511832
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - JOUR
+AU  - Farooq, M.O.
+TI  - Towards generic defensive cyber agents: Leveraging large language models and RAG-based few-shot learning
+PY  - 2026
+T2  - Computer Networks
+VL  - 285
+C7  - 112349
+DO  - 10.1016/j.comnet.2026.112349
+UR  - https://www.scopus.com/pages/publications/105038455726?origin=resultslist
+AB  - The dynamic and evolving nature of cyber threats requires defensive mechanisms that can adapt to new adversaries and network environments without the high cost of retraining. This work introduces a generic cyber defense framework that integrates reinforcement learning (RL), large language models (LLMs), retrieval-augmented generation (RAG), and few-shot learning to achieve scalable and adaptive defense. The framework leverages a data store of observation–action tuples collected from RL agents trained against specific adversaries. At inference, RAG retrieves the top-K relevant tuples for the current observation, which are incorporated into an LLM prompt to enable few-shot reasoning. The LLM then predicts the most suitable defensive action for the given observation, with adaptability to previously unseen adversaries and network topologies achieved simply by augmenting the data store with new observation–action tuples rather than retraining new agents. Unlike state-of-the-art hierarchical or RL–supervised hybrid approaches, the proposed framework does not require additional agent training when new attack strategies emerge, ensuring both adaptability and scalability. Extensive evaluation across various adversarial scenarios demonstrates that medium-sized models, particularly Mistral-7B and Gemma-7B when combined with the proposed framework deliver the most effective defensive actions. Comparative analysis further shows that our framework consistently outperforms existing methods in defensive success rates while uniquely enabling rapid extension to new adversaries. These results establish the proposed approach as a robust and scalable pathway for advancing autonomous cyber defense systems. The dynamic and evolving nature of cyber threats requires defensive mechanisms that can adapt to new adversaries and network configurations without the high cost of retraining. This work introduces a generic cyber defense framework that integrates reinforcement learning (RL), large language models (LLMs), retrieval-augmented generation (RAG), and few-shot learning to achieve scalable and adaptive defense. The framework leverages a datastore of observation–action tuples collected from RL agents trained against specific adversaries. At inference, RAG retrieves the top-K relevant tuples for the current observation, which are incorporated into an LLM prompt to enable few-shot reasoning. The LLM then predicts the most suitable defensive action for the given observation, with adaptation to new adversarial behaviors and topology variations achieved by augmenting the datastore with additional observation–action tuples rather than retraining the generic defensive agent. Unlike state-of-the-art hierarchical or RL–supervised hybrid approaches, the proposed framework decouples adaptation from retraining of the deployed defender, enabling scalable incorporation of emerging threats. Evaluation across multiple adversarial scenarios and topology variants within the CybORG environment demonstrates that medium-sized models, particularly Mistral-7B and Gemma-7B, when combined with the proposed framework, deliver the most effective defensive actions. Comparative analysis further shows that our framework consistently outperforms existing methods in defensive success rates while enabling rapid extension to additional adversaries. These results establish the proposed approach as a scalable and practically deployable pathway for advancing autonomous cyber defense systems. © 2026 Elsevier B.V.
+KW  - Autonomous cyber defense
+KW  - Cyber security
+KW  - Few-shot learning
+KW  - Large language models (LLMs)
+KW  - Retriever augmented generation (RAG)
+KW  - Autonomous agents
+KW  - Computer crime
+KW  - Costs
+KW  - Dynamics
+KW  - Machine learning
+KW  - Scalability
+KW  - Autonomous cybe defense
+KW  - Cyber security
+KW  - Cyber threats
+KW  - Cyber-defense
+KW  - Defensive mechanism
+KW  - Few-shot learning
+KW  - Language model
+KW  - Large language model
+KW  - Reinforcement learnings
+KW  - Retriever augmented generation
+KW  - Network security
+M3  - Article
+DB  - Scopus
+N1  - EID: 2-s2.0-105038455726
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+
+TY  - CONF
+AU  - Loevenich, J.F.
+AU  - Adler, E.
+AU  - Becue, A.
+AU  - Velazquez, A.
+AU  - Wrona, K.
+AU  - Boshnakov, V.
+AU  - Falkcrona, J.
+AU  - Nordbotten, N.
+AU  - Worthington, O.L.
+AU  - Roning, J.
+AU  - Rigolin, R.
+AU  - Lopes, F.
+TI  - Training Autonomous Cyber Defense Agents: Challenges & Opportunities in Military Networks
+PY  - 2024
+T2  - Proceedings - IEEE Military Communications Conference MILCOM
+SP  - 158
+EP  - 163
+DO  - 10.1109/MILCOM61039.2024.10773923
+UR  - https://www.scopus.com/pages/publications/85214555061?origin=resultslist
+AB  - This paper addresses the development and training of robust autonomous cyber defense (ACD) agents within military networks. We propose an architecture that integrates a hybrid AI model comprising Multi-Agent Reinforcement Learning (MARL), Large Language Models (LLMs), and a rule-based system into blue and red agent teams distributed across network devices. The primary goal is to automate key cybersecurity tasks such as monitoring, detection, and mitigation, thereby augmenting the capabilities of cybersecurity professionals in protecting critical military infrastructure. This architecture is designed to operate in modern network environments characterized by segmented clouds and software-defined controllers, which facilitate the deployment of ACD agents and other cybersecurity tools. The agent teams were evaluated in an Automated Cyber Operation (ACO) gym, which simulates NATO protected core networks and enables reproducible training and testing of autonomous agents. The paper concludes with an examination of the main challenges encountered in the training of ACD agents, with a particular focus on the security of the data and the robustness of the AI models during the training/testing phase. © 2024 IEEE.
+KW  - Autonomous Cyber Security
+KW  - Large Language Models
+KW  - Multi-Agent Reinforcement Learning
+KW  - Adversarial machine learning
+KW  - Autonomous agents
+KW  - Chatbots
+KW  - Cyber attacks
+KW  - Intelligent agents
+KW  - Multi agent systems
+KW  - Personnel training
+KW  - Problem oriented languages
+KW  - Agent teams
+KW  - Autonomous cybe security
+KW  - Cyber security
+KW  - Cyber-defense
+KW  - Language model
+KW  - Large language model
+KW  - Military networks
+KW  - Multi-agent reinforcement learning
+KW  - Network devices
+KW  - Rules based systems
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-85214555061
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 16
+ER  -
+
+TY  - CONF
+AU  - Wei, K.
+AU  - Wang, G.
+TI  - Poster: Agentic Shell Honeypot Using Structured Logging
+PY  - 2025
+T2  - CCS 2025 - Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security
+SP  - 4803
+EP  - 4805
+DO  - 10.1145/3719027.3760731
+UR  - https://www.scopus.com/pages/publications/105023859025?origin=resultslist
+AB  - A shell honeypot emulates a command-line interface to record the behaviors of attackers. Traditional honeypots, however, rely on static, rule-based responses that fail to capture the complexity of real-world multi-turn adversarial interactions. Recent efforts have introduced large language model (LLM) driven honeypots. However, existing LLM-based shell honeypots still fall short of realism due to vulnerabilities such as prompt injection, state inconsistency, and response latency. In this work, we present HoneyAgents, an agent-based honeypot system designed to address the aforementioned limitations. HoneyAgents introduces three key innovations: (i) a role-delegate architecture with strategic and response agents that jointly cope with prompt injection; (ii) a structured logging mechanism that achieves long-term memory for interaction state alignment; (iii) a hierarchical planning design within multi-agent cooperation to generate exploitable shell responses within a dynamic interaction time. The evaluation shows that HoneyAgents improves robustness, realism, and efficiency, making LLM-powered honeypots more viable for real-world security operations. © 2025 Copyright held by the owner/author(s).
+KW  - Honeypot
+KW  - LLM Agent
+KW  - Prompt Injection
+KW  - User-Agent Interaction
+KW  - Autonomous agents
+KW  - Human computer interaction
+KW  - Human engineering
+KW  - Memory architecture
+KW  - Network security
+KW  - Systems analysis
+KW  - User interfaces
+KW  - Agent interaction
+KW  - Command line
+KW  - Honeypots
+KW  - Language model
+KW  - Large language model agent
+KW  - Model agents
+KW  - Prompt injection
+KW  - Real-world
+KW  - User agents
+KW  - User-agent interaction
+KW  - Multi agent systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105023859025
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 1
+ER  -
+
+TY  - CONF
+AU  - Towhid, M.S.
+AU  - Iqbal, S.
+AU  - Neto, E.C.P.
+AU  - Shahriar, N.
+AU  - Buffett, S.
+AU  - Sultana, M.
+AU  - Taylor, A.
+TI  - Cyber Threat Mitigation with Knowledge-Infused Reinforcement Learning and LLM-Guided Policies
+PY  - 2025
+T2  - 2025 22nd Annual International Conference on Privacy, Security, and Trust, PST 2025
+DO  - 10.1109/PST65910.2025.11268866
+UR  - https://www.scopus.com/pages/publications/105030491425?origin=resultslist
+AB  - As cyber threats continue to evolve, there is a need for autonomous cyber defense (ACD) strategies capable of fast and context-aware responses. Reinforcement learning (RL) has shown promise for automating cyber defense by exploring and learning effective countermeasures, yet it often struggles with sparse reward signals and insufficient context to handle diverse attack scenarios. Furthermore, the convergence time taken by an RL agent is often high, which makes it difficult to train the RL agent in online settings. To address these challenges, we propose a large language model (LLM)-enhanced RL method that builds and queries a knowledge graph (KG) derived from agent-environment interactions. We leverage the pre-trained knowledge of an LLM on different cybersecurity frameworks and use the LLM to analyze a part of the KG to generate appropriate actions for the RL agent. We infuse the knowledge extracted from the LLM into the RL agent's training loop in two ways. First, the state vector of the RL agent is augmented with the most effective action and its corresponding reward, as determined from the KG. Second, the suggested action from the LLM is used as a reference policy. In addition, we introduce a regularization term in the loss function to make the RL policy close to the reference policy. To validate our approach, we develop a custom RL environment guided by the MITRE ATT&CK framework, enabling the agent to generate tailored mitigation strategies for detected cyber attacks. Experimental results show that our proposed approach significantly outperforms the baseline RL by over 75% in terms of taking better mitigation actions.  © 2025 IEEE.
+KW  - Autonomous Cyber Defense
+KW  - Cybersecurity Automation
+KW  - Knowledge Graphs
+KW  - Large Language Models
+KW  - Reinforcement Learning
+KW  - Autonomous agents
+KW  - Cybersecurity
+KW  - Knowledge graph
+KW  - Knowledge management
+KW  - Network security
+KW  - Autonomous cybe defense
+KW  - Cyber security
+KW  - Cyber threats
+KW  - Cyber-defense
+KW  - Cybersecurity automation
+KW  - Knowledge graphs
+KW  - Language model
+KW  - Large language model
+KW  - Reinforcement learning agent
+KW  - Reinforcement learnings
+KW  - Reinforcement learning
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105030491425
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 3
+ER  -
+
+TY  - CONF
+AU  - Feng, G.
+AU  - Pan, Y.
+AU  - Zhang, C.
+AU  - Huang, K.
+TI  - Intelligent Automation of Network Security Operations via Intention-Driven Agents and Large Language Models
+PY  - 2025
+T2  - 2025 8th International Conference on Computer Information Science and Application Technology, CISAT 2025
+SP  - 220
+EP  - 224
+DO  - 10.1109/CISAT66811.2025.11181948
+UR  - https://www.scopus.com/pages/publications/105019302953?origin=resultslist
+AB  - As modern networks grow in scale and complexity, traditional manual security operations struggle to maintain efficiency, consistency, and adaptability. This paper proposes a novel framework that leverages large language models (LLMs), intention understanding, and autonomous agents to achieve end-to-end automation of network-security operations. By combining the Model-Context Protocol (MCP) with retrieval-augmented generation (RAG), the system interprets human intents expressed in natural language and dynamically maps them to executable security workflows. Key operational functions including configuration inspection, vulnerability hardening, topology mapping, fault diagnosis, and compliance patrol are abstracted into intention-driven tasks executed by agents. A prototype deployed in an enterprise-scale environment shows mean task-completion-time reductions of 82.37% and audit-accuracy gains of 6-15% over expert baselines. These results mark a step toward fully autonomous, intention-aware network-security management.  © 2025 IEEE.
+KW  - Intention-driven agents
+KW  - large language models
+KW  - Model-Context Protocol
+KW  - retrieval-augmented generation
+KW  - security-operations automation
+KW  - Automation
+KW  - Intelligent agents
+KW  - Internet protocols
+KW  - Network security
+KW  - Security systems
+KW  - Topology
+KW  - Intelligent automation
+KW  - Intention-driven agent
+KW  - Language model
+KW  - Large language model
+KW  - Model contexts
+KW  - Model-context protocol
+KW  - Networks security
+KW  - Retrieval-augmented generation
+KW  - Security operations
+KW  - Security-operation automation
+KW  - Autonomous agents
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105019302953
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 1
+ER  -
+
+TY  - CONF
+AU  - Dcosta, R.
+AU  - Pervez, S.
+AU  - Hosseini, S.E.
+TI  - Building an Autonomous Cyber Defense System Through Generative AI Framework
+PY  - 2026
+T2  - 2026 International Conference on AI Innovations and Industry, ICAIII 2026 - Conference Proceedings
+DO  - 10.1109/ICAIII69475.2026.11521460
+UR  - https://www.scopus.com/pages/publications/105041472079?origin=resultslist
+AB  - This research develops and evaluates the D-GEN-SOC, a Security Operation Center (SOC) framework that is defensively oriented and combines open-source telemetry (Wazuh), incident coordination (The Hive), and a lightweight AI augmentation grounded in explainable automation. The project prototypes a modular architecture that is designed for transparent, ethical, and auditable SOC decision support. This study adopted a Design Science Research (DSR) approach to design, implement and evaluate the D-GEN-SOC framework. A controlled lab environment was deployed on an Ubuntu-based system to simulate realistic activity and generate attack that were synthetic, such as SSH brute-force attempts. These performances were consumed by Wazuh, analysed, and automatically forwarded to TheHive using a Python-based connector. A local AI module that summarizes those alerts using Gemini 1.5's free-tier API, which creates a small summary report that is stored alongside for analyst and human-in-the-loop (HITL) validation. The assessment scripts measured the Mean Time to Detect (MTTD) and alert-forwarding latency across 20 alerts, and a prototype was achieved with an MTTD of 84.83s and a Wazuh → TheHive latency of 29.55 s, demonstrating a near-real-time detection and a reliable coordination between the SIEM and SOAR layers. This visualization also includes a timeline graph and a histogram that reveals a stable sub-minute response cycle. During the experiments, the Cortex analyser layer was unstable, and the results confirmed that even partial AI augmentation, log summarization, prioritization, and metrics computation can improve the explainability and readiness for analyst without replacing the human authority. D-GEN-SOC offers a culturally aligned blueprint for NZ organizations to integrate AI within open-source SOC ecosystems. The findings also demonstrated the measures that improved MTTD by ∼53%), MTTR by ( 4 0 %), and fewer false-positive reductions by (10 %), validating the framework' s operational feasibility. © 2026 IEEE.
+KW  - Automation
+KW  - Cybersecurity
+KW  - Design Science
+KW  - Generative AI
+KW  - Human-in-the-Loop
+KW  - Māori Data Sovereignty
+KW  - Privacy Act 2020
+KW  - Security Operations Center
+KW  - TheHive
+KW  - Wazuh
+KW  - Abstracting
+KW  - Application programming interfaces (API)
+KW  - Automatic identification
+KW  - Cybersecurity
+KW  - Data privacy
+KW  - Ethical aspects
+KW  - Network security
+KW  - Open systems
+KW  - Programmable logic controllers
+KW  - Security systems
+KW  - Cyber security
+KW  - Design science
+KW  - Generative AI
+KW  - Human-in-the-loop
+KW  - Mean time to detect
+KW  - Māori data sovereignty
+KW  - Privacy act 2020
+KW  - Security operation center
+KW  - Thehive
+KW  - Wazuh
+KW  - Decision support systems
+M3  - Conference paper
+DB  - Scopus
+N1  - EID: 2-s2.0-105041472079
+N1  - Export Date: 29 October 2026
+N1  - Cited By: 0
+ER  -
+

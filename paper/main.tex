@@ -1,0 +1,106 @@
+% DAI 701 SLR -- acmart skeleton (Overleaf fallback).
+% Every [YOU] / TODO [YOU] is author-written content. This file holds structure only, no manuscript text.
+% Section order follows the handout; each section's requirements are listed in its file under sections/.
+\documentclass[manuscript,screen,review]{acmart}
+
+% Course paper: switch off the ACM rights and reference-format boilerplate.
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+% acmart already loads hyperref, graphicx and booktabs: do not load hyperref again.
+\usepackage{booktabs}
+\usepackage{xurl}
+\usepackage{tikz}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily\scriptsize, breaklines=true, breakatwhitespace=true, columns=fullflexible}
+\usetikzlibrary{positioning,arrows.meta,shapes}
+
+% \comparisontable{<caption>}{<label>}{<column spec>}{<header cells>}{<body rows, each ending in \\>}
+\newcommand{\comparisontable}[5]{%
+  \begin{table}[htbp]
+    \caption{#1}\label{#2}
+    \small
+    \begin{tabular}{#3}
+      \toprule
+      #4 \\
+      \midrule
+      #5
+      \bottomrule
+    \end{tabular}
+  \end{table}}
+
+\begin{document}
+
+% TODO [YOU] title
+\title{[YOU]}
+
+% TODO [YOU] author name
+\author{[YOU]}
+\affiliation{%
+  \institution{Ajman University}
+  \city{Ajman}
+  \country{United Arab Emirates}}
+
+% TODO [YOU] abstract, 150--250 words: precise scope, the review's RQs, method, headline findings.
+\begin{abstract}
+[YOU]
+\end{abstract}
+
+% TODO [YOU] CCS concepts: generate the CCSXML block and \ccsdesc lines at https://dl.acm.org/ccs and paste them here.
+% \ccsdesc[500]{[YOU]}
+
+% TODO [YOU] 4--6 keywords
+\keywords{[YOU]}
+
+\maketitle
+
+\section{Introduction}\label{sec:introduction}
+\input{sections/01-introduction}
+
+\section{Background}\label{sec:background}
+\input{sections/02-background}
+
+\section{Review Methodology}\label{sec:methodology}
+\input{sections/03-methodology}
+
+\section{Taxonomy}\label{sec:taxonomy}
+\input{sections/04-taxonomy}
+
+\section{Analysis by Category}\label{sec:analysis}
+\input{sections/05-analysis}
+
+\section{Datasets, Benchmarks and Evaluation}\label{sec:datasets}
+\input{sections/06-datasets-benchmarks-evaluation}
+
+\section{Open Problems and Research Agenda}\label{sec:open-problems}
+\input{sections/07-open-problems-agenda}
+
+\section{Conclusion}\label{sec:conclusion}
+\input{sections/08-conclusion}
+
+\section{Threats to Validity}\label{sec:threats}
+\input{sections/threats-to-validity}
+
+% refs.bib is the Zotero Better BibTeX auto-export target. Never type an entry by hand or from memory.
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+
+\appendix
+
+\section{Search Strings}\label{app:search-strings}
+\input{sections/appendix-search-strings}
+
+\section{PRISMA 2020 Checklist}\label{app:prisma-checklist}
+\input{sections/appendix-prisma-checklist}
+
+\section{Quality-Assessment Scores}\label{app:qa-scores}
+\input{sections/appendix-qa-scores}
+
+\section{Data Availability}\label{app:data-availability}
+\input{sections/data-availability}
+
+\section{Use of AI Tools}\label{app:ai-use}
+\input{sections/ai-use-statement}
+
+\end{document}

@@ -1,0 +1,23 @@
+{
+  "_help": "Replace every null with a whole number, then run: python scripts\\prisma.py. identified_by_db: hits per database (delete a key you did not search). *_reasons: {\"reason, worded as in your exclusion criteria\": n}. included = Studies included in review = database branch (assessed_full_text - sum of its reasons) + citation-searching branch (citation_searching_assessed - sum of its reasons).",
+  "_status_2026-10-29": "Filled from data/screening/corpus.xlsx summary (query v14: Scopus 515 + IEEE 424 + ACM 37 + snowball 96). WoS not searched (key removed). Citation searching: 96 retrieved, of which 25 duplicate database records, so 71 unique go to screening; citation_searching_sought = 71 minus those excluded at title/abstract. Retraction check (EC7) on 784 records: 0 retracted, 27 to check by hand.",
+  "identified_by_db": {
+    "scopus": 515,
+    "ieee": 424,
+    "acm": 37
+  },
+  "identified_citation_searching": 96,
+  "duplicates_removed": 263,
+  "other_removed_before_screening": 0,
+  "screened": 713,
+  "excluded_title_abstract": null,
+  "sought_for_retrieval": null,
+  "not_retrieved": null,
+  "assessed_full_text": null,
+  "excluded_full_text_reasons": null,
+  "included": null,
+  "citation_searching_sought": null,
+  "citation_searching_not_retrieved": null,
+  "citation_searching_assessed": null,
+  "citation_searching_excluded_reasons": null
+}
