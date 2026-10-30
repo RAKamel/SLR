@@ -27,8 +27,13 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 19; `fulltext_qa` row 140; `coding_ai` rows 121–127.
 - Why first: analytical benchmark review with no agent implementation; architecture currently conflicts with the two-value codebook.
 - Verify first: study type, task stage, architecture, LLMs, adaptation, autonomy/HITL, headline results, and data availability.
-- Author confirmations recorded in the workbook: `study_type = review`; `orientation = dual` (both offensive and defensive); `task_stage = all eight protocol stages`; `architecture = not applicable`; `adaptation = RAG; fine-tuning; RL`; `code_available = not stated`; `data_available = yes (URL)` at `https://github.com/m1550773n/On-the-Potential-of-LLMs-for-Offensive-Security` (retrieved via the Agent Reach GitHub route at commit `9ba052367c2db95763c295e6b4e4b4982693a243`).
-- [ ] Extraction verified  [ ] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after full-paper two-reviewer verification: `study_type = review`; `orientation = offensive`; `task_stage = offensive/pentest`; `architecture = not applicable`; `adaptation = RAG; fine-tuning`; `code_available = not stated`; `data_available = yes (URL)` at `https://github.com/m1550773n/On-the-Potential-of-LLMs-for-Offensive-Security` (retrieved via the Agent Reach GitHub route at commit `9ba052367c2db95763c295e6b4e4b4982693a243`).
+- Verified factual fields: `autonomy_level = not stated`; `hitl = not applicable because no agent is implemented`; dataset/evidence set = `AI-Pentest-Benchmark`, `NYU-CTF-Bench`, `3CB`, `GoAD`, `AutoAttacker`, and `MHBench`; environment = published benchmark environments plus an independent MHBench mapping from its paper's environment descriptions.
+- Author-verified evaluation metrics: approximate number of environments, average targets per scenario, percentage of tasks representing MITRE ATT&CK tactics, Initial coverage, and Post-Compromise coverage (2026-10-31).
+- Author-approved baseline description: cross-benchmark methodological comparison using MITRE ATT&CK coverage; no human, tool-only, or agent-performance baseline (2026-10-31).
+- Two-reviewer consensus (`gpt-6.1-sol` xhigh + `agy`): the six headline percentages are correct but represent approximated benchmark tactic-distribution coverage, not agent success; comparators/risks/limitations/future work are supported; mitigations are discussed or recommended rather than implemented; QA remains `Y,N,Y,Y = 3` with the documented QA2/QA3 qualifications.
+- The reviewers unanimously superseded the earlier pre-verification `dual`, all-eight-stage, added-`RL`, and five-function-HITL entries because the full paper does not support them as study-level facts.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 2. R0484 — Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP
 
