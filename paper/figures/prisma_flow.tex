@@ -17,6 +17,8 @@
 \node[box] (cremoved) at (12.30,-2.52) {Records removed before screening: \\ \hspace*{1em}removed by automation tools (outside 2020-2026 or not peer-reviewed) (n = 125) \\ \hspace*{1em}duplicates of database records (n = 25)};
 \node[box] (screened) at (0.00,-5.27) {Records screened \\ (n = 713)};
 \node[box] (exta) at (4.10,-5.27) {Records excluded \\ (n = 364)};
+\node[box] (cscreened) at (8.20,-5.27) {Records screened \\ (n = 71)};
+\node[box] (cexta) at (12.30,-5.27) {Records excluded \\ (n = 53)};
 \node[box] (sought) at (0.00,-7.12) {Reports sought for retrieval \\ (n = 349)};
 \node[box] (notret) at (4.10,-7.12) {Reports not retrieved \\ (n = 289)};
 \node[box] (csought) at (8.20,-7.12) {Reports sought for retrieval \\ (n = 18)};
@@ -37,9 +39,12 @@
 \draw[arr] (screened) -- (exta);
 \draw[arr] (sought) -- (notret);
 \draw[arr] (assessed) -- (ftex);
-\draw[arr] (cident) -- (csought);
+\draw[arr] (cident) -- (cscreened);
+\draw[arr] (cscreened) -- (csought);
+\draw[arr] (cscreened) -- (cexta);
 \draw[arr] (csought) -- (cassessed);
 \draw[arr] (csought) -- (cnotret);
 \draw[arr] (cassessed) -- (cftex);
+\draw[arr] (cident) -- (cremoved);
 \draw[arr] (cassessed.south) |- (included.east);
 \end{tikzpicture}}

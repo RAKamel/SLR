@@ -27,6 +27,14 @@ def minus(a, *bs):
     return None if a is None or None in bs else a - sum(bs)
 
 
+def citation_screening_counts(d):
+    """Return citation-searching records screened and excluded at title/abstract."""
+    identified = total(d.get('identified_citation_searching'))
+    removed = total(d.get('citation_searching_removed_before_screening') or 0)
+    screened = minus(identified, removed)
+    return screened, minus(screened, total(d.get('citation_searching_sought')))
+
+
 def check(d):
     """Returns (mismatches, null_fields). Identities with a null operand are skipped, not failed."""
     nulls, bad = [], []
@@ -60,11 +68,11 @@ def check(d):
                     ('citation_searching_assessed - sum(citation_searching_excluded_reasons)', cs_inc)]:
         if v is not None and v < 0:
             bad.append(f'{name} = {v} is negative')
-    sought, ident = g('citation_searching_sought'), g('identified_citation_searching')
-    cs_left = minus(ident, total(d.get('citation_searching_removed_before_screening') or 0))  # optional field
-    if None not in (sought, cs_left) and sought > cs_left:
+    sought = g('citation_searching_sought')
+    cs_screened, cs_excluded = citation_screening_counts(d)
+    if cs_excluded is not None and cs_excluded < 0:
         bad.append(f'citation_searching_sought = {sought} exceeds identified_citation_searching '
-                   f'- sum(citation_searching_removed_before_screening) = {cs_left}')
+                   f'- sum(citation_searching_removed_before_screening) = {cs_screened}')
     return bad, nulls
 
 
@@ -76,6 +84,7 @@ def tex(d, status):
     excl = lambda v: ['Reports excluded:'] + [f'{IND}{esc(k)} (n = {n(x)})' for k, x in v.items()] if v \
         else [f'Reports excluded (n = {n(total(v))})']
     dbs = d.get('identified_by_db') or {}
+    cs_screened, cs_excluded = citation_screening_counts(d)
     rows = [  # (column, node name, lines); each row is laid out at one centre line
         [('main', 'ident', [f'Records identified from databases (n = {g("identified_by_db")}):']
           + [f'{IND}{esc(DB_NAMES.get(k, k))} (n = {n(v)})' for k, v in dbs.items()]),
@@ -86,7 +95,9 @@ def tex(d, status):
              + [f'{IND}{esc(k)} (n = {n(v)})' for k, v in d['citation_searching_removed_before_screening'].items()])]
            if d.get('citation_searching_removed_before_screening') else []),
         [('main', 'screened', ['Records screened', f'(n = {g("screened")})']),
-         ('side', 'exta', ['Records excluded', f'(n = {g("excluded_title_abstract")})'])],
+         ('side', 'exta', ['Records excluded', f'(n = {g("excluded_title_abstract")})']),
+         ('cmain', 'cscreened', ['Records screened', f'(n = {n(cs_screened)})']),
+         ('cside', 'cexta', ['Records excluded', f'(n = {n(cs_excluded)})'])],
         [('main', 'sought', ['Reports sought for retrieval', f'(n = {g("sought_for_retrieval")})']),
          ('side', 'notret', ['Reports not retrieved', f'(n = {g("not_retrieved")})']),
          ('cmain', 'csought', ['Reports sought for retrieval', f'(n = {g("citation_searching_sought")})']),
@@ -121,9 +132,13 @@ def tex(d, status):
         y -= rh + 0.6
     for label, (top, bot) in [('Identification', spans[0]), ('Screening', (spans[1][0], spans[3][1])), ('Included', spans[4])]:
         out.append(f'\\node[phase, minimum width={top - bot:.2f}cm] at ({x["phase"]:.2f},{(top + bot) / 2:.2f}) {{{label}}};')
-    for a, b in [('ident', 'screened'), ('screened', 'sought'), ('sought', 'assessed'), ('assessed', 'included'),
-                 ('ident', 'removed'), ('screened', 'exta'), ('sought', 'notret'), ('assessed', 'ftex'),
-                 ('cident', 'csought'), ('csought', 'cassessed'), ('csought', 'cnotret'), ('cassessed', 'cftex')]:
+    edges = [('ident', 'screened'), ('screened', 'sought'), ('sought', 'assessed'), ('assessed', 'included'),
+             ('ident', 'removed'), ('screened', 'exta'), ('sought', 'notret'), ('assessed', 'ftex'),
+             ('cident', 'cscreened'), ('cscreened', 'csought'), ('cscreened', 'cexta'),
+             ('csought', 'cassessed'), ('csought', 'cnotret'), ('cassessed', 'cftex')]
+    if d.get('citation_searching_removed_before_screening'):
+        edges.append(('cident', 'cremoved'))
+    for a, b in edges:
         out.append(f'\\draw[arr] ({a}) -- ({b});')
     out += [r'\draw[arr] (cassessed.south) |- (included.east);', r'\end{tikzpicture}}', '']
     return '\n'.join(out)
@@ -135,7 +150,8 @@ def selftest():
             'screened': 200, 'excluded_title_abstract': 140, 'sought_for_retrieval': 60, 'not_retrieved': 2,
             'assessed_full_text': 58, 'excluded_full_text_reasons': {'EC1_scope': 20, 'EC2 & EC3': 8}, 'included': 36,
             'citation_searching_sought': 12, 'citation_searching_not_retrieved': 1, 'citation_searching_assessed': 11,
-            'citation_searching_excluded_reasons': {'EC1_scope': 5}}
+            'citation_searching_excluded_reasons': {'EC1_scope': 5},
+            'citation_searching_removed_before_screening': {'removed by automation tools': 6, 'duplicates': 4}}
     # 260-60-0=200, 200-140=60, 60-2=58, db branch 58-28=30; citation 12-1=11, 11-5=6; included 30+6=36
     print('reconciling example ->', check(good))
     assert check(good) == ([], [])
@@ -152,6 +168,11 @@ def selftest():
     t = tex(good, 'OK')
     assert r'\begin{tikzpicture}' in t and r'\documentclass' not in t and t.count('{') == t.count('}')
     assert '(n = 36)' in t and r'EC1\_scope (n = 20)' in t and r'EC2 \& EC3' in t and 'n = ?' not in t
+    assert r'\node[box] (cscreened)' in t and r'Records screened \\ (n = 20)' in t
+    assert r'\node[box] (cexta)' in t and r'Records excluded \\ (n = 8)' in t
+    for edge in [('cident', 'cscreened'), ('cident', 'cremoved'), ('cscreened', 'csought'),
+                 ('cscreened', 'cexta')]:
+        assert f'\\draw[arr] ({edge[0]}) -- ({edge[1]});' in t
     assert 'n = ?' in tex(partial, 'INCOMPLETE')
     cs = {**good, 'citation_searching_removed_before_screening': {'removed by automation tools': 15, 'duplicates': 3}}
     assert check(cs) == ([], []) and 'removed by automation tools (n = 15)' in tex(cs, 'OK')  # 30-18=12 >= sought 12
