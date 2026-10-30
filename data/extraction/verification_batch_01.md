@@ -4,10 +4,12 @@ Prepared 2026-10-31 from `extraction.xlsx`. This batch prioritises coding disagr
 
 ## One decision required before architecture coding
 
-The current codebook lists only `single-agent | multi-agent`, but reviews, non-agent benchmarks, and comparative studies currently use `unclear`. The author must choose one of these approaches before the remaining architecture codes are confirmed:
+The original codebook listed only `single-agent | multi-agent`, but reviews, non-agent benchmarks, and comparative studies used `unclear`. The author selected the first approach on 2026-10-31, and it is now recorded in `extraction.xlsx`:
 
-- [ ] Add `not applicable` for a study with no implemented agent and `mixed` for a study comparing single- and multi-agent systems.
+- [x] Add `not applicable` for a study with no implemented agent and `mixed` for a study comparing single- and multi-agent systems.
 - [ ] Keep only `single-agent | multi-agent` and write a deterministic assignment rule: ________________________________.
+
+Initial author decisions recorded: R0249 and R0347 = `not applicable`; R0484 and R0320 = `mixed`.
 
 Do not infer a categorical autonomy or human-oversight level yet. Those two fields remain free text until the author defines the overlay levels.
 
@@ -92,7 +94,7 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 
 ## Batch completion gate
 
-- [ ] Architecture codebook decision recorded.
+- [x] Architecture codebook decision recorded.
 - [ ] All ten extraction rows verified against the reports.
 - [ ] All relevant QA items checked.
 - [ ] All 70 `your_final_code` cells completed.

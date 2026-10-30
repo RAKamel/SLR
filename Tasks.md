@@ -9,11 +9,11 @@
 |---|---|---|
 | Search, deduplication, snowballing | Complete: 976 database hits + 221 citation-searching records; 784 unique records screened | Final reproducibility audit only |
 | Title/abstract screening | Complete mechanically: 784/784 decisions recorded | Author verification remains disclosed as partial |
-| Full text, QA and extraction | 66 assessed, 61 included; QA and AI-prefilled extraction present; first ten-study verification batch prepared | Author verifies `data/extraction/verification_batch_01.md`, then the remaining studies |
+| Full text, QA and extraction | 66 assessed, 61 included; QA and AI-prefilled extraction present; first ten-study verification batch prepared; architecture codebook expanded by author decision to include `mixed` and `not applicable` | Author verifies the remaining Batch 01 facts, QA and codes, then the remaining studies |
 | PRISMA and generated tables | **PRISMA fixed 2026-10-30:** counts reconcile; citation branch shows 71 screened and 53 excluded; both figure copies match. Coded-count tables reproduce the current provisional codes only | Author verifies codes, regenerates tables, then inspects the rendered PDF |
 | References | **Repaired 2026-10-30:** 81 complete, unique DOI records; malformed metadata and TeX escaping fixed | Only 61 are cited; integrate ≥80 relevant sources where they support author-written claims, without citation padding |
 | Manuscript | **Author drafting started 2026-10-31:** problem/timeliness framing and RQs are present; taxonomy dimensions are confirmed and mechanically drawn without unverified counts | Author verifies taxonomy mappings and supplies the remaining critique, gaps, synthesis and prose |
-| Submission package | **Rebuilt after author-input integration and structurally verified 2026-10-31:** 22 expected source entries; no PDF/Office/secret-bearing files; SHA-256 `1B02F627527A56890F1371E01F1AB55BFA7DCD0F66424AC13527F30B1197A5B6` | Not submission-ready until the manuscript, taxonomy and PRISMA checklist are complete and the compiled PDF is inspected |
+| Submission package | **Rebuilt after author-input/codebook integration and structurally verified 2026-10-31:** 22 expected source entries; no PDF/Office/secret-bearing files; SHA-256 `F133D6F9BEC7E5B264F3F1862C7A608DCAA8B6DDE273D86224D48A2B025FCF44` | Not submission-ready until the manuscript, taxonomy and PRISMA checklist are complete and the compiled PDF is inspected |
 
 **Integrity boundary:** the author supplies the taxonomy, critique, research gaps and synthesis. AI assistance is disclosed and is limited to permitted mechanics, evidence extraction, questions/options, clarity editing and verification.
 
@@ -25,7 +25,7 @@
 
 - [x] Write the central problem statement and why the review is timely now. Completed by the author 2026-10-31 and integrated into Section 1.
 - [x] Confirm or revise the proposed taxonomy dimensions: task stage × defensive/offensive orientation, with autonomy/human oversight as an overlay. Confirmed by the author 2026-10-31; drawing mechanics added without unverified counts or inferred overlay levels.
-- [ ] Verify the first prioritised ten studies in `data/extraction/verification_batch_01.md`, including its architecture-codebook decision.
+- [ ] Verify the first prioritised ten studies in `data/extraction/verification_batch_01.md`. Architecture-codebook decision completed 2026-10-31: R0249/R0347 = `not applicable`; R0484/R0320 = `mixed`.
 - [ ] Verify the remaining AI-prefilled extraction rows and AI-agreed code fields still blank in `your_final_code`.
 - [ ] Fill the 61 `my_gap_note [YOU ONLY]` and 61 `annotated_bib [YOU, 2-3 lines]` cells.
 - [ ] Supply the author-written taxonomy, critique, gap analysis, synthesis and manuscript prose for clarity editing and typesetting.
