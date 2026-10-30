@@ -13,11 +13,13 @@
 | PRISMA and generated tables | **Fixed 2026-10-30:** counts reconcile; citation branch now shows 71 screened and 53 excluded; both figure copies match | Final rendered-PDF inspection remains |
 | References | **Repaired 2026-10-30:** 81 complete, unique DOI records; malformed metadata and TeX escaping fixed | Only 61 are cited while the manuscript body is empty; author must cite ≥80 relevant sources in the written synthesis |
 | Manuscript | **Blocked on author content:** `paper/` is still an explicit `[YOU]` skeleton | Author supplies judgments/prose; AI may structure, clarify, validate and typeset |
-| Submission package | Overleaf ZIP exists but is not final while the manuscript is empty | Rebuild only after manuscript and appendices pass gates |
+| Submission package | **Rebuilt and structurally verified 2026-10-31:** 22 expected source entries; no PDF/Office/secret-bearing files; SHA-256 `B049103377850921945033027AF9B173C15BE38C345B9F20AEDCF99A3710CDA3` | Not submission-ready until the manuscript, taxonomy and PRISMA checklist are complete and the compiled PDF is inspected |
 
 **Integrity boundary:** the author supplies the taxonomy, critique, research gaps and synthesis. AI assistance is disclosed and is limited to permitted mechanics, evidence extraction, questions/options, clarity editing and verification.
 
 **Independent verdict (2026-10-31): NOT READY.** Both the ultra-effort agent judge and `agy` Gemini 3.8 Flash (High) accepted the PRISMA fix (`0cf97d9`), bibliography repair (`a4bbfdb`), and the factual tracker/front-matter changes. They identified the same submission blockers: the core manuscript is unwritten, 411 codes and 61 extraction rows need author verification, all 61 gap/annotated-bibliography fields are blank, only 61 unique sources are cited, and no compiled PDF exists.
+
+**Executable verification checkpoint (2026-10-31 01:42 UAE):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated both derived tables and resolved all 61 cited keys; PRISMA reconciliation passed; and the root/paper PRISMA figures are byte-identical with SHA-256 `C0713F0188D42FD5615275D11532D67A10D30765938759DC6B844E05148898F1`. The Overleaf source bundle was rebuilt and inspected, but no local TeX compiler is available for the mandatory rendered-PDF check.
 
 ### Author input currently required
 
