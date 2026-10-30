@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0309,include,,"a multi-agent language model architecture for log analysis",high
+R0310,include,,"thereby enabling the detection of advanced cyberattacks",medium
+R0311,include,,"implementing a Reasoning-Acting (ReAct) loop for autonomous testing",high
+R0312,exclude,EC2,"we review recent works leveraging LLMs for downstream cyber operational tasks",medium
+R0313,exclude,EC2,"generate sub-millisecond intrusion predictions",high
+R0314,exclude,EC3,"we conducted a PRISMA-ScR-guided scoping review to map anticipated vulnerabilities",high
+R0315,include,,"designed to autonomously identify and mitigate security vulnerabilities",high
+R0316,exclude,EC1,"autonomous micro-agents at each node perform local traffic analysis",high
+R0317,include,,"automated threat mitigation, and continuous system updates",medium
+R0318,include,,"a memory-augmented multi-agent framework for automated penetration testing",high
+R0319,include,,"an automated penetration testing agent based on the principle of PSM driven by LLMs",high
+R0320,include,,"multiple LLM-based agents, ranging from singular to modular designs",high
+R0321,exclude,EC2,"we analyze both the industry and academic approach to reduce and fix the threats",high
+R0322,include,,"a multi-agent system to enable LLM agents to progressively acquire and apply exploitation skills",high
+R0323,exclude,EC4,"generating highly realistic scam call scripts that simulate real-world fraud scenarios",medium
+R0324,exclude,EC4,"predictive infrastructure management and autonomous deployment operations",high
+R0325,include,,"a deliberative round-table consensus mechanism enables cross-subsystem correlation for detecting coordinated and stealthy attacks",high
+R0326,exclude,EC3,"a new jail-break technique that hides prohibited requests",high
+R0327,exclude,EC2,"fine-tuning language models with fewer than 10 billion parameters",high
+R0328,include,,"combines Large Language Models (LLMs) with Deep Reinforcement Learning (DRL)",medium
+R0329,exclude,EC3,"an autonomous AI-driven evolutionary red teaming system",high
+R0330,include,,"using Generative Artificial Intelligence (GenAI) and Reinforcement Learning (RL)",medium
+R0331,exclude,EC2,"trained several models on a dataset of 972 labeled IDS rules",high
+R0332,exclude,EC3,"maps the attack lifecycle to the cognitive Observe-Orient-Decide-Act loop of autonomous agents",high
+R0333,exclude,EC1,"integrating advanced deep learning, path planning, and GenAI-based cybersecurity",medium
+R0334,include,,"a multi-agent protocol based on an integrative multi-lateral negotiation algorithm",medium
+R0335,exclude,EC2,"The integration of RAG was then implemented",high
+R0336,include,,"a multi-agent collaborative decisionmaking framework for autonomous penetration testing",high
+END_CSV

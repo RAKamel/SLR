@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0740",
+  "study_type": "Systematic literature review following PRISMA 2020; five-dimensional taxonomy of 59 primary studies",
+  "RQ1 task_stage": "Threat intelligence, vulnerability assessment, DevSecOps and SOC automation, intrusion detection; penetration testing, incident response and forensics, compliance and risk assessment, phishing and social engineering",
+  "RQ1 domain": "Across the cybersecurity domain; SOCs, source code, network traffic, host logs, and running systems",
+  "RQ1 orientation": "Both defensive security tasks and penetration testing and red teaming",
+  "RQ2 architecture": "Reviews three single-agent and three multi-agent patterns; tool-calling, plan-and-execute, centralized/hierarchical, pipeline, and debate/consensus",
+  "RQ2 llm_used": "Claude 3.5 Sonnet for the review's AI-assisted screening consistency check, accessed April 2026",
+  "RQ2 adaptation": "Screening prompted with explicit inclusion and exclusion criteria; reviewed augmentation strategies include ICL, RAG, fine-tuning, and hybrid",
+  "RQ3 autonomy_level": "Screening tool returned proposed decisions, criteria, and supporting quotations; 52 of 59 reviewed studies coded fully automated",
+  "RQ3 hitl": "Lead author adjudicated inclusion decisions; no decision entered the review on AI output alone",
+  "RQ4 dataset": "59 primary studies published within the January 2022–April 2026 search window; full per-paper coding matrix",
+  "RQ4 environment": "Reviewed studies use public benchmarks and controlled experiments/test beds; no included study reports production deployment",
+  "RQ4 metrics": "Study counts and percentages across five classification dimensions; independent database-search recovery and estimated eligible-literature size",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "Penetration testing: 50.8%; single-agent tool-calling: 30.5%; centralized multi-agent orchestration: 18.6%; no production-grade E4 evaluation",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "Full query record, per-paper coding matrix, review protocol, and screening decisions stated as published with the paper; repository URL not stated in supplied text",
+  "RQ5 risks_addressed": "Hallucination, knowledge cutoff, prompt injection, adversarial fragility, and benchmark fragmentation",
+  "RQ5 mitigations": "Retrieval augmentation for recent knowledge; ontology-grounded extraction and iterative correction; neuro-symbolic verification and multi-agent debate",
+  "author_limitations (verbatim)": "Screening was performed by a single reviewer; no second reviewer independently re-screened a sample, so no inter-rater agreement statistic is reported. The review protocol was not registered prospectively with PROSPERO or OSF.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract; Sections 1–2.3 (scope, architecture, augmentation, risks); Sections 3.1–3.4 and Tables 3–4 (methods, screening, corpus, metrics, results, availability); Sections 4.1–4.2 (mitigations). Supplied text ends during Section 4.3; Sections 7–8 and Data Availability Statement are not supplied."
+}
+END_JSON

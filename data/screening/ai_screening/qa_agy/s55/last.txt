@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0703",
+    "QA1": "Y",
+    "QA1_quote": "We present a Human-AI Collaboration Framework that focuses on augmentation, teaming, and adaptive automation for SOC operations.",
+    "QA2": "P",
+    "QA2_quote": "the AI-Avatar, a refined ChatGPT-based LLM with RAG and knowledge graphs, operates in a simulated SOC",
+    "QA3": "P",
+    "QA3_quote": "The framework is exemplified through a simulated cyber range that features the cybersecurity AI-Avatar",
+    "QA4": "Y",
+    "QA4_quote": "Continuous model retraining, required to incorporate evolving threat intelligence, raises governance questions about responsibility and operational reliability."
+  }
+]
+END_JSON

@@ -1,0 +1,324 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0556",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0567",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0582",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0621",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0698",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0701",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0703",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  },
+  {
+    "id": "R0712",
+    "verdicts": {
+      "study_type": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 orientation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ1 task_stage": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 architecture": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ2 adaptation": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 code_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      },
+      "RQ4 data_available": {
+        "verdict": "agree",
+        "suggested": "",
+        "evidence": ""
+      }
+    }
+  }
+]
+END_JSON

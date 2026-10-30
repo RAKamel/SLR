@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0496",
+  "study_type": "Multi-agent framework with a case study",
+  "RQ1 task_stage": "Traffic simulation and cybersecurity testing; design and implementation of cyberattacks, countermeasure development, and impact evaluation",
+  "RQ1 domain": "Intelligent Transportation Systems; connected vehicle traffic",
+  "RQ1 orientation": "Both cyberattack and defense strategies",
+  "RQ2 architecture": "AutoGen multi-agent system; simulation, hacker, defender, and evaluator agents, with coordinated communication and iterative feedback",
+  "RQ2 llm_used": "ChatGPT and Deepseek APIs; versions not stated",
+  "RQ2 adaptation": "Task-specific prompts; iterative code generation for the defense agent",
+  "RQ3 autonomy_level": "Autonomously generate, test, and respond to complex traffic scenarios; generate simulation code and design attack and defense strategies",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "Simulated trajectories of five connected vehicles on a 5 km road, recorded at 0.1-second intervals",
+  "RQ4 environment": "LLM-generated Python IDM traffic simulation; Sioux network with single-lane links and all-way stop intersections",
+  "RQ4 metrics": "Mean total travel time; travel delay and percentage changes in travel time",
+  "RQ4 baseline_type": "Simulation scenarios without attack and with attack only",
+  "RQ4 headline_result": "Mean travel time increased from 167.2 s to 184.2 s under attack (10.2%); defense reduced it to 178.1 s (3.3% improvement over attack-only)",
+  "RQ4 compared_to": "Baseline (No Attack); Attack-Only",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Falsified vehicle speed, location, and link travel-time broadcasts causing emergency braking, congestion, and rerouting delays; errors in generated defense code",
+  "RQ5 mitigations": "Decentralized consensus averaging broadcasted and sensed data; consensus-based filtering rejecting outlier travel times; iterations until no error message",
+  "author_limitations (verbatim)": "The current simulation scenario is relatively simple. The current study focused on a simple cyberattack that modified broadcasted speed and location data.",
+  "author_future_work (verbatim)": "Future work should explore more complex scenarios and extend the simulation to other transportation sectors, such as transit, ports, and aviation.",
+  "evidence (page/section)": "Abstract; II. Methodology; III. Case Study; III.A.1 Data Description; III.A.2 Experiment; III.A.3 Experiment Results; Tables II–III; III.B Scenario 2: Sioux Network; III.C Discussions; IV. Conclusion"
+}
+END_JSON

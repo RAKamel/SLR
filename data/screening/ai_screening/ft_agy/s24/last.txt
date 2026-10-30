@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0485,include,,"a ReAct-based summary agent that synthesizes classification results with external threat intelligence",high
+R0496,exclude,EC4,"implement a defense mechanism that significantly mitigates traffic delays",high
+END_CSV

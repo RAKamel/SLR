@@ -1,0 +1,26 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0735",
+    "QA1": "Y",
+    "QA1_quote": "We organize the corpus along a four-pillar taxonomy",
+    "QA2": "P",
+    "QA2_quote": "comprising prompt templates for each action scope, reference single-agent ReAct and multi-agent coordination loops",
+    "QA3": "Y",
+    "QA3_quote": "the coded extraction matrix (corpus/extraction_matrix.csv, from which the quantified counts of Sections 5.3.4 and 8.2 derive)",
+    "QA4": "Y",
+    "QA4_quote": "we list its untested-in-production status among the limitations of this review."
+  },
+  {
+    "id": "R0759",
+    "QA1": "Y",
+    "QA1_quote": "Our goal is to provide a structured analysis of existing work, highlight key challenges, and discuss future research directions",
+    "QA2": "N",
+    "QA2_quote": "we assess the role of Generative AI and LLMs in enhancing CIP",
+    "QA3": "P",
+    "QA3_quote": "Searches were conducted using JSTOR (jstor.org) and Google Scholar using a combination of search methodologies.",
+    "QA4": "Y",
+    "QA4_quote": "practical deployment also requires addressing challenges such as model robustness, adversarial resistance, and integration with existing security frameworks."
+  }
+]
+END_JSON

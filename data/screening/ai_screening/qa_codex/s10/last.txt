@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0340",
+    "QA1": "Y",
+    "QA1_quote": "we propose an agentic AI-based framework designed to enforce security compliance",
+    "QA2": "P",
+    "QA2_quote": "Using LLMs along with a RAG pipeline, we can provide flexible and context-aware compliance reasoning.",
+    "QA3": "P",
+    "QA3_quote": "An initial case study demonstrates how an agent can assess configuration files for compliance",
+    "QA4": "Y",
+    "QA4_quote": "hallucinations may lead to false compliance reports"
+  },
+  {
+    "id": "R0347",
+    "QA1": "Y",
+    "QA1_quote": "We address this diagnostic gap by introducing CLASP (Closed-Loop Autonomous Security Performance), a capability-centric framework and vocabulary",
+    "QA2": "P",
+    "QA2_quote": "Structured rubrics that characterize both security function complexity",
+    "QA3": "P",
+    "QA3_quote": "Numerical reliability values below are provisional and will be replaced by the audited artifact at release.",
+    "QA4": "P",
+    "QA4_quote": "Time, tokens, tool calls, and safety gates must be enforced"
+  },
+  {
+    "id": "R0350",
+    "QA1": "Y",
+    "QA1_quote": "we propose the Intrusion Response System Digital Assistant (IRSDA), an integrated framework that connects both intrusion detection and automated intrusion response.",
+    "QA2": "P",
+    "QA2_quote": "This implementation employs the Python-based ADK [46]",
+    "QA3": "P",
+    "QA3_quote": "We demonstrate IRSDA through a case study of a microservices system",
+    "QA4": "P",
+    "QA4_quote": "To remain within the research scope, we do not address these adversarial scenarios."
+  }
+]
+END_JSON

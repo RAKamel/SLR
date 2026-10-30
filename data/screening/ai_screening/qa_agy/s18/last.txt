@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0249",
+    "QA1": "Y",
+    "QA1_quote": "We analyze state-of-the-art benchmarking approaches used to evaluate LLM-based penetration testing in the existing literature",
+    "QA2": "N",
+    "QA2_quote": "Recent developments in agentic methodologies and reasoning models have enhanced penetration testing automation by reducing task complexity",
+    "QA3": "Y",
+    "QA3_quote": "systematically mapping six prominent and emerging benchmarks to the MITRE ATT&CK Enterprise Matrix",
+    "QA4": "Y",
+    "QA4_quote": "Such mappings do not capture task interdependencies, regardless of whether complex scenarios are included."
+  }
+]
+END_JSON

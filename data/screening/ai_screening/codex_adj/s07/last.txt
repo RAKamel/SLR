@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0615,include,,"embed the AIGC repair engine into an automated ‘detection-repair-verification’ loop",high
+R0630,maybe,,"LLM-driven advancements in security vulnerability exploitation and validation",medium
+R0672,exclude,EC4,"automated threat modeling, explainable access control policy synthesis and enforcement, and continuous compliance monitoring",high
+R0681,include,,"implementing instant network segmentation configurations deduced from IoT sensor data and network telemetry data",medium
+R0692,maybe,,"integrating a Blue agent with live network observations, risk analytics, and interactive human decision support",high
+R0696,exclude,EC3,"Privileged-execution agents should therefore be designed as though each of these will occur.",high
+R0697,exclude,EC4,"how induced personality traits affect task selection processes-specifically planning, scheduling, and decision-making-in LLM-based agents",medium
+R0712,maybe,,"different LLMs for penetration-testing enterprise networks",medium
+R0717,maybe,,"Transformers and large language models for efficient intrusion detection systems: A comprehensive survey",high
+R0718,maybe,,"A survey of large language models for cyber threat detection",high
+R0721,maybe,,"This review explores the burgeoning landscape of LLM applications in cyber security",medium
+R0749,maybe,,"the application of LLMs to various cybersecurity tasks",high
+R0755,maybe,,"Next gen cybersecurity paradigm towards artificial general intelligence",high
+END_CSV

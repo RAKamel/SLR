@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0485",
+    "QA1": "Y",
+    "QA1_quote": "we propose a graph-based agentic framework that integrates ensemble machine learning for attack detection",
+    "QA2": "P",
+    "QA2_quote": "a ReAct-based summary agent that synthesizes classification results with external threat intelligence",
+    "QA3": "Y",
+    "QA3_quote": "Experimental validation on the ACI IoT Network Dataset 2023 demonstrates ensemble accuracy exceeding 99.8% across 11 attack classes",
+    "QA4": "P",
+    "QA4_quote": "Section 5 discusses our findings, system limitations, and future research directions."
+  }
+]
+END_JSON

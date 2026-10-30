@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0095",
+    "QA1": "Y",
+    "QA1_quote": "We therefore propose and evaluate RedTeamLLM, an integrated architecture with a comprehensive security model for automatization of pentest tasks.",
+    "QA2": "P",
+    "QA2_quote": "The RedTeamLLM implementation evaluated in this work is built around the ReACT analysis component.",
+    "QA3": "Y",
+    "QA3_quote": "The 5 selected use cases are embedded in virtual machines from the easy category.",
+    "QA4": "Y",
+    "QA4_quote": "the exploitation of Agentic AI for malicious operations is a key concern to the community"
+  }
+]
+END_JSON

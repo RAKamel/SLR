@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0365",
+  "study_type": "Ontology-guided AI agent with empirical evaluation and an ablation study",
+  "RQ1 task_stage": "Extract CTI from raw logs into ontology-compliant knowledge graphs; predict MITRE ATT&CK tactics from log sessions",
+  "RQ1 domain": "Cybersecurity system logs; Internet-exposed Cowrie SSH/Telnet honeypots in a campus network and Azure cloud",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "An AI agent combining hybrid example retrieval, LLM KG generation, iterative validation/correction, and session-level tactics prediction; Neo4j stores validated KGs for future retrieval",
+  "RQ2 llm_used": "Llama 3.3 (80B), Llama 3.1 (8B), Claude Sonnet 4, Claude 3.5 Haiku, Mistral Large (123B), gpt-oss (120B), gpt-oss (20B), Qwen3 Coder (32B)",
+  "RQ2 adaptation": "RAG with vector/full-text retrieval and MMR reranking; ontology-guided few-shot prompting, structured output/function calling, and targeted correction prompts",
+  "RQ3 autonomy_level": "Constructs KGs from raw log events without user intervention; automatically validates, corrects, stores graphs, and predicts session tactics",
+  "RQ3 hitl": "Manual gold-standard KG and tactic annotation and development-time prompt refinement; adapting to new ontologies requires manual curation and testing",
+  "RQ4 dataset": "70 manually annotated AIT log entries from the RussellMitchell testbed (10 prompting, 10 validation, 50 testing); Cowrie logs collected August 4–14, 2025 (1 example, 2 validation, 161 test sessions)",
+  "RQ4 environment": "AIT simulated benchmark logs; publicly exposed Cowrie honeypot serving two /28 networks at the Polytechnic University of Turin and Azure virtual machines",
+  "RQ4 metrics": "Construction Success Ratio, SHACL Violation Ratio, precision, recall, F1, Entity Linking Accuracy, Relationship Linking Accuracy, G-Eval Score, execution time; per-tactic precision, recall, F1",
+  "RQ4 baseline_type": "LLM pipeline ablations and comparisons across LLM backends; direct raw-log tactics prediction using the same LLM",
+  "RQ4 headline_result": "Claude Sonnet 4 achieves the strongest overall KG results with full and starter-set retrieval; Qwen3 Coder (32B) G-Eval peaks at 0.912 in simpler configurations",
+  "RQ4 compared_to": "Baseline without retrieval, structured output, or correction; retrieval only; structured output only; structured output with corrections; Claude Sonnet 4 predicting tactics directly from raw logs",
+  "RQ4 code_available": "yes + https://github.com/LucaCtt/ontologx",
+  "RQ4 data_available": "yes + https://zenodo.org/records/17251494",
+  "RQ5 risks_addressed": "Hallucinations and incomplete, malformed, or semantically inconsistent graphs; tool-call failures and occasional over-prediction of Discovery",
+  "RQ5 mitigations": "RAG, few-shot examples, ontology constraints, structured output, and syntactic/SHACL/semantic validation; up to three corrections, then an empty graph to prevent invalid knowledge-base entries",
+  "author_limitations (verbatim)": "Finally, OntoLogX has so far been evaluated on a limited number of datasets, primarily focusing on honeypot and benchmark logs.",
+  "author_future_work (verbatim)": "Broader validation across heterogeneous operational environments—such as enterprise networks, industrial systems, and cloud infrastructures—would further confirm its robustness and generalizability.",
+  "evidence (page/section)": "Study and availability: Abstract, §1 pp. 1–2; tasks, architecture, autonomy, adaptation, mitigations: §§3.1–3.6 pp. 5–9; models, environment, datasets, metrics, baselines: §§4–4.2.2 pp. 9–14; results and reliability risks: §§4.1.4, 4.2.3 pp. 11–15; limitations and further validation: §5 p. 15"
+}
+END_JSON

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0320",
+  "study_type": "Comprehensive evaluation of multiple LLM-based penetration testing agents; architectural intervention-based analysis",
+  "RQ1 task_stage": "Reconnaissance, Credential Attacks, Exploitation, Post-Exploitation, Man-in-the-Middle, Web Exploitation, and Active Directory Attacks",
+  "RQ1 domain": "CTF-style and traditional vulnerable machines; network, web, and Active Directory tasks",
+  "RQ1 orientation": "Offensive security",
+  "RQ2 architecture": "Single-agent and modular agents; reasoning, command generation and parsing modules, augmented with GCM, IAM, CCI, AP and RTM",
+  "RQ2 llm_used": "GPT-4, Claude, Gemini; PENTESTGPT, AUTOATTACKER and PENHEAL frameworks; specific versions not stated in supplied text",
+  "RQ2 adaptation": "Prompt templates; PENHEAL retrieval-augmented and counterfactual prompting; shared memory, structured messaging, invocation gating, adaptive replanning and runtime hooks",
+  "RQ3 autonomy_level": "Generate next actions and analyze tool or terminal feedback iteratively; structured, low-risk tasks such as reconnaissance may operate autonomously",
+  "RQ3 hitl": "Ethical hackers define objectives; human guidance and interventions during execution, with persistent oversight for high-risk or complex tasks",
+  "RQ4 dataset": "Curated penetration testing tasks drawn primarily from HackTheBox and Metasploitable",
+  "RQ4 environment": "Controlled lab testbed comprising CTF-style and traditional vulnerable machines across full attack lifecycles",
+  "RQ4 metrics": "Subtask Completion Rate (SCR), False Rate (FR), total user interactions, human interventions and knowledge level score",
+  "RQ4 baseline_type": "Single-agent LLMs and modular LLM agents; modular agents without targeted augmentations",
+  "RQ4 headline_result": "Adaptive Planning SCR improvements: AUTOATTACKER +27.1%, PENTESTGPT +11.0%, PENHEAL +20.3%; RTM average overall SCR improvement +5%",
+  "RQ4 compared_to": "GPT-4, Claude, Gemini, AUTOATTACKER, PENTESTGPT and PENHEAL",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Adversarial misuse and lowered barriers to sophisticated cyberattacks; hallucinated commands, tool misuse, looping, context loss and real-time responsiveness failures",
+  "RQ5 mitigations": "GCM, IAM, CCI, AP and RTM address observed failures; controlled lab evaluation and risk-dependent human oversight",
+  "author_limitations (verbatim)": "This paper focuses on penetration testing tasks drawn from Hack The Box and Metasploitable environments, which may not fully represent larger or more advanced enterprise networks. The specific LLM versions and configurations tested here are subject to ongoing updates, and newer models or specialized PT-oriented LLMs might exhibit different strengths.",
+  "author_future_work (verbatim)": "Future work should focus on embedding these capabilities more natively within agent architectures through persistent memory, inter-agent grounding, and temporal sensitivity to support robust and autonomous offensive security systems.",
+  "evidence (page/section)": "Abstract and §§1–2 (pp. 15879–15881): study, models, misuse; §3 and Figure 1 (p. 15881): architecture and workflow; §§4.1–4.3 (pp. 15881–15883): tasks, environment, metrics and comparisons; §5 (pp. 15883–15885): failures and prompting; §6 and Table 3 (pp. 15885–15886): augmentations and quantitative results; §7 (pp. 15886–15887): autonomy and oversight; §8 (p. 15887): future work; Limitations (p. 15888): limitations"
+}
+END_JSON

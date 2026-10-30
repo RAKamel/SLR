@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0477,include,,"an autonomous agent for network security operations empowered by an LLM",high
+R0478,exclude,EC4,"data validation challenges across two domains: Security Operations Centers (SOC) and Retrieval-Augmented Generation (RAG) pipelines",high
+R0479,include,,"We develop a novel LLM agent as an autonomous cyber defender",high
+R0480,include,,"hierarchical ReAct agents",high
+R0481,include,,"Agentic AI controls the information flow",high
+R0482,include,,"an LLM-based action masking strategy for autonomous cyber defense",high
+R0483,include,,"we investigate whether LLM agents can be used instead of RL agents to automate cyber defence",high
+R0484,include,,"compound LLM agent design in CybORG CAGE-2, a cyber defense environment",high
+R0485,include,,"a ReAct-based summary agent that synthesizes classification results with external threat intelligence",high
+R0486,exclude,EC4,"we explore the ethical aspect of Generative AI",high
+R0487,include,,"systematic evaluation of LLM-based defense agents",high
+R0488,exclude,EC3,"Boundary-Oriented Threat Models for Model Context Protocol (MCP)",high
+R0489,include,,"LLM-enhanced RL method that builds and queries a knowledge base",high
+R0490,exclude,EC2,"we introduce innovative cybersecurity operations using generative AI and cognitive security",high
+R0491,include,,"autonomous triage of high-volume alerts",high
+R0492,exclude,EC3,"multi-layer defense for LLM-generated SQL execution",high
+R0493,exclude,EC2,"a comparative analysis of large language models (LLMs) for detecting cyber attacks",high
+R0494,include,,"autonomous cyber defense agents",high
+R0495,exclude,EC3,"secure MCP-based AI agent pipelines in production Security Operations Centers",high
+R0496,include,,"a novel multi-agent framework leveraging Large Language Models (LLMs) to enhance traffic simulation and cybersecurity testing",high
+R0497,exclude,EC4,"Gamification Empowered by LLM-Based Agents: A Systematic Literature Review",high
+R0498,exclude,EC3,"a comprehensive survey of attacks against, and defenses of, the LLM-based agents",high
+R0499,include,,"designing highly plausible Deceptive Agents for proactive cyber defense strategies",high
+R0500,exclude,EC5,"This thesis starts from the hypothesis",high
+R0501,include,,"autonomously generates tailored bash scripts to dynamically reconfigure the honeypot's environment",high
+R0502,exclude,EC2,"We analyze the agent's decision-making using two complementary explainability techniques",high
+R0503,include,,"we examine the architectural shifts from single-model assistants to tool-augmented agents",high
+R0504,exclude,EC5,"This review surveys AI deployment in offensive and defensive roles",high
+END_CSV

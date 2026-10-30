@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0698",
+    "QA1": "Y",
+    "QA1_quote": "To address these limitations, we propose an AI-driven human-machine co-teaming approach that enhances SOC workflows through adaptive AI agents.",
+    "QA2": "P",
+    "QA2_quote": "We propose an LLM-based AI agent that acts as an apprentice to human SOC analysts",
+    "QA3": "P",
+    "QA3_quote": "Our framework would have significantly enhanced a SOC’s ability to detect and mitigate such attacks.",
+    "QA4": "Y",
+    "QA4_quote": "challenges remain, including trust in AI outputs, explainability, and continuous learning from SOC interactions."
+  }
+]
+END_JSON

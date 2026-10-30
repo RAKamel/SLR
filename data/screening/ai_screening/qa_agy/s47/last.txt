@@ -1,0 +1,3 @@
+BEGIN_JSON
+[{"id": "R0538", "QA1": "Y", "QA1_quote": "The goal of this Systematization of Knowledge (SoK) paper is to provide the necessary foundational understanding", "QA2": "P", "QA2_quote": "we identify an emerging canonical model for LLM-honeypots (Figure 1) that incorporates components for filtering, state management, and generation", "QA3": "Y", "QA3_quote": "introduce an evaluation tetrad— believability, fidelity, attacker cost, and defender cost—to enable rigorous comparative analysis", "QA4": "Y", "QA4_quote": "Even with LLM simulation, fundamental limitations will give these systems away to an intelligent adversary."}]
+END_JSON

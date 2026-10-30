@@ -1,0 +1,16 @@
+key,query,doi,status
+M3,doi:10.1136/bmj.n160,10.1136/bmj.n160,ok
+M4,doi:10.1145/2601248.2601268,10.1145/2601248.2601268,ok
+M5,doi:10.1016/j.infsof.2015.03.007,10.1016/j.infsof.2015.03.007,ok
+M6,doi:10.1016/j.jss.2006.07.009,10.1016/j.jss.2006.07.009,ok
+B1,title:A survey on large language model based autonomous agents,10.1007/s11704-024-40231-1,ok
+B2,title:The rise and potential of large language model based agents: a survey,10.1007/s11432-024-4222-0,ok
+B3,title:A Survey on the Memory Mechanism of Large Language Model-based Agents,10.1145/3748302,ok
+B4,title:Tool learning with large language models: a survey,10.1007/s11704-024-40678-2,ok
+B5,title:From language to action: a review of large language models as autonomous agents and tool users,10.1007/s10462-025-11471-9,ok
+B6,"title:Exploring Large Language Model-Based Intelligent Agents: Definitions, Methods, and Prospects",10.1002/widm.70111,ok
+B7,title:LLM-Based Agents for Tool Learning: A Survey,10.1007/s41019-025-00296-9,ok
+S9,title:The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies,10.1145/3773080,ok
+S10,"title:LLM-Based Agents for Cybersecurity: A Systematic Review of Architectures, Applications, and Open Challenges",10.3390/jcp6050159,ok
+S11,title:LLM-Based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery,10.1109/access.2026.3707573,ok
+S12,"title:AI-Driven Penetration Testing: A Survey of Autonomous Agents, LLM-Based Approaches, and Future Directions",10.1109/iccsdfai70505.2026.11648053,ok

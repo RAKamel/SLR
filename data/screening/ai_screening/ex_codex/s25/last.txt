@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0316",
+  "study_type": "Agentic AI framework with local micro-testbed and NS-3 evaluation",
+  "RQ1 task_stage": "Network monitoring, anomaly detection, threat classification, cross-node alert correlation and mitigation recommendations",
+  "RQ1 domain": "Distributed networks; edge deployments",
+  "RQ1 orientation": "System-wide defense",
+  "RQ2 architecture": "Autonomous node-level micro-agents with a central Controller; planner–tool executor execution loops, short-term memory, packet capture tools and LLM inference",
+  "RQ2 llm_used": "GPT-O3; Gemini Pro; BERT base-uncased",
+  "RQ2 adaptation": "Structured prompting of GPT-O3; semantic inference through remote LLM APIs or local BERT",
+  "RQ3 autonomy_level": "Continuously monitors metrics, triggers packet capture, classifies traffic and generates reports; correlates threats and identifies attackers and victims without manual inspection",
+  "RQ3 hitl": "Human operators view dashboards and interact through natural-language chatbot queries; approval or intervention requirements not stated",
+  "RQ4 dataset": "Locally captured network traffic; NS-3 simulated benign traffic and custom attack traffic",
+  "RQ4 environment": "Ubuntu 22.04 micro-testbed with controlled latency and bandwidth; NS-3 topology up to 50 nodes, with an eight-node DDoS evaluation",
+  "RQ4 metrics": "Detection latency, responsiveness under degraded conditions, accuracy and scalability; monitored latency, jitter, packet loss and throughput",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "Detection latencies under 5 seconds across repeated local tests; representative session classified as benign with 422 normal packets",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "yes https://github.com/pzambare3/NetMoniAI",
+  "RQ4 data_available": "yes https://github.com/pzambare3/NetMoniAI",
+  "RQ5 risks_addressed": "Intermittent connectivity, partial agent failure, delayed or missing updates, and inconsistent interpretation of evolving or distributed threats",
+  "RQ5 mitigations": "Local agent autonomy, advisory central coordination, execution monitoring, short-term memory for temporal consistency, and Pydantic schema validity",
+  "author_limitations (verbatim)": "Due to space constraints, only selected results are presented here; the complete experimental dataset and visualizations are available in the project’s GitHub repository.",
+  "author_future_work (verbatim)": "Future work will extend the framework with adaptive mitigation, multi-agent coordination, and SDN-based policy enforcement.",
+  "evidence (page/section)": "Abstract: framework, evaluation and code URL; I Introduction: tasks and autonomy; II.A–B and Tables I–II: architecture, human interfaces and reliability mechanisms; III.A–B and Table III: implementation, models and tools; III.C: environments, traffic scenarios and detection latency; IV opening: data availability and reporting limitation; IV.A: structured prompt and quantitative local results; IV.B: autonomous DDoS detection and mitigation recommendations; IV.C Conclusion: future work."
+}
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0321,exclude,EC4,"Security Risks in AI-Generated Code: A Comparative Analysis of Industry and Academic Benchmarks",high
+R0322,include,,"LLM-Based Multi-Agent Autonomous Penetration Testing with Curriculum-Guided Task Scheduling",high
+R0323,exclude,EC3,"current LLM safety guardrails, including refusal mechanisms and content filters, are ineffective",high
+R0324,exclude,EC4,"predictive infrastructure management and autonomous deployment operations in heterogeneous multi-cloud settings",high
+R0325,include,,"hierarchical multi-agent AI framework for automated cybersecurity assessment with human-understandable explanations",high
+R0326,exclude,EC3,"Jailbreaking Large Language Models via Contextual Deception",high
+R0327,exclude,EC2,"instructional dataset for penetration testing that integrates theoretical and practical knowledge",high
+R0328,include,,"proactive defense framework that combines Large Language Models (LLMs) with Deep Reinforcement Learning",high
+R0329,exclude,EC3,"uncover safety vulnerabilities in 7-billion-parameter aligned LLMs",high
+R0330,include,,"self-directed automated cloud security system through Zero Trust Architecture (ZTA), using Generative Artificial Intelligence",high
+END_CSV

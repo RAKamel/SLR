@@ -1,0 +1,19 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0311",
+    "QA2": "P",
+    "QA2_quote": "full replication would require access to the custom-developed test applications and specific tool configurations used in the experiments."
+  },
+  {
+    "id": "R0315",
+    "QA3": "P",
+    "QA3_quote": "our testing has been limited to the Metasploitable2 machine, without the opportunity for broader experimentation."
+  },
+  {
+    "id": "R0316",
+    "QA2": "P",
+    "QA2_quote": "submitted features to the GPT-O3 language model via a structured prompt."
+  }
+]
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0761,exclude,EC2,"chatbots in binary classification and Named Entity Recognition (NER) tasks",high
+R0762,exclude,EC2,"novel system that employs LLMs to identify phishing sites",high
+R0763,exclude,EC1,"employing different deep models (including CNN-based and LSTM-based)",high
+R0764,exclude,EC2,"transformer-based models BERT and RoBERTa achieve the highest detection accuracies",high
+R0765,exclude,EC4,"application of LLMs in the networking domain",high
+R0766,exclude,EC1,"overview of Generative Artificial Intelligence-based existing solutions",high
+R0767,exclude,EC1,"study seven categories of algorithms for Network Intrusion Detection based on Network Flows",high
+R0768,exclude,EC1,"Machine learning algorithms are crucial in this endeavor",high
+R0769,exclude,EC2,"practical potential of open-source LLMs for phishing detection",high
+R0770,exclude,EC2,"study the potential black-box use of LLM chatbots as a support tool",high
+END_CSV

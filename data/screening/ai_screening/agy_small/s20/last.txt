@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0191,include,,"a locally deployed multiagent prototype for threat hunting using AI agents",high
+R0192,exclude,EC1,"The growing rise in the size of Large Language Models (LLMs) has amplified risks",high
+R0193,include,,"leverages the reasoning capabilities of Large Language Models (LLMs) to autonomously investigate cyberattacks",high
+R0194,exclude,EC4,"A Comparative Framework Across Five Domains",high
+R0195,exclude,EC3,"a blackbox red-teaming framework for attacking web agents",high
+R0196,exclude,EC2,"GAI reduces manual effort by automating key tasks, such as dynamic payload generation",high
+R0197,include,,"Large Language Model-enhanced Autonomous Reinforcement Learning Penetration Testing framework",high
+R0198,exclude,EC4,"Strategies to govern the imperative of artificial intelligence in payment systems",high
+R0199,exclude,EC4,"tutoring strategy for personalized education",high
+R0200,include,,"collaborate to improve detection and remediation",high
+END_CSV

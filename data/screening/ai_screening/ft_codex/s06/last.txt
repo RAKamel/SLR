@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0340,include,,"generate explainable justifications, and propose automated remediation if needed.",high
+R0347,include,,"planning, tool use, memory, reasoning, reflection & perception",high
+R0350,include,,"automated response via iterative agentic orchestration, a property graph knowledge base, and a cybersecurity-tuned LLM.",high
+R0363,include,,"AI agent‑based orchestration structure that controls the incident analysis process",high
+R0365,include,,"OntoLogX integrates a lightweight log ontology with Retrieval Augmented Generation (RAG) and iterative correction steps",high
+R0371,include,,"we experiment with skills aimed at running cyber security tools and processing their output",high
+END_CSV

@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0039",
+    "QA1": "Y",
+    "QA1_quote": "This study evaluates the ability of GPT-4o to autonomously solve beginner-level offensive security tasks",
+    "QA2": "Y",
+    "QA2_quote": "In order to connect GPT-4o to the Bandit CTF, a Python 3 script utilizes the Paramiko [10] library",
+    "QA3": "P",
+    "QA3_quote": "The objective of this study was not to determine which LLM is the best",
+    "QA4": "Y",
+    "QA4_quote": "These limitations highlight current architectural deficiencies rather than a lack of general exploit knowledge."
+  }
+]
+END_JSON

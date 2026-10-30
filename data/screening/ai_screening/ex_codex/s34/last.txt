@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0384",
+  "study_type": "Penetration testing and vulnerability risk assessment framework with semi-automated experimental validation",
+  "RQ1 task_stage": "Planning, vulnerability discovery, analysis, exploitation, reporting and remediation; vulnerability risk assessment",
+  "RQ1 domain": "Satellite networks: space, ground and user segments; experiments focused on a simulated ground station",
+  "RQ1 orientation": "Offensive strategies to evaluate system vulnerabilities",
+  "RQ2 architecture": "Semi-automatic LLM-assisted workflow: Nmap results to structured JSON exploit paths and Metasploit commands; subsequent interactions generate post-compromise commands and reports",
+  "RQ2 llm_used": "OpenAI GPT-4 through Azure API, 32K context window; DeepSeek-R1",
+  "RQ2 adaptation": "Prompt engineering, role-playing prompt templates and structured JSON outputs",
+  "RQ3 autonomy_level": "Automatically analyzes potential port vulnerabilities and generates executable attack commands; generates penetration-testing reports and remediation suggestions",
+  "RQ3 hitl": "Human oversight for decision-making and targeted interventions; testers submit scan results and copy generated commands into the CLI",
+  "RQ4 dataset": "Nmap full TCP scan results from Metasploitable: 23 open ports",
+  "RQ4 environment": "Kali Linux 2024.02 attacking virtual machine and Metasploitable target virtual machine simulating a satellite ground station",
+  "RQ4 metrics": "Penetration-test success rate; average number of interaction rounds with LLMs",
+  "RQ4 baseline_type": "Comparison between LLMs; qualitative comparisons with traditional Metasploit workflows and CVSS risk assessment",
+  "RQ4 headline_result": "73.3% success rate (22/30 attempts), averaging 5.5 human interactions per test",
+  "RQ4 compared_to": "GPT-4 and DeepSeek-R1; traditional Metasploit workflows; CVSS",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "LLM jailbreaking and security-policy bypass; unintended service disruption, sensitive-data leakage and legally noncompliant outputs",
+  "RQ5 mitigations": "Simulated exploitation environments; role-based pre-interaction prompts, technical wording and sensitive-word substitution to support ethical and regulatory compliance",
+  "author_limitations (verbatim)": "First, while the Metasploitable environment provided a controlled platform for initial validation, its generic nature imposes limitations on extrapolating results to operational satellite systems.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Study and tasks: Abstract, §§1.3, 2.3, 3; domain and orientation: §§1.2, 2.1, 4; architecture, adaptation and human involvement: §§2.2, 4.2, Tables 5 and 7; models and metrics: §4.1; dataset, environment and results: §4.2, Tables 6 and 8; CVSS comparison: §3.2; risks and mitigations: §§2.2–2.3, 4.2; limitations: §5.1, p. 18. Supplied text ends during §5.1; future work and availability statements are not present."
+}
+END_JSON

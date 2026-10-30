@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0621",
+    "QA1": "Y",
+    "QA1_quote": "apply it to an incident response use case where the goal is to generate a response and recovery plan",
+    "QA2": "P",
+    "QA2_quote": "our framework integrates the LLM within an iterative loop where it is used to generate candidate actions",
+    "QA3": "P",
+    "QA3_quote": "Experiments on four public datasets show that our framework reduces recovery times by up to 30% compared to frontier LLMs.",
+    "QA4": "P",
+    "QA4_quote": "the consistency threshold γ controls a tradeoff between the hallucination risk and the cost of feedback collection."
+  }
+]
+END_JSON

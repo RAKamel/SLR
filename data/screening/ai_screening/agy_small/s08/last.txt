@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0071,exclude,EC4,"use of LLMs for ethical hacking education",high
+R0072,exclude,EC3,"Securing Multiagent GIS Systems: Risk Evaluation and Prompt Hardening Optimization",high
+R0073,exclude,EC2,"integration of generative AI (GenAI) tools, like ChatGPT, into the practice of ethical hacking",high
+R0074,include,,"novel real-time multi-agent IoT threat mitigation and recommendation system that integrates large language models",high
+R0075,include,,"Multi-Agent Cognitive Council (Tier 2) powered by Large Language Models (LLMs)",high
+R0076,exclude,EC2,"VTIF features a threat detection rule algorithm that automates the identification of cyber threats",high
+R0077,exclude,EC2,"LLM-based pipeline that transforms analyst prompts and representative payloads into deployable rules",high
+R0078,include,,"MRE-Guard, a dual-agent collaborative detection framework",high
+R0079,include,,"governance-integrated AI agents enhanced the vulnerability coverage by 40%",high
+R0080,exclude,EC2,"uses transformer-based designs like BERT and GPT to figure out what words imply",high
+END_CSV

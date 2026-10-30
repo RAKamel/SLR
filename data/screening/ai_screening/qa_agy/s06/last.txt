@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0070",
+    "QA1": "Y",
+    "QA1_quote": "To address these limitations, we propose a knowledge-informed, self-reflective PT framework powered by LLMs, called RefPentester.",
+    "QA2": "P",
+    "QA2_quote": "The proposed RefPentester framework consists of five components: Process Navigator, Generator, Reflector, Success Log, and Failure Log",
+    "QA3": "P",
+    "QA3_quote": "We conducted three experiments on the Sau machine from HTB as a case study.",
+    "QA4": "P",
+    "QA4_quote": "In the future, our research should focus on testing our framework in different experimental environments."
+  }
+]
+END_JSON

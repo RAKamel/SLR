@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0591,exclude,EC1,"building secure variable frequency drives and in extension best practices for developing secure components",high
+R0592,exclude,EC4,"incorporating security into an SoC design flow poses significant challenges",high
+R0593,exclude,EC2,"Net-GPT produces context-aligned network packets",high
+R0594,exclude,EC2,"automated, large language model based querying to investigate medium to high interaction honeypots",high
+R0595,exclude,EC1,"threat detection system which brings together adversarial training and deep learning models (CNN-LSTM)",high
+R0596,exclude,EC2,"Retrieval-Augmented Generation (RAG) systems for grounding LLMs with cybersecurity knowledge",high
+R0597,exclude,EC4,"Automating Cyber Risk Assessment With Public LLMs",high
+R0598,exclude,EC4,"complete solution for instant trade settlement in the US market",high
+R0599,exclude,EC1,"presents a focused perspective on the evolving SaaS security landscape in the software industry",high
+R0600,include,,"transforms opaque alerts into transparent, evidence-backed mitigation plans",high
+END_CSV

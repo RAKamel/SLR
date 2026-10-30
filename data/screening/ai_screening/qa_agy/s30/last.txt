@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0350",
+    "QA1": "Y",
+    "QA1_quote": "We introduce Intrusion Response System Digital Assistant (IRSDA), a modular framework that integrates intrusion detection with automated response",
+    "QA2": "P",
+    "QA2_quote": "This implementation employs the Python-based ADK [46], in which a root agent serves as the central agentic brain",
+    "QA3": "P",
+    "QA3_quote": "We demonstrate IRSDA through a case study of a microservices system, showcasing an end-to-end workflow",
+    "QA4": "P",
+    "QA4_quote": "To remain within the research scope, we do not address these adversarial scenarios."
+  }
+]
+END_JSON

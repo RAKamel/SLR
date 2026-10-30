@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0051,include,,"autonomously conduct penetration testing without human intervention",high
+R0052,exclude,EC4,"advances proactive regulatory technology by enabling scalable analysis",high
+R0053,exclude,EC2,"generate mitigation reports with remediation order and mitigation procedures",medium
+R0054,exclude,EC2,"Adaptive Few-shot Generator for robust query generation",high
+R0055,exclude,EC3,"method for threat detection in MASs that does not require any training",high
+R0056,exclude,EC2,"providing dynamic, context-aware suggestions across critical stages",high
+R0057,include,,"automatically conducts pentesting steps using common security tools in an iterative process",high
+R0058,include,,"evaluate different LLM-powered agent architectures, equipping them with essential forensic tools",high
+R0059,include,,"multi-agent architecture in which four large language model (LLM) agents",high
+R0060,include,,"specialized multi-Agent architecture, in which dedicated AI agents",high
+END_CSV

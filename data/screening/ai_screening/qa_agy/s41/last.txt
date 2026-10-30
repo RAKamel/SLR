@@ -1,0 +1,3 @@
+BEGIN_JSON
+[{"id": "R0477", "QA1": "Y", "QA1_quote": "this paper introduces ChatSOC, an autonomous agent for network security operations empowered by an LLM", "QA2": "P", "QA2_quote": "We have adopted chain-of-thought techniques to create prompts for task planning using large language models (LLMs).", "QA3": "P", "QA3_quote": "the operational time decreases from several hours to minutes;", "QA4": "N", "QA4_quote": "In the future, we will conduct research on automated API integration."}]
+END_JSON

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0208",
+  "study_type": "Large-scale, real-world evaluation of an operational LLM-powered scambaiting system",
+  "RQ1 task_stage": "Engage scammers by impersonating victims; extract actionable threat intelligence, including mule bank accounts and cryptocurrency wallet addresses",
+  "RQ1 domain": "Real-world scam email exchanges",
+  "RQ1 orientation": "Defensive; proactive active defense against scams",
+  "RQ2 architecture": "Single-prompt architecture generating the next response; ten defender identities, predefined personas, threaded-email UI, Messages DB, email gateway and human review loop",
+  "RQ2 llm_used": "ChatGPT-based model; version not stated",
+  "RQ2 adaptation": "Prompting with predefined victim personas; prompt templates and response strategies evolved during deployment",
+  "RQ3 autonomy_level": "Mode I autonomously generated all responses, sent without edits after manual human review; Mode II generated suggestions for optional human editing",
+  "RQ3 hitl": "Human review before sending in both modes; optional editing in Mode II and expert intervention in high-stakes or ambiguous exchanges",
+  "RQ4 dataset": "Production message-database dump: 18,797 messages across 2,638 seeded engagements with scammers and ten defender identities",
+  "RQ4 environment": "Live deployed email scambaiting platform over five months and five days; 120 days LLM-only and 34 days LLM + HITL",
+  "RQ4 metrics": "Information Disclosure Rate, Information Disclosure Speed, Human Acceptance Rate, Average Edit Distance, Message Freshness, Takeoff Ratio, Engagement Endurance, Response Invocation",
+  "RQ4 baseline_type": "LLM-only configuration as baseline for assessing human intervention",
+  "RQ4 headline_result": "IDR: 17.66% across seeded engagements and 31.74% across matured engagements; HAR: 69.02%; takeoff ratio: 48.7%",
+  "RQ4 compared_to": "Mode I: LLM-Only versus Mode II: LLM with Human-in-the-Loop (LLM + HITL)",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Legal and ethical considerations, entrapment and privacy; response coherence, appropriateness, operational safety and detection by scammers through repetitive templates",
+  "RQ5 mitigations": "Human review before sending; known-scammer addresses sourced through spam honeypots and scambaiting platforms, lawful data handling and responsible intelligence sharing",
+  "author_limitations (verbatim)": "Although templates accelerate response generation, overuse reduces novelty and may risk early detection by scammers.",
+  "author_future_work (verbatim)": "Future work will delve deeper into the nuanced dialogue dynamics to explicitly capture state transitions and their predictive value in scammer behavior modeling.",
+  "evidence (page/section)": "Study/task/domain/orientation: Abstract, I Introduction; architecture/model/prompting/oversight: III System Overview, Figure 1; autonomy/baseline/dataset/environment: IV-A Data Collection, IV-B Overall Statistics, Table II; ethics/mitigations: IV-C Legality and Ethics of Data; metrics: V-A–C, Table III; results: VI-A1, VI-B1, VI-C1, Table IV; limitations: VII Insight IV; future work: VIII Conclusion and Future Work; code/data availability: not stated"
+}
+END_JSON

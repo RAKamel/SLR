@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0411,exclude,EC4,"Modern IT operations face unprecedented complexity due to hybrid cloud architectures",high
+R0412,exclude,EC3,"defense framework using deception and counterattacks to exploit LLM weaknesses",high
+R0413,exclude,EC2,"LLMs can generate accurate commands and support non-expert users throughout the penetration testing lifecycle",high
+R0414,exclude,EC2,"Large Language Model (LLM) dedicated specifically towards cybersecurity",high
+R0415,exclude,EC1,"incorporates a Conditional Generative Adversarial Network (cGAN) with the optimized XGBoost model",high
+R0416,include,,"novel framework for penetration testing automation using Large Language Model (LLM)-powered agents",high
+R0417,exclude,EC2,"automatically generate generic-signature detection rule candidates from textual and visual OSCTI data",high
+R0418,include,,"Large Language Model (LLM) defender that applies state-of-the-art models with prompt-based decision making",high
+R0419,exclude,EC2,"improves the accuracy and explainability of information extraction from cybersecurity logs",medium
+R0420,include,,"reviews the use of artificial intelligence specifically agentic, large language model (LLM)-augmented systems",high
+END_CSV

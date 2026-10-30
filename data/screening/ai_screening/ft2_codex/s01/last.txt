@@ -1,0 +1,4 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0014,include,,"LLM-driven autonomous agents capable of performing specialized tasks such as web application testing",high
+END_CSV

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0556",
+  "study_type": "Multi-agent large language model debate framework with experiments on five benchmark phishing datasets",
+  "RQ1 task_stage": "Phishing email detection; binary classification as phishing or legitimate",
+  "RQ1 domain": "Email content",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "Two LLM debater agents arguing opposing positions over two scripted rounds; third judge agent evaluates four logged arguments and issues a verdict with reasoning",
+  "RQ2 llm_used": "GPT-4; LLaMA-2",
+  "RQ2 adaptation": "Template prompting; chain-of-thought prompting, role prompting, and their combination evaluated",
+  "RQ3 autonomy_level": "Executes the two-round debate for each email and produces a final binary classification with justification",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "University of Twente, Ling, Nazario 5, Nigerian Fraud, SpamAssassin; 12,798 filtered emails (6,475 ham, 6,323 phishing)",
+  "RQ4 environment": "Experiments on five filtered email datasets",
+  "RQ4 metrics": "Classification accuracy; F1 score",
+  "RQ4 baseline_type": "Homogeneous and heterogeneous LLM debate configurations; prompting variants",
+  "RQ4 headline_result": "GPT-4–LLaMA-2–GPT-4 achieved highest accuracy on four of five datasets: UoT 98.91%, Ling 99.43%, Nazario 5 99.02%, Nigerian Fraud 99.27%",
+  "RQ4 compared_to": "GPT-4–GPT-4–GPT-4; LLaMA-2–LLaMA-2–LLaMA-2; LLaMA-2–GPT-4–GPT-4; GPT-4–LLaMA-2–GPT-4 with CoT, Role, or CoT-Role",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Single-agent confirmation bias and failure to explore alternative interpretations; agents echoing each other",
+  "RQ5 mitigations": "Structured debate with opposing stances and judge evaluation; role prompting anchors agents in distinct roles to prevent echoing",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract and I. Introduction: framework, task, confirmation bias; III. Datasets and Table I: datasets and filtering; IV-A. Multi-Agent Debate Framework: agent roles, rounds, logging and verdict; IV-B. Synergy with Prompt Engineering Techniques: prompting and echoing mitigation; V. Experiments and Table II: models, comparisons, metrics and results; VI. Conclusion: principal findings"
+}
+END_JSON

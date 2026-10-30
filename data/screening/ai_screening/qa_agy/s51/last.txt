@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0582",
+    "QA1": "Y",
+    "QA1_quote": "(RQ1) To what degree can the proposed agentic approach for alert investigation correctly query and perform operations",
+    "QA2": "Y",
+    "QA2_quote": "All prompts and queries used in the experiments are available on GitHub2.",
+    "QA3": "Y",
+    "QA3_quote": "The workflow demonstrated a significant improvement over the simpler baseline.",
+    "QA4": "Y",
+    "QA4_quote": "Our initial evaluation utilised a limited data representing a single attack scenario with a narrow, imagined alert."
+  }
+]
+END_JSON

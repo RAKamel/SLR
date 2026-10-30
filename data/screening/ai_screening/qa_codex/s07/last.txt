@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0276",
+    "QA1": "Y",
+    "QA1_quote": "Is an automated LLM-driven assumed breach simulation a feasible and effective approach for compromising enterprise networks?",
+    "QA2": "P",
+    "QA2_quote": "There were challenges in comprehensive information transfer between the high-level Planner and low-level Executor modules",
+    "QA3": "Y",
+    "QA3_quote": "Reasoning LLMs compromised substantially more accounts and generated more leads compared to non-reasoning models",
+    "QA4": "Y",
+    "QA4_quote": "Instances of LLMs ignoring explicit safety instructions"
+  },
+  {
+    "id": "R0284",
+    "QA1": "Y",
+    "QA1_quote": "The primary objective is to address the structural operational cost crisis in modern SOCs",
+    "QA2": "P",
+    "QA2_quote": "a formal algorithmic specification of a three-layer agentic AI architecture including three pseudocode procedures and a PPO state-action-reward formalism",
+    "QA3": "Y",
+    "QA3_quote": "seven benchmark systems across four dimensions (threat coverage breadth, integration completeness, cost quantification, and adversarial safeguards)",
+    "QA4": "Y",
+    "QA4_quote": "the independence assumption underlying the workload-reduction projection may be violated in the presence of zero-day attacks"
+  },
+  {
+    "id": "R0295",
+    "QA1": "Y",
+    "QA1_quote": "The task addressed is to improve the efficiency and speed of automated incident response",
+    "QA2": "P",
+    "QA2_quote": "transmitting to the stochastic contour of the gemini-2.5-flash model an exclusively concentrated semantic package of 6 critical events",
+    "QA3": "P",
+    "QA3_quote": "empirical verification was carried out on fixed file samples, and not on a real streaming stream of network traffic",
+    "QA4": "Y",
+    "QA4_quote": "our work did not consider the issue of protecting the designed system itself"
+  }
+]
+END_JSON

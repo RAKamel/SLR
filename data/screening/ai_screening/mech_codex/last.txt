@@ -1,0 +1,14 @@
+Generated and verified 61 QA rows and seven frequency tables. Missing citation keys: none.
+
+`R0025_2025` lacks an author; displayed as a dash. The preamble lacks `longtable`; left unchanged.
+
+Created:
+
+- [scripts/make_tables.py](scripts/make_tables.py)
+- [paper/tables/coded_counts.tex](paper/tables/coded_counts.tex)
+
+Regenerated:
+
+- [paper/sections/appendix-qa-scores.tex](paper/sections/appendix-qa-scores.tex)
+
+No other files edited.

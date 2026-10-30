@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0528",
+    "QA1": "Y",
+    "QA1_quote": "This work introduces a Neuro-Agentic control framework that achieves physics-grounded, agentic control in industrial IoT settings",
+    "QA2": "Y",
+    "QA2_quote": "The Architect Gemini 2.5 Flash-Lite, upon triggers, receives a prompt containing the recent sensor trend",
+    "QA3": "Y",
+    "QA3_quote": "showing improved breach prevention and risk reduction compared to LSTM- and TCN models in stochastic attack scenarios.",
+    "QA4": "Y",
+    "QA4_quote": "It approximates first-order valve/pump effects, but does not capture nonlinearities such as inflow coupling, hydraulic transients, or sensor lag"
+  }
+]
+END_JSON

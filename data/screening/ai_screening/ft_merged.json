@@ -1,0 +1,990 @@
+{
+ "A": {
+  "R0007": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "providing intelligent, real-time feedback, natural language threat explanations, and adaptive learning support during training exercises",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0025": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "automated anomaly investigation, and adaptive optimization of FL parameters",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0028": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "enables agents to issue retrieval queries and incorporate external evidence during collaborative investigations",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0039": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomously solve beginner-level offensive security tasks by connecting the model to OverTheWire\u2019s Bandit capture-the-flag game",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0040": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Incalmo uses LLMs to plan red team exercises in terms of high-level declarative tasks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0044": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "integrates blockchain-based evidence integrity, statistical anomaly detection, machine learning, large language models, and autonomous AI agents",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0057": {
+   "decision": "exclude",
+   "ec": "EC5",
+   "evidence": "may be revised following the review process",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0070": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "reflecting on and learning from previous failed operations",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0075": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "our architecture uses agents for conflict resolution",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0095": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "RedTeamLLM follows three key steps: summarizing, reasoning and act",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0097": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a fully automated LLM-driven prototype designed for evaluating autonomous Linux privilegeescalation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0139": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Our framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0156": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "MACD deploys three expert agents for technical defense, kill chain phase analysis, and APT profiling",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0174": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomous LLM agents capable of dynamically generating, adapting, and executing contextual playbooks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0197": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "framework leverages the domain knowledge embedded in a Large Language Model (LLM) to perform tactical planning",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0200": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Identified issues are categorized using CWE, then used to prompt targeted LLM-generated patches",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0208": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "using conversational honeypots to engage scammers and extract actionable threat intelligence",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0210": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "The framework establishes a coordinated defense loop composed of three specialized agents",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0223": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "we propose RulePilot, which mimics human expertise via LLM-based agent",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0237": {
+   "decision": "uncertain",
+   "ec": "",
+   "evidence": "the tool demonstrated the ability to integrate with popular penetration test tools",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0249": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We analyze state-of-the-art benchmarking approaches used to evaluate LLM-based penetration testing",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0276": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "automatically installing missing tools and rectifying invalid command generations",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0284": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a cooperative three-layer multi-agent architecture",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0295": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "operates on the basis of decentralized coalition auctions and a hybrid risk analysis subsystem",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0309": {
+   "decision": "uncertain",
+   "ec": "",
+   "evidence": "a multi-agent language model architecture for log analysis",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0311": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "implementing a Reasoning-Acting (ReAct) loop for autonomous testing",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0315": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a two-stage LLM-based framework designed to autonomously identify and mitigate security vulnerabilities",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0316": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "an execution loop composed of the Planner, Tool Executor, and Communication Module",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0320": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "multiple LLM-based agents, ranging from singular to modular designs, across realistic penetration testing scenarios",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0322": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "CurriculumPT combines curriculum learning and a multi-agent system to enable LLM agents",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0340": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "generate explainable justifications, and propose automated remediation if needed.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0347": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "planning, tool use, memory, reasoning, reflection & perception",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0350": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "automated response via iterative agentic orchestration, a property graph knowledge base, and a cybersecurity-tuned LLM.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0363": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "AI agent\u2011based orchestration structure that controls the incident analysis process",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0365": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "OntoLogX integrates a lightweight log ontology with Retrieval Augmented Generation (RAG) and iterative correction steps",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0371": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "we experiment with skills aimed at running cyber security tools and processing their output",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0384": {
+   "decision": "uncertain",
+   "ec": "",
+   "evidence": "SatGuard enables semi-automated vulnerability analysis and exploitation.",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0409": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "we implemented a closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0427": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "recursive investigation capabilities enabled by a planning-capable LLM agent.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0440": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Our agent can autonomously train the LoRA adapters, search online documentation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0447": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "an iterative retrieval-and-reason loop that queries a domain-specific knowledge base",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0448": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a multi-agent approach of summarizing content, updating task lists",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0451": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We examine how ACD teams of LLM and RL agents can interact",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0477": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "ChatSOC streamlines these operations by dynamically planning and executing tasks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0480": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0484": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "compound LLM agent defending a network in the CybORG CAGE-2 POMDP",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0485": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a ReAct-based summary agent that synthesizes classification results with external threat intelligence",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0496": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "The framework automates the creation of traffic scenarios, the design of cyberattack strategies",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0528": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "couples an LLM-based planner (i.e., such as Gemini 2.5 Flash-Lite)",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0538": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We systematize honeypot log analysis, charting the \u201csemantic leap\u201d from simple data reduction to the automated, agent-driven operationalization.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0541": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "each agent uses LLM-driven reasoning and dynamic tool invocation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0556": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "After two rounds of argument exchange, a judge agent evaluates the debate",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0567": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "an Analyst agent for impact and exploitation assessment",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0582": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "the LLMs have some autonomy in selecting actions and interpreting the results",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0621": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Our framework integrates the LLM in an iterative loop where it generates candidate actions",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0698": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "LLM-based AI agents learn from human analysts the tacit knowledge embedded in SOC operations",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0701": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a ReAct-style executor issues commands over SSH and self-corrects based on command outputs",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0703": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "five levels of AI autonomy from manual to fully autonomous",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0712": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomously conducts complex penetration-tests on live enterprise networks",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0717": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "utilization of Transformers and LLMs in cyber-threat detection systems",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0730": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "execute relevant security commands and adapt its testing strategies accordingly",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0735": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "wrap LLM reasoning in perception, planning, memory, tool-use, and multi-agent communication loops",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0740": {
+   "decision": "uncertain",
+   "ec": "",
+   "evidence": "Rising application of AI in EU banking and payments sector",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0756": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "fine-tuning of LLMs using sequence classification, a supervised classification method",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0759": {
+   "decision": "uncertain",
+   "ec": "",
+   "evidence": "present insights on applying Agentic AI for proactive defense mechanisms",
+   "conf": "medium",
+   "words_ok": true
+  }
+ },
+ "B": {
+  "R0007": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "enhance cybersecurity education and operational readiness",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0025": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "enabling prompt-driven analytics for real-time intrusion detection",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0028": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0039": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "The approach often produced the correct command in one shot",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0040": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "an LLM-assisted system for autonomously red teaming multi-host networks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0044": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "large language models, and autonomous AI agents to enable intelligent attack detection and response",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0057": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "we propose a novel LLM agent-based framework, AutoPentester, which automates the pentesting process.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0070": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "we propose a knowledge-informed, self-reflective PT framework powered by LLMs, called RefPentester.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0075": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Multi-Agent Cognitive Council (Tier 2) powered by Large Language Models (LLMs)",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0095": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "automatization of pentest tasks. RedTeamLLM follows three key steps: summarizing, reasoning and act",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0097": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "introduce hackingBuddyGPT, a fully automated LLM-driven prototype designed for evaluating autonomous Linux privilegeescalation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0139": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Our framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0156": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "orchestrates specialized AI agents to generate ATT&CK-aligned defense strategies",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0174": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomous LLM agents capable of dynamically generating, adapting, and executing contextual playbooks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0197": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "LLM-Augmented Reinforcement Learning Framework for Autonomous Penetration Testing",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0200": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "combines LLM-based firmware generation with automated security validation and iterative refinement",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0208": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "using conversational honeypots to engage scammers and extract actionable threat intelligence",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0210": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "coordinated defense loop composed of three specialized agents",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0223": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "our RulePilot can automatically generate the detection rules without more intervention",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0237": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "provision of interactive support to specialists during the testing process",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0249": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We analyze state-of-the-art benchmarking approaches used to evaluate LLM-based penetration testing",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0276": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "first demonstration of a fully autonomous, LLM-driven framework capable of compromising accounts",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0284": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "three-layer agentic AI framework that integrates semantic alert triage, adaptive reinforcement-learning response",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0295": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "automated generation of expert reports in the state language",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0309": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a multi-agent language model architecture for log analysis",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0311": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "implementing a Reasoning-Acting (ReAct) loop for autonomous testing",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0315": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a two-stage LLM-based framework designed to autonomously identify and mitigate security vulnerabilities",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0316": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "These agents capture traffic, detect anomalies, and reason using LLMs.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0320": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "multiple LLM-based agents, ranging from singular to modular designs, across realistic penetration testing scenarios",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0322": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "CurriculumPT: LLM-Based Multi-Agent Autonomous Penetration Testing with Curriculum-Guided Task Scheduling",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0340": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "automating the security compliance process",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0347": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "rubric for assessing agentic capabilities in security tasks.",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0350": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "integrates intrusion detection with automated response via iterative agentic orchestration",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0363": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "AI agent\u2011based orchestration structure that controls the incident analysis process",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0365": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomous AI agent designed to extract CTI from raw logs",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0371": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "running cyber security tools and processing their output in support of cyber incident response",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0384": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "SatGuard enables semi-automated vulnerability analysis and exploitation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0409": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "implemented a closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0427": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "recursive investigation capabilities enabled by a planning-capable LLM agent",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0440": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "Our agent can autonomously train the LoRA adapters, search online documentation for attack patterns",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0447": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomous agent that orchestrates the classification pipeline, invokes specialized tools as needed",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0448": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "multi-agent approach of summarizing content, updating task lists",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0451": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "first study on how LLMs perform in multi-agent ACD environments",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0477": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "autonomous agent for network security operations empowered by an LLM",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0480": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0484": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "compound LLM agent defending a network in the CybORG CAGE-2 POMDP",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0485": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "a ReAct-based summary agent that synthesizes classification results with external threat intelligence",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0496": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "implement a defense mechanism that significantly mitigates traffic delays",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0528": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "The Neuro-Agentic Loop is designed to autonomously identify new risks",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0538": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "generate convincing text, code, and shell interactions",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0541": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "Provide a clear user-friendly interpretation of why this classification was made",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0556": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "debate-driven multi-agent LLM framework for phishing email detection",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0567": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "synthesize comprehensive vulnerability analysis reports. Given vulnerable source code",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0582": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "LLM-powered workflow can investigate log sources, plan an investigation",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0621": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "integrates the LLM in an iterative loop where it generates candidate actions",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0698": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "introduce an AI-driven human-machine co-teaming paradigm that leverages large language models",
+   "conf": "medium",
+   "words_ok": true
+  },
+  "R0701": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "ReAct-style executor issues commands over SSH and self-corrects",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0703": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "features the cybersecurity AI-Avatar, a fine-tuned LLM-based SOC assistant",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0712": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "We introduce a novel prototype that autonomously conducts complex penetration-tests",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0717": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "The survey explores the application of Transformers in intrusion detection systems (IDSs)",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0730": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "execute relevant security commands and adapt its testing strategies accordingly",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0735": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "systematic reviews of agentic AI and LLM-driven approaches for autonomous IoT cybersecurity",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0740": {
+   "decision": "exclude",
+   "ec": "EC4",
+   "evidence": "Rising application of AI in EU banking and payments sector",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0756": {
+   "decision": "exclude",
+   "ec": "EC2",
+   "evidence": "fine-tuning of LLMs using sequence classification, a supervised classification method",
+   "conf": "high",
+   "words_ok": true
+  },
+  "R0759": {
+   "decision": "include",
+   "ec": "",
+   "evidence": "present insights on applying Agentic AI for proactive defense mechanisms",
+   "conf": "high",
+   "words_ok": true
+  }
+ },
+ "agree": {
+  "R0007": "exclude",
+  "R0028": "include",
+  "R0040": "include",
+  "R0044": "include",
+  "R0070": "include",
+  "R0075": "include",
+  "R0095": "include",
+  "R0097": "include",
+  "R0139": "include",
+  "R0156": "include",
+  "R0174": "include",
+  "R0197": "include",
+  "R0208": "include",
+  "R0210": "include",
+  "R0249": "include",
+  "R0276": "include",
+  "R0284": "include",
+  "R0311": "include",
+  "R0315": "include",
+  "R0316": "include",
+  "R0320": "include",
+  "R0322": "include",
+  "R0347": "include",
+  "R0350": "include",
+  "R0363": "include",
+  "R0365": "include",
+  "R0371": "include",
+  "R0409": "include",
+  "R0427": "include",
+  "R0440": "include",
+  "R0447": "include",
+  "R0448": "include",
+  "R0451": "include",
+  "R0477": "include",
+  "R0480": "include",
+  "R0484": "include",
+  "R0485": "include",
+  "R0528": "include",
+  "R0556": "include",
+  "R0582": "include",
+  "R0621": "include",
+  "R0698": "include",
+  "R0701": "include",
+  "R0712": "include",
+  "R0717": "exclude",
+  "R0730": "include",
+  "R0735": "include",
+  "R0756": "exclude"
+ },
+ "queue": [
+  "R0025",
+  "R0039",
+  "R0057",
+  "R0200",
+  "R0223",
+  "R0237",
+  "R0295",
+  "R0309",
+  "R0340",
+  "R0384",
+  "R0496",
+  "R0538",
+  "R0541",
+  "R0567",
+  "R0703",
+  "R0740",
+  "R0759"
+ ],
+ "stats": {
+  "n": 65,
+  "po": 0.738,
+  "kappa": 0.22
+ }
+}

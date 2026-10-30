@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0131,exclude,EC2,"automatically generate comprehensive reports explaining detected BGP anomaly events",high
+R0132,include,,"overview of the state-of-art in LLM-driven penetration testing",high
+R0133,exclude,EC4,"integrates Large Language Models (LLMs) with deep learning-based image analysis to enhance maritime IoT applications",high
+R0134,exclude,EC1,"evaluated system uses a deterministic Johnson–Lindenstrauss projection in place of the LLM call",high
+R0135,exclude,EC3,"hierarchical shared-semantic intelligence architecture for secure LLM deployments",high
+R0136,exclude,EC3,"lightweight adversarial input filter targeting multilingual prompt-injection and cache-poisoning attempts",high
+R0137,exclude,EC2,"text-based communications are analyzed with the help of large language models",high
+R0138,include,,"multi-agent collaborative framework integrated with Few-Shot Chain-of-Thought (CoT) reasoning for insider threat detection",high
+R0139,include,,"framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",high
+R0140,exclude,EC4,"examines tailored attacks and defense mechanisms across domains such as Internet of Things",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0251,exclude,EC3,"automated red teaming and security hardening of LLM-integrated systems",high
+R0252,exclude,EC1,"Deep Learning (DL) has been shown capable of learning emitter-specific features",high
+R0253,exclude,EC3,"layered protection against evolving LLM threats",high
+R0254,exclude,EC4,"training of security practitioners in various advanced technologies",high
+R0255,include,,"applied security rule an integral part of the intrusion detection life-cycle",high
+R0256,include,,"Agentic Retrieval-Augmented Generation (RAG) framework that uses orchestrated Small Language Models",high
+R0257,exclude,EC3,"security challenges such as prompt injection, impersonation, and supply chain vulnerabilities",high
+R0258,include,,"LLM-Driven Framework for Autonomous Vulnerability Remediation Across Heterogeneous Operating Systems Environments",high
+R0259,exclude,EC2,"large language models (LLMs) based cyber threat intelligence extraction model is presented",high
+R0260,maybe,,"hierarchical multi-agent framework grounded in Dempster-Shafer (D-S) Evidence Theory",medium
+END_CSV

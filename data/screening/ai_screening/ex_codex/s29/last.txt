@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0347",
+  "study_type": "Agent-only, function-scoped systematization of knowledge; CLASP framework, CLC Score, and closed-loop benchmark blueprint",
+  "RQ1 task_stage": "Reconnaissance, exploit confirmation, root cause analysis, patch synthesis, and fix verification and validation",
+  "RQ1 domain": "Enterprise security pipelines",
+  "RQ1 orientation": "Offensive and defensive security functions",
+  "RQ2 architecture": "Framework profiles planning, tool use, memory, reasoning, perception, and reflection/adaptation across security stages; no implemented closed-loop agent presented",
+  "RQ2 llm_used": "gpt-4.1-2025-04-14 for evidence triage; temperature 0.0, top-p 1.0",
+  "RQ2 adaptation": "Prompting for candidate evidence-span suggestions; human verification",
+  "RQ3 autonomy_level": "LLM suggests candidate evidence spans from PDFs/HTML",
+  "RQ3 hitl": "Human coders verify, edit, or reject suggestions and make final scoring decisions",
+  "RQ4 dataset": "21 representative works; search window January 1, 2022–August 15, 2025",
+  "RQ4 environment": "not stated",
+  "RQ4 metrics": "CLASP capability rubrics and quadratic-weighted Cohen’s κ; proposed CLC combines CompletionRate, FixEffectiveness, CycleEfficiency, and Agentic Efficiency",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "Top 5 high-performing agents had planning and reasoning scores >3; full-corpus overlap macro κ = 0.80 [0.77–0.83], reported as provisional",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Error propagation and unreliable stage handoffs; patch overfitting, regressions, and operational risks from unconstrained exploration",
+  "RQ5 mitigations": "Explicit handoff contracts, persistent auditable artifacts, and transparent stage-specific validators; enforced budgets and safety gates",
+  "author_limitations (verbatim)": "Numerical reliability values below are provisional and will be replaced by the audited artifact at release.",
+  "author_future_work (verbatim)": "Using the benchmark blueprint, we invite the community to co-develop a shared, capability-attributed benchmark so that reliable closed-loop security agents move from isolated prototypes to deployable practice.",
+  "evidence (page/section)": "Abstract; I. Introduction; II. CLASP, Tables I–III; III. Survey Methodology, especially Scope & Sources, Coder Training, Post-Reconciliation Coding, LLM-Assisted Evidence Triage, Reproducibility Artifacts, and Deviations & Limitations; IV. Systematization of Autonomous Capabilities; V. Takeaways, Implications and Future Directions, R1–R5; VI. Closed-Loop Capability Score; VII. Conclusion. Artifact releases and GitHub reference [67] are stated, but no URL is supplied in the provided text."
+}
+END_JSON

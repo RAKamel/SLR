@@ -1,0 +1,11 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0756,maybe,,"Benchmarking Large Language Models for Log Analysis, Security, and Interpretation",high
+R0758,maybe,,"agentic AI to automate critical tasks within Security Operations Centers (SOCs)",medium
+R0759,include,,"Generative AI and LLMs in enhancing CIP and present insights on applying Agentic AI",high
+R0772,include,,"The iterative refinement process",medium
+R0773,maybe,,"Cross-domain alert correlation methodology for industrial control systems",high
+R0775,maybe,,"MCP-driven real-time security monitoring: A hybrid LLM and behavior-aware framework",medium
+R0777,maybe,,"Towards adaptive and continuous offensive security",high
+R0782,include,,"multi-agent framework for Arabic scam analysis, with roles for classification, behavioural interpretation and educational guidance",medium
+END_CSV

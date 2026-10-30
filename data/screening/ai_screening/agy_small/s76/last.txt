@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0751,exclude,EC2,"comparing the effectiveness of LLMs in detecting phishing URLs",high
+R0752,exclude,EC2,"best performance was seen when using BERT and LSTM",high
+R0753,exclude,EC2,"leveraging Large Language Models (LLMs) to generate dynamic and complex adaptable cybersecu-rity exercise scenarios",high
+R0754,exclude,EC1,"investigates one-dimensional CNN-based models (1D-CNNPD) to detect phishing emails",high
+R0755,exclude,EC4,"Russian market challenges and future global technological trends",medium
+R0756,maybe,,"Benchmarking Large Language Models for Log Analysis, Security, and Interpretation",medium
+R0757,exclude,EC2,"parse vast datasets, identify vulnerabilities, and automate threat detection",high
+R0758,include,,"agentic AI to automate critical tasks within Security Operations Centers (SOCs)",high
+R0759,include,,"present insights on applying Agentic AI for proactive defense mechanisms",high
+R0760,exclude,EC4,"implementation of LLM agents in smart city management",high
+END_CSV

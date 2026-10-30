@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0421,include,,"designed as a collaborative multi-agent system, in which specialized agents are deployed to operate autonomously",high
+R0422,include,,"The review begins with an analysis of the core capabilities and key enabling technologies of LLMs",medium
+R0423,include,,"tool-using large language model (LLM) agents for offensive-security",high
+R0424,include,,"an autonomous AI-based penetration testing framework that uses the Model Context Protocol and large language model orchestration",high
+R0425,exclude,EC3,"identify, formalize, and mitigate attack vectors unique to agentic LLM pipelines",high
+R0426,exclude,EC5,"© 2013 IEEE.",high
+R0427,include,,"recursive investigation capabilities enabled by a planning-capable LLM agent",high
+R0428,exclude,EC5,"© 2025, Peninsula Publishing LLC. All rights reserved.",medium
+R0429,include,,"review paper examines recent advancements in AI-assisted penetration testing",medium
+R0430,exclude,EC2,"investigate the use of large language models with different prompting strategies to generate meaningful APTCs",high
+R0431,exclude,EC1,"This review provides a comprehensive overview of the methodologies related to automated penetration testing",medium
+R0432,include,,"We introduce a novel approach for forensic analysis of LLM agent execution logs to identify IPI attacks.",high
+R0433,include,,"This survey examines the emerging body of work on AI-driven penetration testing",high
+R0434,include,,"Employing a semi-decentralized multi-agent collaborative architecture, PTFusion maintains strategic coherence while enabling autonomous tactical execution",high
+R0435,exclude,EC2,"Users can interact with the assistant through a simple chat interface, asking questions in natural language.",medium
+R0436,exclude,EC2,"The ability of ChatGPT to analyze network scans and security logs is also evaluated.",high
+R0437,exclude,EC2,"we focused on vulnerability detection and qualitatively examined ChatGPT outputs for given prompts",high
+R0438,include,,"the agents responsible for each task are carefully designed to establish a complete automated penetration testing workflow",high
+R0439,include,,"It establishes a multi-agent collaborative architecture",high
+R0440,exclude,EC4,"a lightweight tool for generating network attack traffic with minimal human configuration and setup",medium
+R0441,exclude,EC4,"framework that enables cryptographically-verified forensic reconstruction of decision provenance in multi-agent AI systems",high
+R0442,exclude,EC4,"platform built to give cybersecurity students hands-on experience performing SE campaigns",high
+R0443,exclude,EC2,"uses the developed large language models based on transformers, generative adversarial networks, and diffusion models to generate high-fidelity threat artifacts",high
+R0444,exclude,EC2,"five approaches for structuring the prompts used to generate Metasploit scripts",high
+R0445,include,,"It coordinates three agents",high
+R0446,exclude,EC2,"This method improves threat detection, encryption, and real-time adversarial defense by combining symbolic reasoning for logic, deep learning for pattern recognition, and quantum intelligence",medium
+R0447,include,,"A central LLM agent orchestrates: (i) fine-tuned classifiers specialized by attack family",high
+R0448,include,,"using the state-of-The-Art PentestGPT tool",high
+END_CSV

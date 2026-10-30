@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0589,exclude,EC3,"We explore the multifaceted world of guardrails implementation in LLMs by conducting an empirical analysis",high
+R0590,exclude,EC3,"This Systematization of Knowledge (SoK) studies PI from a provenance and information-flow perspective.",high
+R0591,exclude,EC1,"This paper explores the how and what of building secure variable frequency drives",high
+R0592,exclude,EC4,"This paper offers an in-depth analysis of existing works, presents practical case studies, and demonstrates comprehensive experiments.",high
+R0593,exclude,EC2,"Net-GPT, an LLM-empowered offensive chatbot that understands network protocols and launches Unmanned Aerial Vehicles (UAV)-based Man-in-the-middle (MITM) attacks",high
+R0594,exclude,EC2,"automated, large language model based querying to investigate medium to high interaction honeypots",medium
+R0595,exclude,EC1,"Federated CNN-LSTM model upholds a 1.2% false positive rate alongside a 98.3% accuracy evaluation",high
+R0596,exclude,EC2,"The tool achieved 80% accuracy in identifying and resolving vulnerabilities.",medium
+R0597,exclude,EC2,"The framework decouples semantic interpretation from risk scoring authority through a transparent, deterministic Dynamic Metric Engine.",high
+R0598,exclude,EC4,"This paper proposes a complete solution for instant trade settlement in the US market.",high
+R0599,exclude,EC2,"This industry track paper presents a focused perspective on the evolving SaaS security landscape",high
+R0600,include,,"leverage a Retrieval-Augmented Generation (RAG) engine to reason before acting.",high
+R0601,exclude,EC2,"Sentence Transformers for semantic threat typing, and a high-accuracy DistilBERT model.",high
+R0602,exclude,EC2,"we implement our approach, which uses adaptation techniques such as fine-tuning to detect and classify common web attacks",high
+R0603,exclude,EC2,"our framework is capable of generating attacks samples with complete lifecycle automatically.",medium
+R0604,exclude,EC1,"using reinforcement learning on the digital simulation to better scan for vulnerabilities.",medium
+R0605,include,,"an LLM agent extracts authorization-sensitive endpoints, object identifiers, ownership hints, and structured cross-user test plans",high
+R0606,exclude,EC2,"we use three off-the-shelf large language models ... to generate test cases by using three distinct prompts.",high
+R0607,exclude,EC2,"we evaluate the applicability of large language models (LLM) for multi-label classification of HTTP traffic.",high
+R0608,exclude,EC5,"This paper examines how the collaboration between AI and cybersecurity researchers is developing within academic environments",medium
+R0609,exclude,EC2,"The interaction with LLMs needs to be skillfully and tactfully created to get precise and concise response.",high
+R0610,exclude,EC4,"an agentic Artificial Intelligence (AI) assistant built to help people ... analyze threats in public safety systems.",medium
+R0611,exclude,EC1,"This paper provides a comprehensive review of metaheuristicoptimized machine learning approaches for IoT intrusion detection.",high
+R0612,exclude,EC3,"Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address.",high
+R0613,include,,"three specialized agents (threat analyst, quantitative estimator, and peer reviewer) to generate, refine, and validate predictions",high
+R0614,include,,"determining the necessity of follow-up questions and ensuring thorough risk coverage.",high
+R0615,include,,"embed the AIGC repair engine into an automated ‘detection-repair-verification’ loop",high
+R0616,exclude,EC4,"We propose a layered reference architecture for AI-enabled BIM-to-city digital twins",high
+END_CSV

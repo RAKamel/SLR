@@ -1,0 +1,14 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0014",
+    "QA3": "P",
+    "QA3_quote": "Counts are approximate because a substantial subset of references is cited in more than one section"
+  },
+  {
+    "id": "R0740",
+    "QA2": "P",
+    "QA2_quote": "MA-CH—centralized hierarchical orchestrator dispatching to specialized subagents"
+  }
+]
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0231,exclude,EC2,"large language model (LLM) to generate contextual mitigation reports",high
+R0232,exclude,EC1,"comprehensive analysis of Adversarial Machine Learning (AML)",high
+R0233,exclude,EC1,"provide a comprehensive overview of AI in cybersecurity",high
+R0234,include,,"novel multi-agent framework for automated CTI enrichment",high
+R0235,include,,"Adaptive Agentic Honeypots (AAH), a hybrid cyber deception architecture",high
+R0236,exclude,EC3,"privacy risks where intermediate tool outputs may expose sensitive assets",high
+R0237,exclude,EC2,"analysis of tool outputs, and generating recommendations",high
+R0238,include,,"cooperative multi-agent collaboration based red teaming system",high
+R0239,include,,"LLMs can act as intelligent attack agents to perform end-to-end penetration testing",high
+R0240,include,,"autonomously executes remediation actions permanently deleting confirmed phishing messages",high
+END_CSV

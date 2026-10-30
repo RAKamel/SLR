@@ -1,0 +1,785 @@
+﻿doi,id_at_check,title,status,checked_on,source
+,R0001,Agent-driven security as code for NIS2 compliance in regulated cloud environments,no_doi,2026-10-30,
+10.1109/icmla61862.2024.00177,R0002,Exploring Testing Methods for Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icmsci67830.2026.11469339,R0003,Simulating Emergency Teamwork Behavior with Multi-Agent LLMs: Reproducing Human Training Patterns Using Persona-Based Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/techdefense63521.2024.10863662,R0004,Exploiting LLMs for E-Learning: A Cybersecurity Perspective on AI-Generated Tools in Education,not_retracted,2026-10-30,OpenAlex
+10.1038/s41598-025-34350-3,R0005,A generative AI cybersecurity risks mitigation model for code generation: using ANN-ISM hybrid approach,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11648006,R0006,"TriShield: Toward an Autonomous and Self-Evolving Cyber Defense via Predictive SOC, Causal Pentest Agents, and Adversarial LLM-CTI",not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-22934-2_17,R0007,Enabling Cybersecurity Education Through Digital Twins and Generative AI,not_retracted,2026-10-30,OpenAlex
+10.1109/rcsm67767.2025.11506691,R0008,An Intelligent Cognitive Framework Integrating SOAR Architecture with Large Language Models and AI Agents for Cyber Defence,not_retracted,2026-10-30,OpenAlex
+10.1145/3764944.3764957,R0009,OFCnetLLM: Large Language Model for Network Monitoring and Alertness,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3726033,R0010,Multi-Agents Assisted Autonomous Breach and Attack Simulation Framework in Power Information System,not_retracted,2026-10-30,OpenAlex
+10.1109/ictcs65341.2025.10989363,R0011,AI-Driven Penetration Testing: Automating Exploits with LLMs and Metasploit – A VSFTPD Case Study,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3645058,R0012,"Intrusion Detection Systems for In-Vehicle Networks: Protocols, Applications, and Challenges",not_retracted,2026-10-30,OpenAlex
+10.1016/j.pmcj.2026.102271,R0013,Design and implementation of IoT intrusion detection centric agentic AI with auxiliary conversational capabilities,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3707573,R0014,LLM-Based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2025.129987,R0015,Building adaptative and transparent cyber agents with local language models,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3687448,R0016,AI-Driven Penetration Testing for ARM Systems: Experimental Evaluation and Deployment Framework Across Four Paradigms,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-96-9908-7_39,R0017,Automated Penetration Testing Through Hierarchical PPO with Large Language Model Enhancement,not_retracted,2026-10-30,OpenAlex
+10.1109/isi69914.2026.11685838,R0018,AGSSA: Agentic Guardian System for SOC Analysts,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-16092-8_16,R0019,Short Paper: Evaluating the Capabilities of AI-Based Penetration Testing Tools,not_retracted,2026-10-30,OpenAlex
+10.1109/iccvbic71195.2026.11689544,R0020,Agentic Security Validation Framework for Retrieval-Augmented and Tool-Enabled Large Language Model Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icdsbs69077.2026.11634893,R0021,Automotive Shield for AI Driven Cyber Threat Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-02725-2_5,R0022,Penetration Testing with AI: Case Studies on LLM and RL-Based Attack Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/ietc69527.2026.11568651,R0023,Secure-by-Design Framework for Agentic AI: Mitigating Toxic Flows and Adversarial Exploits in Multi-Agent Ecosystems,not_retracted,2026-10-30,OpenAlex
+10.1007/s10586-026-06484-0,R0024,Explainable AI and few-shot prompting in an LLM-based agent for network intrusion detection systems,not_retracted,2026-10-30,OpenAlex
+10.55463/issn.1674-2974.52.12.1,R0025,Generative AI–Guided Sentinel for Self-Optimizing Federated Cybersecurity and Intelligent Threat Detection; [生成式人工智能引导的哨兵系统，用于自我优化的联邦网络安全与智能威胁检测],not_retracted,2026-10-30,OpenAlex
+10.1109/icbdse70225.2026.11635380,R0026,"Ai SecureDataGuard: A Big Data Security, Privacy-Preserving and Visualization System for LLM-Powered Smart Homes",not_retracted,2026-10-30,OpenAlex
+10.1109/icdca69396.2026.11620335,R0027,Autonomous Cognitive Architecture for Offensive Cyberspace Operations: A Recursive Large Language Model Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/icdmw69685.2025.00141,R0028,AutoBnB-RAG: Enhancing Multi-Agent Incident Response with Retrieval-Augmented Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/isncc70543.2026.11693832,R0029,Agentic Cybersecurity: Autonomous Threat Detection Defense Against Adversarial Metamorphic Malware Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/3ict68299.2025.11442208,R0030,Toward a Centralized Solution for Aggregating Penetration Testing and Risk Mitigation∗,not_retracted,2026-10-30,OpenAlex
+,R0031,AI-Augmented Human Decision-Making in Secure Space Operations,no_doi,2026-10-30,
+10.2118/227639-ms,R0032,Edge Generative AI Solutions for Industrial Security,not_retracted,2026-10-30,OpenAlex
+10.1109/ichora69329.2026.11537202,R0033,AI Agent-Assisted Lightweight Intrusion Detection for IoT Devices,not_retracted,2026-10-30,OpenAlex
+10.1109/isssc66652.2025.11388349,R0034,"Network Penetration Testing: A Comprehensive Review of Tools, Vulnerabilities, and AI-Driven Solutions",not_retracted,2026-10-30,OpenAlex
+,R0035,CYBENCH: A FRAMEWORK FOR EVALUATING CYBERSECURITY CAPABILITIES AND RISKS OF LANGUAGE MODELS,no_doi,2026-10-30,
+10.1016/j.jisa.2026.104420,R0036,Vuln2Action: An LLM-based framework for generating vulnerability reproduction steps and mapping exploits,not_retracted,2026-10-30,OpenAlex
+10.1109/ic-aida68291.2026.11564311,R0037,Smart Cyber Threat Intelligence System for Autonomous Threat Aggregation and Reporting,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-16165-9_7,R0038,Leveraging Large Language Models in Post-exploitation: Navigating the Cyber Kill Chain with AI-Driven Tactics,not_retracted,2026-10-30,OpenAlex
+10.1109/cars67163.2025.11337515,R0039,Autonomous Penetration Testing: Solving Capture-the-Flag Challenges with LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/sp63933.2026.00132,R0040,Incalmo: An Autonomous Llm-Assisted System for Red Teaming Multi-Host Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs69419.2026.11458922,R0041,Event-Driven Agentic SOC (ED-ASOC): Supervisor-Based LLM Framework for Dynamic Incident Response and SOAR Orchestration,not_retracted,2026-10-30,OpenAlex
+10.1109/icscan66520.2026.11588367,R0042,Self-Reasoning Language Models for Hallucination-Resistant Cyber Threat Intelligence Ecosystems,not_retracted,2026-10-30,OpenAlex
+10.1109/noms69089.2026.11668188,R0043,ALIoTh: Orchestrating Multi-Agent LLMs for Autonomous IoT Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.3390/computers15070456,R0044,Intelligent Attack Detection in Blockchain-Enabled Multi-Cloud Systems: A Systematic Review and SOC-LLM-Augmented Architecture Proposal,not_retracted,2026-10-30,OpenAlex
+10.1109/icerect65215.2025.11378387,R0045,"Cognitive Autonomy for Machine-Centric IoT: A Foundation-Model Blueprint for Secure, Real-Time Automation at the Edge",not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3729598,R0046,Decision Accountability in LLM-Driven UAVs: A Privacy-Preserving Forensic Logging Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/ciot67574.2025.11410127,R0047,Autonomous and Context-Adaptive Defense Mechanisms for Identity Access Management in Internet of Medical Things,not_retracted,2026-10-30,OpenAlex
+10.1109/caibda70336.2026.11621803,R0048,A Hallucination Detection Framework for Large Language Models in Cybersecurity: Design and Implementation,not_retracted,2026-10-30,OpenAlex
+10.1109/icscai68849.2026.11648650,R0049,An Intelligent Large Language Model Driven Neurosymbolic Architecture for Autonomous Cyber Threat Identification and Containment,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-031-75016-8_3,R0050,An Approach Based on LLMs for Forensic Threat Detection in Autonomous Systems,not_retracted,2026-10-30,OpenAlex
+10.1145/3772886.3772899,R0051,AutoPen: Towards Autonomous Penetration Testing Using LLM-Powered Agents,not_retracted,2026-10-30,OpenAlex
+10.3390/app16073122,R0052,A Hybrid Multi-Agent System for Early Scam Detection in Crypto-Assets,not_retracted,2026-10-30,OpenAlex
+10.1109/iccci70321.2026.11666544,R0053,GAI-AVRS: Generative AI-driven Autonomous Vulnerability Response System,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-92-0378-9_17,R0054,SecKQL-Agent: A Real-World APT29 Events Benchmark and Framework for Reliable Text-to-KQL in Security Analytics,not_retracted,2026-10-30,OpenAlex
+10.65109/bmjz4532,R0055,MAStitch: Unifying Local and Global Perspectives for Anomaly Detection in Multi-Agent Systems,not_retracted,2026-10-30,OpenAlex
+10.1080/07366981.2024.2439628,R0056,EMPOWERING RED TEAMS WITH GENERATIVE AI: TRANSFORMING PENETRATION TESTING THROUGH ADAPTIVE INTELLIGENCE,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom66490.2025.00026,R0057,AutoPentester: An LLM Agent-based Framework for Automated Pentesting,not_retracted,2026-10-30,OpenAlex
+10.1109/eurospw67616.2025.00031,R0058,CFA-Bench: Cybersecurity Forensic Llm Agent Benchmark and Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/svcc69905.2026.11642389,R0059,MALCDF: A Distributed Multi-Agent LLM Framework for Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/ieee-ch65308.2025.11279709,R0060,PACY: ProActive Cybersecurity for Small and Medium Enterprises,not_retracted,2026-10-30,OpenAlex
+10.1109/iccpct65132.2025.11176641,R0061,Intelligent Dynamic Code Analysis using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.18653/v1/2025.findings-acl.349,R0062,Red-Teaming LLM Multi-Agent Systems via Communication Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/icspis60075.2023.10344019,R0063,LLM-based Attack Scenarios Generator with IT Asset Management and Vulnerability Information,not_retracted,2026-10-30,OpenAlex
+10.1007/s10462-026-11636-0,R0064,Mitigating cyberattacks on autonomous vehicles: a comprehensive review of Generative Artificial Intelligence defense techniques,not_retracted,2026-10-30,OpenAlex
+10.1142/s0218194026410032,R0065,Puzzle Pot: Challenge Based Honeypot Framework for Detecting and Defending Against Autonomous LLM Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/itsc58415.2024.10919941,R0066,GAttack: Generative Attack on In-Vehicle Network,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-95-7289-2_14,R0067,Zero-Touch GenAI Coach: Self-healing SDLC Pipelines for FinTech Micro-services,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3718464,R0068,SYNAPSE: Synthetic Network-Traffic Agent Pipeline for Federated Edge Security,not_retracted,2026-10-30,OpenAlex
+10.1109/iwcmc65282.2025.11059476,R0069,Autonomous Cyber Incident Response Using Reasoning and Action,not_retracted,2026-10-30,OpenAlex
+10.1109/pst65910.2025.11268838,R0070,RefPentester: A Knowledge-Informed Self-Reflective Penetration Testing Framework Based on Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/itet70052.2026.11650809,R0071,Teaching Graduate Level Ethical Hacking in the Era of Large Language Models - A Case Study,not_retracted,2026-10-30,OpenAlex
+10.1109/lgrs.2026.3726972,R0072,Securing Multiagent GIS Systems: Risk Evaluation and Prompt Hardening Optimization,not_retracted,2026-10-30,OpenAlex
+,R0073,Advancing Ethical Hacking with AI: A Linux-Based Experimental Study,no_doi,2026-10-30,
+10.1109/svcc69905.2026.11642334,R0074,IoT-CyberAgent: An Intelligent Multi-Agent Cyber Threat Detection and Response System for IoT Networks,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15091936,R0075,H2-MAS: A Hybrid Heuristic-Multi-Agent Architecture for Semantic Bot Detection,not_retracted,2026-10-30,OpenAlex
+10.1016/j.procs.2025.03.030,R0076,Generative AI in minimizing cyber-attacks: Developing the Vehicular Threat Intelligence Flowchart,not_retracted,2026-10-30,OpenAlex
+10.1109/tnse.2026.3716998,R0077,GenTI: Benchmarking LLMs for Autonomous IDPS Rule Generation for Unseen Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/etai68332.2026.11485151,R0078,MRE-Guard: A RAG-Based Multi-Agent Framework for Phishing Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/imed68921.2026.11484921,R0079,Ethical Hacking in the Age of Autonomous AI: A Governance-Centric Approach to Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/icsss66939.2025.11346164,R0080,Cybersecurity Threat Analysis utilizing Deep Learning: Apply Natural Language Processing Techniques to Extract Compromise Indicators from Unstructured Logs,not_retracted,2026-10-30,OpenAlex
+10.1016/j.scs.2025.106826,R0081,"Generative AI of things for sustainable smart cities: Synergizing cognitive augmentation, resource efficiency, network traffic, cybersecurity, and anomaly detection for environmental performance",not_retracted,2026-10-30,OpenAlex
+10.18293/seke2026-081,R0082,SAMSARA: Architecture-aware LLM-Agentic Vulnerability Detection for Microservices,not_found,2026-10-30,
+10.1109/incsst64791.2025.11210381,R0083,Assessment of BERT and Lightweight LLMs for Intrusion Detection in Internet of Vehicles,not_retracted,2026-10-30,OpenAlex
+10.1063/5.0318284,R0084,Weaponizing language models for cybersecurity offensive operations: Automating vulnerability assessment report validation; A review paper,not_retracted,2026-10-30,OpenAlex
+10.23919/fruct67853.2025.11239079,R0085,"Open-Source Large Language Model Frameworks for Automated Penetration Testing: Opportunities, Challenges, and Solutions",not_retracted,2026-10-30,OpenAlex
+10.3390/info17090826,R0086,"Agentic AI Security in Industry 5.0: Emerging Threats, Forensic Readiness, and Trustworthy Human–Agent Collaboration",not_retracted,2026-10-30,OpenAlex
+10.1109/icirca69024.2026.11570308,R0087,An Adaptive Edge-AI-Enabled Ionizing Radiation Sensing Architecture for Distributed Nanosatellite and Autonomous Micro-Platform Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/educon62633.2025.11016426,R0088,Integrating Generative AI in Cybersecurity Curricula,not_retracted,2026-10-30,OpenAlex
+10.1145/3750555.3811881,R0089,Towards Agentic AI for Access Control in Cyber-infrastructures: Exploring the Security and Human Factors: [BlueSky Paper],not_retracted,2026-10-30,OpenAlex
+10.1145/3800973.3801004,R0090,Teaching GPT to Explain Itself: An Interpretable AI Framework for Rejecting Loan Applications in Regulated Finance,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-18860-1_7,R0091,Secure Agentic Reinforcement Learning for LLM-Driven SaaS Systems,not_retracted,2026-10-30,OpenAlex
+10.1145/3786582.3786814,R0092,PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/naecon70028.2026.11674991,R0093,Comparing cognitive vulnerabilities of human pen-testers to an LLM,not_retracted,2026-10-30,OpenAlex
+10.1109/ecai69016.2026.11613725,R0094,ZeroGuard: A Multi-Agent Zero-Trust Framework for Autonomous IaC Security Remediation,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-21184-2_26,R0095,RedTeamLLM: An Agentic AI Framework for Offensive Security,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs69419.2026.11459110,R0096,LLM-Augmented Agentic Consensus Swarms for Autonomous Edge Security,not_retracted,2026-10-30,OpenAlex
+10.1007/s10664-025-10758-3,R0097,LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2024.3505983,R0098,Application of Large Language Models in Cybersecurity: A Systematic Literature Review,not_retracted,2026-10-30,OpenAlex
+10.1145/3786156.3788577,R0099,Reliable SOC LLM Agent with Workflow Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/wfcs67029.2026.11511585,R0100,"CoAnalyst: An Agentic, LLM-Based Cybersecurity Analyst for Industrial Control Systems",not_retracted,2026-10-30,OpenAlex
+10.1109/iccpct65132.2025.11176591,R0101,Evaluating and Exploiting Security Vulnerabilities in Large Language Models (LLMs) for Offensive Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3605319,R0102,LLM-Driven Multi-Agent Architectures for Intelligent Self-Organizing Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/worldsuas66815.2025.11199110,R0103,Strategic Integration of AI in Modern Data Management,not_retracted,2026-10-30,OpenAlex
+10.5220/0014598400004052,R0104,Generative AI and LLMs in Cybersecurity: Literature Review and Future Research Directions,not_retracted,2026-10-30,OpenAlex
+10.1016/j.procs.2026.03.059,R0105,Design and Implementation of a RAG-Enhanced LLM Chatbot for Penetration Testing Tasks,not_retracted,2026-10-30,OpenAlex
+10.1109/icsa-c65153.2025.00027,R0106,Towards Architectural Pen Test Case Generation and Attack Surface Analysis to Support Secure Design,not_retracted,2026-10-30,OpenAlex
+10.1007/s10586-026-06700-x,R0107,PentestMCP: LLM and MCP based multi-agent framework for automated penetration testing,not_retracted,2026-10-30,OpenAlex
+10.1016/j.comnet.2025.111162,R0108,Design and evaluation of an Autonomous Cyber Defence agent using DRL and an augmented LLM,not_retracted,2026-10-30,OpenAlex
+10.1016/j.array.2026.101127,R0109,Knowing when to escalate: Prompt-based uncertainty quantification for selective automation of LLM-based intrusion detection,not_retracted,2026-10-30,OpenAlex
+10.1109/iscait69154.2026.11477307,R0110,PenAgent: A Retrieval-Augmented Multi-Agent Framework for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3619162,R0111,Federated Retrieval-Augmented Generation-Based LLM for Enhanced Cyber Threat Detection in the Internet-of-Energy,not_retracted,2026-10-30,OpenAlex
+10.1109/naecon70028.2026.11674895,R0112,Augmented Penetration Testing via ChatGPT: A Study on the Efficacy of ChatGPT Utilization During Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.18653/v1/2025.findings-emnlp.1258,R0113,AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2024.3439363,R0114,Enhancing Autonomous System Security and Resilience With Generative AI: A Comprehensive Survey,not_retracted,2026-10-30,OpenAlex
+10.1109/netsoft70012.2026.11603445,R0115,Environment-Grounded Multi-Agent Workflow for Autonomous Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icerect65215.2025.11377466,R0116,LLM-Guided Multi-Agent Collaboration for Complex Task Automation,not_retracted,2026-10-30,OpenAlex
+10.1109/secon68281.2026.11578985,R0117,AdSeeker: An Agent-Driven Framework for Automated Malicious Ad Detection in Mobile Apps,not_retracted,2026-10-30,OpenAlex
+10.1109/isades69945.2026.11608180,R0118,Mapping the Research Landscape of Large Language Models in Network Intrusion Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/cste69562.2026.11649584,R0119,From Skills to Governance: Reconstructing Information Literacy Education in the AIGC Era,not_retracted,2026-10-30,OpenAlex
+10.1109/iit.src67760.2026.11628885,R0120,Application of Agentic AI for Cybersecurity Incident Handling,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11648046,R0121,"Penetration Testing Framework Based on Large Language Models: Architecture, Implementation, and Experimental Evaluation",not_retracted,2026-10-30,OpenAlex
+10.1109/imns67862.2026.11655291,R0122,Whispers of Wealth: A Systematic Red-Teaming Study of the Agent Payments Protocol (AP2),not_retracted,2026-10-30,OpenAlex
+10.1109/aqtr70159.2026.11577824,R0123,Integrating Edge AI and Distributed IoT Architectures for Privacy-Preserving Smart Home Automation,not_retracted,2026-10-30,OpenAlex
+10.11999/jeit250873,R0124,AutoPenGPT: Drift-Resistant Penetration Testing Driven by Search-Space Convergence and Dependency Modeling,not_found,2026-10-30,
+10.1109/ci2a69097.2026.11576880,R0125,Autonomous Robot for General Urban Surveillance,not_retracted,2026-10-30,OpenAlex
+10.3390/s25092825,R0126,Large Language Models for Synthetic Dataset Generation of Cybersecurity Indicators of Compromise,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11402600,R0127,Towards Explainable and Educational Phishing Detection: A Zero-Shot LLM Approach,not_retracted,2026-10-30,OpenAlex
+10.1109/jcsse68839.2026.11597060,R0128,AUVAP: A Policy-Aware Automated Vulnerability Assessment and Penetration Testing Framework,not_retracted,2026-10-30,OpenAlex
+10.32473/flairs.39.1.141840,R0129,Automated IoT Threat Monitoring & Mitigation using Tiny LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/ickecs70176.2026.11527848,R0130,RedOps AI: Multi-Agent Orchestration for Autonomous Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icccn69946.2026.11662761,R0131,BEAR: BGP Event Analysis and Reporting,not_retracted,2026-10-30,OpenAlex
+10.1109/ijcc64742.2024.10847295,R0132,Penetration Testing Overview-Opportunities and Ethical Considerations: Literature Notes,not_retracted,2026-10-30,OpenAlex
+10.23919/splitech65624.2025.11091671,R0133,Leveraging Large Language Models for IoT Applications: A Maritime Image Dataset Perspective,not_retracted,2026-10-30,OpenAlex
+10.3390/app16168278,R0134,FedMARL-LTI: Federated Multi-Agent Reinforcement Learning with LLM-Compatible Threat Intelligence for Cooperative Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/aiiot68874.2026.11569137,R0135,SemGuard: A Hierarchical Shared Semantic Intelligence Architecture for Secure LLM Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395808,R0136,Confidential and Attack-Resilient Edge LLM Serving for Multilingual Chatbots,not_retracted,2026-10-30,OpenAlex
+10.1109/isda70544.2026.11606029,R0137,Zero-Trust Autonomy Cryptographically Enforced Safety and Policy Compliance in Clinical AI Agents,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-95-3058-8_36,R0138,Multi-agent Collaborative Framework with Few-Shot CoT for Threat Detection,not_retracted,2026-10-30,OpenAlex
+10.1145/3708821.3733882,R0139,PentestAgent: Incorporating LLM Agents to Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1016/j.cosrev.2026.100963,R0140,Beyond vulnerabilities: A comprehensive survey of adversarial attacks across domains,not_retracted,2026-10-30,OpenAlex
+10.48009/2_iis_2024_119,R0141,The impacts of generative artificial intelligence (AI) in knowledge discovery and generation for cyber defense,not_retracted,2026-10-30,OpenAlex
+10.1109/icccbda64898.2025.11030483,R0142,LLM-Empowered Autonomous Edge AI for Anomaly Detection and Resolution in Distributed Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3663784,R0143,Transformation of Vulnerability Management Through Artificial Intelligence: An Overview of Generative and Learning Models,not_retracted,2026-10-30,OpenAlex
+10.1109/csitss67709.2025.11295499,R0144,LLM - Driven Autonomous Cloud Automation Agent,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs69419.2026.11458984,R0145,A Systematization of Privacy Threats and Defenses in Modern Agentic Web Browsers,not_retracted,2026-10-30,OpenAlex
+10.1109/ic3et64989.2026.11467308,R0146,AI-driven Website Vulnerability Scanners: Towards Hybrid Trustworthy Framework,not_retracted,2026-10-30,OpenAlex
+10.14569/ijacsa.2026.0170295,R0147,SecureDML:An Intelligent Framework for Preventing Poisoning Attacks in Distributed Machine Learning Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/iotaai70471.2026.11607762,R0148,Building Reliable AI Systems: A Framework That Bridges Architecture and Operations,not_retracted,2026-10-30,OpenAlex
+10.1109/worldsuas66815.2025.11199262,R0149,Automated Penetration Testing Tool,not_retracted,2026-10-30,OpenAlex
+10.1109/icscan66520.2026.11588474,R0150,Forensic LLM-Trace: Interpretable Multi-Agent AI Forensic Architecture for Prompt Injection Investigation,not_retracted,2026-10-30,OpenAlex
+10.1109/iicai70155.2026.11620661,R0151,"Federated LLM-Based SIEM with Meta-Model Aggregation: Enabling Collaborative, Scalable, and Privacy-Preserving Threat Detection",not_retracted,2026-10-30,OpenAlex
+10.1609/aaai.v40i48.42311,R0152,Hallucinations at the Firewall,not_retracted,2026-10-30,OpenAlex
+10.1109/educon62633.2025.11016486,R0153,Balancing Generative AI and Critical Thinking to Develop Written Communication Skills in Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1007/s44163-026-02058-6,R0154,An adaptive agentic AI framework for counterfactual validation and adversarial lookahead in automated incident response,not_retracted,2026-10-30,OpenAlex
+10.1145/3793302.3793345,R0155,A Match Made in Heaven? AI-driven Matching of Vulnerabilities and Security Unit Tests,not_retracted,2026-10-30,OpenAlex
+10.3390/info17040370,R0156,MACD: Multi-Agent Collaborative Approach for Cybersecurity Defense Strategy Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11648021,R0157,Identity and Access Management for Agentic AI: A Zero-Trust Security Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11401968,R0158,Cognitive SOC: Evidence-Backed Narrative Generation for Security Operations with Multi-Agent LLM Architecture,not_retracted,2026-10-30,OpenAlex
+,R0159,Social Engineering of AI Agents,no_doi,2026-10-30,
+10.1109/atigb70203.2026.11628095,R0160,An Effective SLM-Assisted Model for Fuzz Penetration Testing of Web Application,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395752,R0161,A Self-Adaptive Red Teaming Framework for Vulnerability Profiling with Dynamic Attack Graphs and Retrieval Augumented Generation,not_retracted,2026-10-30,OpenAlex
+10.1609/aaai.v40i35.40210,R0162,"Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark",not_retracted,2026-10-30,OpenAlex
+10.1145/3722565.3727196,R0163,AttackLLM: LLM-based Attack Pattern Generation for an Industrial Control System,not_retracted,2026-10-30,OpenAlex
+10.1109/cic62241.2024.00015,R0164,Sinema: Semantics-driven Intelligent Network Management using AI assistance,not_retracted,2026-10-30,OpenAlex
+10.1109/acit68900.2025.11510657,R0165,AI-Assisted Automation of Penetration Testing Using Local LLMs and RAG,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15112421,R0166,"Trustworthy Deep Learning for Cybersecurity: A Structured Review Across Detection, Robustness, Privacy, Explainability, and Deployment",not_retracted,2026-10-30,OpenAlex
+10.1109/icsss66939.2025.11346427,R0167,"LLM-Driven Automated Penetration Testing: Architectures, Benchmarks, and Safety Considerations",not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2026.104988,R0168,Debapt: Ontology-driven multi-agent debate for APT adversary profile construction from cyber threat intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs65363.2025.11012055,R0169,AutoBnB: Multi-Agent Incident Response with Large Language Models,not_retracted,2026-10-30,OpenAlex
+,R0170,PENTESTGPT: Evaluating and Harnessing Large Language Models for Automated Penetration Testing,no_doi,2026-10-30,
+10.1109/milcom64451.2025.11310651,R0171,MobiLLM: An Agentic AI Framework for Closed-Loop Threat Mitigation in 6G Open RANs,not_retracted,2026-10-30,OpenAlex
+10.1109/bcca66705.2025.11229637,R0172,A Framework for Embedding Generative and Agentic AI in Open Source Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom66490.2025.00098,R0173,Controller Makes Pentesting Better: An Improved Multi-Agent Automated Penetration Testing Framework,not_retracted,2026-10-30,OpenAlex
+10.3390/info16050365,R0174,Toward Robust Security Orchestration and Automated Response in Security Operations Centers with a Hyper-Automation Approach Using Agentic Artificial Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1609/aaai.v40i47.41464,R0175,AquaSentinel: Next-Generation AI System Integrating Sensor Networks for Urban Underground Water Pipeline Anomaly Detection via Collaborative MoE-LLM Agent Architecture,not_retracted,2026-10-30,OpenAlex
+10.1109/icocics68032.2025.11384036,R0176,Pungoe Pentest: Orchestration of Web Penetration Testing Tools with Assistance Based on Large Language Model (LLM) Pentest-AI and Retrieval-augmented Generation (RAG),not_retracted,2026-10-30,OpenAlex
+10.1109/csecs69124.2026.11541892,R0177,Double-Gaming: Jailbreak Attacks against LLM based on Red-Blue Team Game Theory,not_retracted,2026-10-30,OpenAlex
+10.3778/j.issn.1002-8331.2506-0336,R0178,Review on Application of Satellite Network Penetration Testing; [卫星网络渗透测试应用研究综述],not_found,2026-10-30,
+10.23919/softcom66362.2025.11197348,R0179,Agent-Based AI Approach to Security in IoT Systems Leveraging Genai,not_retracted,2026-10-30,OpenAlex
+10.1109/sm69703.2026.11614144,R0180,Enhancing Autonomous Transportation Systems Safety: Integrating AI and Cybersecurity for Near-Real-Time Anomaly Detection,not_retracted,2026-10-30,OpenAlex
+10.1007/s00261-026-05719-3,R0181,"Large language models and prostate MRI reporting: a stringent testbed for safe deployment under evolving AI, health-data, and cybersecurity regulation",not_retracted,2026-10-30,OpenAlex
+10.1109/acit68900.2025.11510561,R0182,CyberPentest: An Automated Penetration Testing Framework Powered by LLMs,not_retracted,2026-10-30,OpenAlex
+10.1016/j.procs.2026.08.293,R0183,Absolute Zero Reasoning for Autonomous Penetration Testing: A Hybrid LLM-MCTS Framework with Action-Constrained Exploration,not_retracted,2026-10-30,OpenAlex
+10.1109/fmlds67896.2025.00135,R0184,LIMA: Leveraging Large Language Models and MCP Servers for Initial Machine Access,not_retracted,2026-10-30,OpenAlex
+10.1109/esem56168.2023.10304857,R0185,Evaluating the Impact of ChatGPT on Exercises of a Software Security Course,not_retracted,2026-10-30,OpenAlex
+10.1142/s0219622025501111,R0186,LASR: A Novel Framework for Industrial Information Security Range Based on Large Models,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2026.133284,R0187,PenExpert: A multi-agent hybrid LLM–expert system framework for autonomous penetration testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icsft66733.2026.11507831,R0188,AI-Based Asynchronous Alert Enrichment Framework for Scalable Security Operations Centers,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15184135,R0189,Security-Augmented Use Case Flow Refinement for LLM-Based Agentic Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/spcnc68200.2025.11406223,R0190,Agentic RAG for Command Generation in Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/edm69524.2026.11631947,R0191,THAITI Verifiable Synthesis of Wazuh and Suricata Rules for Proactive Threat Hunting,not_retracted,2026-10-30,OpenAlex
+10.1109/iciccs67901.2026.11502891,R0192,SecureNet: A Next-Generation AI-Powered Cyber Defense System for Dynamic Attack Prevention,not_retracted,2026-10-30,OpenAlex
+10.1109/acsac67867.2025.00051,R0193,Clouseau: A Hierarchical Multi-Agent Approach for Autonomous Attack Investigation,not_retracted,2026-10-30,OpenAlex
+10.1109/i2cacis69435.2026.11600276,R0194,GenAI vs Traditional AI: A Comparative Framework Across Five Domains,not_retracted,2026-10-30,OpenAlex
+,R0195,AdvAgent: Controllable Blackbox Red-teaming on Web Agents,no_doi,2026-10-30,
+10.5220/0013378700003899,R0196,GAI-Driven Offensive Cybersecurity: Transforming Pentesting for Proactive Defence,not_retracted,2026-10-30,OpenAlex
+10.3390/app16167887,R0197,L-ARLPT: An LLM-Augmented Reinforcement Learning Framework for Autonomous Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.69554/ivad7481,R0198,"Strategies to govern the imperative of artificial intelligence in payment systems: Integrating trust, security and European regulatory compliance",not_retracted,2026-10-30,OpenAlex
+10.3390/bdcc10070219,R0199,A Deterministic State Machine Orchestrator with Local LLM Improving Personalized Education Quality Through Interactive Virtual Tutoring Agent with KPI Tracking,not_retracted,2026-10-30,OpenAlex
+10.1109/cascon66301.2025.00044,R0200,Securing LLM-Generated Embedded Firmware Through AI Agent-Driven Validation and Patching,not_retracted,2026-10-30,OpenAlex
+10.1109/ictmim68190.2026.11507673,R0201,Trinity: A Neuro-Symbolic Multi-Agent Framework for Stateful Network Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.32604/cmc.2026.083550,R0202,A Large Language Model-Driven Autonomous Framework for Intelligent Cyber Threat Detection and Response,not_retracted,2026-10-30,OpenAlex
+10.1109/etfi68128.2026.11484998,R0203,Intelligent Web Vulnerability Detection Using Self-Learning Artificial Intelligence Framework: Aegis AI Scanner Implementation,not_retracted,2026-10-30,OpenAlex
+10.1109/cyber-ai66431.2025.11233438,R0204,Agentic Penetration Testing using Secure Shell: Context-Aware Command Generation and Analysis Using Open-Source LLMs,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-031-77229-0_6,R0205,Development Generative AI for Cybersecurity: Evaluating Script Generation and Attack Classification in Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/nana66698.2025.00065,R0206,An AI-Driven Command & Control Platform for Automated Post-Exploitation Intelligence Gathering and Reporting,not_retracted,2026-10-30,OpenAlex
+10.1007/s10207-024-00835-x,R0207,"Generative AI for pentesting: the good, the bad, the ugly",not_retracted,2026-10-30,OpenAlex
+10.1109/ecrime66972.2025.11327722,R0208,“Send to which account?” Evaluation of an LLM-based Scambaiting System,not_retracted,2026-10-30,OpenAlex
+10.1109/iict68374.2026.11468752,R0209,LLM-Driven Cognitive Honeypots for Adaptive Threat Intelligence in Self-Securing Systems*,not_retracted,2026-10-30,OpenAlex
+10.1109/ojcoms.2026.3725365,R0210,"A Lightweight Language-Model-Driven Agentic Framework for Intrusion Prediction, Detection, and Mitigation in 6G-Enabled IoT Networks",not_retracted,2026-10-30,OpenAlex
+10.1007/s44227-026-00102-6,R0211,Evaluating Multimodal LLMs for Context-Aware Forensic Image Interpretation,not_retracted,2026-10-30,OpenAlex
+10.1145/3803437.3805209,R0212,AutoCodeRover: Agentic Program Repair for SonarQube Issues,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-10486-1_33,R0213,Using LLM Agents for Data Integration in Cybersecurity Incidents,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3688669,R0214,CyberFluxAI: A GenAI-Powered System for Rapid and Explainable Cybersecurity Incident Response,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-95-1361-1_45,R0215,"An Intelligent Plug-In Playable Orchestration Model that Combines Gen-AI Prompting, RAG and Agentic AI for Efficient Cybersecurity Operations",not_retracted,2026-10-30,OpenAlex
+10.1109/iceccc61767.2024.10593902,R0216,Advanced Reinforcement Learning Based Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom63139.2024.00259,R0217,A LLM-based agent for the automatic generation and generalization of IDS rules,not_retracted,2026-10-30,OpenAlex
+10.1109/iceet67911.2025.11424121,R0218,Powering the 6G and Beyond Wireless Era: AI and Deep Learning Innovations,not_retracted,2026-10-30,OpenAlex
+10.1109/cai68641.2026.11536389,R0219,GLITCH-AI: A Hybrid Framework for Automated Penetration Testing with LLM-Driven Adaptation and Reporting,not_retracted,2026-10-30,OpenAlex
+10.1016/j.procs.2024.11.094,R0220,Application of Generative Artificial Intelligence in Minimizing Cyber Attacks on Vehicular Networks,not_retracted,2026-10-30,OpenAlex
+,R0221,LLM-assisted Forensic and Compliance Auditing for Public Sector Organizations,no_doi,2026-10-30,
+10.1109/snams64316.2024.10883774,R0222,Towards Supporting Penetration Testing Education with Large Language Models: An Evaluation and Comparison,not_retracted,2026-10-30,OpenAlex
+10.1145/3744916.3773249,R0223,RulePilot: An LLM-Powered Agent for Security Rule Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11401712,R0224,Reflective Beam Search for Automated TTP Extraction and Sigma Rule Generation from Cyber Threat Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/eaic66483.2025.11101426,R0225,VAP-6: A Benchmarking Framework on Vulnerability Assessment and Penetration Testing for Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/southeastcon63549.2026.11476161,R0226,From Social Engineering to Financial Fraud: A Multi-Agent LLM Approach to Vishing Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/icecet65726.2026.11632669,R0227,GenAI-Driven Autonomous DevSecOps Pipelines for Secure Financial Infrastructure,not_retracted,2026-10-30,OpenAlex
+10.1109/smartiot66867.2025.00067,R0228,Improving IoT Cyber Threat Response with Multi-Agent LLMs and Semantic Retrieval,not_retracted,2026-10-30,OpenAlex
+10.1080/14680629.2023.2251066,R0229,Effect of superficially modified zinc oxide nanoparticles as an additive on the rheological performance of asphalt binder,not_retracted,2026-10-30,OpenAlex
+10.1109/aeect69724.2026.11657877,R0230,Cyber Threat Intelligence Report Generation Using Agentic AI,not_retracted,2026-10-30,OpenAlex
+10.1109/icima64861.2025.11074012,R0231,Comprehensive Web Fuzzer with AI Mitigation and Custom Payload,not_retracted,2026-10-30,OpenAlex
+10.1145/3785665,R0232,Adversarial Machine Learning in IoT Security: A Comprehensive Survey,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-00232-7_8,R0233,Artificial Intelligence in Cyber Security: A Comprehensive Overview,not_retracted,2026-10-30,OpenAlex
+10.1109/acsacw69556.2025.00047,R0234,IntelForge: Multi-Agent LLM Framework for Cyber Threat Intelligence Enrichment,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00089,R0235,Adaptive Agentic Honeypots: Decoupling Simulation from Reasoning for Robust Cyber Deception,not_retracted,2026-10-30,OpenAlex
+10.1109/ccai69603.2026.11642106,R0236,A Semantic-Consistent Privacy Middleware for MCP-driven Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.15587/1729-4061.2025.325251,R0237,DESIGN AND DEVELOPMENT OF A LARGE LANGUAGE MODEL-BASED TOOL FOR VULNERABILITY DETECTION,not_retracted,2026-10-30,OpenAlex
+10.1109/isaics66888.2025.11350066,R0238,DeepAttacker: Multi-Agents Collaboration based Breach and Attack Simulation,not_retracted,2026-10-30,OpenAlex
+10.1109/dsc67331.2025.00092,R0239,Enhancing Software Vulnerability Analysis via Large Language Models: A Systematic Review,not_retracted,2026-10-30,OpenAlex
+10.1109/icecte69292.2026.11429303,R0240,Multi-Agent Phishing Detection And Deletion via Small VLM and LLM Reasoning,not_retracted,2026-10-30,OpenAlex
+10.32604/cmc.2025.059696,R0241,Utilizing Fine-Tuning of Large Language Models for Generating Synthetic Payloads: Enhancing Web Application Cybersecurity through Innovative Penetration Testing Techniques,not_retracted,2026-10-30,OpenAlex
+10.18653/v1/2025.emnlp-main.114,R0242,Effective Red-Teaming of Policy-Adherent Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/svcc69905.2026.11642248,R0243,Autonomous Detection Engineering: From Threat Research to Detection Authoring,not_retracted,2026-10-30,OpenAlex
+10.11999/jeit250947,R0244,"Key Technologies for Low-Altitude Intelligent Networks: Architecture, Security, and Optimization; [低空智联网架构、安全与优化关键技术]",not_found,2026-10-30,
+10.1109/icmcis64378.2025.11047951,R0245,Automating Cyber Threat Intelligence and Attack Chain Generation using Cyber Security Knowledge Graphs and Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.2118/229540-ms,R0246,"Prompting Autonomous Agents and LLMs in Energy Operations, Efficiency Gains or Hidden Liabilities?",not_retracted,2026-10-30,OpenAlex
+10.1109/comm70054.2026.11591345,R0247,An Empirical Evaluation for Linux Security Tasks via Local LLM,not_retracted,2026-10-30,OpenAlex
+10.69554/lbjx3542,R0248,Effects of disruption in decision making: Considering the use of evolving artificial intelligence in the context of ongoing supply chain disruption,not_retracted,2026-10-30,OpenAlex
+10.1109/acsacw69556.2025.00052,R0249,On the Potential of LLMs for Offensive Security: Benchmarks vs. Operational Reality,not_retracted,2026-10-30,OpenAlex
+10.1109/tdsc.2026.3665230,R0250,RedAgent: An Autonomous Agent for Context-Aware Red Teaming of LLM Jailbreaks,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3659626,R0251,Chimera-RL: An End-to-End Autonomous Red-Teaming Framework for LLM Applications,not_retracted,2026-10-30,OpenAlex
+10.1007/s43926-024-00077-2,R0252,Assessing adversarial replay and deep learning-driven attacks on specific emitter identification-based security approaches,not_retracted,2026-10-30,OpenAlex
+,R0253,A Framework for Rapidly Developing and Deploying Protection Against Large Language Model Attacks,no_doi,2026-10-30,
+10.1109/bigdata62323.2024.10825681,R0254,Leveraging Large Language Models for Dynamic Scenario Building targeting Enhanced Cyber-threat Detection and Security Training,not_retracted,2026-10-30,OpenAlex
+10.1145/3774904.3792458,R0255,ARuleCon: Agentic Security Rule Conversion,not_retracted,2026-10-30,OpenAlex
+10.5220/0015049100004015,R0256,Agentic RAG for Cyber Threat Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/acai68217.2025.11406667,R0257,A Comprehensive Security Framework for the Model Context Protocol (MCP) in Multi-Agent AI Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/isi65680.2025.11201167,R0258,RAPID: An LLM-Driven Framework for Autonomous Vulnerability Remediation Across Heterogeneous Operating Systems Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/mpcon69668.2026.11508604,R0259,LLM-Driven Cyber Threat Intelligence Extraction for Cloud Ecosystems,not_retracted,2026-10-30,OpenAlex
+10.1109/cscwd68734.2026.11581735,R0260,TTP-MAS: A Collaborative Multi-Agent System for Uncertainty-Aware TTP Extraction,not_retracted,2026-10-30,OpenAlex
+10.1109/icnwc68145.2026.11518378,R0261,Agentic LLM-Driven Cyber Threat Hunting Using MITRE ATT&CK Knowledge Mapping and Graph-Based Evidence Correlation,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-96-7545-6_32,R0262,Toward Hands-Free Threat Detection: A Voice-Activated Framework for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+,R0263,Be Your Own Red Teamer: Safety Alignment via Self-Play and Reflective Experience Replay,no_doi,2026-10-30,
+10.1109/bigdata66926.2025.11402114,R0264,Leveraging LLM Agents for Autonomous Web Penetration Testing Targeting SQL Injection Vulnerability,not_retracted,2026-10-30,OpenAlex
+10.1109/globecom59602.2025.11432623,R0265,Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00434,R0266,From Jargon to Action: Evaluating Open-Weight LLMs for Plain Language Summaries of Pentest Reports,not_retracted,2026-10-30,OpenAlex
+10.1109/tifs.2026.3691201,R0267,Automatic Red Teaming LLM-Based Agents With Model Context Protocol Tools,not_retracted,2026-10-30,OpenAlex
+,R0268,CrawLLMentor: An LLM-Powered Tool to Assist Pen Testers in Identifying Business Logic Vulnerabilities,no_doi,2026-10-30,
+10.1109/gaclm67198.2025.11231998,R0269,Adversarial and Multilingual Threats in Retrieval-Augmented Generation: From Prompt Injection to Model Exploitation,not_retracted,2026-10-30,OpenAlex
+10.1007/s10462-025-11219-5,R0270,Generative AI revolution in cybersecurity: a comprehensive review of threat intelligence and operations,not_retracted,2026-10-30,OpenAlex
+10.1109/icads69450.2026.11545513,R0271,LLM-Based Agentic Decision Support for Maritime Threat Assessment,not_retracted,2026-10-30,OpenAlex
+10.1109/icei65890.2026.11448038,R0272,Nemesis: An Adversarial Multi-Agent AI Framework for Proactive Vulnerability Discovery and Patch Synthesis,not_retracted,2026-10-30,OpenAlex
+10.1109/cyber-ai66431.2025.11233640,R0273,LLMs for Penetration Testing: Solving CTF Challenges Using Offensive Cybersecurity Tools,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395792,R0274,LLM-Powered Autonomous Security Agents for Next-Generation Cyber Defence,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2026.132546,R0275,AutoWAFuzzer: An adaptive framework for web application firewall penetration testing with multi-agent system and RAG-enabled reinforcement learning,not_retracted,2026-10-30,OpenAlex
+10.1145/3766895,R0276,Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach Penetration-Testing Active Directory Networks,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-27993-4_17,R0277,ICSSPulse: A Modular LLM-Assisted Platform for Industrial Control System Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icsadl67539.2026.11452094,R0278,"Agentic AI for Recon, Threat Analysis and Mitigation Reporting",not_retracted,2026-10-30,OpenAlex
+10.1155/int/9698691,R0279,Pentesting LLM Models With an Automated Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/icce67443.2026.11449910,R0280,ALERT: A Closed-Loop SOC Agent for Web and API Security with CVE-Based Intelligence and Adaptive Anomaly Detection,not_retracted,2026-10-30,OpenAlex
+10.3390/make8020043,R0281,Towards LLM-Driven Cybersecurity in Autonomous Vehicles: A Big Data-Empowered Framework with Emerging Technologies,not_retracted,2026-10-30,OpenAlex
+10.1016/j.adhoc.2025.104031,R0282,Generative AI-based intrusion detection systems for intra-vehicle networks,not_retracted,2026-10-30,OpenAlex
+10.1631/fitee.2500100,R0283,Mind the Gap: towards generalizable autonomous penetration testing via domain randomization and meta-reinforcement learning,not_retracted,2026-10-30,OpenAlex
+10.28945/5852,R0284,CyberAgent: An Agentic AI Framework for Autonomous Security Operations with Reduced Operational Cost,not_retracted,2026-10-30,OpenAlex
+10.1142/s1793351x26450078,R0285,From Hardware to Semantic Intelligence: LLM-Enhanced Ontology Engineering and Agentic Maintenance for Explainable Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1109/isctrkiye68593.2025.11224852,R0286,Automated CVE Triage: Ai-Agent Framework for Scalable Vulnerability Triaging and Security Automation,not_retracted,2026-10-30,OpenAlex
+10.34190/eccws.23.1.2493,R0287,PentHack: AI-Enabled Penetration Testing Platform for Knowledge Development,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs69419.2026.11459101,R0288,GenReachAI: An Agentic Generative AI Framework for Automated Reachability Analysis of Enterprise Software Vulnerabilities,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3547172,R0289,MAD-CTI: Cyber Threat Intelligence Analysis of the Dark Web Using a Multi-Agent Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/iri66576.2025.00014,R0290,MalCodeAI: Autonomous Vulnerability Detection and Remediation via Language Agnostic Code Reasoning,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647983,R0291,CAIP-Pentest: A Causal and Interpretable Agent Framework for Autonomous Web Vulnerability Exploration,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata62323.2024.10825018,R0292,Next-Generation Phishing: How LLM Agents Empower Cyber Attackers,not_retracted,2026-10-30,OpenAlex
+10.1109/nqcomp68334.2026.11497779,R0293,LLM Assisted SecOps: A Cognitive Assistant Framework for Cybersecurity Analysts,not_retracted,2026-10-30,OpenAlex
+10.1115/imece2025-165962,R0294,PRACTICALLY LEVERAGING LLMS FOR MANUFACTURING CYBERSECURITY,not_retracted,2026-10-30,OpenAlex
+10.15587/1729-4061.2026.368661,R0295,DESIGN OF A HYBRID INFORMATION SECURITY MANAGEMENT SYSTEM BASED ON ARTIFICIAL INTELLIGENCE TECHNOLOGIES,not_retracted,2026-10-30,OpenAlex
+10.1109/itc-egypt66095.2025.11186635,R0296,Unlocking LLM Security: Automated Penetration Testing and Source Code Review Based on Vulnerability Analysis and NLP,not_retracted,2026-10-30,OpenAlex
+10.1109/msn69125.2025.00033,R0297,ActiveTrap: Leveraging AI Agents and Federated Graph Learning for Active APT Trapping,not_retracted,2026-10-30,OpenAlex
+10.1145/3800227.3800390,R0298,Research on Artificial Intelligence-based Cybersecurity Review and Security Effectiveness Verification Methods,not_retracted,2026-10-30,OpenAlex
+10.1109/tits.2026.3652712,R0299,Detecting and Mitigating Adversarial Machine Learning Attacks in Autonomous Vehicles Within the Internet of Vehicles,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3579532,R0300,Toward LLM-Driven Adaptive Policy Orchestration for Host-Based Intrusion Detection Systems in IoT Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsai64074.2025.11063731,R0301,Comprehensive Study on Integrating AI-Powered Threat Intelligence Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.26599/bdma.2025.9020078,R0302,COAPT: Bridging Semantic-Operational Divide in Autonomous Penetration Testing Through LLM-Driven Cognitive Planning,not_retracted,2026-10-30,OpenAlex
+10.1109/wowmom65615.2025.00053,R0303,LLM-Powered Agentic AI Approach to Securing EV Charging Systems Against Cyber Threats,not_retracted,2026-10-30,OpenAlex
+10.1016/j.ins.2026.123231,R0304,Bridging AI and software security: A comparative vulnerability assessment of LLM agent deployment paradigms,not_retracted,2026-10-30,OpenAlex
+10.1109/iccbd-ai65562.2024.00011,R0305,Crimson: Empowering Strategic Reasoning in Cybersecurity through Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1016/j.asoc.2025.112973,R0306,Generative fuzzer-driven vulnerability detection in the Internet of Things networks,not_retracted,2026-10-30,OpenAlex
+10.18653/v1/2026.acl-industry.58,R0307,Securing the Tool Layer: A Threat Taxonomy and Runtime Defense Framework for Model Context Protocol Deployments,not_retracted,2026-10-30,OpenAlex
+10.1109/inspire67328.2025.11300587,R0308,CRRTE: Cognitive AI for Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1371/journal.pone.0349607,R0309,Advanced persistent threat detection through multi-modal behavioral analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/aiei69164.2026.11497584,R0310,LMDAHoney: Agentic-Language Model Driven Adaptive Honeypot for Advanced Cyber Deception,not_retracted,2026-10-30,OpenAlex
+10.48084/etasr.16879,R0311,Design and Empirical Evaluation of a Four-Layer AI Agent Architecture for Automated Web Application Security Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/cns59707.2023.10288677,R0312,Towards Evaluation and Understanding of Large Language Models for Cyber Operation Automation,not_retracted,2026-10-30,OpenAlex
+10.1109/icercs65898.2025.11580588,R0313,Self-Auditing Large Language Models for Real-Time Intrusion Prediction in Encrypted Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647867,R0314,Agentic AI Security in IoMT: A PRISMA-Guided Scoping Review and Layered Threat-Defense Taxonomy,not_retracted,2026-10-30,OpenAlex
+10.1145/3689933.3690831,R0315,PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation,not_retracted,2026-10-30,OpenAlex
+10.1109/aibthings66987.2025.11296159,R0316,NetMoniAI: An Agentic AI Framework for Network Security & Monitoring,not_retracted,2026-10-30,OpenAlex
+10.1109/ijcnn64981.2025.11229285,R0317,Incorporating Distributed Invariants in Autonomous Cybersecurity Knowledge Graphs: A Scalable Approach Using GNNs and LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/isctis70043.2026.11572126,R0318,MAPT: Memory-Augmented Multi-Agent Framework for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/tifs.2025.3601343,R0319,AutoPT: How Far Are We from the Fully Automated Web Penetration Testing?,not_retracted,2026-10-30,OpenAlex
+10.18653/v1/2025.emnlp-main.802,R0320,From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/aece67531.2025.11386596,R0321,Security Risks in AI-Generated Code: A Comparative Analysis of Industry and Academic Benchmarks,not_retracted,2026-10-30,OpenAlex
+10.3390/app15169096,R0322,CurriculumPT: LLM-Based Multi-Agent Autonomous Penetration Testing with Curriculum-Guided Task Scheduling,not_retracted,2026-10-30,OpenAlex
+,R0323,ScamAgents: How AI Agents Can Simulate Human-Level Scam Calls,no_doi,2026-10-30,
+10.1109/ecai69016.2026.11613753,R0324,InfraAgent: A Multi-Agent AI Framework for Predictive Deployment Failure Detection and Autonomous Remediation in Multi-Cloud Environments,not_retracted,2026-10-30,OpenAlex
+10.1016/j.comnet.2026.112556,R0325,Hierarchical multi-agent AI framework for cybersecurity in cyber–physical systems,not_retracted,2026-10-30,OpenAlex
+10.1109/iccit68739.2025.11491067,R0326,Code Poisoning Through Misleading Comments: Jailbreaking Large Language Models via Contextual Deception,not_retracted,2026-10-30,OpenAlex
+10.3390/app15042117,R0327,PenQA: A Comprehensive Instructional Dataset for Enhancing Penetration Testing Capabilities in Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icuis67429.2025.11380737,R0328,LLM-Powered Deep Reinforcement Learning for Predictive Cyber Threat Mitigation,not_retracted,2026-10-30,OpenAlex
+10.1109/satc69565.2026.11542221,R0329,Benchmarking the Effectiveness of AI-Driven Red Teaming Across Safety-Aligned Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icauc68182.2026.11441092,R0330,Autonomous Cloud Security Hardening using Generative AI and Reinforcement Learning in Zero Trust Architectures,not_retracted,2026-10-30,OpenAlex
+10.1109/ccwc60891.2024.10427746,R0331,Using Natural Language Processing Tools to Infer Adversary Techniques and Tactics Under the Mitre ATT&CK Framework,not_retracted,2026-10-30,OpenAlex
+,R0332,The Agentic Kill Chain: A Cognitive Threat Framework for Autonomous Agent Ecosystems,no_doi,2026-10-30,
+10.1109/icriset64803.2025.11251750,R0333,Generative Artificial Intelligence (GenAI) Guided Cyber Attack Detection and Classification in Autonomous Intelligent Cars,not_retracted,2026-10-30,OpenAlex
+10.1109/eem68581.2026.11589677,R0334,Collaborative Cyberattack Mitigation Framework for Energy Grids,not_retracted,2026-10-30,OpenAlex
+10.1109/soli66289.2025.11396255,R0335,Building a Domain-Specialized Large Language Model for Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/iccet70051.2026.11659006,R0336,A Hierarchically Autonomous Multi-Agent Framework with Target-Centered DAG Memory for Long-Horizon Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00440,R0337,Provenance-Aware Trust Framework for Autonomous Vehicles: A Generative AI-Inspired Hybrid Approach for Decentralized Information Validation,not_retracted,2026-10-30,OpenAlex
+10.1016/j.asoc.2025.112905,R0338,Unknown web attack threat detection based on large language model,not_retracted,2026-10-30,OpenAlex
+10.1109/icih67754.2025.11608756,R0339,"Agentic AI for Cybersecurity: Orchestrating Specialised Large Language Model Agents for Autonomous, Safe, and Scalable Penetration Testing",not_retracted,2026-10-30,OpenAlex
+10.1109/mcomstd.2026.3681685,R0340,Agentic AI for 6G: A New Paradigm for Autonomous RAN Security Compliance,not_retracted,2026-10-30,OpenAlex
+10.1109/icdscnc62492.2024.10939862,R0341,Enforcing Web Security Constraints for LLM-driven Robot Agents for Online Transactions,not_retracted,2026-10-30,OpenAlex
+10.1109/most57249.2023.00034,R0342,Heterogeneous Generative Dataset for UASes,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00095,R0343,PentestLLM: A Cyber Kill Chain-driven Multi-Agent Large Language Model Framework Enabling Automatic Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395848,R0344,"A Systematic Security Analysis of Model Context Protocol: Vulnerabilities, Exploits, and Mitigations",not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-92-3018-1_11,R0345,Autonomous Adversary: Red-Teaming in the Age of LLM,not_retracted,2026-10-30,OpenAlex
+,R0346,Architecture of AI-agent orchestration for automated testing and cyber threat analysis in DevSecOps environments,no_doi,2026-10-30,
+10.1109/icdmw69685.2025.00151,R0347,SoK: Measuring what Matters for Closed-Loop Security Agents,not_retracted,2026-10-30,OpenAlex
+,R0348,SecFlow: An Agentic LLM-Based Framework for Modular Cyberattack Analysis and Explainability,no_doi,2026-10-30,
+10.1109/milcom64451.2025.11310336,R0349,Automating Cybersecurity Risk Assessment for AI Systems in Military & Critical Infrastructure,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11402393,R0350,IRSDA: An Agent-Orchestrated Framework for Enterprise Intrusion Response,not_retracted,2026-10-30,OpenAlex
+10.1109/mosicom67153.2025.11398253,R0351,Examining the Factors Influencing Generative AI's Impact on Quantum Cybersecurity: A Thematic Analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/icad69378.2026.11608489,R0352,From Scripts to Prompts: How Large Language Models Are Transforming Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1007/s10489-025-06908-1,R0353,Collaborative penetration testing suite for emerging generative AI algorithms,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395822,R0354,Leveraging Generative AI And Reinforcement Learning For Autonomous Cyber Threat Mitigation,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-16764-4_7,R0355,SEPTA: Self-Evolving PenTester Agent,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2026.131535,R0356,CogTrust: Cognitive Logic-Based framework for dynamic trust evaluation in multi-agent systems,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom63139.2024.00213,R0357,Leveraging Large Language Models for Challenge Solving in Capture-the-Flag,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647861,R0358,Attacks via AI Agents: How Autonomous Systems Are Becoming the New Weapon of Cybercriminals,not_retracted,2026-10-30,OpenAlex
+10.1109/ojcoms.2026.3734283,R0359,Recent Advances in Generative Artificial Intelligence for Communication Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/cscwd68734.2026.11582602,R0360,Artifact-assisted Red-Team PWN Template Generation by Leveraging Large Language Model,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647893,R0361,MinervAI: Multi-LLM Powered Autonomous Cyber Threat Intelligence for Ransomware Analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/icosaas68663.2026.11648534,R0362,Autonomous LLM Agent for Real-Time DDoS Attack Classification and Mitigation Rule Generation,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15132949,R0363,Local LLM-Based Cyber Incident Analysis in Air-Gapped Networks via Teacher–Student Knowledge Distillation and Agentic Orchestration,not_retracted,2026-10-30,OpenAlex
+10.1007/s11227-026-08439-z,R0364,Autosecagent: a semi-automated AI-driven penetration testing framework through recursive memory and real-time RAG,not_retracted,2026-10-30,OpenAlex
+10.1002/aisy.202501381,R0365,OntoLogX: Ontology-Guided Knowledge Graph Extraction From Cybersecurity Logs With Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icicv68925.2026.11554848,R0366,LLM-Orchestrated Multi-Agent Framework for Log-Centric Cyber Threat Detection and Analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/iwcmc69287.2026.11579813,R0367,Agentic SOC: A Hierarchical Swarm-Orchestrated Multi-Agent LLM Architecture for Autonomous OT Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-95-8420-8_22,R0368,Multi-dimensional Prompt Expansion: Black-Box DoS Attacks on Multi-agent LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3705409,R0369,MaID-Agent: A Hybrid Masqueraded Intrusion Detection System Enhanced by Agent,not_retracted,2026-10-30,OpenAlex
+,R0370,The Power of Words: Generating PowerShell Attacks from Natural Language,no_doi,2026-10-30,
+10.3390/engproc2026150106,R0371,Cyber Response Automation with Dedicated AI Agents †,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-04403-7_11,R0372,Autonomic Microservice Management via Agentic AI and MAPE-K Integration,not_retracted,2026-10-30,OpenAlex
+10.3390/app152413190,R0373,A Hybrid Perplexity-MAS Framework for Proactive Jailbreak Attack Detection in Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1016/j.engappai.2025.111343,R0374,Generative Agent-Based Modeling with Large Language Models for insider threat detection,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-97-5606-3_19,R0375,PTGroup: An Automated Penetration Testing Framework Using LLMs and Multiple Prompt Chains,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-19681-1_1,R0376,Turning AI Against AI: The Role of Agentic AI in Detecting and Mitigating AI Generated Cyber Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/iciet70550.2026.11712638,R0377,Self-Healing Cybersecurity Framework using Generative Artificial Intelligence for Autonomous Network Recovery,not_retracted,2026-10-30,OpenAlex
+10.1016/j.compgeo.2026.107986,R0378,A novel large language model–inspired transformer framework for reconstructing subsurface soil properties at untested locations from sparse cone penetrometer test data,not_retracted,2026-10-30,OpenAlex
+10.1109/tccn.2026.3676045,R0379,Generative AI-Empowered Signal Processing for Collaborative Embodied Agents: A Survey on Agentic Security,not_retracted,2026-10-30,OpenAlex
+,R0380,AgCyRAG: an Agentic Knowledge Graph based RAG Framework for Automated Security Analysis,no_doi,2026-10-30,
+10.1145/3839495,R0381,Agent-Based Automated Remediation for Vulnerabilities in Maven Projects,not_retracted,2026-10-30,OpenAlex
+10.1016/j.infsof.2026.108281,R0382,Evaluating prompting strategies for LLM-based code generation in offensive security tasks,not_retracted,2026-10-30,OpenAlex
+10.1109/i5cps67958.2026.11452334,R0383,Adaptive Malware Defense: A Multi-Agent System for Malware Detection and Adaptive Response,not_retracted,2026-10-30,OpenAlex
+10.3390/aerospace12050431,R0384,SatGuard: Satellite Networks Penetration Testing and Vulnerability Risk Assessment Methods,not_retracted,2026-10-30,OpenAlex
+10.1109/wcnc65185.2026.11555542,R0385,GAN-Augmented and LLM-Enhanced Intrusion Detection for Intelligent Vehicles,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3602681,R0386,A Multi-Agent System for Cybersecurity Threat Detection and Correlation Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-031-10684-2_7,R0387,Knowledge Mining in Cybersecurity: From Attack to Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/iwcmc69287.2026.11580008,R0388,Deep-RF - An Agentic AI Framework for RF Signal Classification and Real-Time 5G O-RAN Attack Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/icbase70763.2026.11619482,R0389,Web Log Anomaly Detection via Multi-Agent RAG,not_retracted,2026-10-30,OpenAlex
+10.1109/svcc65277.2025.11133641,R0390,Demo: A Real-time Multi-Agent Network Attack Detection and Incident Response System,not_retracted,2026-10-30,OpenAlex
+10.18178/ijiet.2026.16.3.2550,R0391,Malware Analysis Education Meets LLMs: Understanding Student Use of LLMs in Malware Analysis Education,not_retracted,2026-10-30,OpenAlex
+10.1109/ccge67142.2026.11581521,R0392,Automated Framework for Red-Team Prompt Injection Testing of LLMs,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-22545-0_26,R0393,WebHunter: An LLM-Agent with Exploit Planning and Tool Collaboration for Automated SQL Injection,not_retracted,2026-10-30,OpenAlex
+10.1109/icici68773.2026.11580636,R0394,A Graph-Orchestrated Agentic Framework for Real-Time Multimodal Email Threat Detection with Continual Learning using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/seeda-cecnsm68644.2025.11329702,R0395,Cyber Threat Detection and Mitigation on Social Media Using Large Language Models (LLMs): A Systematic Review,not_retracted,2026-10-30,OpenAlex
+,R0396,Investigating AI Enabled Attacks and Malware Within Dark Web Ecosystems: An Updated Assessment,no_doi,2026-10-30,
+10.1109/saci66288.2025.11030110,R0397,Adaptive Deception Architectures: Conceptual Foundations for LLM-Powered Honeypot Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icrteect67512.2025.11448772,R0398,Autonomous AI Agents for Offensive Security: Redefining Penetration Testing and Remediation,not_retracted,2026-10-30,OpenAlex
+10.1109/i4tech64670.2025.11277913,R0399,Ensemble-Based Intrusion Detection Enhanced with LLM-Driven Incident Response Automation,not_retracted,2026-10-30,OpenAlex
+10.1109/icct67028.2025.11427730,R0400,Using Artificial Intelligence as an Assistant in Information Systems Security Testing,not_retracted,2026-10-30,OpenAlex
+10.1080/1206212x.2026.2726979,R0401,"Never trust, always verify: a zero trust security framework for internet of robotic things ecosystems",not_retracted,2026-10-30,OpenAlex
+10.5220/0014456800004052,R0402,Sura.ai: Multi-Agent Infrastructure Recovery with LLM-Powered Autonomous Remediation,not_retracted,2026-10-30,OpenAlex
+10.1109/cist65886.2025.11224070,R0403,"Introducing PenTest++: An AI-augmented, Automated, Ethical Hacking System",not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-95-8417-8_8,R0404,Enhancing Security in Embodied Intelligence: Attack Detection via Constraint Functions,not_retracted,2026-10-30,OpenAlex
+10.1111/exsy.70268,R0405,LLM-Driven Sustainable Cybersecurity for Future Intelligent Transportation System: RAG-Based Rule Generation and Edge-Optimisation for Roadside Infrastructure,not_retracted,2026-10-30,OpenAlex
+10.1016/j.iswa.2026.200681,R0406,RAG-Augmented LLMs for Penetration Testing: A benchmarking study of open-source LLM models,not_retracted,2026-10-30,OpenAlex
+10.1109/ei264398.2024.10990542,R0407,Research on the Penetration Testing Model in the Vertical Field Using Generative AI Technology,not_retracted,2026-10-30,OpenAlex
+10.1109/isc266238.2025.11293337,R0408,MAD-Agent: A Malware Analysis and Detection AI Agent,not_retracted,2026-10-30,OpenAlex
+10.1145/3611643.3613083,R0409,Getting pwn'd by AI: Penetration Testing with Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.2197/ipsjjip.33.139,R0410,Efficient Curation of ICS Cybersecurity Information Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/ai-si66213.2025.11340854,R0411,Hyper-Automated AIOps for Unified Operations Orchestration in Industry,not_retracted,2026-10-30,OpenAlex
+,R0412,"Cloak, Honey, Trap: Proactive Defenses Against LLM Agents",no_doi,2026-10-30,
+10.48009/1_iis_2025_137,R0413,Generative AI for web application pentesting,not_retracted,2026-10-30,OpenAlex
+10.1109/iciteics64870.2025.11341519,R0414,ZeroByX: A Cyber Security Specialized Large Language Model (LLM),not_retracted,2026-10-30,OpenAlex
+10.3390/fi18040202,R0415,EGGA: An Error-Guided Generative Augmentation and Optimized ML-Based IDS for EV Charging Network Security,not_retracted,2026-10-30,OpenAlex
+10.1109/csr61664.2024.10679480,R0416,"PENTEST-AI, an LLM-Powered Multi-Agents Framework for Penetration Testing Automation Leveraging Mitre Attack",not_retracted,2026-10-30,OpenAlex
+10.1145/3696410.3714798,R0417,LLMCloudHunter: Harnessing LLMs for Automated Extraction of Detection Rules from Cloud-Based CTI,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-10489-2_36,R0418,Evaluating AI Agents for Cyber Defense: A Comparison of Deep Reinforcement Learning and LLM Approaches,not_retracted,2026-10-30,OpenAlex
+,R0419,Enabling Transparent Cyber Threat Intelligence Combining Large Language Models and Domain Ontologies,no_doi,2026-10-30,
+10.1109/iccsdfai70505.2026.11647925,R0420,"Securing the Physical-Digital Frontier: AI for Anomaly Detection in OT, IoT, and Critical Infrastructure",not_retracted,2026-10-30,OpenAlex
+10.1007/s11280-025-01393-5,R0421,"ELISAR: A Multi-Agent cybersecurity framework integrating retrieval-augmented generation for Blue, Red, and GRC operations",not_retracted,2026-10-30,OpenAlex
+10.1145/3801438.3803160,R0422,"A Review of Large Language Models for Cybersecurity Defense: Core Capabilities, Application Practices, and Challenges",not_retracted,2026-10-30,OpenAlex
+10.1109/aicconf69182.2026.11600706,R0423,Stateful LLM Agents for Autonomous Capture-the-Flag Solving,not_retracted,2026-10-30,OpenAlex
+10.1109/jcsse68839.2026.11596758,R0424,SHARKAPT: An Autonomous LLM-Orchestrated Penetration Testing Framework with MCP-Based Tool Integration,not_retracted,2026-10-30,OpenAlex
+10.1109/ais69919.2026.11621639,R0425,Agentic AI in Cybersecurity:Threat Modeling and Containment Strategies for Autonomous LLM Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3734984,R0426,Secrets That Survive Everything: Runtime Credential Exposure in Production Web Applications,not_retracted,2026-10-30,OpenAlex
+10.3390/app15137237,R0427,LogRESP-Agent: A Recursive AI Framework for Context-Aware Log Anomaly Detection and TTP Analysis,not_retracted,2026-10-30,OpenAlex
+10.70470/shifra/2025/005,R0428,Beyond Detection: Large Language Models and Next-Generation Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1109/icngn67480.2025.11413722,R0429,Analysis of Recent AI-based Tools and Techniques for Ethical Hacking and Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icsa-c68850.2026.00088,R0430,Towards Leveraging LLMs to Generate Abstract Penetration Test Cases from Software Architecture,not_retracted,2026-10-30,OpenAlex
+10.1007/978-981-96-4506-0_3,R0431,Review of Path Planning and Decision-Making in Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/tps-isa62245.2024.00053,R0432,Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11648053,R0433,"AI-Driven Penetration Testing: A Survey of Autonomous Agents, LLM-Based Approaches, and Future Directions",not_retracted,2026-10-30,OpenAlex
+10.1016/j.inffus.2025.103731,R0434,PTFusion: LLM-driven context-aware knowledge fusion for web penetration testing,not_retracted,2026-10-30,Crossref
+10.1109/bigdata66926.2025.11400902,R0435,Design and Implementation of a Multi-Agent Threat Intelligence Assistant Based on Generative AI,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics14132704,R0436,Cybersecurity Applications of Near-Term Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/tps-isa62245.2024.00022,R0437,A Qualitative Study on Using ChatGPT for Software Security: Perception vs. Practicality,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom66490.2025.00041,R0438,AutoPentestAL: An automated penetration testing framework with active learning capabilities,not_retracted,2026-10-30,OpenAlex
+10.1186/s42400-025-00458-2,R0439,KGAgent4CTI: unlocking the power of LLM in threat intelligence,not_retracted,2026-10-30,OpenAlex
+10.3390/a19010043,R0440,AgentRed: Towards an Agent-Based Approach to Automated Network Attack Traffic Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdatasecurity69476.2026.00021,R0441,TRACE: Tamper-Resistant Accountability and Cryptographic Evidence for Multi-Agent AI Systems,not_retracted,2026-10-30,OpenAlex
+10.1145/3769694.3771120,R0442,BAIT: A Social Engineering Practice Platform,not_retracted,2026-10-30,OpenAlex
+10.1109/i3ctcon68242.2026.11507989,R0443,Generative AI for Synthetic Cyber Threat Simulation and Defense Training,not_retracted,2026-10-30,OpenAlex
+10.1109/milcom61039.2024.10773947,R0444,Exploring the Potential of Large Language Models for Red Teaming in Military Coalition Networks,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-22545-0_7,R0445,"APT-Agent: A Training-Free, Unsupervised, LLM-Based Multi-agent Framework for Interpretable Advanced Persistent Threat Detection",not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3579680,R0446,Generative AI-Enhanced Neuro-Symbolic Quantum Architectures for Secure Communications and Networking,not_retracted,2026-10-30,OpenAlex
+10.1016/j.future.2025.108186,R0447,CyberRAG: An agentic RAG cyber attack classification and reporting tool,not_retracted,2026-10-30,OpenAlex
+10.1145/3708319.3733804,R0448,"Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements",not_retracted,2026-10-30,OpenAlex
+10.1109/aicconf69182.2026.11600709,R0449,AI-Driven Security Operations Centers: A Research Landscape Analysis,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-28997-1_30,R0450,Automatic Assessment of Node Compromise Risks in Critical Infrastructures via a Multi-stage Uncertainty Reduction Model Using LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/cai64502.2025.00195,R0451,Large Language Models are Autonomous Cyber Defenders,not_retracted,2026-10-30,OpenAlex
+10.1109/dcoss-iot69657.2026.00161,R0452,CyberAId: AI-Driven Cybersecurity for Financial Service Providers,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-08649-5_2,R0453,Leveraging Generative AI for Proactive Security and Automated Remediation in Cloud-Native CI/CD Pipelines,not_retracted,2026-10-30,OpenAlex
+10.1109/iceccc65144.2025.11064209,R0454,Prompt Injection in Large Language Model Exploitation: A Security Perspective,not_retracted,2026-10-30,OpenAlex
+10.1109/asens64990.2025.11011130,R0455,Intelligent Cybersecurity Defense Strategies Based on Large Language Model Agents,not_retracted,2026-10-30,OpenAlex
+10.1145/3708821.3736189,R0456,Perses: Unlocking Privilege Escalation for Small LLMs via Extensible Heterogeneity,not_retracted,2026-10-30,OpenAlex
+10.1109/csr61664.2024.10679470,R0457,Autonomous Cyberattack with Security-Augmented Generative Artificial Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/iccvbic71195.2026.11688604,R0458,An Explainable AI-Based Unified Vendor Risk Assessment System,not_retracted,2026-10-30,OpenAlex
+10.3390/a19070555,R0459,Efficient Retrieval-Augmented Generation for Vulnerability Assessment and Penetration Testing in Automotive Engineering,not_retracted,2026-10-30,OpenAlex
+10.1007/s10586-025-05721-2,R0460,Leveraging Intra- and Inter-References in vulnerability detection using Multi-Agent collaboration based on LLMs,not_retracted,2026-10-30,OpenAlex
+10.1007/978-3-032-03215-7_18,R0461,GPT Promotes Intelligent Autonomy in Communication Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/aimla67915.2026.11522401,R0462,"Full Stack E-Commerce System With Role-Based Access, Integrated AI Chatbot, and NLP-Driven Product Search",not_retracted,2026-10-30,OpenAlex
+10.1109/sieds69358.2026.11540254,R0463,Systematic Capability Benchmarking of Frontier Large Language Models for Offensive Cyber Tasks,not_retracted,2026-10-30,OpenAlex
+10.1109/netsoft70012.2026.11603421,R0464,Hybrid Neuro-Symbolic Architecture for Autonomous Intrusion Detection and Mitigation in 5G and beyond Networks,not_retracted,2026-10-30,OpenAlex
+10.1016/j.segan.2025.101877,R0465,LLM-powered threat intelligence: Proactive detection of zero-day attacks in electric vehicle cyber-physical systems,not_retracted,2026-10-30,OpenAlex
+10.3390/app16157646,R0466,Designing an AI-Assisted Cyber Threat Intelligence Framework for Industry 4.0: A Human-in-the-Loop Design Science Approach,not_retracted,2026-10-30,OpenAlex
+10.1109/menacomm69507.2026.11532919,R0467,Autonomous Security Framework for AI-Native 6G Networks: Architecture and Threat Taxonomy,not_retracted,2026-10-30,OpenAlex
+10.3390/s24216878,R0468,CIPHER: Cybersecurity Intelligent Penetration-Testing Helper for Ethical Researcher,not_retracted,2026-10-30,OpenAlex
+10.1109/dcoss-iot69657.2026.00163,R0469,An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations,not_retracted,2026-10-30,OpenAlex
+10.1145/3774904.3792400,R0470,Beyond Detection: Autonomous Anomaly Remediation for MCP Against Tool Poisoning Attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/icdsbs69077.2026.11634799,R0471,Executable Risk Assessment: A Multi-Modal Approach to Autonomous Security Operations,not_retracted,2026-10-30,OpenAlex
+10.1142/s0219649226500504,R0472,Agentic AI for Offensive Security: LLM-guided Autonomous Red Teaming in a Limited Cyber-range Environment,not_retracted,2026-10-30,OpenAlex
+10.1109/cars67163.2025.11337724,R0473,Autonomous Multi-agent Cyber Defense: A Novel Approach Using Reinforcement Learning with Hierarchical LLM Critics,not_retracted,2026-10-30,OpenAlex
+10.1109/milcom64451.2025.11310253,R0474,Agentic AI for Cyber Defense: LLM-Guided Hierarchical Multi-Agent Reinforcement Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647955,R0475,From AI Strategy to Executable Controls: A PRISMA-Guided Systematic Review of AI Governance for Cybersecurity Efficiency in Azerbaijan,not_retracted,2026-10-30,OpenAlex
+10.1145/3770855.3818313,R0476,Adaptive Ticket Routing through Retrieval-Augmented In-Context Learning from Analyst Behaviour at CERT-EU,not_retracted,2026-10-30,OpenAlex
+10.22323/1.488.0009,R0477,ChatSOC: A Large Language Model Powered Autonomous Agent for Security Operations Center,not_retracted,2026-10-30,OpenAlex
+10.1109/cando-epe71091.2026.11569448,R0478,Data validation: SOC and LLM approaches,not_retracted,2026-10-30,OpenAlex
+10.1109/mis.2025.3568209,R0479,Leveraging Large Language Models for Autonomous Cyber Defense: Insights from CAGE-2 Simulations,not_retracted,2026-10-30,OpenAlex
+10.1145/3786335.3813155,R0480,FORGE: Self-Evolving Agent Memory with No Weight Updates via Population Broadcast,not_retracted,2026-10-30,OpenAlex
+10.5220/0013406000003928,R0481,CyberGuardian 2: Integrating LLMs and Agentic AI Assistants for Securing Distributed Networks,not_retracted,2026-10-30,OpenAlex
+10.1016/j.procs.2026.08.388,R0482,LLM-Generated Heuristics for Guiding Reinforcement Learning in Autonomous Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/smartnets69662.2026.11604963,R0483,Can LLM Agents Replace Reinforcement Learning Agents in Cyber Defence Automation: A Case Study Using the DARPA CAGE-2 Challenge,not_retracted,2026-10-30,OpenAlex
+10.1145/3786335.3813149,R0484,"Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP",not_retracted,2026-10-30,OpenAlex
+10.3390/jsan15020032,R0485,An LLM-Based Agentic Network Traffic Incident-Report Approach Towards Explainable-AI Network Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/icercs65898.2025.11581040,R0486,Future-Proof: An Application of AI to Multi-Agent Cyber Defence System for Predictive Threat Analysis,not_retracted,2026-10-30,OpenAlex
+10.1007/s10489-026-07386-9,R0487,A systematic evaluation of large language models for autonomous cyber defense,not_retracted,2026-10-30,OpenAlex
+10.1109/mcom.001.2600567,R0488,The AI Agent Who Cried Wolf: Boundary-Oriented Threat Models for Model Context Protocol (MCP),not_retracted,2026-10-30,OpenAlex
+10.1109/tnse.2026.3715407,R0489,Cyber Task Automation With Knowledge-Infused Reinforcement Learning and LLM-Guided Policies,not_retracted,2026-10-30,OpenAlex
+10.53829/ntr202511fa7,R0490,Collaboration between People and AI to Evolve Security Activities into a New Form for People,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395880,R0491,The Adaptive AI SOC Agent - Moving Beyond Linear Playbooks with Cognitive Reasoning,not_retracted,2026-10-30,OpenAlex
+10.3390/app16167974,R0492,SecureMCP: Policy-Enforced Defense Against Prompt Injection in LLM-Generated SQL for AIoT Databases,not_retracted,2026-10-30,OpenAlex
+10.1109/milcom61039.2024.10773848,R0493,BRETAGNE: Building a Reproducible and Efficient Training AI Gym for Network Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/cai64502.2025.00196,R0494,SkyQuery: Evaluating LLMs for Decision Making in the CAGE Challenge,not_retracted,2026-10-30,OpenAlex
+10.3390/app16167915,R0495,Design of a Security Framework for Multi-Agent Systems Based on Model Context Protocol in SOC Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/spw67851.2025.00048,R0496,Exploring Traffic Simulation and Cybersecurity Strategies Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/sita67914.2025.11273696,R0497,Gamification Empowered by LLM-Based Agents: A Systematic Literature Review,not_retracted,2026-10-30,OpenAlex
+10.1016/j.inffus.2025.103941,R0498,"Security of LLM-based agents regarding attacks, defenses, and applications: A comprehensive survey",not_retracted,2026-10-30,OpenAlex
+,R0499,Personality-Driven Decision-Making in LLM-Based Autonomous Agents,no_doi,2026-10-30,
+10.1109/netsoft64993.2025.11080605,R0500,Towards Robust Autonomous Cyber Defence Agents Using Hybrid AI Models,not_retracted,2026-10-30,OpenAlex
+10.1109/acoit66109.2025.11436162,R0501,Cognitive Cyber Deception: An Agentic AI Framework for Dynamically Adaptive Collaborative Honeypots,not_retracted,2026-10-30,OpenAlex
+10.1109/milcom64451.2025.11310039,R0502,Explaining Hybrid RL Agents for Cyber Defense using SHAP and Reward Decomposition,not_retracted,2026-10-30,OpenAlex
+10.1109/icaic67076.2026.11395809,R0503,The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines,not_retracted,2026-10-30,OpenAlex
+10.1109/cyber-rci68134.2025.11384950,R0504,From Code to Combat: Introducing the Role of AI in Cyber and Kinetic Warfare in 2024,not_retracted,2026-10-30,OpenAlex
+10.1109/tce.2026.3707231,R0505,AI2-Defense: An Autonomous Counter-AI Framework Against AI-Generated Threats in Consumer Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icmcis61231.2024.10540988,R0506,Design of an Autonomous Cyber Defence Agent using Hybrid AI models,not_retracted,2026-10-30,OpenAlex
+10.23919/cycon70911.2026.11609433,R0507,Leveraging Agentic AI for loT Security Operations,not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2026.104871,R0508,Human-factor vulnerabilities of automation in SOCs: A mixed-methods multigroup analysis,not_retracted,2026-10-30,OpenAlex
+10.1016/j.comnet.2026.112349,R0509,Towards generic defensive cyber agents: Leveraging large language models and RAG-based few-shot learning,not_retracted,2026-10-30,OpenAlex
+10.1109/milcom61039.2024.10773923,R0510,Training Autonomous Cyber Defense Agents: Challenges & Opportunities in Military Networks,not_retracted,2026-10-30,OpenAlex
+10.1145/3719027.3760731,R0511,Poster: Agentic Shell Honeypot Using Structured Logging,not_retracted,2026-10-30,OpenAlex
+10.1109/pst65910.2025.11268866,R0512,Cyber Threat Mitigation with Knowledge-Infused Reinforcement Learning and LLM-Guided Policies,not_retracted,2026-10-30,OpenAlex
+10.1109/cisat66811.2025.11181948,R0513,Intelligent Automation of Network Security Operations via Intention-Driven Agents and Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icaiii69475.2026.11521460,R0514,Building an Autonomous Cyber Defense System Through Generative AI Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/icsseecc69062.2026.11722049,R0515,Improving Generalization of Autonomous SOC Agents through Adversarial Co-Evolutionary Reinforcement Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/icoici69824.2026.11723493,R0516,Hierarchical Multi-Agent Systems for Automated Vulnerability Assessment: A Comparative Study of Agentic Architecture in Large Language Model Driven Penetration Testing and Multi-Tool Scanning,not_retracted,2026-10-30,OpenAlex
+10.1109/lcn65610.2025.11146384,R0517,Agentic Generative AI for Automation of Cyber Security Attack Chains in Tactical MANETs,not_retracted,2026-10-30,OpenAlex
+10.1109/icsseecc69062.2026.11722287,R0518,LLM-Driven Intelligent Penetration Testing with MCP-Enabled Security Tool Orchestration for Automated Vulnerability Assessment,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3658308,R0519,The AI-Cybersecurity Nexus: How Large Language Models are Reshaping Threat Intelligence and Digital Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdatasecurity69476.2026.00009,R0520,A Four-Axis Systematization of AI and Cybersecurity in the Era of Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/acai68217.2025.11406310,R0521,Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/cns66487.2025.11195050,R0522,iThelma: An Autonomous LLM Agent for Cyber Threat Hunting via Playbook-Driven Intelligence,not_retracted,2026-10-30,Crossref
+10.1109/cns69863.2026.11720875,R0523,MaLO: Multi-agent LLM Operations for Autonomous Security,not_retracted,2026-10-30,OpenAlex
+10.1109/ciit68512.2026.11731564,R0524,Classification and Analysis of Open-Source Gen-AI Penetration Testing Tools,not_retracted,2026-10-30,OpenAlex
+10.1109/ichora69329.2026.11537001,R0525,Zero-trust Conceptual Architecture for Secure Integration of Large Language Models and Autonomous AI Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/icbase63199.2024.10762654,R0526,LLMSQLi: A Black-Box Web SQLi Detection Tool Based on Large Language Model,not_retracted,2026-10-30,OpenAlex
+10.1109/trustcom66490.2025.00256,R0527,L2M-AID: Autonomous Cyber-Physical Defense by Fusing Semantic Reasoning of Large Language Models with Multi-Agent Reinforcement Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00376,R0528,Neuro-Agentic Control: A Deep Learning-Based LLM-Powered Agentic AI Framework for Controlling Security Controls,not_retracted,2026-10-30,OpenAlex
+10.1109/iconica70605.2026.11736648,R0529,Cyber security Integration Framework using Multi-Agent Reinforcement Learning for Agent OS : with Adaptive Threat Defence and Governance Compliance,not_retracted,2026-10-30,OpenAlex
+10.1109/msec.2025.3633466,R0530,From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/icaita71179.2026.11736928,R0531,A Workflow-Constrained and Retrieval-Augmented LLM Framework for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icoco67189.2025.11334120,R0532,The cyber kill chain for autonomous AI agents,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata62323.2024.10825007,R0533,Generating Phishing Attacks and Novel Detection Algorithms in the Era of Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/icosaas68663.2026.11648996,R0534,LLM Fine-Tuned Threat Intelligence Summarization Agent for CVE Report Automation,not_retracted,2026-10-30,OpenAlex
+10.1109/icassp55912.2026.11462697,R0535,PenPlan-PDDL: A Multi-Agent Framework for Automated Penetration Testing Planning With PDDL-Based Verification,not_retracted,2026-10-30,OpenAlex
+10.1109/mipro70003.2026.11592043,R0536,Agentic Language Models for Vulnerability-Based Cyber Range Scenario Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/svcc65277.2025.11133630,R0537,Demo: ViolentUTF as An Accessible Platform for Generative AI Red Teaming,not_retracted,2026-10-30,OpenAlex
+10.1109/eurosp68448.2026.00063,R0538,"SoK: Honeypots & LLMs, More Than the Sum of Their Parts?",not_retracted,2026-10-30,OpenAlex
+10.1109/cyberc66434.2025.00040,R0539,LD-CIPHER: an LLM Multi-agent Framework for Lightweight Autonomous Solutions to CTF Challenges,not_retracted,2026-10-30,OpenAlex
+10.1109/ojcoms.2026.3717648,R0540,LLM-Driven Security and Resilience in 6G Mission-Critical Communication Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/lcn65610.2025.11146357,R0541,Towards Trustworthy Agentic IoEV: AI Agents for Explainable Cyberthreat Mitigation and State Analytics,not_retracted,2026-10-30,OpenAlex
+10.1109/aiccsa66935.2025.11315267,R0542,MultiFuzz: A Dense Retrieval-based Multi-Agent System for Network Protocol Fuzzing,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3719163,R0543,"Large Language Models in Cybersecurity: A PRISMA-ScR-Guided Scoping Review of Threats, Defenses, and Emerging Applications",not_retracted,2026-10-30,OpenAlex
+10.1109/miot.2026.3727905,R0544,"Towards Agentic Intelligence in Digital Twins: Advances, Use Cases and Challenges",not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11401815,R0545,Supporting Artifact Evaluation with LLMs: A Study with Published Security Research Papers,not_retracted,2026-10-30,OpenAlex
+10.1109/icws72778.2026.00164,R0546,Human Society-Inspired Approaches to Agentic AI Security: The 4C Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/iscas56072.2025.11044276,R0547,Automated Penetration Testing for Industrial IoT Systems: Enhancing Efficiency and Reducing Reliance on Human Expertise,not_retracted,2026-10-30,OpenAlex
+10.1109/miot.2026.3733858,R0548,LLM-Centric Agentic AI for UAV Swarms: System-Level Architecture and Perception–Reasoning Security,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3627126,R0549,Searching for Diamonds: Cross-Domain Opportunities in Cyber Threat Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/iconica70605.2026.11736853,R0550,Human-Centric LLM-Augmented SOC Analyst: A Privacy-Focused Framework for Contextualized Alert Triage and Explainable Classification,not_retracted,2026-10-30,OpenAlex
+10.1109/icecer65523.2025.11401194,R0551,Preliminary Review: Building AI Agents with LLMs for Autonomous Interpretation of Equipment Sensor Data,not_retracted,2026-10-30,OpenAlex
+10.1109/ccsb71176.2026.11716413,R0552,MAM-PT: A Memory-Augmented Middleware for Enhancing Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/ccsb71176.2026.11716348,R0553,SecOps-Agent: Policy-Grounded LLM-Assisted Security Incident Response for Production Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/etfa68377.2026.11724873,R0554,Foundation Model for the Detection of Cyber-Attacks on Mobile Robot Perception System,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3579001,R0555,Multi-Agent for Network Security Monitoring and Warning: A Generative AI Solution,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs65363.2025.11012014,R0556,Debate-Driven Multi-Agent LLMs for Phishing Email Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/eleco69582.2025.11329370,R0557,Securing Agentic AI with the NIST Cybersecurity Framework 2.0,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3727721,R0558,Intention Recognition for Digital Forensics: With Agentic AI,not_retracted,2026-10-30,OpenAlex
+10.1109/isas66241.2025.11101733,R0559,"A Context-Aware, AI-Driven Load Balancing Framework for Incident Escalation in SOCs",not_retracted,2026-10-30,OpenAlex
+10.1109/ic3ina72033.2026.11714886,R0560,Toward Trustworthy AI Helpdesk: A Multi-Agent Architecture for Cybersecurity Incident Pre-Triage,not_retracted,2026-10-30,OpenAlex
+10.1109/jcsse68839.2026.11597013,R0561,A Multimodal Large Language Model Approach for Automated Security Requirements Verification,not_retracted,2026-10-30,OpenAlex
+10.1109/noms57970.2025.11073574,R0562,Explainable Anomaly Detection in Network Traffic Using LLM,not_retracted,2026-10-30,OpenAlex
+10.1109/gcwot69191.2026.11499711,R0563,GAN-Driven Defense for Securing Autonomous Vehicles from Emerging Cyber Threats,not_retracted,2026-10-30,OpenAlex
+10.1109/etfa68377.2026.11725049,R0564,Zero-Shot Cyberattack Classification in Industrial Control Systems Using Tool-Augmented Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3718389,R0565,Large Language Models in the Crosshairs: A Systematic Review of Modern Cybersecurity Challenges and Applications,not_retracted,2026-10-30,OpenAlex
+10.1109/globecom59602.2025.11432499,R0566,Enhancing 6G Network Resilience through HORSE’s LLM Agent-Based Security Mechanisms,not_retracted,2026-10-30,OpenAlex
+10.1109/ijcnn69854.2026.11728977,R0567,RAVEN: Retrieval-Augmented Vulnerability Exploration Network for Memory Corruption Analysis in User Code and Binary Programs,not_retracted,2026-10-30,OpenAlex
+10.1109/icsss66939.2025.11346155,R0568,"Embodied AI for Security: Robotic Agents in Surveillance, Disaster Response, and Cyber-Physical Defense",not_retracted,2026-10-30,OpenAlex
+10.23919/icact68090.2026.11431400,R0569,Adaptive Retrieval Agents for Factual and Cost-Aware Cyber Threat Intelligence Summarization,not_retracted,2026-10-30,OpenAlex
+10.1109/tai.2025.3527398,R0570,Cyber Shadows: Neutralizing Security Threats With AI and Targeted Policy Measures,not_retracted,2026-10-30,OpenAlex
+10.1109/csr61664.2024.10679448,R0571,AI-Based Attacker Models for Enhancing Multi-Stage Cyberattack Simulations in Smart Grids Using Co-Simulation Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/mc.2025.3625738,R0572,Agentic AI: A New Paradigm for Cyber–Physical Systems Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1109/iseae69422.2026.11544637,R0573,ProtocolFuzz-Agents: Multi-Agent Semantic Fuzzing and State-Aware Exploitation Discovery for Unknown Network Protocols,not_retracted,2026-10-30,OpenAlex
+10.1109/mc.2024.3524302,R0574,Robust Intrusion Detection With Combinatorial Fusion and Generative Artificial Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/eurospw61312.2024.00061,R0575,Position Paper: Leveraging Large Language Models for Cybersecurity Compliance,not_retracted,2026-10-30,OpenAlex
+10.1109/spw67851.2025.00039,R0576,Good News for Script Kiddies? Evaluating Large Language Models for Automated Exploit Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/gcet64327.2024.10934554,R0577,Evaluating Large Language Models Versus Traditional Tools in SQL Injection Exploit Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/qpain69676.2026.11546222,R0578,Identifying Malicious and Benign Prompts in AI Agent Evasion Attacks Using Machine Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/tps-isa62245.2024.00023,R0579,Automated Consistency Analysis of LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/jiot.2025.3631562,R0580,LLM-Assisted Security Vulnerability Analysis for Educational Websites: Risk Identification via LLM-EduAttackGraph,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3744593,R0581,ShipCrawler: Agentic Open-Source Intelligence (OSINT) Platform for Maritime Cybersecurity - Implementation and Empirical Validation,not_retracted,2026-10-30,OpenAlex
+10.1109/bigdata66926.2025.11402161,R0582,Towards Agentic Investigation of Security Alerts,not_retracted,2026-10-30,OpenAlex
+10.1109/icassp55912.2026.11462759,R0583,Debatecti: Enhancing ATT&CK Technique Identification in CTI Reports Via a Role-Specialized Multi-Agent Debate,not_retracted,2026-10-30,OpenAlex
+10.1109/isdfs69419.2026.11458951,R0584,Automating Organizational Cyber Security Policy Compliance Against Industry Standards Using Agentic AI,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3637226,R0585,A Comprehensive Review on the Application of Large Language Models (LLMs) in Power Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/ccwc67433.2026.11393850,R0586,Interaction-Centric Cybersecurity Risks in LLM-Powered Dialogue Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11647906,R0587,AI as a tool for cyber attacks,not_retracted,2026-10-30,OpenAlex
+10.1109/icears67481.2026.11416624,R0588,Quantum Generative AI Hybrid Framework for Securing General-Purpose Cyber-Physical Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/mts.2025.3582667,R0589,The Unprecedented Surge in Generative AI: Empirical Analysis of Trusted and Malicious Large Language Models (LLMs),not_retracted,2026-10-30,OpenAlex
+10.1109/bigdia71496.2026.11684636,R0590,A Systematic Survey of Prompt Injection Attacks and Defenses in LLM-Integrated Applications and Agentic Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/pcic47468.2025.11289140,R0591,"Comprehensive Cybersecurity for Variable Frequency Drives Standards, Practices, and Implementation Revision Jan 2025",not_retracted,2026-10-30,OpenAlex
+10.1109/access.2024.3427369,R0592,LLM for SoC Security: A Paradigm Shift,not_retracted,2026-10-30,OpenAlex
+10.1145/3583740.3626809,R0593,Net-GPT: A LLM-Empowered Man-in-the-Middle Chatbot for Unmanned Aerial Vehicle,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3613118,R0594,Beekeeper: Accelerating Honeypot Analysis With LLM-Driven Feedback,not_retracted,2026-10-30,OpenAlex
+10.1109/ictmim65579.2025.10988029,R0595,Real-Time IoT Cybersecurity using Machine Learning-based AI Threat Detection System to Train Generative Robots,not_retracted,2026-10-30,OpenAlex
+10.1109/scse65633.2025.11031059,R0596,Integrating Large Language Models for Automated Vulnerability Scanning and Reporting in Network Hosts,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3678044,R0597,Automating Cyber Risk Assessment With Public LLMs: An Expert-Validated Framework and Comparative Analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/wconf64849.2025.11233239,R0598,Real Time Trade Settlement for the US Market,not_retracted,2026-10-30,OpenAlex
+10.1109/cars67163.2025.11337247,R0599,Modern SaaS Security Challenges and Defense Strategies,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2026.3738305,R0600,Agentic Vertical Federated Learning for Trustworthy Network Security,not_retracted,2026-10-30,OpenAlex
+10.1109/icscss64956.2025.11501128,R0601,Intelligent Dark Web Monitoring: Threat Prediction using NLP and LLM Techniques,not_retracted,2026-10-30,OpenAlex
+10.1109/ictas64866.2025.11155839,R0602,Large Language Models Adaptation for Web Applications Attacks Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/dsc65356.2025.11260866,R0603,Code as a Weapon: Generating Malware with Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac65507.2025.00182,R0604,"SmartTinkerer: Bridging Smart Home Testing Gaps with LLM, Digital Twin & Reinforcement Learning",not_retracted,2026-10-30,OpenAlex
+10.1109/eitce70137.2026.11634569,R0605,LLM-Agent Assisted Black-Box Detection of IDOR/BOLA via Multi-Role Differential Validation,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3731446,R0606,Testing the Robustness of IoT Messaging Middleware: A Case Study Using Rules and Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/iit.src67760.2026.11628985,R0607,Detection of Malicious HTTP Traffic Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/acdsa67686.2026.11468240,R0608,Transforming Cybersecurity Research: AI as Our Research Assistant in Academia,not_retracted,2026-10-30,OpenAlex
+10.1109/icecet61485.2024.10698605,R0609,An Extended Review: LLM Prompt Engineering in Cyber Defense,not_retracted,2026-10-30,OpenAlex
+10.1109/wf-pst65083.2025.00026,R0610,ThreatGPT: An Agentic AI Framework for Enhancing Public Safety Through Threat Modeling,not_retracted,2026-10-30,OpenAlex
+10.1109/icetran71739.2026.11727721,R0611,Metaheuristic Optimization of Boosting and Hybrid Machine Learning Models for IoT Intrusion Detection: A Review,not_retracted,2026-10-30,OpenAlex
+10.1109/cns69863.2026.11720902,R0612,Penetration Testing of Agentic AI: A Longitudinal Security Analysis Across Models and Frameworks,not_retracted,2026-10-30,OpenAlex
+10.1109/idss69894.2026.11691499,R0613,When Will the Next Attack Start? Calibrated Time-Window Prediction Using Multi-Agent LLMs,not_retracted,2026-10-30,OpenAlex
+10.1109/lcn65610.2025.11146337,R0614,Designing a Maritime Cybersecurity Risk Intelligence Model with Generative AI and Real-Time Interviews,not_retracted,2026-10-30,OpenAlex
+10.1109/itcem68692.2025.00031,R0615,Research on AIGC-Based Vulnerability Detection and Repair Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icciaa68481.2026.11543908,R0616,AI-Enhanced BIM for Smart City SDGs: Governance and Environment Pillars,not_retracted,2026-10-30,OpenAlex
+10.1109/ecis69634.2026.11604380,R0617,Research on Security Vulnerability Patterns of Code Generated by Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1109/siitme67657.2025.11293682,R0618,Security Posture Evaluation of Model Context Protocol Servers Against Prompt Injection,not_retracted,2026-10-30,OpenAlex
+10.1109/is71416.2026.11727250,R0619,Causal Reasoning Framework for 6G Network Security,not_retracted,2026-10-30,OpenAlex
+10.1109/spw72489.2026.00044,R0620,DART: Data Augmentation of Rare ATT&CK Techniques Using LLM Agents,not_retracted,2026-10-30,OpenAlex
+10.1109/noms69089.2026.11668410,R0621,Hallucination-Resistant Security Planning with a Large Language Model,not_retracted,2026-10-30,OpenAlex
+10.1109/rmkmate69073.2026.11518603,R0622,ChatIDS-Web: An Implemented Framework for Explainable Cybersecurity Using Generative AI,not_retracted,2026-10-30,OpenAlex
+10.1109/tai.2024.3394392,R0623,A Game-Theoretic Approach to Containing Artificial General Intelligence: Insights From Highly Autonomous Aggressive Malware,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3574284,R0624,GenAI-Based Jamming and Spoofing Attacks on UAVs,not_retracted,2026-10-30,OpenAlex
+10.1109/mc.2026.3696017,R0625,Intent-Invariant Mutation Testing: A Coverage Criterion for Large Language Model Safety Contracts,not_retracted,2026-10-30,OpenAlex
+10.1109/icassp55912.2026.11463278,R0626,ThreatSage: A Modular Benchmark for LLM-Orchestrated Blue Team Defense Operations,not_retracted,2026-10-30,OpenAlex
+10.1109/icdca69396.2026.11620116,R0627,Neural Synthesis of Perimeter Defense Policies: Fine-Tuning Language Models for Automated Intrusion Countermeasure Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/balkancom65827.2025.11185982,R0628,Harnessing Large Language Models for Passive SCADA Security Risk Assessment: A Case Study,not_retracted,2026-10-30,OpenAlex
+10.1109/icstsdg69220.2026.11707928,R0629,Intelligent Intrusion Detection and Prevention Systems: The Role of AI and Machine Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/icngn63705.2024.10871716,R0630,Large Language Model-enabled Vulnerability Investigation: A Review,not_retracted,2026-10-30,OpenAlex
+10.1109/icassp55912.2026.11464572,R0631,From Intent to Invocation: A Reasoning-First Framework for Natural Language to Penetration Testing Commands,not_retracted,2026-10-30,OpenAlex
+10.1109/spw72489.2026.00022,R0632,Limitations of Biological Risk Evaluation for Llms and Autonomous Science,not_retracted,2026-10-30,OpenAlex
+10.1109/csr61664.2024.10679494,R0633,CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge,not_retracted,2026-10-30,OpenAlex
+10.1109/csr61664.2024.10679411,R0634,A Modular Generative Honeypot Shell,not_retracted,2026-10-30,OpenAlex
+10.1109/tce.2026.3658881,R0635,GenFed-IDS: A Lightweight Federated Generative AI Framework for UAV Anomaly Detection in Rescue Operations,not_retracted,2026-10-30,OpenAlex
+10.1109/ojcs.2026.3690970,R0636,"Generative AI for Ransomware Identification and Mitigation: Taxonomy, Challenges, and Future Directions",not_retracted,2026-10-30,OpenAlex
+10.1109/etfa68377.2026.11724775,R0637,Toward Reliable Industrial CVE Profiling with LLMs: Comparing Prompt-Based and Workflow-Based Guardrails,not_retracted,2026-10-30,OpenAlex
+10.1109/cogmi67134.2025.00059,R0638,Automated Threat Emulation Framework with LLMs for Cyber Physical Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/satml68715.2026.00016,R0639,"""Org-Wide, We’re Not Ready"": C-Level Lessons on Securing Generative AI Systems",not_retracted,2026-10-30,OpenAlex
+10.1109/tvt.2025.3623875,R0640,A Vision-Based Covert Attack and Hybrid Adversary Detection for Autonomous Vehicles Using Generative Adversarial Network,not_retracted,2026-10-30,OpenAlex
+10.1109/icietsd68684.2026.11584774,R0641,YOLO-Driven UAV Surveillance System for Autonomous Threat Detection,not_retracted,2026-10-30,OpenAlex
+10.23919/cje.2024.00.342,R0642,RuleMaster+: LLM-Based Automated Rule Generation Framework for Intrusion Detection Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/tdsc.2026.3730860,R0643,"ProteusFuzz: From Static Harness Generation to Adaptive, Agent-Guided Library Fuzzing",not_retracted,2026-10-30,OpenAlex
+10.1109/tic68483.2026.11703014,R0644,"Machine Learning for Modern Cybersecurity: Trend-Driven Architectures, Threat Models, and Quantitative Evaluation",not_retracted,2026-10-30,OpenAlex
+10.1109/ijcnn69854.2026.11728546,R0645,XSSplore: A Tree-Structured Prompting and Actor-critic Framework for Autonomous Red Teaming XSS Payload Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/jcc72984.2026.00062,R0646,Chameleon: A Deception Defense Strategy Against LLM-Assisted Attacker in New Power Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/icetics69505.2026.11651085,R0647,A Multi-Agent GenAI Framework for Ethical Cloud Security Automation,not_retracted,2026-10-30,OpenAlex
+10.1109/ictc62082.2024.10827764,R0648,BLM-Chain: AI-Driven Blockchain for UAV Threat Resistance in IoBT,not_retracted,2026-10-30,OpenAlex
+10.1109/sp61157.2025.00198,R0649,The Digital Cybersecurity Expert: How Far Have We Come?,not_retracted,2026-10-30,OpenAlex
+10.1109/mc.2025.3625694,R0650,"LLM-Powered Security Test Generation: Oracles, Vulnerability Probes, and Adversarial Inputs",not_retracted,2026-10-30,OpenAlex
+10.1109/msec.2026.3662569,R0651,Beyond Guesswork: How to Measure What Makes Cyber Deception Work,not_retracted,2026-10-30,OpenAlex
+10.1109/icbase70763.2026.11619486,R0652,On the Limited Effect of Role Prompting in LLM-based Code Vulnerability Detection,not_retracted,2026-10-30,OpenAlex
+10.1109/jstars.2026.3744366,R0653,QL-Sec: Quantum AI-Enabled Security Framework for LLM-Driven Low-Altitude Remote Sensing Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/gcwot69191.2026.11499550,R0654,Dataset for DDoS Detection in 5G-Enabled Connected and Autonomous Vehicle Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/cscwd68734.2026.11582013,R0655,ShadowPen: Synergizing Human Strategy with Proactive Shadow Agent for XSS Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/yef-ece70590.2026.11614622,R0656,A Scalable Lakehouse Architecture for AI-Driven Cybersecurity Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/ccwc67433.2026.11393893,R0657,AutoSOC Cyber Analyst (ASOC-CA): Using AI to Automate SOC Tier 1 & 2 Activities,not_retracted,2026-10-30,OpenAlex
+10.1109/iccsdfai70505.2026.11648066,R0658,Development and Cybersecurity Evaluation of an AI-Based Clinical Decision Support Portal for Blood Gas Analysis and Secure Patient Data Management,not_retracted,2026-10-30,OpenAlex
+10.1109/air63653.2024.00015,R0659,Generative AI-Based Tool for Brute Forcing IoT Devices' Default Credentials,not_retracted,2026-10-30,OpenAlex
+10.1109/etfa68377.2026.11725037,R0660,VISOR: Automated Vulnerability Assessment of Software Repositories,not_retracted,2026-10-30,OpenAlex
+10.1109/naecon70028.2026.11675755,R0661,Analyzing Structural and Semantic Barriers to Automated Adversary Emulation in Active Directory,not_retracted,2026-10-30,OpenAlex
+10.1109/southeastcon56624.2025.10971458,R0662,"Unified AI and ML Framework in DevSecOps Practices, Solving Real-World Problems",not_retracted,2026-10-30,OpenAlex
+10.1109/icufn69619.2026.11628084,R0663,HG-Probe: A Safety-Bounded Evidence Layer for LLM-Guided Web/API Security Testing,not_retracted,2026-10-30,OpenAlex
+10.1109/icedeg70169.2026.11695423,R0664,LLM-Powered Brute Force Attacks: An Iterative SSDLC Approach for Authentication Process Evasion,not_retracted,2026-10-30,OpenAlex
+10.1109/secdev66745.2025.00027,R0665,Obfusc8: LLM-Augmented PowerShell Obfuscation,not_retracted,2026-10-30,OpenAlex
+10.1109/icact67549.2025.11351480,R0666,"Multisource Data Fusion with Generative AI: Case Studies in Healthcare, Cybersecurity, and Autonomous Systems",not_retracted,2026-10-30,OpenAlex
+10.1109/tce.2026.3738403,R0667,AG-TARA: Attack Graph-Enhanced Threat Analysis and Risk Assessment for Consumer-Grade Connected Vehicles Using Graph Neural Networks and Explainable AI,not_retracted,2026-10-30,OpenAlex
+10.1109/iceti4t63625.2025.11131697,R0668,SheildSentry: Linux Auditing with Gen.AI,not_retracted,2026-10-30,OpenAlex
+10.1109/eucnc/6gsummit68295.2026.11577395,R0669,A Security Closed Loop-based Framework for Addressing Security Challenges in 6G Networks,not_retracted,2026-10-30,OpenAlex
+10.1109/eurospw72509.2026.00035,R0670,Cybersecurity is the True Frontier for Generative AI Success or Failure,not_retracted,2026-10-30,OpenAlex
+10.1109/icoeca68095.2026.11485539,R0671,AI-based Custom Web Application Scanner and Bug Detection in Website using Docker,not_retracted,2026-10-30,OpenAlex
+10.1109/compsac69091.2026.00460,R0672,LabOrchestrator: An AI Framework for End-to-End Security in Medical Research Environments,not_retracted,2026-10-30,OpenAlex
+10.1109/csr64739.2025.11130069,R0673,Data Generation and Cybersecurity: A Major Opportunity or the Next Nightmare?,not_retracted,2026-10-30,OpenAlex
+10.1109/isec64801.2025.11147429,R0674,Empowering Ethical Hacking Education with Generative AIs: A ChatGPT-Infused Curriculum,not_retracted,2026-10-30,OpenAlex
+10.1109/csnet67572.2025.11288195,R0675,OTArmor: Securing Automotive Over-the-Air Updates Against Malware Using Generative Modeling,not_retracted,2026-10-30,OpenAlex
+10.1109/nfv-sdn66355.2025.11349410,R0676,Cloud-based Platform-agnostic Adversarial AI Defence framework,not_retracted,2026-10-30,OpenAlex
+10.1109/icin69025.2026.11481799,R0677,An LLM-Driven Framework for Image-Based Mininet Topology Generation with Intelligent Security Response,not_retracted,2026-10-30,OpenAlex
+10.1109/candarw68385.2025.00045,R0678,ZAPx: Extending OWASP ZAP for Enhanced Web Vulnerability Detection and AI-Powered Remediation,not_retracted,2026-10-30,OpenAlex
+10.1109/msec.2024.3355713,R0679,AI Code Generators for Security: Friend or Foe?,not_retracted,2026-10-30,OpenAlex
+10.1109/dsn-s70715.2026.00057,R0680,Securing Blockchain Applications by Transaction Analysis,not_retracted,2026-10-30,OpenAlex
+10.1109/southeastcon63549.2026.11476471,R0681,Instant Segmentation for IoT-Enabled Smart-Grid Networks with a Hybrid Small Language Model Policy Selection,not_retracted,2026-10-30,OpenAlex
+10.1109/cist65886.2025.11224292,R0682,AI-generated Papers and Manipulation of Academic Metrics: A Case Study,not_retracted,2026-10-30,OpenAlex
+10.1109/aiiot68874.2026.11569590,R0683,Impact of AI in the Vulnerability management domain - Current research and product trends,not_retracted,2026-10-30,OpenAlex
+10.1109/icnc68183.2026.11416895,R0684,AI-enabled Cybersecurity in the Internet of Things,not_retracted,2026-10-30,OpenAlex
+10.1109/mpe.2025.3565467,R0685,"Grid Modernization in the Age of Artificial Intelligence and Cloud: Synergies Between Grid Modernization, Artificial Intelligence, and Cloud",not_retracted,2026-10-30,OpenAlex
+10.1109/icaft66710.2025.11453206,R0686,GAN-Generated Honeypots for Dynamic Cyber Deception: A Proactive Defense Framework: DeepDeceive,not_retracted,2026-10-30,OpenAlex
+10.1109/icbase70763.2026.11619473,R0687,Evaluating Fine-tuned Code Language Models for SSTI Payload Candidate Generation,not_retracted,2026-10-30,OpenAlex
+10.1109/icosaas68663.2026.11649345,R0688,Network Access Layer Security in the Age of Artificial Intelligence,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2025.3592783,R0689,Special Issue Editorial: Generative AI for Secure Communications and Networking,not_retracted,2026-10-30,OpenAlex
+10.1109/icscsa69367.2026.11708219,R0690,Bridging the Simulation-to-Emulation Gap in Autonomous Cyber Defence: A Hybrid PPO and LLM-Based Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/tdsc.2026.3694417,R0691,Enhancing Cloud Network Resilience via a Robust LLM-Empowered Multi-Agent Reinforcement Learning Framework,not_retracted,2026-10-30,OpenAlex
+10.1109/destion71208.2026.00007,R0692,Towards Human-AI Teaming for Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1109/dsn-s70715.2026.00062,R0693,Agentic Reinforcement Learning for Adaptive Moving Target Defense in Cyber-Physical Systems,not_retracted,2026-10-30,OpenAlex
+10.1109/jiot.2025.3633501,R0694,Defending Against Network Attacks for Secure AI Agent Migration in Vehicular Metaverses,not_retracted,2026-10-30,OpenAlex
+10.1109/lt68265.2026.11592534,R0695,Twin Minds in Cyber-Defense: A Dual-Agent Framework for Safe Automated Assessment in Security Education,not_retracted,2026-10-30,OpenAlex
+10.1145/3847320.3847400,R0696,Capability Generalization in Privileged-Execution LLM Agents: A Catalog of Unanticipated Behaviors During Autonomous Network Defense,not_retracted,2026-10-30,OpenAlex
+,R0697,Personality-Driven Decision Making in LLM-Based Autonomous Agents,no_doi,2026-10-30,
+10.1145/3819819,R0698,Towards AI-Driven Human-Machine Co-Teaming for Adaptive and Agile Cyber Security Operation Centers,not_retracted,2026-10-30,OpenAlex
+10.1145/3769676,R0699,Large Language Models for Cyber Security: A Systematic Literature Review,not_retracted,2026-10-30,OpenAlex
+,R0700,"Generative AI, LLMs, and Agentic AI: Catalyzing Cybersecurity Education and Workforce Development",no_doi,2026-10-30,
+10.1145/3832783.3834651,R0701,Cochise: A Reference Harness for Autonomous Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.1145/3822455.3838777,R0702,ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning,not_retracted,2026-10-30,OpenAlex
+10.1145/3837073,R0703,A Unified Framework for Human–AI Collaboration in Security Operations Centers with Trusted Autonomy,not_retracted,2026-10-30,OpenAlex
+10.1145/3833907.3833932,R0704,ChainPen: Multi-Agent Autonomous Penetration Testing with Attack Graph Reasoning and Self-Healing Exploits,not_retracted,2026-10-30,OpenAlex
+10.1145/3843781.3857389,R0705,Language Models as Penetration Testing Agents: Surprising Capabilities and Ethical Dimensions (Keynote),not_retracted,2026-10-30,OpenAlex
+10.1145/3580305.3599229,R0706,The 3rd Workshop on Artificial Intelligence-enabled Cybersecurity Analytics,not_retracted,2026-10-30,OpenAlex
+10.1145/3765611.3815147,R0707,GridStratLLM: Agent Framework for Coordinated Cyberattacks on the Smart Grid with Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1145/3713081.3732928,R0708,From Large Language Models to Adversarial Malware: How far are we,not_retracted,2026-10-30,OpenAlex
+10.1145/3780095,R0709,Multi-Agent AI Framework for Threat Mitigation and Resilience in Machine Learning Systems,not_retracted,2026-10-30,OpenAlex
+10.1145/3806008.3811705,R0710,"Keynote: From Vulnerabilities to Consequences: Rethinking Security, Safety and Resilience in Cyber-Physical Systems",not_retracted,2026-10-30,OpenAlex
+10.1145/3846200,R0711,"Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",not_retracted,2026-10-30,OpenAlex
+10.1145/3800584,R0712,Can LLMs Hack Enterprise Networks? — RCR Report,not_retracted,2026-10-30,OpenAlex
+10.1145/3803633.3803641,R0713,Cyber Digital Twin-Enabled Security Attack-Defense Target Range for Vocational Training: Integrating RTK with Lightweight Federated Learning,not_retracted,2026-10-30,OpenAlex
+10.1016/j.hcc.2024.100211,R0714,"A survey on large language model (LLM) security and privacy: The Good, The Bad, and The Ugly",not_retracted,2026-10-30,OpenAlex
+10.1109/tse.2024.3368208,R0715,"Software Testing With Large Language Models: Survey, Landscape, and Vision",not_retracted,2026-10-30,OpenAlex
+10.1109/ojcoms.2024.3456549,R0716,"LLM-Based Edge Intelligence: A Comprehensive Survey on Architectures, Applications, Security and Trustworthiness",not_retracted,2026-10-30,OpenAlex
+10.1016/j.inffus.2025.103347,R0717,Transformers and large language models for efficient intrusion detection systems: A comprehensive survey,not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2024.104016,R0718,A survey of large language models for cyber threat detection,not_retracted,2026-10-30,OpenAlex
+10.1109/comst.2024.3437248,R0719,"A Survey on XAI for 5G and Beyond Security: Technical Aspects, Challenges and Research Directions",not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2024.124912,R0720,Assessing LLMs in malicious code deobfuscation of real-world malware campaigns,not_retracted,2026-10-30,OpenAlex
+10.22399/ijcesen.469,R0721,A Comprehensive Review of Large Language Models in Cyber Security.,not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2024.103974,R0722,Decoding developer password patterns: A comparative analysis of password extraction and selection practices,not_retracted,2026-10-30,OpenAlex
+10.1002/ail2.127,R0723,Thematic Analysis of Expert Opinions on the Use of Large Language Models in Software Development,not_retracted,2026-10-30,OpenAlex
+10.5117/mab.99.149299,R0724,Generative AI and cybersecurity: Exploring opportunities and threats at their intersection,not_retracted,2026-10-30,OpenAlex
+10.1109/nca61908.2024.00043,R0725,Web Application Penetration Testing with Artificial Intelligence: A Systematic Review,not_retracted,2026-10-30,OpenAlex
+10.1016/j.comnet.2025.111501,R0726,A chit-chat between Llama 2 and ChatGPT for the automated creation of exploits,not_retracted,2026-10-30,OpenAlex
+10.36948/ijfmr.2025.v07i02.42904,R0727,Automated Security Testing Framework for Web Services: A DevSecOps-Integrated Approach,not_retracted,2026-10-30,OpenAlex
+10.17352/tcsit.000084,R0728,Insights into the Development Trends of Industrial Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.21015/vtcs.v13i1.2127,R0729,"Transformative Role of LLMs in Digital Forensic Investigation: Exploring Tools, Challenges, and Emerging Opportunities",not_retracted,2026-10-30,OpenAlex
+10.21275/sr24427043741,R0730,Automated Penetration Testing using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.18372/2410-7840.26.18833,R0731,РОЗРОБКА ЕФЕКТИВНИХ ЗАХОДІВ ВЕБ-БЕЗПЕКИ ДЛЯ МЕРЕЖІ ШЛЯХОМ ПРОВЕДЕННЯ ТЕСТУВАННЯ НА ПРОНИКНЕННЯ З ВИКОРИСТАННЯМ ФРЕЙМВОРКУ OWASP,not_retracted,2026-10-30,OpenAlex
+10.1145/3832141,R0732,SAGE: Signal-Amplified Guided Embeddings for Vulnerability Detection,not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2022.103055,R0733,GAIL-PT: An intelligent penetration testing framework with generative adversarial imitation learning,not_retracted,2026-10-30,OpenAlex
+10.54097/7ysr5k17,R0734,"Large Language Models for Cybersecurity Intelligence, Threat Hunting, and Decision Support",not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15122740,R0735,"Agentic AI and Large Language Models for Autonomous IoT Cybersecurity: A Systematic Survey, Taxonomy, and Research Roadmap",not_retracted,2026-10-30,OpenAlex
+10.1016/j.jss.2026.113060,R0736,Enhancing REST API fuzzing with access policy violation checks and injection attacks,not_retracted,2026-10-30,OpenAlex
+10.25559/sitito.022.202601.13-27,R0737,Бенчмаркинг возможностей больших языковых моделей в задачах тестирования на проникновение: Двумерная структура оценки на основе матрицы MITRE ATT&CK,not_retracted,2026-10-30,OpenAlex
+10.1007/s10207-026-01290-6,R0738,Automated threat defense: a comprehensive survey on red and blue team automation using machine learning techniques,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2026.3721377,R0739,From Trace to Line: An Empirical Study of What Drives LLM-Based OSS Vulnerability Localization,not_retracted,2026-10-30,OpenAlex
+10.3390/jcp6050159,R0740,"LLM-Based Agents for Cybersecurity: A Systematic Review of Architectures, Applications, and Open Challenges",not_retracted,2026-10-30,OpenAlex
+10.3390/app122010339,R0741,Improved Deep Recurrent Q-Network of POMDPs for Automated Penetration Testing,not_retracted,2026-10-30,OpenAlex
+10.58496/mjcs/2023/014,R0742,A Process of Penetration Testing Using Various Tools,not_retracted,2026-10-30,OpenAlex
+10.31673/2409-7292.2023.020005,R0743,Analysis of modern tools for penetration testing,not_retracted,2026-10-30,OpenAlex
+10.3390/bdcc9070184,R0744,LLMs in Cyber Security: Bridging Practice and Education,not_retracted,2026-10-30,OpenAlex
+10.1145/3815116,R0745,With Power comes Responsibility: Attack Synthesis for Industrial Control Systems using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.4236/jis.2026.174023,R0746,Enabling Multi-Agent Penetration Testing Environments for Software Vulnerability Detection,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2021.116198,R0747,The rise of ransomware: Forensic analysis for windows based ransomware attacks,not_retracted,2026-10-30,OpenAlex
+10.3724/sp.j.1042.2022.00511,R0748,Concepts and evaluation of saturation in qualitative research,not_retracted,2026-10-30,OpenAlex
+10.1186/s42400-025-00361-w,R0749,When LLMs meet cybersecurity: a systematic literature review,not_retracted,2026-10-30,OpenAlex
+10.1016/j.mlwa.2023.100470,R0750,Deep learning for anomaly detection in log data: A survey,not_retracted,2026-10-30,OpenAlex
+10.3390/make6010018,R0751,Prompt Engineering or Fine-Tuning? A Case Study on Phishing Detection with Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics12204261,R0752,Phishing Email Detection Model Using Deep Learning,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2024.3468914,R0753,Applications of LLMs for Generating Cyber Security Exercise Scenarios,not_retracted,2026-10-30,OpenAlex
+10.3390/s24072077,R0754,Advancing Phishing Email Detection: A Comparative Study of Deep Learning Models,not_retracted,2026-10-30,OpenAlex
+10.1007/s11416-024-00529-x,R0755,Next gen cybersecurity paradigm towards artificial general intelligence: Russian market challenges and future global technological trends,not_retracted,2026-10-30,OpenAlex
+10.1007/s10922-024-09831-x,R0756,"Benchmarking Large Language Models for Log Analysis, Security, and Interpretation",not_retracted,2026-10-30,OpenAlex
+10.3390/computation13020030,R0757,From Vulnerability to Defense: The Role of Large Language Models in Enhancing Cybersecurity,not_retracted,2026-10-30,OpenAlex
+10.1016/j.telpol.2025.102976,R0758,Transforming cybersecurity with agentic AI to combat emerging cyber threats,not_retracted,2026-10-30,OpenAlex
+10.3390/s25061666,R0759,"Generative AI and LLMs for Critical Infrastructure Protection: Evaluation Benchmarks, Agentic AI, Challenges, and Opportunities",not_retracted,2026-10-30,OpenAlex
+10.3390/smartcities8010019,R0760,LLM Agents for Smart City Management: Enhancing Decision Support Through Multi-Agent AI Systems,not_retracted,2026-10-30,OpenAlex
+10.1016/j.eswa.2024.125509,R0761,Evaluation of LLM-based chatbots for OSINT-based Cyber Threat Awareness,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2024.3483905,R0762,ChatPhishDetector: Detecting Phishing Sites Using Large Language Models,not_retracted,2026-10-30,OpenAlex
+10.1186/s42400-023-00199-0,R0763,A multi-agent adaptive deep learning framework for online intrusion detection,not_retracted,2026-10-30,OpenAlex
+10.3390/app15063396,R0764,In-Depth Analysis of Phishing Email Detection: Evaluating the Performance of Machine Learning and Deep Learning Models Across Multiple Datasets,not_retracted,2026-10-30,OpenAlex
+10.1109/mnet.2024.3510936,R0765,"Large Language Models for Networking: Workflow, Advances, and Challenges",not_retracted,2026-10-30,OpenAlex
+10.3390/electronics13244965,R0766,A Comprehensive Survey on Generative AI Solutions in IoT Security,not_retracted,2026-10-30,OpenAlex
+10.1007/s10489-025-06422-4,R0767,Advanced IDS: a comparative study of datasets and machine learning algorithms for network flow-based intrusion detection systems,not_retracted,2026-10-30,OpenAlex
+10.47392/irjaeh.2024.0041,R0768,A Comprehensive Study on CIC-IDS2017 Dataset for Intrusion Detection Systems,not_retracted,2026-10-30,OpenAlex
+10.3390/info16050366,R0769,Benchmarking 21 Open-Source Large Language Models for Phishing Link Detection with Prompt Engineering,not_retracted,2026-10-30,OpenAlex
+10.3390/electronics13234718,R0770,Using Generative AI Models to Support Cybersecurity Analysts,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3567195,R0771,Exploring Research and Tools in AI Security: A Systematic Mapping Study,not_retracted,2026-10-30,OpenAlex
+10.1109/access.2025.3554960,R0772,"LLM-Driven, Self-Improving Framework for Security Test Automation: Leveraging Karate DSL for Augmented API Resilience",not_retracted,2026-10-30,OpenAlex
+10.1016/j.cose.2022.102723,R0773,Cross-domain alert correlation methodology for industrial control systems,not_retracted,2026-10-30,OpenAlex
+10.3390/jcp6030085,R0774,A Hybrid Blockchain-Based Framework for Adaptive Cyber-Risk Prediction and Multi-Layer Threat Mitigation in Enterprise Networks,not_retracted,2026-10-30,OpenAlex
+10.1016/j.comnet.2026.112540,R0775,MCP-driven real-time security monitoring: A hybrid LLM and behavior-aware framework for temporal attack detection and severity assessment,not_retracted,2026-10-30,OpenAlex
+10.1080/12460125.2026.2658199,R0776,Agent-based decision system for proactive cybersecurity strategies,not_retracted,2026-10-30,OpenAlex
+10.1016/j.array.2026.100843,R0777,Towards adaptive and continuous offensive security: A comprehensive survey of AI driven threat validation techniques,not_retracted,2026-10-30,OpenAlex
+10.1080/23742917.2026.2689637,R0778,Agentic hybrid intrusion detection system with autoencoder-based zero-day detection and transformer–tree ensemble fusion,not_retracted,2026-10-30,OpenAlex
+10.1007/s44163-026-01726-x,R0779,End-to-end security threats and defenses in retrieval-augmented LLM agents,not_retracted,2026-10-30,OpenAlex
+10.1109/tnse.2026.3687554,R0780,LLM-HGAN: LLM-Enhanced Heterogeneous Graph Attention Networks for Advanced Persistent Threat Detection,not_retracted,2026-10-30,OpenAlex
+10.1016/j.jisa.2026.104642,R0781,"A secure image encryption scheme using a newly constructed 4D chaotic system, reversible cellular automata, and DNA encoding operations",not_retracted,2026-10-30,OpenAlex
+10.3390/electronics15194420,R0782,A Multi-Agent Framework for Arabic Scam Analysis: Dataset-Specific mT5 Classification and Cultural Annotations,not_retracted,2026-10-30,OpenAlex
+10.3390/systems14101271,R0783,A Multi-Agent-Driven Hybrid Digital Twin Framework for Adaptive Cybersecurity Vulnerability Verification in Power Cyber-Physical Systems,not_retracted,2026-10-30,OpenAlex
+10.67620/ajousci.240001,R0784,"THE DUAL ROLE OF LARGE LANGUAGE MODELS IN CYBERSECURITY: THREATS, DEFENSES, AND RESEARCH DIRECTIONS",not_retracted,2026-10-30,OpenAlex

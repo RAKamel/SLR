@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0701",
+  "study_type": "Reference harness and prototype with compactness, capability, and analyzability evaluation",
+  "RQ1 task_stage": "Autonomous penetration testing; enumerate and compromise Active Directory domains",
+  "RQ1 domain": "Internal enterprise network in an assumed-breach setting; Active Directory",
+  "RQ1 orientation": "Offensive security research",
+  "RQ2 architecture": "Planner–Executor architecture: planner maintains a Pentest-Task-Tree and long-term state; per-task ReAct executor issues SSH commands, with shared knowledge component and Reflexion error repair",
+  "RQ2 llm_used": "Google Gemini-3-Flash (preview); Anthropic Claude-4.7-Opus",
+  "RQ2 adaptation": "Configurable scenario prompt; ReAct and Reflexion patterns",
+  "RQ3 autonomy_level": "Planner selects work-packages; executor issues arbitrary commands over SSH, self-corrects from outputs, and returns task summaries",
+  "RQ3 hitl": "Human-in-the-loop adversaries are not modeled; human oversight or LLMs-as-Judges before operations is discussed as an addition",
+  "RQ4 dataset": "Corpus of JSON penetration-testing trajectory logs from GOAD runs; five runs per model",
+  "RQ4 environment": "Live Game of Active Directory (GOAD) testbed: five Windows Server VMs and a Kali Linux execution host",
+  "RQ4 metrics": "Effective lines of code; accounts/hour, cost/hour, cost/account; domains compromised; third-party adoption as proxy for analyzability",
+  "RQ4 baseline_type": "Other autonomous penetration-testing prototypes for code compactness; frontier LLM comparison within Cochise",
+  "RQ4 headline_result": "Both models compromised all three GOAD domains in 3/5 runs; Gemini-Flash cost $1.75/hour versus Opus $21.35/hour, reported as 12× lower",
+  "RQ4 compared_to": "cAI, incalmo, pentestGPT for compactness; Gemini-3-Flash versus Claude-4.7-Opus for capability and cost; mini-SWE-agent in pilot observations",
+  "RQ4 code_available": "yes + https://github.com/andreashappe/cochise",
+  "RQ4 data_available": "yes + https://github.com/andreashappe/cochise",
+  "RQ5 risks_addressed": "Destructive side-effects, account lockouts, invalid commands and prompt drift; self-modification, lateral movement, rogue-agent damage, and dual-use abuse",
+  "RQ5 mitigations": "Separate agent and execution hosts, offline target network, ephemeral executor state and Reflexion repair; proposed action gating and human or LLM-judge oversight",
+  "author_limitations (verbatim)": "As we are only now releasing this prototype on GitHub, we cannot yet report third-party adoption by independent researchers.",
+  "author_future_work (verbatim)": "Harder testbeds could use hardened networks with fewer vulnerabilities, multistage network architectures, deploy additional active defenders, or provide a combination thereof.",
+  "evidence (page/section)": "Abstract and §1: study and artifacts; §2: side-effects and mini-SWE-agent observations; §§3–3.2: setting, architecture, autonomy, prompting and isolation; §3.3: logs; §4, Tables 1–2: evaluation, models, baselines, results and adoption limitation; §5.1: safety and oversight; §5.2: testbed limitations and harder testbeds; §5.3: dual-use risks; §7: code and data availability"
+}
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0621,include,,"integrates the LLM in an iterative loop where it generates candidate actions",high
+R0622,exclude,EC2,"connects with Google's Gemini API to produce easy-to-understand explanations",high
+R0623,exclude,EC4,"cybersecurity-inspired framework to reconceptualize AGI containment as securing critical infrastructure",high
+R0624,exclude,EC1,"We use Variational Autoencoder, Gaussian Copula, Denoising Diffusion Probabilistic Model",high
+R0625,exclude,EC3,"tests whether a large language model enforces it consistently across semantically equivalent reframings",high
+R0626,include,,"structured function-calling pipeline across four stages: threat attribution, behavioral analysis, prioritization, and mitigation",high
+R0627,exclude,EC2,"finetuned large language models in automating the generation of defensive security rules",high
+R0628,exclude,EC2,"processes traffic data and produces risk reports nonintrusively",high
+R0629,exclude,EC1,"discusses AI-driven IDPS through the lens of ML, DL, and RL models",high
+R0630,maybe,,"LLM-driven advancements in security vulnerability exploitation and validation",medium
+END_CSV

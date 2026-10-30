@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0621,include,,"integrates the LLM in an iterative loop where it generates candidate actions",high
+R0698,include,,"introduce an AI-driven human-machine co-teaming paradigm that leverages large language models",medium
+END_CSV

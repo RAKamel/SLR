@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0025,include,,"automated anomaly investigation, and adaptive optimization of FL parameters",medium
+R0054,include,,"a Chain-of-Thought (CoT)-driven Semantic Consistency Reflector for result-aware semantic validation",high
+R0079,maybe,,"Autonomous and generative AI systems have turned cybersecurity into an adaptive environment",medium
+R0085,maybe,,"This study investigates the practical applicability of existing open-source frameworks based on Large Language Models",medium
+R0091,include,,"Security Sentinel Network (SSN) detects threats and ensures safety.",high
+R0104,maybe,,"The use of LLM-based agents in cybersecurity presents promising new directions to combat digital threats.",medium
+R0117,include,,"systematically explore application interfaces and collect multi-dimensional ad-related evidence",high
+R0138,include,,"dynamically optimizes them through multi-agent feedback",high
+R0142,include,,"LLMs to automate the resolution and mitigation of these attacks in real-time",high
+R0149,maybe,,"solution that can continuously and autonomously conduct comprehensive security assessments",medium
+R0164,include,,"enhances proactive network management and threat detection",medium
+R0179,include,,"tackle both the defense and penetration testing in context of IoT-based systems security",high
+R0182,include,,"including reconnaissance, vulnerability scanning, and exploit simulation, within a controlled environment",high
+END_CSV

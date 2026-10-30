@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0447",
+  "study_type": "Modular agent-based RAG framework with experimental evaluation",
+  "RQ1 task_stage": "Real-time cyber-attack classification, explanation, and structured reporting; suggested mitigation steps",
+  "RQ1 domain": "Web-based attacks; integration with existing IDS infrastructures in enterprise SOC environments",
+  "RQ1 orientation": "Cyber-defense",
+  "RQ2 architecture": "Central core LLM agent orchestrates specialized classifiers, RAG and report generation; iterative retrieval and reassessment using three in-memory vector stores, with interactive user chat",
+  "RQ2 llm_used": "Classifiers: bert-base-uncased, albert-base-v2, distilbert-base-uncased, roberta-base; core models: DeepSeek-R1:7B, Gemma3:4B, LLaMA3.1:8B, Mistral:7B, Qwen2.5:7B; GPT-4 evaluator; Sentence-BERT embeddings",
+  "RQ2 adaptation": "Attack-specific supervised classifier fine-tuning; contextual prompting and iterative RAG with Maximal Marginal Relevance retrieval",
+  "RQ3 autonomy_level": "Upon receiving a flagged alert, autonomously processes associated network traffic, refines threat labels and justifications, retrieves evidence, and generates a natural-language report",
+  "RQ3 hitl": "Users can initiate dialogue when classification confidence is low or ambiguous; system requests clarification or additional information before proceeding",
+  "RQ4 dataset": "Custom aggregation of Kaggle SQL Injection and XSS datasets; manually constructed SSTI dataset using PayloadsAllTheThings and SSTImap; 100 adversarial examples per attack category and 100 OOD queries",
+  "RQ4 environment": "Ollama environment for generative models; NVIDIA A100 GPU for classifier training; controlled robustness experiment",
+  "RQ4 metrics": "AUC-PR, ROC-AUC, precision, F1, binary accuracy, classification accuracy and latency; BLEU, ROUGE, METEOR, BERTScore, factual consistency, GPT-4 ratings and Correct Classification (%)",
+  "RQ4 baseline_type": "Alternative encoder classifiers and open-weight generative models; classification without RAG and explanation generation without retrieval",
+  "RQ4 headline_result": "Classification accuracy increased from 84.75% without RAG to 94.92% with LLaMA3.1:8B and RAG; LLaMA3.1:8B explanations achieved 0.94 BERTScore and 4.9/5 overall GPT-4 rating",
+  "RQ4 compared_to": "fmax classifier selection without RAG; BERT, ALBERT, DistilBERT and RoBERTa; DeepSeek-R1:7B, Gemma3:4B, Mistral:7B and Qwen2.5:7B; generation without RAG",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "yes; SSTI dataset downloadable by password at reference [44], URL not stated in supplied text",
+  "RQ5 risks_addressed": "False positives, ambiguous classifications, irrelevant retrieval and opaque reasoning; adversarial evasion, unseen attack categories, and closed-model data egress and governance constraints",
+  "RQ5 mitigations": "Specialized fine-tuned classifiers, iterative knowledge-grounded reassessment and false-positive rejection; explanatory reports, clarification dialogue, and adversarial/OOD robustness evaluation",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract and §1: purpose, domain, autonomy and headline results; §§3–3.4: architecture, tools, reporting and human interaction; §§4.1–4.2: knowledge bases, datasets and data access; §§5.1–5.1.1: classifiers, fine-tuning, metrics, hardware, latency and operational constraints; §5.2: orchestration and classification comparison; §§5.3–5.4, Tables 5–6: models, explanation metrics and retrieval ablation; §5.5: adversarial/OOD datasets and robustness metric. Supplied text ends during §5.5."
+}
+END_JSON

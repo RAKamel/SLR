@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0533,exclude,EC2,"The defensive algorithm presented in this research is also employed for defensive measures.",high
+R0534,exclude,EC2,"classify the level of severity of the threat and estimate its relevance to risk",high
+R0535,include,,"we propose PenPlan-PDDL, a novel multi-agent framework for automated penetration-test planning.",high
+R0536,include,,"This paper presents a three-agent Large Language Model framework that automatically generates structured cyber range scenarios",high
+R0537,exclude,EC4,"This paper introduces violentUTF - an more accessible platform for GenAI RT.",high
+R0538,include,,"we synthesize the emerging literature on LLM-powered honeypots, identifying a canonical architecture",medium
+R0539,include,,"We present LD-CIPHER, a multi-agent LLM framework for collaborative CTF challenge solving.",high
+R0540,exclude,EC2,"The survey documents specific improvements provided by LLMs with respect to context-aware classification",medium
+R0541,include,,"each agent uses LLM-driven reasoning and dynamic tool invocation",high
+R0542,exclude,EC4,"a novel dense retrieval-based multi-agent system designed to overcome these limitations",high
+R0543,exclude,EC2,"The study synthesizes evidence from 153 eligible studies",high
+R0544,include,,"we benchmark six frontier large-language models across 18 scenarios covering seven vulnerability categories.",high
+R0545,exclude,EC4,"Large Language Models (LLMs) can provide powerful support for AE tasks",high
+R0546,exclude,EC3,"This article introduces the “4C Framework” for multi-agent AI security",high
+R0547,exclude,EC1,"Tools such as Nessus are employed for vulnerability scanning",high
+R0548,exclude,EC3,"analyzes the perception–reasoning interface through a Priority Manipulation Attack (PMA) case study",high
+R0549,exclude,EC2,"This paper presents a cross-domain review that synthesizes the state-of-the-art literature",high
+R0550,exclude,EC2,"for binary alert classification and natural-language justification.",high
+R0551,exclude,EC4,"predictive maintenance in industrial systems.",high
+R0552,include,,"LLM-based penetration-testing agents execute multi-step security tasks through tool use and environment feedback",high
+R0553,include,,"We present SecOps-Agent, a policy-grounded framework that leverages LLMs for security incident response",high
+R0554,exclude,EC2,"used as a feature extractor to generate general-purpose visual features",high
+R0555,maybe,,"based on multi-agent systems that simulate human security expert collaboration",medium
+R0556,exclude,EC2,"This debate mechanism enables the models to critically analyze contextual cue and deceptive patterns in text",high
+R0557,exclude,EC3,"This Systematic Literature Review (SLR) of 30 peer-reviewed papers examines the emerging threats and mitigation strategies for these agentic systems.",high
+R0558,include,,"the framework is realized through an agentic AI implementation supported by a structured Criminal Knowledge Base",high
+R0559,maybe,,"A reinforcement learning (RL)-based scheduler continuously optimizes incident-to-analyst assignments",medium
+R0560,include,,"proposes a trustworthy Agentic Retrieval-Augmented Generation (Agentic RAG) architecture for AI-assisted cybersecurity incident pre-triage",high
+END_CSV

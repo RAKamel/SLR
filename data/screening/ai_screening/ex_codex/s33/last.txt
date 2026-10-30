@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0371",
+  "study_type": "Proceeding paper demonstrating a hybrid system; experiments with dedicated AI agent skills and existing security tools",
+  "RQ1 task_stage": "Scanning for rootkits, network traffic monitoring and log checking; summarizing scan findings and recommendations",
+  "RQ1 domain": "Artificial network with monitored Linux nodes; monitored system running a self-hosted collaboration platform",
+  "RQ1 orientation": "Protection and support of cyber incident response",
+  "RQ2 architecture": "Minimalist nanobot agent with local reasoning LLM, custom skills and dedicated MCP tool servers; LLM orchestrates tools and formats inputs and outputs",
+  "RQ2 llm_used": "Qwen3.5-4B-Q4_K_M via llama.cpp",
+  "RQ2 adaptation": "Prompting and custom skills; experiments in thinking and non-thinking modes",
+  "RQ3 autonomy_level": "Invokes MCP tools and parses, summarizes and formats their output; monitoring supports server-side event notifications",
+  "RQ3 hitl": "Human operator initiates demonstrated scan; human expert uses results to choose the next instructed action or sequence",
+  "RQ4 dataset": "Live system security scan results",
+  "RQ4 environment": "Simple artificial network with monitored Linux nodes; Linux Debian hosting the LLM and MCP, with and without Vulkan GPU support",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "Direct execution of security tools discussed for performance overhead",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "Running the tools directly; no named baseline system",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "Data available on request due to restrictions; no URL stated",
+  "RQ5 risks_addressed": "Sensitive information leakage and model misuse; costly errors and high risks from fully automated configuration changes",
+  "RQ5 mitigations": "Local models, restricted tool environments and keeping credentials outside the LLM; MCP authentication, functionality restrictions and careful review of modifications",
+  "author_limitations (verbatim)": "However, this falls beyond the scope of the performed tests and requires a more careful review of suggested modifications.",
+  "author_future_work (verbatim)": "Our findings can be extended further to assess the efficiency of workflow orchestration when the reasoning model is responsible for automatically selecting the best chaining options based on the context and events found.",
+  "evidence (page/section)": "Abstract: study purpose; Section 2, pp. 3–4: architecture, prompting and human decisions; Section 3, Tables 1–2 and Figures 3–5, pp. 4–8: model, tools, environment, automation, direct-tool comparison and limitations; Section 4, p. 8: risks, mitigations and future work; Data Availability Statement, p. 9: data access."
+}
+END_JSON

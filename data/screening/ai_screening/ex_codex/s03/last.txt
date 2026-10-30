@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0039",
+  "study_type": "Study evaluating GPT-4o’s ability to autonomously solve beginner-level offensive security CTF challenges.",
+  "RQ1 task_stage": "Penetration testing; obtaining hidden passwords through Linux filesystem navigation, data extraction or decoding, and networking.",
+  "RQ1 domain": "OverTheWire’s Bandit wargame on a Linux server accessed over SSH.",
+  "RQ1 orientation": "Offensive cybersecurity.",
+  "RQ2 architecture": "GPT-4o connected through a Python 3 script using Paramiko; command execution and output-feedback loop, with a new SSH shell for each command.",
+  "RQ2 llm_used": "GPT-4o.",
+  "RQ2 adaptation": "Initial system prompt with challenge instructions; command-output feedback and directory-listing prompts, with additional hints for some levels.",
+  "RQ3 autonomy_level": "Generates Linux commands that are executed directly over SSH; loops until the next password is printed or the program is forcefully exited.",
+  "RQ3 hitl": "Additional prompt information supplied for assisted solutions; program may be forcefully exited.",
+  "RQ4 dataset": "OverTheWire Bandit CTF, levels 0–32; 25 technically compatible levels evaluated.",
+  "RQ4 environment": "Bandit wargame’s Linux server accessed through a Python 3/Paramiko single-command SSH framework.",
+  "RQ4 metrics": "Level outcomes and success rate; solution time, input token usage and cost, command counts, and tool-use frequencies.",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "18 of 25 compatible levels solved unaided; two more solved with additional assistance, for an overall 80% success rate.",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Lowering the expertise barrier for attackers; educational over-reliance undermining skill development and assessment integrity.",
+  "RQ5 mitigations": "Caution against over-reliance on automated educational solutions; unsolved tasks suggested as informing future hardening strategies.",
+  "author_limitations (verbatim)": "Paramiko does not maintain a connection for more than one bash command at a time due to the required complexity; programming that feature into the script is outside the scope of this research.",
+  "author_future_work (verbatim)": "Future work based upon these ideas could include a similar experiment using a more robust method of SSH connection in-program to provide more options and better feedback to the LLM during the challenges. Additionally, multiple LLMs could be tested to see which is most successful or efficient at completing these CTF challenges.",
+  "evidence (page/section)": "Abstract: study, tasks, orientation, headline result, attacker risk and hardening implications; III. Methodology: model, architecture, prompting, autonomy, human assistance, environment and connector limitation; IV. Results & Discussion and Tables I–III: evaluation tasks, metrics and results; IV.C Performance Review: reliability limitations, future work and educational risks; VI. Conclusion: offensive utility."
+}
+END_JSON

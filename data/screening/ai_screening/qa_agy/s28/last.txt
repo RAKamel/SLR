@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0340",
+    "QA1": "Y",
+    "QA1_quote": "In this section, we propose an agentic AI-based framework designed to enforce security compliance",
+    "QA2": "P",
+    "QA2_quote": "Using LLMs along with a RAG pipeline, we can provide flexible and context-aware compliance reasoning.",
+    "QA3": "P",
+    "QA3_quote": "An initial case study demonstrates how an agent can assess configuration files for compliance",
+    "QA4": "Y",
+    "QA4_quote": "Granting AI agents the authority to modify source code and configuration files makes them high-value targets"
+  }
+]
+END_JSON

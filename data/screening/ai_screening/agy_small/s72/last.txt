@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0711,exclude,EC1,"even amidst the rise of large language models",high
+R0712,exclude,EC5,"This is the Replicated Computational Results (RCR) Report for the paper",high
+R0713,include,,"Large Language Model (LLM)-driven adaptive attack agents for dynamic Cyber Kill Chain simulation",high
+R0714,exclude,EC3,"A survey on large language model (LLM) security and privacy",high
+R0715,exclude,EC4,"comprehensive review of the utilization of LLMs in software testing.",high
+R0716,exclude,EC4,"integration of Large Language Models (LLMs) and Edge Intelligence (EI)",high
+R0717,maybe,,"Transformers and large language models for efficient intrusion detection systems: A comprehensive survey",low
+R0718,maybe,,"A survey of large language models for cyber threat detection",low
+R0719,exclude,EC1,"A Survey on XAI for 5G and Beyond Security",high
+R0720,exclude,EC2,"comprehensively examine the deobfuscation capabilities of state-of-the-art LLMs.",high
+END_CSV

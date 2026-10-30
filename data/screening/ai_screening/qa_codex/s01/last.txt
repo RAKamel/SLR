@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0025",
+    "QA1": "Y",
+    "QA1_quote": "this study seeks to incorporate sophisticated Large Language Model (LLM) analytics into a federated learning (FL) framework for network intrusion detection.",
+    "QA2": "P",
+    "QA2_quote": "the DeepSeek LLM produces actionable results in the form of adaptive training plans and security recommendations.",
+    "QA3": "P",
+    "QA3_quote": "Figure 9 presents a comparison of baseline Federated Learning and the integrated FL with LLMamongst all clients.",
+    "QA4": "P",
+    "QA4_quote": "it uses pretrained general-purpose LLMs, which are good but may not have the most up-to-date information about cyber threats"
+  },
+  {
+    "id": "R0028",
+    "QA1": "Y",
+    "QA1_quote": "we present AutoBnB-RAG, an extension of the AutoBnB framework that incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations.",
+    "QA2": "Y",
+    "QA2_quote": "using the AutoGen [36] system with GPT4o [37] as the base model and a temperature setting of 0.7.",
+    "QA3": "Y",
+    "QA3_quote": "Each team structure is evaluated over 30 independent simulation runs to ensure consistency and statistical robustness.",
+    "QA4": "P",
+    "QA4_quote": "they can suffer from hallucinations or gaps in factual knowledge, especially when faced with domain-specific or evolving threats."
+  },
+  {
+    "id": "R0039",
+    "QA1": "Y",
+    "QA1_quote": "This study evaluates the ability of GPT-4o to autonomously solve beginner-level offensive security tasks",
+    "QA2": "Y",
+    "QA2_quote": "a Python 3 script utilizes the Paramiko [10] library to handle SSH in the application itself.",
+    "QA3": "P",
+    "QA3_quote": "The objective of this study was not to determine which LLM is the best",
+    "QA4": "Y",
+    "QA4_quote": "caution must be exercised to prevent over-reliance on automated solutions, which might undermine skill development and assessment integrity"
+  }
+]
+END_JSON

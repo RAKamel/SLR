@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0712,include,,"We introduce a novel prototype that autonomously conducts complex penetration-tests",high
+R0717,exclude,EC2,"The survey explores the application of Transformers in intrusion detection systems (IDSs)",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0151,exclude,EC2,"all network intrusions are classified according to the MITRE ATT&CK framework",high
+R0152,exclude,EC3,"exploring how attackers might exploit hallucinations",high
+R0153,exclude,EC4,"proposing a curriculum for postgraduate cybersecurity education",high
+R0154,include,,"an agentic AI framework that resolves both deficiencies through a two-stage closed-loop pipeline",high
+R0155,exclude,EC4,"collecting examples of vulnerability-witnessing tests from Java repositories",high
+R0156,include,,"orchestrates specialized AI agents to generate ATT&CK-aligned defense strategies",high
+R0157,exclude,EC3,"zero-trust security framework for managing AI agent identities and permissions at runtime",high
+R0158,include,,"multi-agent system leveraging Large Language Models (LLMs) to transform raw security alerts",high
+R0159,exclude,EC3,"defensive strategies designed to safeguard tool-using LLM systems from intentional manipulation are outlined",high
+R0160,exclude,EC2,"proposed nanoGPTFuzz is able to generate fuzz payloads",high
+END_CSV

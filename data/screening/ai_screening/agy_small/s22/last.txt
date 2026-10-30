@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0211,exclude,EC4,"detecting military personnel in 434 mobile device images, including military personnel, mannequins, and civilians",high
+R0212,exclude,EC4,"Agentic systems have been gaining traction in solving software engineering tasks",high
+R0213,include,,"automatic profiling approach provides valuable input for cyber threat intelligence",high
+R0214,include,,"triggers guardrailed actions (e.g., account disablement, host isolation), and produces human-readable explanations",high
+R0215,include,,"unifying System Integration and Events Management (SIEM) and security Orchestration Automation and Response (SOAR)",high
+R0216,exclude,EC1,"training the pentesting agent using three different reinforcement learning algorithms",high
+R0217,exclude,EC2,"utilizes multiple sources inputs to generate and generalize rules",high
+R0218,exclude,EC4,"novel Unified AI-Native 6G Framework that integrates artificial intelligence (AI) and machine learning",high
+R0219,include,,"hybrid framework that orchestrates established security tools with LLM-assisted error recovery and reporting",high
+R0220,exclude,EC2,"focuses on the threat detection rule algorithm in VTIF",high
+END_CSV

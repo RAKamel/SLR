@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0197,include,,"the framework leverages the domain knowledge embedded in a Large Language Model (LLM) to perform tactical planning",high
+R0198,exclude,EC4,"This paper explores the nexus between trust and AI-based security solutions",high
+R0199,exclude,EC4,"This article presents a deterministic state-machine orchestrator coupled with a local large language model",high
+R0200,include,,"Specialized AI agents for Threat Detection, Performance Optimization, and Compliance Verification collaborate to improve detection and remediation",medium
+R0201,include,,"LangGraph is used to orchestrate the agent as a stateful graph",high
+R0202,include,,"automated incident response through four specialised agents: Detection, Classification, Response, and Forensic",high
+R0203,exclude,EC2,"LLM-driven risk scoring",high
+R0204,include,,"This paper presents an agentic feedback-loop driven framework",high
+R0205,exclude,EC2,"generating payloads for penetration testers using tuned pre-trained models",high
+R0206,include,,"PExpAgent, a post-exploitation toolkit powered by Large Language Models (LLMs)",medium
+R0207,exclude,EC2,"ChatGPT 3.5 helps penetration testers with options and suggestions during the five stages",high
+R0208,include,,"a scambaiting system powered by large language models (LLMs)",high
+R0209,include,,"automatically enforces firewall rules to block malicious IP addresses without relying on manual supervision",high
+R0210,include,,"a coordinated defense loop composed of three specialized agents",medium
+R0211,include,,"an agentic orchestration layer using CrewAI and LangGraph",high
+R0212,include,,"automatically propose patches for issues reported by SonarQube",medium
+R0213,include,,"a novel multi-agent system designed to automate the extraction and integration of firmographic data",high
+R0214,include,,"triggers guardrailed actions (e.g., account disablement, host isolation)",high
+R0215,include,,"unifying System Integration and Events Management (SIEM) and security Orchestration Automation and Response (SOAR)",high
+R0216,exclude,EC1,"training the pentesting agent using three different reinforcement learning algorithms",high
+R0217,include,,"we propose a LLM-based (Large Language Model) agent that utilizes multiple sources inputs to generate and generalize rules",high
+R0218,exclude,EC2,"an LLM-Enhanced Controller for explainable policy generation",medium
+R0219,include,,"LLMs are used for guided error recovery, result interpretation, and report generation",medium
+R0220,exclude,EC2,"outlines the current state of GenAI in vehicular network cybersecurity",high
+R0221,include,,"introduces an agentic framework that leverages Large Language Models (LLMs)",high
+R0222,exclude,EC2,"We evaluate the performance of 6 models",high
+R0223,include,,"we propose RulePilot, which mimics human expertise via LLM-based agent",high
+R0224,include,,"iteratively refines candidate outputs through self correction",high
+END_CSV

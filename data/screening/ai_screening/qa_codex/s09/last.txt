@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0316",
+    "QA1": "Y",
+    "QA1_quote": "we present NetMoniAI, an agentic AI framework for automatic network monitoring and security",
+    "QA2": "P",
+    "QA2_quote": "submitted features to the GPT-O3 language model via a structured prompt",
+    "QA3": "P",
+    "QA3_quote": "Across repeated tests, the system consistently achieved detection latencies under 5 seconds.",
+    "QA4": "N",
+    "QA4_quote": "Future work will extend the framework with adaptive mitigation, multi-agent coordination, and SDN-based policy enforcement."
+  },
+  {
+    "id": "R0320",
+    "QA1": "Y",
+    "QA1_quote": "We evaluate task completion, command generation quality, and human intervention across core PT subtasks.",
+    "QA2": "P",
+    "QA2_quote": "re-implement AUTOATTACKER (Xu et al., 2024b) and PENHEAL (Huang and Zhu, 2023) based on their published descriptions.",
+    "QA3": "Y",
+    "QA3_quote": "Our testbed spans full attack lifecycles (Recon → Exploitation → PostExploitation), with tasks mapped to seven MITRE ATT&CK tactics",
+    "QA4": "Y",
+    "QA4_quote": "LLMs may lower the barrier to sophisticated cyberattacks, underscoring the need for a systematic evaluation"
+  },
+  {
+    "id": "R0322",
+    "QA1": "Y",
+    "QA1_quote": "we present CurriculumPT, a novel LLM-based penetration testing framework specifically designed for the security of intelligent systems.",
+    "QA2": "P",
+    "QA2_quote": "This curriculum guides our MAS module, where specialized LLM agents (e.g., planner, recon, exploiter) collaborate to execute tasks.",
+    "QA3": "P",
+    "QA3_quote": "We evaluate CurriculumPT on 15 realworld vulnerabilities scenarios and demonstrate that it outperforms three state-of-the-art baselines",
+    "QA4": "Y",
+    "QA4_quote": "our selection of vulnerability scenarios may introduce unintentional bias toward vulnerabilities with publicly available proof-of-concept exploits"
+  }
+]
+END_JSON

@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0309",
+    "QA1": "Y",
+    "QA1_quote": "This paper introduces a novel machine learning approach leveraging the CERT Insider Threat Dataset to simulate and detect APT behaviors",
+    "QA2": "P",
+    "QA2_quote": "Three specialized agents (Email, Document, Log Analysis) coordinate through a Central Hub to process multi-modal security data",
+    "QA3": "Y",
+    "QA3_quote": "Experimental results achieved 96.3% detection accuracy while reducing false positives by 42% compared to state-of-the-art methods.",
+    "QA4": "Y",
+    "QA4_quote": "While our framework demonstrates strong performance, several limitations should be acknowledged."
+  }
+]
+END_JSON

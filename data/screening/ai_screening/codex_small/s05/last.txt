@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0113,exclude,EC3,"designed to automatically discover and exploit indirect prompt injection vulnerabilities across diverse LLM agents",high
+R0114,exclude,EC2,"We discuss significant challenges and future directions for integrating these technologies within security frameworks",medium
+R0115,include,,"We propose an environment-grounded multi-agent architecture tailored to Robotics-based systems.",high
+R0116,include,,"We consider the framework against the disparate domains of process automation, data-driven decision-making, and cybersecurity incident response.",high
+R0117,exclude,EC2,"Based on the collected evidence, it classifies malicious ad behaviors, assesses risk levels, and provides remediation suggestions",high
+R0118,exclude,EC2,"This study presents a PRISMA 2020-guided bibliometric analysis of LLM- and transformer-based NIDS research",high
+R0119,exclude,EC4,"This paper examines the limitations of traditional, instrumentally rational models in addressing emerging risks like 'algorithmic hallucinations'",high
+R0120,include,,"This paper presents a constrained agentic AI component integrated into a SIEM/SOAR environment to support incident triage.",high
+R0121,include,,"incorporating specialized agents, structured memory, tool-oriented reasoning, and a validation layer with human-in-the-loop supervision.",high
+R0122,exclude,EC3,"This paper presents a systematic red-teaming evaluation of AP2 and identifies vulnerabilities arising from prompt injection.",high
+R0123,exclude,EC4,"This paper presents the design of a decentralized smart home system based on Edge Computing.",high
+R0124,include,,"AutoPenGPT is designed and implemented as a multi-agent penetration testing system",high
+R0125,exclude,EC4,"ARGUS incorporates YOLO-based anomaly detection, SLAM-based localization and mapping, and LLM-enabled contextual reasoning",high
+R0126,exclude,EC2,"this study aims to fine-tune OpenAI’s Large Language Model (LLM), Gpt-3.5, to generate a synthetic dataset",high
+R0127,exclude,EC2,"Our approach leverages GPT-4 Vision, a large multimodal language model, to achieve brand recognition and phishing intent detection",high
+R0128,exclude,EC1,"AUVAP enforces hierarchical tool orchestration to ensure efficiency, auditability, and governance compliance.",high
+R0129,exclude,EC2,"for simultaneous multi-class threat classification and MITRE CAPEC-aligned mitigation generation.",high
+R0130,include,,"autonomous agents that perform tasks such as reconnaissance, scanning, and exploitation",high
+R0131,exclude,EC2,"BEAR employs a multi-step reasoning process that translates tabular BGP data into detailed textual narratives",high
+R0132,include,,"It performs an overview of the state-of-art in LLM-driven penetration testing through the analysis of three different studies.",medium
+R0133,exclude,EC4,"The increasing reliance on advanced image processing techniques in maritime surveillance, autonomous navigation, and remote sensing",high
+R0134,exclude,EC1,"the evaluated system uses a deterministic Johnson–Lindenstrauss projection in place of the LLM call for reproducibility",high
+R0135,exclude,EC3,"This paper presents SemGuard, a hierarchical shared-semantic intelligence architecture for secure LLM deployments.",high
+R0136,exclude,EC3,"a lightweight adversarial input filter targeting multilingual prompt-injection and cache-poisoning attempts.",high
+R0137,exclude,EC4,"A simulated environment of 25 synthetic patient sessions used to sample anonymized session logs",high
+R0138,exclude,EC1,"The framework coordinates specialized agents—Manager, Behavior Analyst, Searcher, and Reflector—to execute end-to-end log analysis",medium
+R0139,include,,"Our framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",high
+R0140,exclude,EC3,"This paper provides a comprehensive review of adversarial attack types—white box, black box, and other type of attacks",high
+END_CSV

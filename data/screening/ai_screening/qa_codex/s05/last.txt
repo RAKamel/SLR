@@ -1,0 +1,38 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0197",
+    "QA1": "Y",
+    "QA1_quote": "We propose L-ARLPT, an LLM-augmented reinforcement learning framework designed for autonomous penetration testing in large combinatorial action spaces.",
+    "QA2": "Y",
+    "QA2_quote": "The knowledge-driven layer employed Qwen3-14B for strategic planning and Qwen3-Max for action generation, both with a temperature of 0.3;",
+    "QA3": "P",
+    "QA3_quote": "Finally, future evaluations will incorporate more extensive statistical validation through repeated independent experiments",
+    "QA4": "Y",
+    "QA4_quote": "it does not by itself establish scalability with respect to increasing node count, topology heterogeneity"
+  },
+  {
+    "id": "R0200",
+    "QA1": "Y",
+    "QA1_quote": "This methodology is designed to systematically identify and mitigate vulnerabilities in LLM-generated firmware",
+    "QA2": "P",
+    "QA2_quote": "The Performance Optimization Agent analyzes runtime characteristics and suggests improvements to the control system design",
+    "QA3": "P",
+    "QA3_quote": "Future work will incorporate complementary code quality assessments and establish baseline comparisons with manually written firmware",
+    "QA4": "Y",
+    "QA4_quote": "Our testing procedures rely heavily on predefined patterns, limiting their ability to uncover novel attack vectors or deeply contextual flaws.",
+    "QA4": "Y"
+  },
+  {
+    "id": "R0208",
+    "QA1": "Y",
+    "QA1_quote": "This paper presents the first large-scale, real-world evaluation of a scambaiting system powered by large language models (LLMs).",
+    "QA2": "P",
+    "QA2_quote": "both the prompt templates and response strategies have evolved organically throughout the five-month data collection period.",
+    "QA3": "Y",
+    "QA3_quote": "The LLM-only mode serves as the baseline for assessing the impact of human intervention",
+    "QA4": "Y",
+    "QA4_quote": "Although templates accelerate response generation, overuse reduces novelty and may risk early detection by scammers."
+  }
+]
+END_JSON

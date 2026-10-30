@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0001,exclude,EC4,"translate NIS2 requirements into enforceable technical controls",high
+R0002,exclude,EC4,"how traditional testing methods must be adapted to fit the needs of LLMs",high
+R0003,exclude,EC4,"reproduce human teamwork behavior observed in real emergency training",high
+R0004,exclude,EC3,"attacks targeting the AI components, injection of unverified data and privacy violations",high
+R0005,exclude,EC3,"alleviate the cybersecurity risks associated with the automatic code generation using Generative AI",high
+R0006,exclude,EC2,"fine-tunes SecureBERT+ on NVD/CVE descriptions, achieving 73.44% macro F1-score",high
+R0007,exclude,EC4,"custom penetration testing toolkit to guide learners through key phases of cyber-attacks",high
+R0008,include,,"features intelligent agents and machine-learning-driven threat-assessment to enable alarm triage, correlation, and incident response",high
+R0009,exclude,EC4,"revolutionize network monitoring management by addressing the limitations of query finding and pattern analysis",high
+R0010,include,,"red teaming framework built upon cooperative multi-agent collaboration, enabling full life-cycle attack simulation",high
+END_CSV

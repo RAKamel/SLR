@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0025",
+    "QA1": "Y",
+    "QA1_quote": "incorporate sophisticated Large Language Model (LLM) analytics into a federated learning (FL) framework for network intrusion detection.",
+    "QA2": "P",
+    "QA2_quote": "there will be an AI Layer that used integrated DeepSeek LLM that processes the outputs of aggregated global models",
+    "QA3": "Y",
+    "QA3_quote": "The FL combined with LLM approach outperformed the FL-only method and baseline model for all clients.",
+    "QA4": "P",
+    "QA4_quote": "One problem with the current work is that it uses pretrained general-purpose LLMs"
+  }
+]
+END_JSON

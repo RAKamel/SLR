@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0401,exclude,EC2,"Large Language Models (LLMs) interpret trust scores, evaluate decision thresholds",high
+R0402,include,,"multi-agent system using four cooperating Fetch.ai uAgents orchestrated via the Agentverse Mailbox",high
+R0403,maybe,,"combines automation with generative AI (GenAI) to optimise ethical hacking workflows",medium
+R0404,exclude,EC3,"Attackers may exploit vulnerabilities through prompt injection, backdoors, or other means",high
+R0405,exclude,EC2,"optimise LLM-Generated Intrusion Detection Rules with support vector machine (SVM)",high
+R0406,exclude,EC2,"providing contextual guidance, command suggestions, and technical explanations in natural language",high
+R0407,exclude,EC2,"constructs a large language model for experimental analysis",high
+R0408,include,,"Multiple tools are developed and employed enabling the agent to perform static analysis",high
+R0409,include,,"closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine",high
+R0410,exclude,EC2,"investigates the practical use of Large Language Models (LLMs) for extracting information",high
+END_CSV

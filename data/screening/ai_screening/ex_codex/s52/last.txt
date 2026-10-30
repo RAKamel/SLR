@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0621",
+  "study_type": "Framework with theoretical analysis and experimental evaluation on an incident response use case.",
+  "RQ1 task_stage": "Incident response planning; generating response and recovery actions from system logs and security alerts.",
+  "RQ1 domain": "Networked systems; Windows and Linux servers/hosts.",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "An LLM in an iterative verification and refinement loop: candidate actions, lookahead predictions, consistency evaluation, conformal abstention and external feedback; previous actions and feedback retained in context.",
+  "RQ2 llm_used": "Fine-tuned DEEPSEEK-R1-14B; comparison models DEEPSEEK-R1, GEMINI 2.5 PRO and OPENAI O3.",
+  "RQ2 adaptation": "Fine-tuning, chain-of-thought prompting and in-context learning from external feedback without changing underlying parameters.",
+  "RQ3 autonomy_level": "Generates and selects successive actions until the LLM thinks the task is completed; returns the action sequence as decision support to a security operator.",
+  "RQ3 hitl": "Operator validates the generated response plan; security experts may provide feedback, and the ICL process can be interrupted manually.",
+  "RQ4 dataset": "25 incidents across CTU-Malware-2014, CIC-IDS-2017, AIT-IDS-V2-2022 and CSLE-IDS-2024; manually constructed ground-truth response plans.",
+  "RQ4 environment": "Open-source testbed; dataset-based evaluation on 4× RTX 8000 GPUs with 4-bit quantization.",
+  "RQ4 metrics": "Recovery time T (number of actions), percentage of ineffective actions and percentage of failed recoveries; ablations also report hallucination probability, feedback requests, ICL regret and compute time.",
+  "RQ4 baseline_type": "Three frontier LLMs; framework ablations removing ICL, lookahead or abstention.",
+  "RQ4 headline_result": "Recovery times reduced by up to 30%; average recovery time 12.02 actions versus 16.21 for the next best model.",
+  "RQ4 compared_to": "GEMINI 2.5 PRO, OPENAI O3 and DEEPSEEK-R1.",
+  "RQ4 code_available": "yes; https://github.com/Kim-Hammar/csle",
+  "RQ4 data_available": "yes; https://huggingface.co/datasets/kimhammar/CSLE-IncidentResponse-V1",
+  "RQ5 risks_addressed": "Hallucinated or ineffective actions; costly service disruptions and misconfigurations caused by incorrect outputs.",
+  "RQ5 mitigations": "Lookahead consistency checks and calibrated conformal abstention; external verification and ICL from feedback, with optional manual interruption.",
+  "author_limitations (verbatim)": "While no single metric can capture all dimensions of incident response, recovery time is widely used in both research and practice as an indicator of recovery performance; see e.g., [2].",
+  "author_future_work (verbatim)": "The main direction of future work is to evaluate our framework on additional security tasks to better understand its empirical performance. We also plan to investigate foundation models beyond LLMs, such as time-series models.",
+  "evidence (page/section)": "Study/task/domain: Abstract, §§III, VI-A, Table II; architecture/adaptation: §§IV-A–D, VI-A, Appendices A–B; autonomy/HITL: §V-B Remark 3, Appendices B and D; datasets/environment/metrics/baselines/results: §§VI-A–B, Figures 7–11, Appendix C; availability: §VI, reference [24]; risks/mitigations: §§I, IV–V, VI-C; limitations: Appendix C; future work: §VII."
+}
+END_JSON

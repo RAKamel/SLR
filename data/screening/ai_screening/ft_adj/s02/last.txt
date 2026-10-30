@@ -1,0 +1,7 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0223,include,,"we propose RulePilot, which mimics human expertise via LLM-based agent",medium
+R0237,exclude,EC2,"configuration checks, analysis of tool outputs, and generating recommendations",medium
+R0295,include,,"operates on the basis of decentralized coalition auctions and a hybrid risk analysis subsystem",medium
+R0309,include,,"a multi-agent language model architecture for log analysis",medium
+END_CSV

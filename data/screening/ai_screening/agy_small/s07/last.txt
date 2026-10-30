@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0061,exclude,EC2,"the LLMs provide actionable recommendations to improve both performance and security",high
+R0062,exclude,EC3,"exploits the fundamental communication mechanisms in LLM-MAS by intercepting and manipulating inter-agent messages",high
+R0063,exclude,EC2,"inputs asset management data and vulnerability information into ChatGPT and searches for attack routes",high
+R0064,exclude,EC1,"encompassing Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Diffusion Models (DMs)",high
+R0065,exclude,EC1,"supported by a database and heuristic scoring algorithms, enables efficient data processing",high
+R0066,exclude,EC1,"demonstrates a Long ShortTerm Memory (LSTM) based Generative Adversarial Network (GAN) attack mechanism",high
+R0067,exclude,EC4,"monitors CI/CD telemetry, diagnoses failures, and submits self-healing pull requests",high
+R0068,include,,"agentic synthetic generation engine driven by a large language model",high
+R0069,include,,"autonomously executes response actions via integrated cybersecurity tools such as firewalls",high
+R0070,include,,"selfreflective PT framework powered by LLMs, called RefPentester",high
+END_CSV

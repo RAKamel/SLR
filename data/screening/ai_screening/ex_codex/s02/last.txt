@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0028",
+  "study_type": "An extension of the AutoBnB framework with evaluation through multi-agent incident response simulations",
+  "RQ1 task_stage": "Collaborative investigation; uncovering initial compromise, pivot and escalate, C2 with exfiltration, and persistence",
+  "RQ1 domain": "Backdoors & Breaches tabletop incident response simulations; scenarios mapped from public breach reports",
+  "RQ1 orientation": "Defensive: defending teams and AI-driven cyber defense",
+  "RQ2 architecture": "Multi-agent AutoGen system: incident captain, five defenders, and dedicated retrieval agent; eight team structures with post-attempt retrieval integrated into group chat",
+  "RQ2 llm_used": "GPT-4o; text-embedding-3-small for retrieval embeddings",
+  "RQ2 adaptation": "Retrieval-augmented generation using RAG-Wiki or RAG-News; role assignments and retrieval-query prompts after failed procedure attempts",
+  "RQ3 autonomy_level": "LLM agents replace human players, communicate, reason, select procedures, and retrieve external knowledge; environment automates card management, dice rolling, and game progression",
+  "RQ3 hitl": "Manual checks on sampled synthetic stories for narrative quality and realistic investigative logic; gameplay approval or intervention not stated",
+  "RQ4 dataset": "125 curated cybersecurity webpages; 100 synthetic incident reports; three June 2025 breach scenarios involving The North Face, Cock.li, and Gluestack",
+  "RQ4 environment": "Backdoors & Breaches implemented as an AutoGen multi-agent simulation; 30 independent runs per team structure",
+  "RQ4 metrics": "Win rates (%) and performance gains; victory requires revealing all four attack cards within 10 turns",
+  "RQ4 baseline_type": "LLM multi-agent teams without retrieval augmentation",
+  "RQ4 headline_result": "Heterogeneous hierarchical team achieved the highest win rate: 70.0% with RAG-News versus 30.0% Base (+40.0 percentage points)",
+  "RQ4 compared_to": "Base (no retrieval) AutoBnB teams across eight team structures; RAG-Wiki and RAG-News conditions",
+  "RQ4 code_available": "yes https://github.com/zefang-liu/AutoBnB",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinations and factual knowledge gaps; groupthink; noise introduced by retrieving more documents",
+  "RQ5 mitigations": "External knowledge grounding through RAG; argumentative roles that challenge peer proposals; manual checks on sampled synthetic stories",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract and I. Introduction: study, orientation, code URL, hallucinations; III.A Simulation Framework: tasks, environment, autonomy; III.B Team Structures: roles and groupthink; III.C Retrieval-Augmented Generation: retrieval loop; III.D Webpage Collection and III.E News Generation: corpora and manual checks; IV.A Experimental Setup: models, retrieval configuration, runs; IV.C Experimental Results, Table III: baselines and headline result; IV.D Ablation Studies: retrieval noise; V.A–C Real-World Simulations: breach scenarios; VI. Conclusion: cyber defense"
+}
+END_JSON

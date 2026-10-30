@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0281,exclude,EC2,"LLM-Guardian, a hierarchical intrusion detection framework with decision-making mechanisms",high
+R0282,exclude,EC2,"This survey explores the emerging role of Generative Artificial Intelligence in enhancing IVN security.",high
+R0283,include,,"a large language model-powered domain randomization method for synthetic environment generation",high
+R0284,include,,"a three-layer agentic AI architecture including three pseudocode procedures",high
+R0285,include,,"a three-agent ReAct architecture with retrieval-augmented generation and automated validation",high
+R0286,include,,"autonomously interpret reports, execute PoCs in isolated settings, and generate structured outputs",high
+R0287,exclude,EC2,"offering a stepwise guide, built-in commands and justifications",high
+R0288,include,,"a multi-agent architecture orchestrated by an AI agentic framework with a stateful workflow engine",high
+R0289,include,,"independently scrapes, analyzes, and classifies content related to vulnerabilities, malware, and hacking",high
+R0290,exclude,EC2,"identifying security flaws and suggesting actionable fixes",high
+R0291,include,,"an explicit causal decision loop: Observation → Hypothesis → Action → Result",high
+R0292,exclude,EC2,"We also explore the emerging role of LLMs as phishing detection tools",high
+R0293,exclude,EC2,"LLMs can be positioned not as autonomous systems but as cognitive assistants",high
+R0294,exclude,EC2,"This study explores the deployment of multi-modal LLMs in manufacturing cybersecurity",high
+R0295,include,,"a multi-agent information security management system (MAS-ISM)",high
+R0296,exclude,EC3,"designed to bolster the security of large language models (LLMs) and source code",high
+R0297,include,,"multiple AI agents powered by Large Language Models (LLMs) to autonomously generate and deploy adaptive honeypot decoys",high
+R0298,include,,"integrating large language models and reinforcement learning",medium
+R0299,exclude,EC1,"integrates Federated Learning (FL) with a Deep Learning-based Intrusion Detection and Behavior Monitoring system",high
+R0300,include,,"When equipped with access to functions and memory, they can be transformed into interactive and intelligent LLM agents.",high
+R0301,maybe,,"We extend our analysis to explore how LLMs and multi-agent systems can augment dynamic and static analysis",low
+R0302,include,,"Hierarchical multi-agent coordination that maintains tactical consistency across reconnaissance, exploitation, privilege escalation",high
+R0303,exclude,EC2,"enabling accurate classification of malicious activities such as billing fraud, energy theft, and communication tampering",high
+R0304,exclude,EC3,"comparative evaluation of Function Calling architecture and Model Context Protocol deployment paradigms",high
+R0305,exclude,EC2,"transform raw vulnerability data into structured, actionable insights",high
+R0306,exclude,EC2,"an LLM-based risk assessment framework to evaluate the likelihood and impact of identified vulnerabilities",high
+R0307,exclude,EC3,"a runtime security framework grounded in two contributions",high
+R0308,include,,"an autonomous threat hunting system driven by Large Language Models (LLMs)",high
+END_CSV

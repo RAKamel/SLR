@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0095",
+  "study_type": "Reference architecture model and proof-of-concept with evaluation",
+  "RQ1 task_stage": "Penetration testing; reconnaissance, general technique, exploitation and privilege escalation",
+  "RQ1 domain": "VULNHUB CTF target virtual machines",
+  "RQ1 orientation": "Offensive security",
+  "RQ2 architecture": "Evaluated ReAct component: separate Reasoning, Act and stateless Summarizer LLM sessions with root-privileged terminal access; proposed architecture adds recursive planning, Memory Manager and Plan Corrector",
+  "RQ2 llm_used": "GPT4-o through OpenAI’s API",
+  "RQ2 adaptation": "ReAct reasoning–execution–observation loop; proposed planning memory retrieves embedded descriptions of past task-tree nodes",
+  "RQ3 autonomy_level": "Automatically executes terminal commands, installs programs and launches scripts; loops until the reasoner stops recommending actions",
+  "RQ3 hitl": "Security model requires user validation before any offensive action; Launcher permits stopping tasks or modifying plans; implementation prompts for input when reasoning stops",
+  "RQ4 dataset": "Five VULNHUB use cases: Sar, CewiKid, Victim1, WestWild and CTF4; challenge write-ups as completion references",
+  "RQ4 environment": "Easy-category target VMs; agent tested in a Docker container on a Thinkpad e14 gen 5, 16GB DDR4 RAM, I5-13420h",
+  "RQ4 metrics": "Completed CTF steps relative to write-ups; API calls, API-call token consumption and tool calls",
+  "RQ4 baseline_type": "Other LLM pentesting systems; ablation without reasoning",
+  "RQ4 headline_result": "Outperforms PenTestGPT in 3 of 5 use cases (60%); reasoning reduces tool calls by 37–68% in 4 of 5 use cases",
+  "RQ4 compared_to": "PentestGPT4-o, PentestGPT-Llama; RedTeamLLM without reasoning",
+  "RQ4 code_available": "yes + https://github.com/lre-security-systems-team/redteamllm",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Malicious proliferation, execution hijacking and inversion of dependency; attack surface expansion, data manipulation, prompt injection, API usage and sensitive data exposure",
+  "RQ5 mitigations": "Authentication, authorization and session management; network/system isolation, user command validation, append-only logging and kill switch",
+  "author_limitations (verbatim)": "The current state of the implementation also covers ADaPT for recursive planning, Memory management for continuous improvement, and Plan correction to support operation continuity after task failure. However, these are less mature, and not evaluated here.",
+  "author_future_work (verbatim)": "The evaluation of recursive planning, memory management and plan correction is also a necessity to better understand the underlying mechanics and capabilities of agentic models.",
+  "evidence (page/section)": "Study type: Abstract, §7; tasks/domain/orientation: §§6.1, 6.3; architecture/adaptation: §§4.1–4.3, 5.1–5.2; LLM/environment/code/limitations: §5; autonomy/HITL: §§4.1–4.4, 5.1–5.2, 6.1; dataset: §6.1; metrics/results/baselines: §§6.2–6.3, 7; risks/mitigations: Introduction, §4.4; future work: §7"
+}
+END_JSON

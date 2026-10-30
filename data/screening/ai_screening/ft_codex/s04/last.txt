@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0223,include,,"we propose RulePilot, which mimics human expertise via LLM-based agent",high
+R0237,uncertain,,"the tool demonstrated the ability to integrate with popular penetration test tools",medium
+R0249,include,,"We analyze state-of-the-art benchmarking approaches used to evaluate LLM-based penetration testing",high
+R0276,include,,"automatically installing missing tools and rectifying invalid command generations",high
+R0284,include,,"a cooperative three-layer multi-agent architecture",high
+R0295,include,,"operates on the basis of decentralized coalition auctions and a hybrid risk analysis subsystem",medium
+END_CSV

@@ -61,8 +61,10 @@ def check(d):
         if v is not None and v < 0:
             bad.append(f'{name} = {v} is negative')
     sought, ident = g('citation_searching_sought'), g('identified_citation_searching')
-    if None not in (sought, ident) and sought > ident:
-        bad.append(f'citation_searching_sought = {sought} exceeds identified_citation_searching = {ident}')
+    cs_left = minus(ident, total(d.get('citation_searching_removed_before_screening') or 0))  # optional field
+    if None not in (sought, cs_left) and sought > cs_left:
+        bad.append(f'citation_searching_sought = {sought} exceeds identified_citation_searching '
+                   f'- sum(citation_searching_removed_before_screening) = {cs_left}')
     return bad, nulls
 
 
@@ -79,7 +81,10 @@ def tex(d, status):
           + [f'{IND}{esc(DB_NAMES.get(k, k))} (n = {n(v)})' for k, v in dbs.items()]),
          ('side', 'removed', ['Records removed before screening:', f'{IND}Duplicate records (n = {g("duplicates_removed")})',
                               f'{IND}Other reasons (n = {g("other_removed_before_screening")})']),
-         ('cmain', 'cident', ['Records identified from citation searching', f'(n = {g("identified_citation_searching")})'])],
+         ('cmain', 'cident', ['Records identified from citation searching', f'(n = {g("identified_citation_searching")})'])]
+        + ([('cside', 'cremoved', ['Records removed before screening:']
+             + [f'{IND}{esc(k)} (n = {n(v)})' for k, v in d['citation_searching_removed_before_screening'].items()])]
+           if d.get('citation_searching_removed_before_screening') else []),
         [('main', 'screened', ['Records screened', f'(n = {g("screened")})']),
          ('side', 'exta', ['Records excluded', f'(n = {g("excluded_title_abstract")})'])],
         [('main', 'sought', ['Reports sought for retrieval', f'(n = {g("sought_for_retrieval")})']),
@@ -148,6 +153,9 @@ def selftest():
     assert r'\begin{tikzpicture}' in t and r'\documentclass' not in t and t.count('{') == t.count('}')
     assert '(n = 36)' in t and r'EC1\_scope (n = 20)' in t and r'EC2 \& EC3' in t and 'n = ?' not in t
     assert 'n = ?' in tex(partial, 'INCOMPLETE')
+    cs = {**good, 'citation_searching_removed_before_screening': {'removed by automation tools': 15, 'duplicates': 3}}
+    assert check(cs) == ([], []) and 'removed by automation tools (n = 15)' in tex(cs, 'OK')  # 30-18=12 >= sought 12
+    assert check({**cs, 'citation_searching_removed_before_screening': {'auto': 19}})[0]  # 30-19=11 < sought 12
     print('prisma selftest OK')
 
 

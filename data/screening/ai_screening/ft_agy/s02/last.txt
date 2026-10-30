@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0028,include,,"incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations.",high
+R0039,exclude,EC2,"The approach often produced the correct command in one shot",high
+END_CSV

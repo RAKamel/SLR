@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0351,exclude,EC4,"thematic analysis on several primary motivators and demotivators driving the adoption",high
+R0352,include,,"structured autonomous multi-agent LLM-powered penetration testing framework",high
+R0353,exclude,EC3,"This research establishes a new protocol for securing generative AI systems",high
+R0354,include,,"combines anomaly detection, LLM-based reasoning, and reinforcement learning to automate cybersecurity operations",high
+R0355,include,,"Self-Evolving PenTester Agent (SEPTA)",high
+R0356,exclude,EC3,"dynamic trust evaluation in LLM-based multi-agent systems",high
+R0357,include,,"automated LLM agent framework that tackles CTF challenges using an integrated toolchain",high
+R0358,include,,"narrative review of the 2022-2026 literature on autonomous attack agents, LLM-powered red-teaming",high
+R0359,exclude,EC4,"surveys recent advances in applying GenAI to networking",high
+R0360,exclude,EC2,"employ LLM to synthesize templates serving as intermediates for subsequent manual manipulation",high
+END_CSV

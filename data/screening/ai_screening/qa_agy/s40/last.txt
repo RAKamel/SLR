@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0451",
+    "QA1": "Y",
+    "QA1_quote": "In this paper, we show the first study on how LLMs perform in multi-agent ACD environments",
+    "QA2": "Y",
+    "QA2_quote": "We set the System Prompt to describe the task, response validation, environment rules, and examples.",
+    "QA3": "Y",
+    "QA3_quote": "We evaluated them against diverse red agent strategies and compared the LLM defending reasoning against pre-trained RL",
+    "QA4": "Y",
+    "QA4_quote": "Now, we discuss some limitations of LLMs interacting in multi-agent environments with other ACDs"
+  }
+]
+END_JSON

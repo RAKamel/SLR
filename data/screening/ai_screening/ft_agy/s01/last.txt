@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0007,exclude,EC4,"enhance cybersecurity education and operational readiness",high
+R0025,exclude,EC2,"enabling prompt-driven analytics for real-time intrusion detection",high
+END_CSV

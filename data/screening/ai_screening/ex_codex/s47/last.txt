@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0538",
+  "study_type": "Systematization of Knowledge (SoK); systematic review of LLM-powered honeypots, honeypot fingerprinting, and honeypot data analysis",
+  "RQ1 task_stage": "Cyber deception, occupying attacker resources, and gathering threat intelligence; automated mapping to MITRE ATT&CK and real-time detection",
+  "RQ1 domain": "Enterprise network server emulation; network security honeypots",
+  "RQ1 orientation": "Defensive",
+  "RQ2 architecture": "Synthesized canonical architecture: attacker-facing server, filter/router, deterministic responder, prompt creator, LLM, system state manager, and session history curator",
+  "RQ2 llm_used": "Reviewed models include GPT-3.5-turbo-16k, GPT-4, GPT-4o, GPT-4o-mini, Claude-2, Claude 3 Haiku/Opus, Gemini Pro 1.5, Llama 2 (70B), Llama 3 (8B), and Mistral 7B",
+  "RQ2 adaptation": "Reviewed approaches include prompting, chain-of-thought prompting, RAG, and protocol-specific fine-tuning; LoRA heads proposed",
+  "RQ3 autonomy_level": "Reviewed systems generate simulated service responses, automatically label attacker activity, and classify live-system commands; self-improving deception systems proposed",
+  "RQ3 hitl": "Reviewed analysis methods flag sessions for manual inspection and support analyst visualization; expert involvement discussed for ATT&CK mapping",
+  "RQ4 dataset": "Reviewed studies use the Prague Dataset, Cowrie shell command data, curated LDAP data, and real-world honeypot logs; no original evaluation dataset stated",
+  "RQ4 environment": "Reviewed evaluations include laboratory tests, human user studies, script replay, and in-the-wild internet deployments",
+  "RQ4 metrics": "Evaluation tetrad: believability and deception; fidelity; attacker costs and intelligence; defender cost",
+  "RQ4 baseline_type": "Reviewed comparisons include traditional non-LLM honeypots, real servers, and other LLMs",
+  "RQ4 headline_result": "Review highlights Guan et al.: average session length increased from 2.96 to 5.83 commands; 99.2% of honeypot activity consisted of simple scanning scripts",
+  "RQ4 compared_to": "Cowrie, Amun, traditional static equivalents, and real Ubuntu servers in reviewed studies",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Prompt injection, denial-of-service/denial-of-wallet, inference privacy, and honeypot fingerprinting; inaccurate or inconsistent responses and functional limitations",
+  "RQ5 mitigations": "Filtering/routing, scanner blocking, deterministic response caching, context pruning, state management, input transformations and prompt-injection classification; locally hosted models",
+  "author_limitations (verbatim)": "Standardized metrics and benchmarks are emerging but have yet to achieve widespread adoption; consequently, rigorous comparative analysis remains limited.",
+  "author_future_work (verbatim)": "Finally, we outline a path toward greater autonomy through the implementation of feedback loops, enabling systems to automatically generate intelligence for security operations centers (SOCs) and reconfigure themselves to adapt to the evolving threat landscape.",
+  "evidence (page/section)": "Study/scope: Abstract, §§1–1.2, p.1 footnote; architecture/models/adaptation: §§3.2–3.3, Table 2, §4.1 and Figure 1; autonomy/HITL: §§3.3.1–3.3.4, §1.2; datasets/environments/comparisons: §§3.2.1–3.2.5 and Table 2; metrics/results: §§4.2–4.2.1; risks/mitigations: §§3.1–3.2, §4.1 and Figure 1; limitations quote: §1; future-work quote: §1.2. Supplied text ends partway through §4.2.1."
+}
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0721,exclude,EC2,"enhancing tasks such as cyber threat intelligence, phishing detection, anomaly detection",high
+R0722,exclude,EC2,"explore the capacity of LLMs to detect hard-coded credentials",high
+R0723,exclude,EC4,"integration of LLMs in the field of software development",high
+R0724,exclude,EC2,"explores the dual role of generative AI in both offensive and defensive cybersecurity operations",high
+R0725,exclude,EC1,"application of artificial intelligence in web application penetration testing",high
+R0726,include,,"conversation between Large Language Models (LLMs) with the purpose of generating software exploits",high
+R0727,exclude,EC1,"Application of AI security monitoring with continuous threat analysis",high
+R0728,exclude,EC4,"areas like design and development, monitoring and management, quality control, and maintenance",high
+R0729,exclude,EC2,"application of LLMs in investigative processes",high
+R0730,include,,"execute relevant security commands and adapt its testing strategies accordingly",high
+END_CSV

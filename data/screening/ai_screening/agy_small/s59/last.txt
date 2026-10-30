@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0581,include,,"ShipCrawler: Agentic Open-Source Intelligence (OSINT) Platform for Maritime Cybersecurity",high
+R0582,include,,"agentic workflow that leverages large language models (LLMs)",high
+R0583,include,,"role-specialized LLM agents that engage in structured, multi-round debates",high
+R0584,exclude,EC4,"compliance audit and assessing the compliance of policies with relevant industry standards",high
+R0585,exclude,EC4,"Application of Large Language Models (LLMs) in Power Systems",high
+R0586,exclude,EC3,"security vulnerabilities in LLM-powered dialogue systems",high
+R0587,exclude,EC2,"near-term risk lies in workflow acceleration, not flawless autonomy",high
+R0588,exclude,EC1,"quantum generative adversarial networks (QGANs), and hybrid classical-quantum fusion models",high
+R0589,exclude,EC3,"defend against prompt manipulation and guardrails bypass while designing LLMs",high
+R0590,exclude,EC3,"Systematic Survey of Prompt Injection Attacks and Defenses",high
+END_CSV

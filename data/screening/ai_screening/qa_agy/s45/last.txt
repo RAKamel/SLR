@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0496",
+    "QA1": "Y",
+    "QA1_quote": "The framework automates the creation of traffic scenarios, the design of cyberattack strategies, and the development of defense mechanisms.",
+    "QA2": "P",
+    "QA2_quote": "Due to size limitations, the table presents a condensed version of the prompts used",
+    "QA3": "P",
+    "QA3_quote": "Table III presents the mean total travel times for five connected vehicles traversing a 5 km road",
+    "QA4": "Y",
+    "QA4_quote": "However, several limitations and areas for future research have been identified:"
+  }
+]
+END_JSON

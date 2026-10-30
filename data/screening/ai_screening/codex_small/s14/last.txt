@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0365,include,,"an autonomous AI agent that leverages large language models (LLMs) to transform raw logs",high
+R0366,include,,"an LLM-Orchestrated multi-agent system of log-based detection and analysis of cyber threats",high
+R0367,include,,"a hierarchical swarm-orchestrated multi-agent LLM architecture for autonomous and adaptive cyber defense",high
+R0368,exclude,EC3,"black-box DoS attacks on multi-agent LLMs",high
+R0369,include,,"the agent fills the decision-to-action gap",high
+R0370,exclude,EC2,"automatically generating offensive PowerShell code from natural language descriptions using Neural Machine Translation",high
+R0371,include,,"local large language model, we experiment with skills aimed at running cyber security tools",medium
+R0372,include,,"leverages agentic AI, for autonomous anomaly detection and remediation",medium
+R0373,exclude,EC3,"proactively identifying and neutralizing jailbreak attempts",high
+R0374,include,,"integrates Large Language Models (LLMs) with a hierarchical multi-agent system",high
+R0375,include,,"executing a multi-round decision-making process through successive Thought-Act-Observe cycles",high
+R0376,include,,"Agentic AI autonomous systems with reasoning, planning, and tool orchestration capabilities",medium
+R0377,exclude,EC1,"deep learning models, generative adversarial networks (GANs), and reinforcement learning",high
+R0378,exclude,EC4,"reconstruct the subsurface soil properties at untested locations",high
+R0379,include,,"employing Generative AI (GAI) as the cognitive engine",medium
+R0380,include,,"multiple agents that interpret user queries and adaptively select the optimal retrieval strategy",high
+R0381,include,,"autonomous LLM-driven agents",high
+R0382,exclude,EC2,"systematically evaluate the impact of different prompting strategies on the quality of LLM-generated code",high
+R0383,maybe,,"LLM-based reasoning for comprehensive malware detection",low
+R0384,exclude,EC2,"enables semi-automated vulnerability analysis and exploitation",high
+R0385,exclude,EC2,"an LLM-driven interpreter produces concise, human-readable explanations for IDS alerts",high
+R0386,include,,"a modular multi-agent architecture that integrates established cybersecurity analysis tools with large language models",high
+R0387,exclude,EC2,"uses advanced natural language processing techniques, including a large language model (RoBERTa)",high
+R0388,include,,"AI agents manage interactions between the VLMs and LLM",high
+R0389,include,,"a red-blue multi-agent adversarial debate",high
+R0390,include,,"a response agent for selecting appropriate response actions in the network in real time",high
+R0391,exclude,EC2,"we conducted a survey of 37 students enrolled in university-level malware analysis courses",high
+R0392,exclude,EC3,"automated framework for red team prompt injection testing of LLMs",high
+END_CSV

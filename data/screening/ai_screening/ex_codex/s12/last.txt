@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0174",
+  "study_type": "Proposed hyper-automation SOAR platform and IVAM framework",
+  "RQ1 task_stage": "Incident response analysis and generation; incident mitigation and resolution, validation, and active monitoring",
+  "RQ1 domain": "Security Operations Centers (SOCs); SIEM-connected target endpoints",
+  "RQ1 orientation": "Defensive: security incident response and threat mitigation",
+  "RQ2 architecture": "Proposed multi-agent system with agent router, two specialized LLMs, vector database and conversation history; task decomposition, tool execution, and feedback loop",
+  "RQ2 llm_used": "Meta Llama-3.3-70B-Instruct; deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  "RQ2 adaptation": "Structured system prompting; retrieval of similar incidents from a vector database for contextual understanding",
+  "RQ3 autonomy_level": "Autonomously constructs adaptive workflows and generates contextual playbooks; executes approved mitigation steps using security tools",
+  "RQ3 hitl": "Before execution, a security analyst reviews, approves, modifies, or refines proposed mitigation steps",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "not stated",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Unintended consequences of mitigation commands; operational and security disruptions from proposed actions",
+  "RQ5 mitigations": "Human verification and approval before execution; risk assessment, post-execution evaluation, and iterative refinement",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Extraction limited to supplied text, pp. 1–19. Study and tasks: Abstract, §1 Key Contributions, §3.1–3.2; domain, autonomy and human oversight: §3.2.1, pp. 16–17; architecture, models and adaptation: §3.2, Table 1, §3.2.2, pp. 16–19; risks and mitigations: §3.2.1–3.2.2, pp. 16–19. Evaluation, availability, author limitations and future work: not stated in supplied text."
+}
+END_JSON

@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0348,include,,"autonomously identifies malicious payloads, retrieves relevant domain knowledge, and produces human-readable reports",high
+R0354,include,,"combines anomaly detection, LLM-based reasoning, and reinforcement learning to automate cybersecurity operations",high
+R0359,maybe,,"We analyse state-of-the-art techniques in network management and security",medium
+R0369,maybe,,"autonomous actions including {IGNORE, BLOCK_ALERT, UPDATE_DB}",medium
+R0372,exclude,EC4,"anomaly detection and remediation to address the daunting task of highly distributed system management",medium
+R0379,exclude,EC4,"fundamental paradigm shift in physical layer security",high
+R0383,include,,"multi-agent system integrating static analysis, dynamic sandboxing, threat intelligence enrichment, explainable machine learning",medium
+R0384,maybe,,"SatGuard enables semi-automated vulnerability analysis and exploitation",high
+R0395,include,,"evaluating methods that include supervised fine-tuning, prompt engineering, Retrieval-Augmented Generation (RAG), and multi-agent architectures",high
+R0396,maybe,,"AI agents execute multi-step workflows",medium
+R0403,maybe,,"combines automation with generative AI (GenAI) to optimise ethical hacking workflows",high
+R0419,exclude,EC2,"guide the language model's output structure and enforce semantic validity over the resulting graph",high
+R0420,include,,"agentic, large language model (LLM)-augmented systems-for anomaly detection",high
+END_CSV

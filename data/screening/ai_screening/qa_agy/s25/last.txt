@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0316",
+    "QA1": "Y",
+    "QA1_quote": "In this paper, we present NetMoniAI, an agentic AI framework for automatic network monitoring and security",
+    "QA2": "Y",
+    "QA2_quote": "Each node runs a lightweight micro-agent. These agents capture traffic, detect anomalies, and reason using LLMs.",
+    "QA3": "P",
+    "QA3_quote": "We evaluated NetMoniAI on a local micro-testbed and through NS-3 simulations.",
+    "QA4": "N",
+    "QA4_quote": "Future work will extend the framework with adaptive mitigation, multi-agent coordination, and SDN-based policy enforcement."
+  }
+]
+END_JSON

@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0440",
+    "QA1": "Y",
+    "QA1_quote": "we propose AgentRed, a lightweight tool for generating network attack traffic with minimal human configuration and setup.",
+    "QA2": "P",
+    "QA2_quote": "our approach runs locally using lightweight LoRA adapters that are dynamically selected and fine-tuned by an agent.",
+    "QA3": "P",
+    "QA3_quote": "Our method, however, achieves significant results with only 500 PCAP samples per attack type",
+    "QA4": "Y",
+    "QA4_quote": "Attacks that require multi-stage interactions or long-term state tracking (e.g., multi-step exploits) remain unexplored."
+  },
+  {
+    "id": "R0447",
+    "QA1": "Y",
+    "QA1_quote": "We present CyberRAG, a modular agent-based RAG framework that delivers real-time classification, explanation, and structured reporting for cyber-attacks.",
+    "QA2": "P",
+    "QA2_quote": "A central LLM agent orchestrates: (i) fine-tuned classifiers specialized by attack family;",
+    "QA3": "P",
+    "QA3_quote": "Generated explanations reached 0.94 in BERTScore and 4.9/5 in GPT-4-based expert evaluation",
+    "QA4": "Y",
+    "QA4_quote": "One of the main limitations of this approach is its dependence on the quality of the data within the knowledge base"
+  },
+  {
+    "id": "R0448",
+    "QA1": "Y",
+    "QA1_quote": "This paper introduces a novel open benchmark1 for LLM-based automated penetration testing, addressing this critical gap.",
+    "QA2": "Y",
+    "QA2_quote": "Both models were tested using a 128K context length.",
+    "QA3": "Y",
+    "QA3_quote": "A test was marked as successful if the AI provided a correct solution within the allotted attempts",
+    "QA4": "Y",
+    "QA4_quote": "We only did one trial for each test, so the results may be more stochastic than doing multiple trials"
+  }
+]
+END_JSON

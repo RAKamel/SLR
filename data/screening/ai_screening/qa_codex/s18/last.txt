@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0621",
+    "QA1": "Y",
+    "QA1_quote": "the goal is to generate a response and recovery plan based on system logs.",
+    "QA2": "P",
+    "QA2_quote": "we collect external feedback by evaluating the action that would have been chosen if we did not abstain",
+    "QA3": "P",
+    "QA3_quote": "Experiments on four public datasets show that our framework reduces recovery times by up to 30% compared to frontier LLMs.",
+    "QA4": "P",
+    "QA4_quote": "Since the collection of feedback takes time and resources, the consistency threshold γ controls a tradeoff"
+  },
+  {
+    "id": "R0698",
+    "QA1": "Y",
+    "QA1_quote": "we introduce an AI-driven human-machine co-teaming paradigm that leverages large language models (LLMs) to enhance threat intelligence, alert triage",
+    "QA2": "P",
+    "QA2_quote": "Future research should explore fine-tuning SOC-specific LLMs, enhancing AI explainability, and integrating human feedback loops for iterative learning.",
+    "QA3": "P",
+    "QA3_quote": "Our framework would have significantly enhanced a SOC’s ability to detect and mitigate such attacks.",
+    "QA4": "Y",
+    "QA4_quote": "Real-world adoption faces challenges, including privacy concerns with proprietary, cloudbased models like ChatGPT, the high computational demands of LLMs"
+  },
+  {
+    "id": "R0701",
+    "QA1": "Y",
+    "QA1_quote": "Cochise is intended not as a state-of-the-art penetration-testing agent, but as a reusable experimental infrastructure",
+    "QA2": "Y",
+    "QA2_quote": "The entry contains subdictionaries detailing the exact prompt submitted to the model, the raw text completion received",
+    "QA3": "Y",
+    "QA3_quote": "We evaluate Cochise along three dimensions: compactness, capability, and analyzability.",
+    "QA4": "Y",
+    "QA4_quote": "Any offensive security research is inherently dual-use research of concern (DURC)."
+  }
+]
+END_JSON

@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0528,include,,"couples an LLM-based planner (i.e., such as Gemini 2.5 Flash-Lite)",high
+R0538,include,,"We systematize honeypot log analysis, charting the “semantic leap” from simple data reduction to the automated, agent-driven operationalization.",high
+R0541,include,,"each agent uses LLM-driven reasoning and dynamic tool invocation",high
+R0556,include,,"After two rounds of argument exchange, a judge agent evaluates the debate",high
+R0567,include,,"an Analyst agent for impact and exploitation assessment",medium
+R0582,include,,"the LLMs have some autonomy in selecting actions and interpreting the results",high
+END_CSV

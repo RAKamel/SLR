@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0057,include,,"we propose a novel LLM agent-based framework, AutoPentester, which automates the pentesting process.",high
+R0070,include,,"we propose a knowledge-informed, self-reflective PT framework powered by LLMs, called RefPentester.",high
+END_CSV

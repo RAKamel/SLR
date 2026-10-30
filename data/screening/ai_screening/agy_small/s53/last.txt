@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0521,exclude,EC3,"comprehensive threat model tailored specifically for GenAI agents",high
+R0522,include,,"autonomous agent for cyber threat hunting that integrates structured knowledge",high
+R0523,include,,"configurable security platform to formalize and evaluate dynamic multi-agent graphs",high
+R0524,include,,"discovering and selecting open-source Gen-AI-based penetration testing tools and classifying them",high
+R0525,exclude,EC3,"specifically engineered for secure multi-agent ecosystems",high
+R0526,include,,"black-box SQLi detection tool based on large language multi-agent",high
+R0527,include,,"Autonomous Industrial Defense using LLM-empowered, Multi-agent reinforcement learning",high
+R0528,include,,"LLM-Powered Agentic AI Framework for Controlling Security Controls",high
+R0529,exclude,EC3,"cybersecurity architecture in the domain of agentic AI systems",high
+R0530,exclude,EC2,"This position article maps large language model (LLM) capabilities",high
+END_CSV

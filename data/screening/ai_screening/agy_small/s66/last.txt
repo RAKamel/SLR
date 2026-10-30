@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0651,exclude,EC2,"Generative artificial intelligence further accelerates the creation of convincing traps.",high
+R0652,exclude,EC2,"LLM-based vulnerability detection under a constrained binary-output setting.",high
+R0653,exclude,EC1,"utilizes a hybrid Quantum AI security mechanism",high
+R0654,exclude,EC1,"This setup yields the UL-ECE-5G-AV-DDoS2025 dataset",high
+R0655,include,,"combining human strategic planning with a proactive Shadow Agent",high
+R0656,exclude,EC2,"Retrieval-Augmented Generation (RAG) for threat intelligence synthesis.",high
+R0657,exclude,EC2,"fed into an LLM to generate an incident response report",high
+R0658,exclude,EC4,"clinical decision support portal for blood gas analysis",high
+R0659,exclude,EC2,"a script that integrates OpenAI GPT to search for default credentials",high
+R0660,include,,"linear agentic workflow that generates and then refines a well-parameterized tool plan",high
+END_CSV

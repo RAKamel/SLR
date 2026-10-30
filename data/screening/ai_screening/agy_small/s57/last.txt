@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0561,exclude,EC4,"automated security requirements verification in practical audit settings",high
+R0562,exclude,EC2,"LLM only interprets already flagged anomaly events, providing insights",high
+R0563,exclude,EC2,"LLM-based post-detection analysis using GPT-3.5 Turbo with zero-shot prompting",high
+R0564,include,,"LLM autonomously investigates network alerts using a set of tools",high
+R0565,exclude,EC2,"utilization of Large Language Models (LLMs) within diverse domains of cybersecurity",high
+R0566,include,,"feedback-driven workflow, powered by LLM agents, ensures accuracy and reliability",high
+R0567,exclude,EC4,"Memory Corruption Analysis in User Code and Binary Programs",high
+R0568,exclude,EC4,"surveillance and patrol, border control, disaster response, and other associated domains",high
+R0569,exclude,EC2,"without modifying or retraining the underlying LLM",high
+R0570,exclude,EC1,"proposes a comprehensive cybersecurity strategy that integrates AI-driven solutions",high
+END_CSV

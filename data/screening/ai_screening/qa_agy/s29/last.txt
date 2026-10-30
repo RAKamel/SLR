@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0347",
+    "QA1": "Y",
+    "QA1_quote": "We address this diagnostic gap by introducing CLASP (Closed-Loop Autonomous Security Performance)",
+    "QA2": "N",
+    "QA2_quote": "The agentic functions defines the autonomous capabilities that enable AI systems to operate effectively in cybersecurity contexts.",
+    "QA3": "Y",
+    "QA3_quote": "We preregister inclusion criteria, query templates, screening rules, and coding rubrics",
+    "QA4": "P",
+    "QA4_quote": "Numerical reliability values below are provisional and will be replaced by the audited artifact at release."
+  }
+]
+END_JSON

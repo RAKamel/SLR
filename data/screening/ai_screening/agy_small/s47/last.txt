@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0461,exclude,EC4,"GPT-assisted base station site selection, antenna design optimization and virtualized intelligent slicing",high
+R0462,exclude,EC4,"design and implementation of a full stack e-commerce website",high
+R0463,include,,"cross-model evaluation of LLM agents on offensive cybersecurity tasks",high
+R0464,include,,"autonomous intrusion detection and mitigation from context-rich flow telemetry",high
+R0465,exclude,EC2,"fine-tune an LLM that monitors in-vehicle network traffic and sensor telemetry for anomalies",high
+R0466,include,,"modular chain-of-agents architecture, and an explicit human-in-the-loop verification gate",high
+R0467,exclude,EC3,"LLM-driven controllers are vulnerable to intent injection, model inversion, and adversarial manipulation",high
+R0468,exclude,EC2,"trained to assist in penetration testing tasks as a chatbot",high
+R0469,include,,"proposes an organization-scoped LLM agent runtime architecture for financial cybersecurity",high
+R0470,exclude,EC3,"tool poisoning attacks that manipulate the MCP context can corrupt an agent's reasoning",high
+END_CSV

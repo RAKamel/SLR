@@ -1,0 +1,21 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0070",
+    "QA2": "P",
+    "QA2_quote": "we leverage multiple LLM sessions with predefined system prompts",
+    "QA4": "P",
+    "QA4_quote": "In the future, our research should focus on testing our framework in different experimental environments."
+  },
+  {
+    "id": "R0075",
+    "QA2": "Y",
+    "QA2_quote": "The exact system instruction provided to the gpt-4o-mini model is transcribed below in Table A1."
+  },
+  {
+    "id": "R0095",
+    "QA3": "P",
+    "QA3_quote": "The maximum number of steps achieved over the 5 runs is considered, i.e. the better execution."
+  }
+]
+END_JSON

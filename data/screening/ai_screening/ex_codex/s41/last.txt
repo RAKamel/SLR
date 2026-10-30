@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0477",
+  "study_type": "Practical autonomous agent implemented and deployed at IHEP; functionality demonstration",
+  "RQ1 task_stage": "Identification, protection, detection, and response; vulnerability scanning, attack detection, IP blocking, notifications, and incident reporting",
+  "RQ1 domain": "IHEP network and Security Operations Center",
+  "RQ1 orientation": "Defensive: defending against cyberattacks",
+  "RQ2 architecture": "An autonomous agent with scheduling, memory databases, and security tool interfaces; iterative thought, action, and observation with task decomposition and tool invocation",
+  "RQ2 llm_used": "not stated",
+  "RQ2 adaptation": "Chain-of-thought prompting for task planning; retrieval-augmented generation using a vector database and historical subtasks/results",
+  "RQ3 autonomy_level": "Autonomously selects and orchestrates multiple security tools to complete complex operations without manual intervention",
+  "RQ3 hitl": "Users submit security operational instructions through the web interface and receive summarized tool outputs",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "Real-world deployment at IHEP SOC",
+  "RQ4 metrics": "Operational time; reliance on security professionals' experience",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "Operational time decreases from several hours to minutes",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Secure access control; accuracy of task answers",
+  "RQ5 mitigations": "User authentication and credential verification; repeated thought/action/observation when tool results do not satisfactorily resolve the task",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "In the future, we will conduct research on automated API integration. This involves dynamically inferring tool descriptions and parameter requirements from API documentation.",
+  "evidence (page/section)": "Study type, domain, orientation, autonomy: Abstract and §1 (pp. 1–2); tasks: §3.1 (p. 3), §4/Table 1 (pp. 6–7); architecture and adaptation: §§3.2–3.3.2 (pp. 3–6); human interaction and access control: §3.3.1 (pp. 4–5); answer accuracy: §3.3.2 (p. 5); deployment, operational time, experience reliance, and future work: §5 (p. 7)"
+}
+END_JSON

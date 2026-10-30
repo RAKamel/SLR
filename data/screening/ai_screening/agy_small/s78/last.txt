@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0771,exclude,EC1,"prevailing research topics, tools, and frameworks in the field of AI security",high
+R0772,exclude,EC2,"automate security-focused test case generation for APIs",high
+R0773,exclude,EC1,"Cross-domain alert correlation methodology for industrial control systems",high
+R0774,exclude,EC1,"integrates blockchain mitigation execution with reinforcement-tuned prediction of cyber-risks",high
+R0775,include,,"MCP-driven real-time security monitoring: A hybrid LLM and behavior-aware framework",medium
+R0776,exclude,EC1,"autonomous agent-based decision system for proactive and reactive cybersecurity strategies",high
+R0777,maybe,,"A comprehensive survey of AI driven threat validation techniques",medium
+R0778,exclude,EC1,"Autoencoder-based anomaly detection agent to identify zero-day attacks",high
+R0779,exclude,EC3,"security research across three dominant threat classes: retrieval poisoning, indirect prompt injection",high
+R0780,exclude,EC2,"LLMs operate in parallel to generate, normalize, and continuously update TTP rules",high
+END_CSV

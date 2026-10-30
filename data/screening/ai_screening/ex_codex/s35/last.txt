@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0409",
+  "study_type": "Exploratory paper with high-level task-planning experiments and a low-level attack-execution prototype evaluation",
+  "RQ1 task_stage": "High-level task planning for security testing assignments; low-level vulnerability hunting and privilege escalation",
+  "RQ1 domain": "Active Directory and external company penetration testing; deliberately vulnerable Linux virtual machine",
+  "RQ1 orientation": "Penetration testing in benign settings",
+  "RQ2 architecture": "AgentGPT/AutoGPT for high-level planning; GPT3.5 in an infinite command–SSH–output feedback loop, with command-output history embedded in prompts",
+  "RQ2 llm_used": "GPT3.5; GPT-3.5-turbo",
+  "RQ2 adaptation": "Static, manually written prompts and prompt variations; command outputs supplied as prompt context",
+  "RQ3 autonomy_level": "Suggests shell commands automatically executed over SSH; analyzes returned output, identifies vulnerabilities and provides exploitation examples",
+  "RQ3 hitl": "Penetration testers choose the low-level tactic; proposed automatically generated prompts should be closely monitored by humans",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "Deliberately vulnerable lin.security Linux virtual machine accessed through SSH; approved target company for external penetration-test planning",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "Qualitative comparison with enumeration tools using manually curated, hardcoded vulnerability checks",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "linpeas.sh",
+  "RQ4 code_available": "yes https://github.com/ipa-lab/hackingBuddyGPT",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinations, instability and limited multi-step planning; malicious dual use, bypassable ethical filters and sensitive data shared with cloud models",
+  "RQ5 mitigations": "Human-in-the-loop augmentation and human monitoring of generated prompts; proposed local models and memory-based internal reality checks",
+  "author_limitations (verbatim)": "Singular prototype runs were not stable, i.e., there was variation in the sequence and selection of commands given and vulnerabilities identified.",
+  "author_future_work (verbatim)": "Using LLMs to generate and optimize the prompts themselves, similar to AutoGPT, might improve their effectiveness. Given our sensitive use case, these automatically generated prompts should be closely monitored by humans though.",
+  "evidence (page/section)": "Abstract; §1 Introduction and Scope; §3.1 High-Level: Task-Planning Systems; §3.2 Low-Level: Attack-Execution System; §4.1 Grounding of Results and Hallucinations; §4.2 Stability and Reproducibility; §4.3 Ethical Moderation in LLMs; §§5.1–5.4 A Vision of AI-Augmented Pen-Testing; §6 Final Ethical Considerations"
+}
+END_JSON

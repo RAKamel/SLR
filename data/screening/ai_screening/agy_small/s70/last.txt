@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0691,include,,"upper-level LLM agent with four modules—ReAct planning, IPDRR-based perception, long-short term memory",high
+R0692,maybe,,"integrating a Blue agent with live network observations, risk analytics, and interactive human decision support",medium
+R0693,include,,"A large language model (LLM) orchestrator, grounded via retrieval augmented generation",high
+R0694,exclude,EC1,"apply multiagent proximal policy optimization algorithms to mitigate DDoS attacks",high
+R0695,exclude,EC4,"hierarchical dual-agent framework for automated formative assessment",high
+R0696,exclude,EC3,"A Catalog of Unanticipated Behaviors During Autonomous Network Defense",medium
+R0697,exclude,EC4,"how induced personality traits affect task selection processes-specifically planning, scheduling, and decision-making",high
+R0698,include,,"leverages large language models (LLMs) to support threat intelligence, alert triage, and incident response",high
+R0699,include,,"use of LLM-based autonomous agents, which represent a paradigm shift from single-task execution",high
+R0700,exclude,EC4,"transformative potential for cybersecurity education and workforce development",high
+END_CSV

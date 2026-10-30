@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0511,include,,"hierarchical planning design within multi-agent cooperation",high
+R0515,include,,"an alternating adversarial training framework for LLM-based network incident response",high
+R0524,include,,"MCP wrappers around established penetration testing suites being the most prevalent option",high
+R0532,include,,"AI agent’s Cognitive Core (a generative AI model)",medium
+R0536,include,,"a vulnerability analyzer that enriches CVE data from the National Vulnerability Database and ExploitDB",medium
+R0538,maybe,,"creating autonomous, self-improving deception systems",medium
+R0555,maybe,,"multi-agent systems that simulate human security expert collaboration",medium
+R0556,include,,"two LLM agents to present arguments for or against the classification task",high
+R0559,include,,"scheduler continuously optimizes incident-to-analyst assignments based on operational outcomes",medium
+R0567,include,,"an Analyst agent for impact and exploitation assessment",high
+R0569,include,,"an adaptive retrieval agent that adjusts context size in real time",high
+R0573,include,,"The four agents operate on a shared blackboard with closed-loop feedback",high
+R0614,exclude,EC4,"conducting risk analysis interviews with maritime entities",high
+END_CSV

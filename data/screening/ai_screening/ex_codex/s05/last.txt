@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0044",
+  "study_type": "Systematic literature review and SOC-LLM-augmented security architecture proposal",
+  "RQ1 task_stage": "Intelligent attack detection and response; investigation, correlation, explanation, and response planning",
+  "RQ1 domain": "Blockchain-enabled multi-cloud systems",
+  "RQ1 orientation": "Proactive, explainable, and human-in-the-loop cyber defense",
+  "RQ2 architecture": "Multi-agent LLM reasoning with specialized detection, correlation, threat intelligence retrieval, blockchain evidence validation, explanation, and response planning agents; hierarchical supervisory agent and SIEM/SOAR workflows",
+  "RQ2 llm_used": "not stated",
+  "RQ2 adaptation": "Retrieval-augmented threat intelligence using internal response playbooks, MITRE-like databases, and vulnerability documentation",
+  "RQ3 autonomy_level": "LLM agents handle investigation, correlation, and explanation; SOAR workflows execute controlled response actions",
+  "RQ3 hitl": "Human analysts verify the final determination; human-in-the-loop validation",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "Preliminary simulation-based validation strategy outlined; completed evaluation environment not stated",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "Qualitative comparison of blockchain-only, SIEM/rules-only, ML anomaly detection-only, and LLM-only approaches",
+  "RQ4 headline_result": "24 primary studies published between 2019 and 2025 included; quantitative architecture evaluation result not stated",
+  "RQ4 compared_to": "Blockchain only; SIEM/rules only; ML anomaly detection only; LLM only",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "LLM hallucination, unchecked autonomous decision-making, and reliability; data scarcity, real-time scalability, and trustworthy deployment",
+  "RQ5 mitigations": "RAG grounded in verified threat data and blockchain-verified evidence; hierarchical supervisory agent, human validation, and controlled SOAR response actions",
+  "author_limitations (verbatim)": "Requires governance, validation and benchmarking",
+  "author_future_work (verbatim)": "The work ends with identifying promising research directions for deploying SOC-LLMs that are reliable, explainable, scalable, and human-in-the-loop.",
+  "evidence (page/section)": "Study type and review results: Abstract, pp. 1–2; Sections 4–5, pp. 6–12. Tasks, domain, orientation, architecture, adaptation, risks and mitigations: Sections 2.3–2.4, p. 4; Section 6, p. 18. Qualitative comparisons and limitations: Section 5.2, Table 9, pp. 17–18. Autonomy, human validation and proposed simulation: Section 6, p. 18. Future work: Section 1, p. 3. Supplied text ends at the start of Section 6.1, p. 19; Section 6.8 is referenced but not supplied."
+}
+END_JSON

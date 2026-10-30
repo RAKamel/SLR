@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0712",
+  "study_type": "Replicated Computational Results (RCR) Report; artifacts, evaluation setup and analysis scripts",
+  "RQ1 task_stage": "Autonomous assumed-breach penetration-testing; identifying vulnerabilities and compromising user accounts",
+  "RQ1 domain": "Live enterprise networks using Microsoft Active Directory",
+  "RQ1 orientation": "Offensive security capability evaluation",
+  "RQ2 architecture": "High-level Planner creates plans and selects tasks; low-level Executor executes tool calls through a Kali Linux VM via SSH",
+  "RQ2 llm_used": "GPT-4o (gpt-4o-2024-08-06), DeepSeek-V3, Gemini-2.5-Flash (Preview), o1 (o1-preview-2024-12-17) with GPT-4o Executor, Qwen3",
+  "RQ2 adaptation": "Prompts and tool calls; temperature 0 where supported, default temperature for o1",
+  "RQ3 autonomy_level": "Autonomously penetration-tests the target GOAD network; executes commands until stopped, with experiments capped at two hours",
+  "RQ3 hitl": "Professional penetration testers replay traces, verify credentials and assess outcomes; runtime approval not stated",
+  "RQ4 dataset": "Captured test-run JSON logs in examples/initial-paper/; GOAD configuration used to verify vulnerabilities and compromised accounts",
+  "RQ4 environment": "GOADv3 with five Windows virtual machines on VMware; Kali Linux attacker VM",
+  "RQ4 metrics": "Number of fully compromised user accounts; Almost-There Attacks, Leads, command errors and token usage",
+  "RQ4 baseline_type": "Non-reasoning LLMs, including closed-weight and open-weight models",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "GPT-4o and DeepSeek-V3",
+  "RQ4 code_available": "yes https://github.com/andreashappe/cochise",
+  "RQ4 data_available": "yes https://github.com/andreashappe/cochise/tree/main/examples/initial-paper ; https://zenodo.org/records/17456062",
+  "RQ5 risks_addressed": "Abuse of LLM offensive capabilities; invasive and destructive prototype actions; commands interacting with systems outside the lab",
+  "RQ5 mitigations": "Disable the Kali VM's second network card to prevent outside-lab interaction; rebuild GOAD after each experiment; advocates safe rails in future LLMs",
+  "author_limitations (verbatim)": "While allowing for realistic capability evaluations, this setup introduces considerable complexity to the replication process",
+  "author_future_work (verbatim)": "If off-the-shelf LLMs are capable of penetration-testing, future LLMs should include safe rails to prevent abuse.",
+  "evidence (page/section)": "Study type: opening abstract; tasks, domain, orientation and future work: §§1.1–1.2, pp. 1–2; replication limitation: §1.3, p. 2; code/data: §2, p. 3; environment: §§3.1–3.4, pp. 4–6; models and temperature: §3.5, p. 6 and §5.1.1, p. 8; autonomy and logs: §§5–5.1, pp. 7–8; tools: §5.1.2, pp. 8–9; architecture, human assessment and metrics: §5.3 and Fig. 3, pp. 10–11; risks/mitigations: §1.1, §3.4 and §5.1.1; absence of observed ethical guard rails: §5.3, p. 11"
+}
+END_JSON

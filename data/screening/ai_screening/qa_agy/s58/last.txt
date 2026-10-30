@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0735",
+    "QA1": "Y",
+    "QA1_quote": "A four-pillar taxonomy of agentic AI for IoT security, organized along agent architecture",
+    "QA2": "P",
+    "QA2_quote": "comprising prompt templates for each action scope, reference single-agent ReAct and multi-agent coordination loops, and an evaluation harness",
+    "QA3": "Y",
+    "QA3_quote": "Following a PRISMA 2020 protocol, we analyze 153 peer-reviewed studies published between 2020 and 2026",
+    "QA4": "Y",
+    "QA4_quote": "and we list its untested-in-production status among the limitations of this review."
+  }
+]
+END_JSON

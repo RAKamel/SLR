@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0740",
+    "QA1": "Y",
+    "QA1_quote": "A PRISMA-guided review of 59 primary studies published between 2022 and 2026, spanning eight security function categories",
+    "QA2": "N",
+    "QA2_quote": "Figure 1. Taxonomy of LLM agent architectural patterns forming the second classification dimension of this review.",
+    "QA3": "Y",
+    "QA3_quote": "This paper presents a systematic literature review following PRISMA guidelines, identifying records through 59 structured web-search queries",
+    "QA4": "Y",
+    "QA4_quote": "We characterize this corpus explicitly as a documented subset rather than a census"
+  }
+]
+END_JSON

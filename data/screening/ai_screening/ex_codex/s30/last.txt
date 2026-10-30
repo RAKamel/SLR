@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0350",
+  "study_type": "Modular agent-based framework demonstrated through a microservices system case study",
+  "RQ1 task_stage": "Intrusion detection, incident triage, response prioritization and root cause investigations; ROE-compliant containment and recovery",
+  "RQ1 domain": "Enterprise infrastructure; microservices-based e-commerce application",
+  "RQ1 orientation": "Cyber defense",
+  "RQ2 architecture": "MAPE-K multi-agent system: agentic brain coordinates request execution, synthesis and logging subagents plus partition-specific IRS agents; IRSKG, session.state, IRSLLM and computational models",
+  "RQ2 llm_used": "IRSLLM adapted using the CyBERTuned training approach and CyBERT; gemini-2.0-flash in the ADK sample",
+  "RQ2 adaptation": "Enterprise-specific fine-tuning using LoRA; graph RAG and whitelisted multi-shot, zero-shot and chain-of-thought prompt templates",
+  "RQ3 autonomy_level": "Contain threats without manual intervention; coordinate partition agents and execute ROE-compliant responses",
+  "RQ3 hitl": "Enterprise administrator configures ROE; analysts initiate queries and receive explanations and tabbed responses",
+  "RQ4 dataset": "Curated IRSKG corpora, enterprise-specific and public cybersecurity datasets (unnamed); Online Boutique configurations, sample Graylog logs and ROE",
+  "RQ4 environment": "Google Online Boutique 2.0, eleven microservices; hypothetical frontend compromise using AICA prototype, Neo4j, Graylog and Google ADK",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "not stated",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinations, prompt injection and unsafe response actions; adversarial compromise of machine learning frameworks",
+  "RQ5 mitigations": "IRSKG grounding, graph RAG, task restrictions and prompt whitelisting; ROE constraints prohibit unsafe actions and components must be secured before deployment",
+  "author_limitations (verbatim)": "Even with modular design and compartmentalized communication, machine learning frameworks may still be compromised by adversaries [53]. To remain within the research scope, we do not address these adversarial scenarios.",
+  "author_future_work (verbatim)": "As a next step, we propose extending IRSDA by incorporating reinforcement learning into IRS agents to support adaptive response policies over time in response to evolving attack patterns. This could improve system agility while preserving safety constraints defined by organizational policies.",
+  "evidence (page/section)": "Abstract and I: framework, tasks and orientation; III-A–B: architecture, data and ROE; III-C–E: IRSLLM, adaptation, tasks and mitigations; III-F: orchestration; IV and IV-A: case-study environment and data; IV-B–C: analyst interaction and containment; IV-D and Listing 10: agent roles, state, Gemini model and limitations; V: autonomous containment and future work"
+}
+END_JSON

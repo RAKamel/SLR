@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0481,include,,"modular plugin architecture where Agentic AI controls the information flow",high
+R0482,include,,"LLM-based action masking strategy for autonomous cyber defense",high
+R0483,include,,"investigate whether LLM agents can be used instead of RL agents to automate cyber defence",high
+R0484,include,,"compound LLM agent design in CybORG CAGE-2, a cyber defense environment",high
+R0485,include,,"ReAct-based summary agent that synthesizes classification results with external threat intelligence",high
+R0486,exclude,EC4,"explore the ethical aspect of Generative AI and provide a responsible governance-based approach",high
+R0487,include,,"systematic evaluation of LLM-based defense agents in the CybORG++ environment",high
+R0488,exclude,EC3,"Boundary-Oriented Threat Models for Model Context Protocol (MCP)",high
+R0489,include,,"use the LLM to analyze parts of the KB to generate appropriate actions",high
+R0490,exclude,EC2,"generative AI and cognitive security that supports autonomous human decision-making",high
+END_CSV

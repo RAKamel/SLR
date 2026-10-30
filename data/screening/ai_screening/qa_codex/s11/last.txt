@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0363",
+    "QA1": "Y",
+    "QA1_quote": "This study proposes a Local LLM‑based incident analysis framework capable of high‑level inference without data export",
+    "QA2": "P",
+    "QA2_quote": "a procedure that safely transfers the analytical reasoning process and judgment knowledge from an external high‑performance model (Teacher)",
+    "QA3": "Y",
+    "QA3_quote": "Through comparative experiments on 500 test scenarios",
+    "QA4": "Y",
+    "QA4_quote": "A controlled adversarial‑attack benchmark was not conducted in this study"
+  },
+  {
+    "id": "R0365",
+    "QA1": "Y",
+    "QA1_quote": "OntoLogX, an autonomous AI agent designed to extract CTI from raw logs.",
+    "QA2": "P",
+    "QA2_quote": "OntoLogX integrates a lightweight log ontology with Retrieval Augmented Generation (RAG) and iterative correction steps",
+    "QA3": "Y",
+    "QA3_quote": "all test sessions were manually annotated with their corresponding MITRE ATT&CK tactics",
+    "QA4": "Y",
+    "QA4_quote": "hallucinations cannot be entirely eliminated."
+  },
+  {
+    "id": "R0371",
+    "QA1": "Y",
+    "QA1_quote": "we experiment with skills aimed at running cyber security tools and processing their output in support of cyber incident response.",
+    "QA2": "P",
+    "QA2_quote": "We have used the Qwen3.5-4B-Q4_K_M model as a compromise between size and performance.",
+    "QA3": "P",
+    "QA3_quote": "we have created a simple artificial network with monitored Linux nodes.",
+    "QA4": "Y",
+    "QA4_quote": "allowing fully automated changes in the configuration files and software options carries a high risk"
+  }
+]
+END_JSON

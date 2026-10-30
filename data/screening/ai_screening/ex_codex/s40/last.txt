@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0451",
+  "study_type": "Study of LLMs in multi-agent ACD environments; integration framework and experimental evaluation",
+  "RQ1 task_stage": "Autonomous incident response; detect and mitigate attacks while maintaining service availability",
+  "RQ1 domain": "Simulated enterprise network with deployed networks, headquarters and contractor network",
+  "RQ1 orientation": "Defensive",
+  "RQ2 architecture": "Multi-agent teams: all LLM, all RL, or 1 LLM + 4 RL defenders; per-step natural-language observations, action-and-reason JSON responses and 8-bit communication vectors",
+  "RQ2 llm_used": "GPT-4o-mini, o1-mini, o3-mini, DeepSeek-V3; GPT-3.5 Turbo for prompt tuning, TinyLLaMA during adapter development, textembedding-3-large and GPT-4o for reasoning analysis",
+  "RQ2 adaptation": "Instructional, few-shot and role prompting; selected cybersecurity-expert role with few-shot examples and refined action definitions",
+  "RQ3 autonomy_level": "Each defender selects and executes an action at every simulation step; exchanges threat information with other defenders",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "Simulation-generated observations and action-reason logs; 499 action-reason samples from one 500-step episode for clustering",
+  "RQ4 environment": "CybORG CAGE 4 multi-agent simulation with custom LLM adapter; 2 episodes of 500 steps per experiment",
+  "RQ4 metrics": "Cumulative joint reward based on service-unavailability penalties, reward mean and standard deviation, execution time, action counts and invalid actions; Elbow Method and Silhouette Score for clustering",
+  "RQ4 baseline_type": "Reinforcement-learning defenders; no-defender baseline with all blue agents sleeping",
+  "RQ4 headline_result": "All-RL reward: μ = −493, σ = 95.9; all-LLM GPT-4o-mini reward: μ = −2547.2, σ = 498.8. Mean execution time: 45.2 versus 4704.6 seconds, approximately 104.1 times faster for RL, excluding training",
+  "RQ4 compared_to": "Cybermonic KEEP GNN PPO with the authors’ communication vector; no blue agents",
+  "RQ4 code_available": "yes https://github.com/r4wd3r/llms-are-acd",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinated action meanings and misread communication vectors, compromise levels and security events; defensive actions disrupting availability and simulation-to-real transferability",
+  "RQ5 mitigations": "Explicit action definitions, response examples and structured response parsing; invalid responses trigger Sleep; proposes fine-tuning, increased inference time and context-dependent prompting",
+  "author_limitations (verbatim)": "We are synthesizing the high-dimensional observations of an RL defender for an LLM to reason about it, so an LLM will not observe and interpret the impact of its decisions as well as an RL-driven agent.",
+  "author_future_work (verbatim)": "We identify promising directions for future research, including model and prompt tuning, and goal-based planning.",
+  "evidence (page/section)": "Abstract and I: study type, tasks, code and future work; II.A: domain, defensive actions and availability; III.A–D: architecture, communication, prompting and response handling; IV and IV.A: models, simulation setup, baselines, metrics, results and reasoning data; V: limitations, hallucinations and proposed mitigations; VI: simulated training and transferability"
+}
+END_JSON

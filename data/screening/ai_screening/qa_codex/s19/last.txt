@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0703",
+    "QA1": "Y",
+    "QA1_quote": "We present a Human-AI Collaboration Framework that focuses on augmentation, teaming, and adaptive automation for SOC operations.",
+    "QA2": "P",
+    "QA2_quote": "the AI-Avatar, a refined ChatGPT-based LLM with RAG and knowledge graphs, operates in a simulated SOC",
+    "QA3": "P",
+    "QA3_quote": "The framework is exemplified through a simulated cyber range that features the cybersecurity AI-Avatar, a fine-tuned LLM-based SOC assistant.",
+    "QA4": "Y",
+    "QA4_quote": "The risk of either over-reliance or underutilization of AI outputs persists"
+  },
+  {
+    "id": "R0712",
+    "QA1": "Y",
+    "QA1_quote": "to evaluate the capabilities of LLMs to perform Assumed Breach Simulations against live networks.",
+    "QA2": "Y",
+    "QA2_quote": "cochise_docker.tar is a preconfigured docker image with the version of cochise used to generate the evidence used within the paper.",
+    "QA3": "Y",
+    "QA3_quote": "Evaluation of the LLM prototype was conducted by professional penetration testers tracking three distinct outcomes.",
+    "QA4": "P",
+    "QA4_quote": "This second network card can be disabled to prevent LLM-provided commands to interact with systems outside of the lab network."
+  },
+  {
+    "id": "R0730",
+    "QA1": "Y",
+    "QA1_quote": "This research introduces a novel approach that integrates LLMs with automated penetration testing tools.",
+    "QA2": "P",
+    "QA2_quote": "the integration layer of the model plays a pivotal role in bridging the AI core with physical penetration testing tools",
+    "QA3": "P",
+    "QA3_quote": "The environments were configured to mirror the typical network setups found in small to large organizations",
+    "QA4": "Y",
+    "QA4_quote": "Inaccurate or incomplete data led to erroneous assessments, which could potentially result in misguided actions."
+  }
+]
+END_JSON

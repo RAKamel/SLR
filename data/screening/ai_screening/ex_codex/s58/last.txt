@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0735",
+  "study_type": "PRISMA 2020 systematic survey, taxonomy, and research roadmap; companion reproducibility scaffolding",
+  "RQ1 task_stage": "Detection, response, threat hunting, vulnerability discovery, deception; surveyed literature",
+  "RQ1 domain": "IoT cybersecurity, including industrial, medical, vehicular, and smart-grid IoT; edge, fog, and cloud",
+  "RQ1 orientation": "Autonomous IoT defense; also surveys autonomous penetration testing and vulnerability discovery",
+  "RQ2 architecture": "Surveys single-agent, multi-agent, hybrid and hierarchical designs; kit includes single-agent ReAct and multi-agent coordination loops",
+  "RQ2 llm_used": "Survey examples include BART, GPT-2, GPT-3.5, GPT-4o, DistilBERT, TinyBERT, LLaMA 3.2, Gemma 3, Mistral, and Llama-3-8B; kit model not stated",
+  "RQ2 adaptation": "Surveys CoT prompting, ReAct, plan-and-solve, reflection, RAG, fine-tuning, and federated learning; kit provides prompt templates",
+  "RQ3 autonomy_level": "Surveyed agents autonomously perceive, reason, plan, and act; kit is illustrative scaffolding rather than established capability",
+  "RQ3 hitl": "Human approval gates for consequential actions; human-in-the-loop verification of vulnerability findings",
+  "RQ4 dataset": "153 peer-reviewed studies, January 2020–May 2026; kit's shipped validation uses synthetic traffic",
+  "RQ4 environment": "Kit validation uses a deterministic stub on synthetic traffic; no production IoT validation",
+  "RQ4 metrics": "Survey reports detection accuracy, MTTR reductions, and inference latency; kit harness targets accuracy and per-decision latency",
+  "RQ4 baseline_type": "Survey discusses non-agentic ML detectors, single-agent baselines, and coverage-guided fuzzers; kit comparison not stated",
+  "RQ4 headline_result": "153 studies synthesized; 38 of 41 primary IoT-IDS studies (approximately 93%) operate in detection-only mode",
+  "RQ4 compared_to": "Survey discusses GNN-IDS, isolation forest, autoencoder-based IDS, AFL++, and libFuzzer; kit comparison not stated",
+  "RQ4 code_available": "yes + https://github.com/vnageshwaran-de/agentic-iot-security ; https://doi.org/10.5281/zenodo.20726552",
+  "RQ4 data_available": "yes + https://github.com/vnageshwaran-de/agentic-iot-security (coded corpus, extraction matrix, codebook, and screening protocol)",
+  "RQ5 risks_addressed": "Hallucination, prompt injection, tool hijacking, inter-agent context poisoning and collusion; privacy, latency, explainability, and governance",
+  "RQ5 mitigations": "Input sanitization, untrusted-input framing, tool-call gating and allow-lists, inter-agent isolation, human approval, and adversarial benchmarking",
+  "author_limitations (verbatim)": "Fifth, the corpus is English-only; non-English peer-reviewed contributions to the field are not represented.",
+  "author_future_work (verbatim)": "Future revisions of this synthesis should broaden the venue policy accordingly.",
+  "evidence (page/section)": "Abstract; §§1.1–1.2 (scope, kit, roadmap); §§2.2–2.3 (models, agent capabilities, risks); §§3.2–3.6 (corpus, screening, released data); §3.8 (limitations, future work, synthetic stub validation); Table 4 (mitigations); §§5.1–5.3 (architectures, adaptation, tasks, autonomy, human verification, detection-only count); Table 5 and §5.3.4 (comparators)."
+}
+END_JSON

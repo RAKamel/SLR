@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0031,exclude,EC2,"a large language model for guidance and assistance",high
+R0032,exclude,EC4,"including Gen-AI enabled Security and Surveillance, Autonomous Drones, and Emergency Response",high
+R0033,exclude,EC2,"converts model outputs and metadata into structured, human-readable reports",high
+R0034,exclude,EC2,"generating exploitation vectors",high
+R0035,include,,"we construct a cybersecurity agent and evaluate 8 models",high
+R0036,exclude,EC2,"produce deterministic and context-aware exploit flows",high
+R0037,include,,"processed using multi-agent reasoning framework",high
+R0038,include,,"evaluated: a User-Navigated (human-in-the-loop) framework and a Fully Autonomous CLI Agent",high
+R0039,include,,"Autonomous Penetration Testing: Solving Capture-the-Flag Challenges with LLMs",high
+R0040,include,,"Incalmo uses LLMs to plan red-team exercises in terms of high-level declarative tasks",high
+END_CSV

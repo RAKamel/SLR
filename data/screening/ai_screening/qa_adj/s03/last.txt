@@ -1,0 +1,19 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0097",
+    "QA2": "P",
+    "QA2_quote": "We publicly release the source code of our prototype2, the created testbed3, and captured trajectory data4"
+  },
+  {
+    "id": "R0197",
+    "QA3": "Y",
+    "QA3_quote": "achieves an average penetration depth of 3.33 out of 4.00, substantially outperforming both reinforcement learning baselines"
+  },
+  {
+    "id": "R0200",
+    "QA3": "P",
+    "QA3_quote": "Our testing procedures rely heavily on predefined patterns, limiting their ability to uncover novel attack vectors or deeply contextual flaws."
+  }
+]
+END_JSON

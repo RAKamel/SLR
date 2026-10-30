@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0641,exclude,EC4,"identifies bombs and weapons in surveillance images and drone footage",high
+R0642,exclude,EC2,"an LLM fine-tuned with a curated instruction dataset to automate IDS rule generation",high
+R0643,exclude,EC4,"coverage-guided library fuzzing is strictly bound by the quality of harnesses",high
+R0644,exclude,EC2,"transformer stack achieves macro-F1 scores of 0.91 for NIDS",high
+R0645,include,,"Autonomous red teaming penetration testing has been of great significance",high
+R0646,exclude,EC1,"game model with Minimax Q-learning for deployment",high
+R0647,include,,"multi-agent GenAI architecture is introduced to support the automation of ethical cloud security",high
+R0648,exclude,EC2,"LLMs are employed for advanced, context-aware intrusion detection",high
+R0649,exclude,EC2,"design of 11,050 tailored multiple-choice questions. We evaluate 12 popular LLMs",high
+R0650,exclude,EC2,"Large language models (LLMs) can synthesize test oracles from invariants",high
+END_CSV

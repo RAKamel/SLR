@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0701,include,,"ReAct-style executor issues commands over SSH and self-corrects",high
+R0703,exclude,EC2,"features the cybersecurity AI-Avatar, a fine-tuned LLM-based SOC assistant",high
+END_CSV

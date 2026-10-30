@@ -1,0 +1,19 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0484",
+    "QA2": "Y",
+    "QA2_quote": "This separation ensures reproducibility and allows architectural variants to be defined as configuration changes rather than code modifications."
+  },
+  {
+    "id": "R0485",
+    "QA3": "P",
+    "QA3_quote": "custom LLM-as-Judge evaluation metrics provide a rigorous, scalable alternative to human annotation"
+  },
+  {
+    "id": "R0528",
+    "QA3": "P",
+    "QA3_quote": "a fully fair comparison would also include a foundation-model-only ablation"
+  }
+]
+END_JSON

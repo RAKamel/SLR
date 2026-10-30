@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0393,include,,"“enhances perception, planning, and tool coordination to support intelligent, end-to-end testing”",high
+R0394,include,,"“a stateful multi-agent architecture coordinated through LangGraph”",high
+R0395,include,,"“The review spans 28 peer-reviewed studies”",medium
+R0396,exclude,EC5,"“The paper closes with engineering-oriented defensive implications”",medium
+R0397,include,,"“enabling autonomous response calibration”",medium
+R0398,include,,"“Autonomous AI agents, powered by advanced machine learning and Large Language Models (LLMs)”",high
+R0399,exclude,EC2,"“incident reports are generated via the Mixtral-8x7B-Instruct large language model using LangChain”",high
+R0400,exclude,EC2,"“The results of using artificial intelligence as an assistant in vulnerability testing and analysis”",high
+R0401,exclude,EC2,"“LLMs interpret trust scores, evaluate decision thresholds, and dynamically enforce access control”",high
+R0402,include,,"“a multi-agent system using four cooperating Fetch.ai uAgents”",high
+R0403,include,,"“streamline tasks such as reconnaissance, scanning, exploitation, and documentation”",medium
+R0404,exclude,EC3,"“Attackers may exploit vulnerabilities through prompt injection, backdoors, or other means”",high
+R0405,exclude,EC2,"“automates the generation of intrusion detection rules for new attack types”",high
+R0406,exclude,EC2,"“providing contextual guidance, command suggestions, and technical explanations in natural language”",high
+R0407,exclude,EC2,"“constructs a large language model for experimental analysis”",high
+R0408,include,,"“Multiple tools are developed and employed enabling the agent to perform static analysis and dynamic analysis”",high
+R0409,include,,"“implemented a closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine”",high
+R0410,exclude,EC2,"“investigates the practical use of Large Language Models (LLMs) for extracting information”",high
+R0411,exclude,EC4,"“shipping, e-commerce, supply chain, and retail sector companies”",high
+R0412,exclude,EC3,"“Proactive Defenses Against LLM Agents”",high
+R0413,exclude,EC2,"“LLMs can generate accurate commands and support non-expert users”",high
+R0414,exclude,EC2,"“A modular slash-command interface, allowing users to trigger specific commands”",high
+R0415,exclude,EC1,"“a Conditional Generative Adversarial Network (cGAN) with the optimized XGBoost model”",high
+R0416,include,,"“a novel framework for penetration testing automation using Large Language Model (LLM)-powered agents”",high
+R0417,exclude,EC2,"“automatically generate generic-signature detection rule candidates”",high
+R0418,include,,"“an LLM defender that applies state-of-the-art models with prompt-based decision making to select and explain defensive actions”",high
+R0419,include,,"“build an Artificial Intelligence (AI) agent that improves the accuracy and explainability of information extraction”",medium
+R0420,maybe,,"“We review the use of artificial intelligence specifically agentic, large language model (LLM)-augmented systems”",medium
+END_CSV

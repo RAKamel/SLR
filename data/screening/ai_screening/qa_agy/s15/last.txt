@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0208",
+    "QA1": "Y",
+    "QA1_quote": "This paper presents the first large-scale, real-world evaluation of a scambaiting system powered by large language models (LLMs).",
+    "QA2": "P",
+    "QA2_quote": "The system operates using a single-prompt architecture, in which a prompt is submitted to a ChatGPT-based model",
+    "QA3": "Y",
+    "QA3_quote": "We assessed system performance using eight distinct metrics, grouped into three overarching categories.",
+    "QA4": "P",
+    "QA4_quote": "Section VII discusses key operational insights and limitations."
+  }
+]
+END_JSON

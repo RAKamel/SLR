@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0309,uncertain,,"a multi-agent language model architecture for log analysis",medium
+R0311,include,,"implementing a Reasoning-Acting (ReAct) loop for autonomous testing",high
+R0315,include,,"a two-stage LLM-based framework designed to autonomously identify and mitigate security vulnerabilities",high
+R0316,include,,"an execution loop composed of the Planner, Tool Executor, and Communication Module",high
+R0320,include,,"multiple LLM-based agents, ranging from singular to modular designs, across realistic penetration testing scenarios",high
+R0322,include,,"CurriculumPT combines curriculum learning and a multi-agent system to enable LLM agents",high
+END_CSV

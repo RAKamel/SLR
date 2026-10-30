@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0011,include,,"autonomously generates and executes a reverse shell payload",high
+R0012,exclude,EC1,"physical-layer features, statistical parameters, information theory, and learning-based methods",high
+R0013,include,,"multi-LLM pipeline, wherein Llama-3-8B is responsible for task decomposition and tool selection",high
+R0014,include,,"tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing",high
+R0015,include,,"autonomous penetration testing agent called Hackphyr, which is integrated into a cognitive architecture",high
+R0016,exclude,EC2,"evaluated LLM configurations exhibited memory and latency requirements that exceeded practical edge budgets",high
+R0017,include,,"hierarchical deep reinforcement learning model that incorporates a large language model",high
+R0018,exclude,EC2,"converts structured detector outputs, explanation evidence, and memory records into auditable incident reports",high
+R0019,include,,"A focus on LLM agents has progressed capabilities towards exploiting zero-day vulnerabilities",high
+R0020,exclude,EC3,"alignment with all ten OWASP LLM Top 10 (2025) categories",high
+END_CSV

@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0254,include,,"framework based on Large Language Models (LLMs) supported by a Multi-Agent layer",high
+R0258,maybe,,"incorporating a verification system",medium
+R0259,maybe,,"The cloud-aware orchestration layer maps the extraction processes based on the dynamic resource states",medium
+R0260,maybe,,"a hierarchical multi-agent framework grounded in Dempster-Shafer (D-S) Evidence Theory",medium
+R0270,maybe,,"GAI can autonomously address common security issues, detect novel threats, and augment human intervention",medium
+R0280,include,,"dynamically adjusts responses (ALLOW, MONITOR, or BLOCK) through online policy adaptation",high
+R0283,exclude,EC2,"a large language model-powered domain randomization method for synthetic environment generation",high
+R0293,include,,"The LLM was connected to perform cybersecurity tasks using an MCP server",high
+R0295,include,,"operates on the basis of decentralized coalition auctions and a hybrid risk analysis subsystem",medium
+R0301,include,,"explore how LLMs and multi-agent systems can augment dynamic and static analysis",medium
+R0316,maybe,,"autonomous micro-agents at each node perform local traffic analysis and anomaly detection",medium
+R0334,include,,"including anomaly detection systems, common repositories, collaborative platforms, and large language models",medium
+R0338,include,,"A multi-agent framework, including narrator and decision-maker agents, is used to improve descriptive text generation",medium
+END_CSV

@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0384,uncertain,,"SatGuard enables semi-automated vulnerability analysis and exploitation.",medium
+R0409,include,,"we implemented a closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine",high
+R0427,include,,"recursive investigation capabilities enabled by a planning-capable LLM agent.",high
+R0440,include,,"Our agent can autonomously train the LoRA adapters, search online documentation",high
+R0447,include,,"an iterative retrieval-and-reason loop that queries a domain-specific knowledge base",high
+R0448,include,,"a multi-agent approach of summarizing content, updating task lists",high
+END_CSV

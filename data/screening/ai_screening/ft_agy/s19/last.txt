@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0384,include,,"SatGuard enables semi-automated vulnerability analysis and exploitation",high
+R0409,include,,"implemented a closed-feedback loop between LLM-generated low-level actions with a vulnerable virtual machine",high
+END_CSV

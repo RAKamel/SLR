@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0309",
+  "study_type": "Novel machine learning framework with experimental evaluation",
+  "RQ1 task_stage": "APT detection; behavioral analysis of lateral movement and data exfiltration",
+  "RQ1 domain": "Enterprise environments; enterprise security operations and threat hunting",
+  "RQ1 orientation": "Defensive threat detection",
+  "RQ2 architecture": "Three specialized agents: Email Analysis, Document Analysis, and Log Analysis; Central Coordination Hub manages task distribution, communication, and result aggregation; Knowledge Base stores prompt templates and fine-tuned model weights",
+  "RQ2 llm_used": "Llama-3-8B-Instruct for all three agents; preliminary comparison with Llama-3-8B, Mistral-7B-v0.3, and GPT-4o-mini",
+  "RQ2 adaptation": "Specialized prompt engineering; domain-specific LoRA fine-tuning (rank 16, alpha 32, dropout 0.05), 3 epochs",
+  "RQ3 autonomy_level": "Agents analyze emails, documents, and textual logs, share contextual information, correlate findings, and generate integrated behavioral profiles and interpretable explanations",
+  "RQ3 hitl": "Expert assessment of scenario realism during evaluation; operational human approval or intervention not stated",
+  "RQ4 dataset": "CERT Insider Threat Dataset; 12,000 annotated emails, 8,000 document access records, and 15,000 annotated log entries for fine-tuning; 500 annotated security events for preliminary model comparison",
+  "RQ4 environment": "Synthetic APT scenarios generated from CERT insider threat data; agents run on NVIDIA A100 GPUs with 4-bit GPTQ quantization",
+  "RQ4 metrics": "Detection accuracy, false positives, F1 score; inference latency and latency coefficient of variation",
+  "RQ4 baseline_type": "State-of-the-art APT detection methods; alternative language models for preliminary semantic extraction comparison",
+  "RQ4 headline_result": "96.3% detection accuracy; false positives reduced by 42% compared to state-of-the-art methods",
+  "RQ4 compared_to": "Headline-result baselines not named in supplied text; preliminary model comparison: Mistral-7B-v0.3 and GPT-4o-mini",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "yes + https://doi.org/10.1184/R1/12841247",
+  "RQ5 risks_addressed": "False positives and alert fatigue; uncertain threat assessments; hallucination risks and adversarial robustness discussed in related work",
+  "RQ5 mitigations": "Deep evidential clustering for uncertainty-aware detection; ensemble predictions and calibration for confidence estimates; natural-language explanations",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "While the implementation of the real-time component is part of future work, our framework’s core analytical modules are designed to be compatible with such a streaming architecture.",
+  "evidence (page/section)": "Abstract and data availability statement (p. 1): study, tasks, results, data URL; §1.2 (pp. 4–5): evaluation and deployment; §2.3 (pp. 7–8): hallucination and adversarial risks; §3.2 (pp. 12–14): preprocessing and future streaming implementation; §3.3 and Fig. 5 (pp. 14–16): agents, coordination, prompts, explanations; §3.3.1 (p. 16): models, fine-tuning data, LoRA, hardware, preliminary comparison, latency, uncertainty calibration"
+}
+END_JSON

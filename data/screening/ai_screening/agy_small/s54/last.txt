@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0531,include,,"workflow-constrained and retrieval-augmented LLM framework for automated penetration testing",high
+R0532,include,,"distinct phases of offensive cyber behaviour executed by artificial intelligence (AI) agents",high
+R0533,exclude,EC2,"takes detectable malicious phishing emails and rewrites them",high
+R0534,exclude,EC2,"classify the level of severity of the threat",high
+R0535,include,,"novel multi-agent framework for automated penetration-test planning",high
+R0536,exclude,EC4,"automatically generates structured cyber range scenarios from public vulnerability data",high
+R0537,exclude,EC3,"evaluating the robustness of a flagship LLM-based product",high
+R0538,exclude,EC2,"how LLM-based simulation can or cannot aid deception",high
+R0539,include,,"multi-agent LLM framework for collaborative CTF challenge solving",high
+R0540,exclude,EC2,"context-aware classification, parsing of logs at a fine level of granularity",high
+END_CSV

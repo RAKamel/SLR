@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0171,include,,"agentic AI framework for fully automated, end-to-end threat mitigation",high
+R0172,exclude,EC4,"use case involving the location of missing persons from public data",medium
+R0173,include,,"improved automated penetration testing framework",high
+R0174,include,,"hyper-automation SOAR platform powered by agentic-LLM",high
+R0175,exclude,EC4,"anomaly detection in urban underground water pipeline networks",high
+R0176,exclude,EC2,"LLM model is expected to generate context-based recommendations",high
+R0177,exclude,EC3,"Jailbreak Attacks against LLM based on Red-Blue Team Game Theory",high
+R0178,exclude,EC1,"categorizes the relevant technologies into rule-based penetration testing and model-based penetration testing",high
+R0179,include,,"tackle both the defense and penetration testing in context of IoT-based systems security",high
+R0180,exclude,EC2,"anomaly detection and notification system integrated into an existing autonomous electric golf-cart platform",high
+END_CSV

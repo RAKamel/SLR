@@ -1,0 +1,7 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0340,include,,"generate explainable justifications, and propose automated remediation if needed.",high
+R0384,include,,"SatGuard enables semi-automated vulnerability analysis and exploitation.",medium
+R0496,include,,"novel multiagent framework leveraging Large Language Models (LLMs) to enhance traffic simulation and cybersecurity testing.",high
+R0538,include,,"We systematize honeypot log analysis, charting the “semantic leap”",medium
+END_CSV

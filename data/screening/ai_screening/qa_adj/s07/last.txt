@@ -1,0 +1,21 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0371",
+    "QA2": "P",
+    "QA2_quote": "We have experimented with nanobot and custom skills in order to demonstrate how security tools can be integrated."
+  },
+  {
+    "id": "R0440",
+    "QA2": "P",
+    "QA2_quote": "our approach runs locally using lightweight LoRA adapters that are dynamically selected and fine-tuned by an agent.",
+    "QA3": "Y",
+    "QA3_quote": "97.9% accuracy using the LoRA adapters, compared to 95.4% accuracy using the base pre-trained Qwen3 0.6B model."
+  },
+  {
+    "id": "R0447",
+    "QA3": "P",
+    "QA3_quote": "The integration of the RAG component led to a substantial increase in accuracy, from 84.75% to 94.92%"
+  }
+]
+END_JSON

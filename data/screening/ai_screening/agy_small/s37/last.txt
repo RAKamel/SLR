@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0361,include,,"autonomous multi-agent CTI framework developed to automate ransomware intelligence analysis",high
+R0362,exclude,EC2,"suggest the firewall mitigation rules that can be applied",high
+R0363,include,,"AI agent orchestration structure that controls the analysis procedure step-by-step",high
+R0364,include,,"supports semi-automated end-to-end penetration testing under human oversight",high
+R0365,include,,"autonomous AI agent that leverages large language models (LLMs)",high
+R0366,include,,"LLM-Orchestrated multi-agent system of log-based detection and analysis of cyber threats",high
+R0367,include,,"hierarchical swarm-orchestrated multi-agent LLM architecture for autonomous and adaptive cyber defense",high
+R0368,exclude,EC3,"especially large language model denial-of-service (DoS) attacks",high
+R0369,maybe,,"we call an agent on the thin slice where there is uncertainty",medium
+R0370,exclude,EC1,"generating offensive PowerShell code from natural language descriptions using Neural Machine Translation (NMT)",high
+END_CSV

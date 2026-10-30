@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0001,exclude,EC4,"NIS2 requirements into enforceable technical controls",high
+R0002,exclude,EC4,"This survey focuses on how traditional testing methods must be adapted to fit the needs of LLMs.",high
+R0003,exclude,EC4,"LLM-driven multi-agent simulations reproduce human teamwork behavior observed in real emergency training?",high
+R0004,exclude,EC4,"security issues in these AI-integrated e-learning environments",high
+R0005,exclude,EC3,"cybersecurity risks associated with the automatic code generation using Generative AI",high
+R0006,exclude,EC2,"Component A (Predictive SOC) employs a Transformer-based model for real-time network traffic classification",high
+R0007,exclude,EC4,"enhancing cybersecurity education with respect to vulnerabilities",high
+R0008,include,,"intelligent agents and machine-learning-driven threat-assessment to enable alarm triage, correlation, and incident response in real time",high
+R0009,include,,"Our model is developed as a multi-agent approach",medium
+R0010,exclude,EC1,"cooperative multi-agent collaboration, enabling full life-cycle attack simulation",medium
+R0011,include,,"Our system dynamically adapts to target defenses",high
+R0012,exclude,EC1,"This survey critically examines existing IVN security literature",high
+R0013,include,,"Llama-3-8B is responsible for task decomposition and tool selection",high
+R0014,include,,"LLM-driven autonomous agents capable of performing specialized tasks such as web application testing",high
+R0015,include,,"an autonomous penetration testing agent called Hackphyr",high
+R0016,exclude,EC2,"we experimentally evaluated four AI paradigms-traditional machine learning (ML), deep learning (DL), large language models (LLMs), and reinforcement learning (RL)",high
+R0017,include,,"a large language model was introduced to further constrain the action space",medium
+R0018,include,,"AGSSA is best understood not as a new IDS classifier, but as a memoryaware SOC triage workflow",high
+R0019,include,,"Frontier models show superior performance when combined with a focused knowledge base and multi-agent architectures.",medium
+R0020,exclude,EC3,"security findings must map directly to regulatory obligations to be actionable",high
+R0021,exclude,EC2,"utilizing a large language model (LLM)",medium
+R0022,include,,"a Large Language Model–based penetration testing agent (PenTest++)",high
+R0023,exclude,EC3,"Mitigating Toxic Flows and Adversarial Exploits in Multi-Agent Ecosystems",high
+R0024,exclude,EC2,"an LLM agent then converts these feature attributions and the CNN’s binary prediction into concise natural-language justifications",high
+R0025,include,,"automated anomaly investigation, and adaptive optimization of FL parameters",medium
+R0026,exclude,EC3,"block prompt injection and jailbreak attempts",high
+R0027,include,,"an LLM to serve as an orchestrator that replicates the 'Observe Orient Decide Act' (OODA) loop",high
+R0028,include,,"LLM-based multi-agent systems for cybersecurity decision-making",high
+END_CSV

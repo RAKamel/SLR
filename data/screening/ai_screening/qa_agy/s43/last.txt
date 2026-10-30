@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0484",
+    "QA1": "Y",
+    "QA1_quote": "We present a controlled study of compound LLM agent design in CybORG CAGE-2, a cyber defense environment",
+    "QA2": "Y",
+    "QA2_quote": "We separate a reusable ReAct Agent engine (I/O, parsing) from declarative YAML \"personality\" configurations (prompts, tools).",
+    "QA3": "Y",
+    "QA3_quote": "Our evaluation spans five model families, six models, and twelve configurations (3,475 episodes) with tokenlevel cost accounting.",
+    "QA4": "Y",
+    "QA4_quote": "Our claims are scoped to structured adversarial POMDPs where deterministic state abstraction is feasible."
+  }
+]
+END_JSON

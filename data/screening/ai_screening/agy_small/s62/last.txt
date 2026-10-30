@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0611,exclude,EC1,"comprehensive review of metaheuristicoptimized machine learning approaches for IoT intrusion detection",high
+R0612,exclude,EC3,"Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address.",high
+R0613,include,,"hybrid retrieval-augmented, multi-agent LLM pipeline that converts network flow statistics",high
+R0614,exclude,EC4,"conducting risk analysis interviews with maritime entities",high
+R0615,exclude,EC4,"traditional code vulnerability repair, which heavily relies on expert experience",high
+R0616,exclude,EC4,"layered reference architecture for AI-enabled BIM-to-city digital twins",high
+R0617,exclude,EC2,"application of large language models (LLMs) in the field of code generation",high
+R0618,exclude,EC3,"Security Posture Evaluation of Model Context Protocol Servers Against Prompt Injection",high
+R0619,include,,"CAF integrates large language model (LLM) generation with symbolic knowledge-base verification",high
+R0620,exclude,EC4,"semi-automated system for generating ATT&CK-grounded malicious commandline samples",high
+END_CSV

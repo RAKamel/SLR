@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0571,exclude,EC2,"investigate the use of large language models for automating attack generation",high
+R0572,include,,"intelligent agents autonomously detect, analyze and respond to cyber threats in real time",high
+R0573,exclude,EC2,"LLM-assisted type annotation to construct protocol grammars from raw traffic",high
+R0574,exclude,EC2,"generative artificial intelligence to improve anomaly detection in intelligent systems",high
+R0575,exclude,EC4,"evaluate the compliance of cybersecurity controls with organisational policies",high
+R0576,exclude,EC2,"systematically prompt LLMs for exploit generation",high
+R0577,exclude,EC2,"potential of generative artificial intelligence to improve SQLi payload generation",high
+R0578,exclude,EC3,"targets of prompt-based evasion attacks where adversaries craft malicious instructions",high
+R0579,exclude,EC2,"how consistent an LLM is in its responses",high
+R0580,exclude,EC2,"tool designed to assist in vulnerability detection by leveraging large language models",high
+END_CSV

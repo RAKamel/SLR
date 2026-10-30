@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0371",
+    "QA1": "Y",
+    "QA1_quote": "we discuss and demonstrate the possibility of automating important cyber security and immediate response steps",
+    "QA2": "Y",
+    "QA2_quote": "We have used the Qwen3.5-4B-Q4_K_M model as a compromise between size and performance.",
+    "QA3": "P",
+    "QA3_quote": "we have created a simple artificial network with monitored Linux nodes.",
+    "QA4": "Y",
+    "QA4_quote": "allowing fully automated changes in the configuration files and software options carries a high risk"
+  }
+]
+END_JSON

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0440",
+  "study_type": "AI agent-based framework for network traffic generation with experimental evaluation",
+  "RQ1 task_stage": "Network attack traffic generation; generation of intermediate traffic representations and executable Scapy scripts",
+  "RQ1 domain": "Computer networks; virtualized, container-based network test environment",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "An AI agent identifies traffic patterns, consults adapter memory, selects or creates LoRA adapters, and searches online; a local LLM produces XML-like output executed using Scapy",
+  "RQ2 llm_used": "Qwen3 0.6B",
+  "RQ2 adaptation": "GRPO reinforcement learning with LoRA parameter-efficient fine-tuning; custom system prompting and online context retrieval",
+  "RQ3 autonomy_level": "Autonomously trains and selects LoRA adapters, searches online documentation, and generates network packets without human-written code",
+  "RQ3 hitl": "User supplies initial PCAP files and a natural-language prompt specifying desired traffic; subsequent human approval or review not stated",
+  "RQ4 dataset": "Author-created dataset: 3500 PCAP files, 500 per traffic type; UDP, TCP-SYN, TCP-ACK and ICMP floods, Ping-of-Death, ICMP Ping and Smurf; 80/10/10 training/validation/test split",
+  "RQ4 environment": "Two Docker containers acting as attacker and victim; Hping3 and Scapy generate attacks, tcpdump captures traffic; training and evaluation on two NVIDIA A6000 GPUs",
+  "RQ4 metrics": "Accuracy, precision, recall, F1-score, field-level accuracy, Jensen–Shannon Divergence and traffic generation execution time",
+  "RQ4 baseline_type": "Pre-trained LLM without fine-tuning; comparison of base, adapter and online-search agent inference modes",
+  "RQ4 headline_result": "Adapter accuracy 97.9% versus base 95.4%; agent accuracy 96.0%. Adapter generation time averaged 20.8 s versus base 32.3 s",
+  "RQ4 compared_to": "Base Qwen3 0.6B with a custom system prompt; adapter mode; agent mode",
+  "RQ4 code_available": "yes https://github.com/UoIShieldLabs/agent_red",
+  "RQ4 data_available": "yes https://github.com/UoIShieldLabs/agent_red",
+  "RQ5 risks_addressed": "Structural hallucinations, incorrect checksums, malformed output and syntax errors; invalid packet fields",
+  "RQ5 mitigations": "Sandboxed, deterministic Scapy verifier during training; format, syntax and field-validity reward penalties; deterministic byte-level packet construction",
+  "author_limitations (verbatim)": "Our evaluation centers on simple attack patterns. Attacks that require multi-stage interactions or long-term state tracking (e.g., multi-step exploits) remain unexplored. Further investigation is needed to assess our framework performance on proprietary or encrypted protocols.",
+  "author_future_work (verbatim)": "Thus, future work will attempt to enhance temporal modeling and the generation of encrypted traffic. We also aim to apply our approach to real-world networking and cybersecurity scenarios.",
+  "evidence (page/section)": "Study/task/domain: Abstract, §1, §4 and §5.1; architecture/adaptation/autonomy/human input: §§4–4.2, pp. 6–9; model/environment/dataset: §§5.1–5.2, pp. 9–10; metrics: §5.3, pp. 10–11; comparisons/results: §5.4, Table 3 and §§5.4.1–5.4.3, pp. 11–14; reliability/mitigations: §4, §4.2 and Algorithm 2, pp. 6–9; limitations/future work: §6.3, p. 17; code/data: Data Availability Statement, p. 17"
+}
+END_JSON

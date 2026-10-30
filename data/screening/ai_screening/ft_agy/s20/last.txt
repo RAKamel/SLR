@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0427,include,,"recursive investigation capabilities enabled by a planning-capable LLM agent",high
+R0440,include,,"Our agent can autonomously train the LoRA adapters, search online documentation for attack patterns",high
+END_CSV

@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0645,include,,"XSSplore can accomplish autonomous and effective XSS payload generation tasks",high
+R0646,exclude,EC1,"we propose a Chameleon service mechanism that constructs multiple types of LLM-oriented deceptive services",medium
+R0647,include,,"dedicated generative agents such as policy analysts, threat detectors, remediation organizers, and auditor agents",high
+R0648,exclude,EC2,"LLMs are employed for advanced, context-aware intrusion detection",high
+R0649,exclude,EC2,"We evaluate 12 popular LLMs on CSEBenchmark",high
+R0650,exclude,EC2,"LLMs can synthesize test oracles from invariants",medium
+R0651,exclude,EC1,"foundational methods to measure the efficacy of deception remain underdeveloped",medium
+R0652,exclude,EC2,"we present a systematic empirical study on the effect of role prompting in LLM-based vulnerability detection",high
+R0653,exclude,EC1,"The proposed solution utilizes a hybrid Quantum AI security mechanism",medium
+R0654,exclude,EC1,"supports reproducible benchmarking for Generative-AI (Gen-AI), machine learning, deep learning, and traffic-flow analysis",high
+R0655,include,,"autonomously refining adaptive payload variants in the background",high
+R0656,exclude,EC2,"The architecture supports multiple AI/ML workflows including threat classification, vulnerability forecasting, and Retrieval-Augmented Generation",high
+R0657,exclude,EC2,"Our automated detection efforts are then fed into an LLM to generate an incident response report",high
+R0658,exclude,EC4,"designed for the diagnosis of diabetic and hematologic syndromes using arterial blood gas analysis",high
+R0659,exclude,EC2,"The output is used for the default credentials GPT search",medium
+R0660,include,,"a non-linear agentic workflow that adaptively revises the analysis through iterative refinement",high
+R0661,include,,"reliably automating this BIR workflow is still difficult",medium
+R0662,exclude,EC1,"consolidated DevSecOps data-driven predictive analytics output from the Unified AI and ML model",high
+R0663,include,,"LLM-assisted security testing agents for networked web and application programming interface (API) services",high
+R0664,exclude,EC2,"autonomous generation of adaptive attacks",medium
+R0665,exclude,EC4,"transform basic payloads into fully functional malware capable of bypassing detection",high
+R0666,exclude,EC4,"The data shows that the model outperforms typical approaches in classification accuracy",high
+R0667,exclude,EC1,"a multi-head GAT-based risk inference engine then learns structural attack patterns",high
+R0668,exclude,EC2,"integrates Generative Artificial Intelligence (Gen AI) to enhance security, automate compliance reporting, and improve threat detection",high
+R0669,exclude,EC1,"we explore the integration of semantic reasoning and Large Language Models (LLMs)",medium
+R0670,exclude,EC2,"we posit that cybersecurity is the better test-case for general AI progress",high
+R0671,exclude,EC2,"the LLM can automatically analyze the responses",high
+R0672,include,,"three specialized agents such as ThreatGPT for context-aware threat modeling of lab asset",high
+END_CSV

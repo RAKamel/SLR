@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0567,exclude,EC4,"synthesize comprehensive vulnerability analysis reports. Given vulnerable source code",high
+R0582,include,,"LLM-powered workflow can investigate log sources, plan an investigation",high
+END_CSV

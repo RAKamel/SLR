@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0371,include,,"local large language model, we experiment with skills aimed at running cyber security tools",high
+R0372,exclude,EC4,"anomaly detection and remediation to address the daunting task of highly distributed system management",high
+R0373,exclude,EC3,"proactively identifying and neutralizing jailbreak attempts",high
+R0374,include,,"integrates Large Language Models (LLMs) with a hierarchical multi-agent system",high
+R0375,include,,"ReAct, executing a multi-round decision-making process through successive Thought-Act-Observe cycles",high
+R0376,include,,"Agentic AI autonomous systems with reasoning, planning, and tool orchestration capabilities",high
+R0377,exclude,EC1,"such as deep learning models, generative adversarial networks (GANs), and reinforcement learning",high
+R0378,exclude,EC4,"reconstructing subsurface soil properties at untested locations from sparse cone penetrometer test data",high
+R0379,exclude,EC4,"fundamental paradigm shift in physical layer security, moving from static, rule-based defenses",high
+R0380,include,,"framework orchestrates multiple agents that interpret user queries and adaptively select the optimal",high
+END_CSV

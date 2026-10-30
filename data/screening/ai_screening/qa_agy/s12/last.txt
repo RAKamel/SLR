@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0174",
+    "QA1": "Y",
+    "QA1_quote": "we propose a hyper-automation SOAR platform powered by agentic-LLM, leveraging Large Language Models (LLMs) to optimize automation workflows.",
+    "QA2": "P",
+    "QA2_quote": "The capabilities of a multi-step reasoning AI agent are demonstrated, featuring shared memory, external tool integration, and human-in-theloop functionality.",
+    "QA3": "P",
+    "QA3_quote": "This research evaluated Mean Time to Remediate (MTTR) across three primary remediation activities: analysis, update command execution, and compilation.",
+    "QA4": "Y",
+    "QA4_quote": "However, certain limitations of AI-driven mitigation must be acknowledged."
+  }
+]
+END_JSON

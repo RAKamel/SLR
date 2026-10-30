@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0480",
+    "QA1": "Y",
+    "QA1_quote": "We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP at a 30-step horizon against the B_line attacker",
+    "QA2": "Y",
+    "QA2_quote": "The method has three components: (1) a hierarchical ReAct agent with dynamic and persistent memory sections",
+    "QA3": "Y",
+    "QA3_quote": "Compared against both a zero-shot baseline and a Reflexion baseline (isolated single-stream learning), FORGE improves average evaluation return",
+    "QA4": "Y",
+    "QA4_quote": "Our study faces limitations in scope (single attacker type, fixed 30-step horizon in one application domain)"
+  }
+]
+END_JSON

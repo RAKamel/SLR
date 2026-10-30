@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0671,exclude,EC2,"LLM can automatically analyze the responses that will be analyzed",high
+R0672,exclude,EC4,"threat modeling, explainable access control policy synthesis and enforcement, and continuous compliance monitoring",high
+R0673,exclude,EC4,"evolving nexus between Generative AI, Information Disorder, and Cybersecurity",high
+R0674,exclude,EC4,"empower Ethical Hacking (EH) education with ChatGPT-infused curriculum",high
+R0675,exclude,EC1,"At its core is a variational autoencoder (VAE) that learns the distribution",high
+R0676,exclude,EC3,"designed to fortify AI systems against a wide range of adversarial attacks",high
+R0677,include,,"intelligent agent that invokes MCP-based tools and connects to Telegram",high
+R0678,exclude,EC2,"generative AI engine that produces context-specific remediation plans",high
+R0679,exclude,EC2,"review use cases for AI code generators for security and introduce an evaluation benchmark",high
+R0680,exclude,EC5,"This doctoral forum paper outlines my thesis",high
+END_CSV

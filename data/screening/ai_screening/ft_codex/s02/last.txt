@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0057,exclude,EC5,"may be revised following the review process",high
+R0070,include,,"reflecting on and learning from previous failed operations",high
+R0075,include,,"our architecture uses agents for conflict resolution",high
+R0095,include,,"RedTeamLLM follows three key steps: summarizing, reasoning and act",high
+R0097,include,,"a fully automated LLM-driven prototype designed for evaluating autonomous Linux privilegeescalation",high
+R0139,include,,"Our framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",high
+END_CSV

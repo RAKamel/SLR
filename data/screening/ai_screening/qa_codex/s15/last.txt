@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0484",
+    "QA1": "Y",
+    "QA1_quote": "We present a controlled empirical study of these interactions within a compound LLM agent defending a network",
+    "QA2": "P",
+    "QA2_quote": "We separate a reusable ReAct Agent engine (I/O, parsing) from declarative YAML \"personality\" configurations (prompts, tools).",
+    "QA3": "Y",
+    "QA3_quote": "Our evaluation spans five model families, six models, and twelve configurations (3,475 episodes) with tokenlevel cost accounting.",
+    "QA4": "Y",
+    "QA4_quote": "We use a single environment (fixed topology, scripted adversary, 30-step horizon) and a single three-agent hierarchy"
+  },
+  {
+    "id": "R0485",
+    "QA1": "Y",
+    "QA1_quote": "we propose a graph-based agentic framework that integrates ensemble machine learning for attack detection with LLM-powered incident-report generation",
+    "QA2": "P",
+    "QA2_quote": "a ReAct-based summary agent that synthesizes classification results with external threat intelligence from Web search and scholarly databases",
+    "QA3": "P",
+    "QA3_quote": "perfect groundedness scores (1.0), indicating all generated claims derive from the retrieved context; and moderate faithfulness (0.64)",
+    "QA4": "P",
+    "QA4_quote": "This work provides a foundation for future research into production-ready, privacy-preserving deployments of agentic IDSs in resource-constrained edge environments."
+  },
+  {
+    "id": "R0496",
+    "QA1": "Y",
+    "QA1_quote": "The framework automates the creation of traffic scenarios, the design of cyberattack strategies, and the development of defense mechanisms.",
+    "QA2": "P",
+    "QA2_quote": "We tested different APIs, including ChatGPT and Deepseek, to evaluate their performance.",
+    "QA3": "P",
+    "QA3_quote": "Finally, the fourth agent evaluates the defense’s effectiveness by comparing traffic delays",
+    "QA4": "Y",
+    "QA4_quote": "The current study focused on a simple cyberattack that modified broadcasted speed and location data."
+  }
+]
+END_JSON

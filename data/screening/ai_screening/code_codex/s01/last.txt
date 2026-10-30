@@ -1,0 +1,1285 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0025",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RL",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "intrusion detection and cybersecurity defenses",
+      "RQ1 task_stage": "Real-time intrusion detection, feature relevance assessment, automated anomaly investigation",
+      "RQ2 architecture": "server-side DeepSeek analytics and iterative prompt-guided client optimization",
+      "RQ2 adaptation": "Structured JSON prompt engineering and adaptive prompt tuning; reinforcement learning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "Yes, on request from the corresponding author; URL not stated"
+    }
+  },
+  {
+    "id": "R0028",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "threat hunting/investigation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/zefang-liu/AutoBnB)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "evaluation through multi-agent incident response simulations",
+      "RQ1 orientation": "defending teams and AI-driven cyber defense",
+      "RQ1 task_stage": "Collaborative investigation",
+      "RQ2 architecture": "incident captain, five defenders, and dedicated retrieval agent",
+      "RQ2 adaptation": "Retrieval-augmented generation using RAG-Wiki or RAG-News; role assignments and retrieval-query prompts",
+      "RQ4 code_available": "yes https://github.com/zefang-liu/AutoBnB",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0039",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Study evaluating GPT-4o’s ability",
+      "RQ1 orientation": "Offensive cybersecurity",
+      "RQ1 task_stage": "Penetration testing; obtaining hidden passwords",
+      "RQ2 architecture": "GPT-4o connected through a Python 3 script using Paramiko",
+      "RQ2 adaptation": "Initial system prompt with challenge instructions",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0040",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/bsinger98/Incalmo)",
+      "RQ4 data_available": "yes (https://github.com/bsinger98/Incalmo)"
+    },
+    "evidence": {
+      "study_type": "Design, implementation, and evaluation of Incalmo",
+      "RQ1 orientation": "Cyber-offense; red teaming",
+      "RQ1 task_stage": "Scan a network, laterally move, escalate privileges",
+      "RQ2 architecture": "five domain-specific task agents",
+      "RQ2 adaptation": "system prompt teaching capabilities/APIs and environment-specific goal prompt; queryable structured knowledge base akin to RAG",
+      "RQ4 code_available": "yes + https://github.com/bsinger98/Incalmo",
+      "RQ4 data_available": "yes + https://github.com/bsinger98/Incalmo (benchmarks and case-study prompt/logs)"
+    }
+  },
+  {
+    "id": "R0044",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; CTI; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Systematic literature review",
+      "RQ1 orientation": "human-in-the-loop cyber defense",
+      "RQ1 task_stage": "Intelligent attack detection and response; investigation, correlation, explanation, and response planning; threat intelligence retrieval",
+      "RQ2 architecture": "Multi-agent LLM reasoning with specialized detection, correlation, threat intelligence retrieval",
+      "RQ2 adaptation": "Retrieval-augmented threat intelligence",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0070",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest; forensics/reporting",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "comparative case study",
+      "RQ1 orientation": "Authorized cyberattacks for penetration testing",
+      "RQ1 task_stage": "Exploitation, Post-Exploitation, Capture the Flag, Documentation",
+      "RQ2 architecture": "Assisted agent comprising Process Navigator, Generator, Reflector, Success Log and Failure Log",
+      "RQ2 adaptation": "Predefined system prompts, RAG over MITRE ATT&CK and OWASP Testing Guide knowledge",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0075",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "no",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "simulated evaluation with ablation studies",
+      "RQ1 orientation": "Defensive",
+      "RQ1 task_stage": "Semantic bot detection",
+      "RQ2 architecture": "Prosecutor, Defender and Judiciary personas; single-shot adversarial protocol within one inference pass",
+      "RQ2 adaptation": "System prompting; single-shot “Chain of Thought” adversarial protocol",
+      "RQ4 code_available": "no",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0095",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/lre-security-systems-team/redteamllm)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "proof-of-concept with evaluation",
+      "RQ1 orientation": "Offensive security",
+      "RQ1 task_stage": "Penetration testing; reconnaissance, general technique, exploitation and privilege escalation",
+      "RQ2 architecture": "separate Reasoning, Act and stateless Summarizer LLM sessions",
+      "RQ2 adaptation": "ReAct reasoning–execution–observation loop; proposed planning memory retrieves embedded descriptions of past task-tree nodes",
+      "RQ4 code_available": "yes + https://github.com/lre-security-systems-team/redteamllm",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0097",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/ipa-lab/hackingBuddyGPT)",
+      "RQ4 data_available": "yes (https://github.com/ipa-lab/benchmark-privesc-linux; https://github.com/ipa-lab/hackingbuddy-results)"
+    },
+    "evidence": {
+      "study_type": "Empirical analysis",
+      "RQ1 orientation": "Offensive security; penetration-testing",
+      "RQ1 task_stage": "Autonomously enumerate and execute Linux privilege-escalation attacks",
+      "RQ2 architecture": "Single-LLM control loop",
+      "RQ2 adaptation": "Prompting; optional high-level or enumeration-derived hints",
+      "RQ4 code_available": "yes + https://github.com/ipa-lab/hackingBuddyGPT",
+      "RQ4 data_available": "yes + https://github.com/ipa-lab/benchmark-privesc-linux ; https://github.com/ipa-lab/hackingbuddy-results"
+    }
+  },
+  {
+    "id": "R0139",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest; forensics/reporting",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/nbshenxm/pentest-agent)",
+      "RQ4 data_available": "yes (https://github.com/nbshenxm/pentest-agent)"
+    },
+    "evidence": {
+      "study_type": "framework with benchmark evaluation",
+      "RQ1 orientation": "Penetration testing",
+      "RQ1 task_stage": "Intelligence gathering, vulnerability analysis, and exploitation; penetration testing report generation",
+      "RQ2 architecture": "Multi-agent collaboration: reconnaissance, search, planning, and execution agents",
+      "RQ2 adaptation": "RAG, role-playing, chain-of-thought",
+      "RQ4 code_available": "yes + https://github.com/nbshenxm/pentest-agent",
+      "RQ4 data_available": "yes + https://github.com/nbshenxm/pentest-agent"
+    }
+  },
+  {
+    "id": "R0156",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "threat hunting/investigation; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (https://attack.mitre.org)"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Defensive",
+      "RQ1 task_stage": "Threat understanding and ATT&CK technique mapping; reactive and proactive cybersecurity defense strategy generation",
+      "RQ2 architecture": "Three parallel expert agents",
+      "RQ2 adaptation": "Role-specific prompts and ATT&CK retrieval-augmented generation",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes + https://attack.mitre.org (Data Availability Statement specifies restrictions and permission from MITRE ATT&CK)"
+    }
+  },
+  {
+    "id": "R0174",
+    "codes": {
+      "study_type": "conceptual",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; IR planning/playbooks; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Proposed hyper-automation SOAR platform and IVAM framework",
+      "RQ1 orientation": "security incident response and threat mitigation",
+      "RQ1 task_stage": "Incident response analysis and generation; incident mitigation and resolution, validation, and active monitoring",
+      "RQ2 architecture": "Proposed multi-agent system",
+      "RQ2 adaptation": "Structured system prompting; retrieval of similar incidents from a vector database",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0197",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RL",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "comparative experiments and ablation studies",
+      "RQ1 orientation": "Offensive: red-team internal network penetration",
+      "RQ1 task_stage": "Autonomous penetration testing",
+      "RQ2 architecture": "Two collaborative LLMs for strategic planning and tactical action generation",
+      "RQ2 adaptation": "Structured prompting and in-context environmental feedback with frozen LLM parameters; DQN policy learning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0200",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; fine-tuning",
+      "RQ4 code_available": "yes (https://github.com/MoeinAbtahi/Securing-LLM-Generated-EmbeddedFirmware-through-Iterative-Testing-and-Patching)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "methodology with experimental evaluation",
+      "RQ1 orientation": "Automated security validation, vulnerability detection, and iterative firmware patch refinement",
+      "RQ1 task_stage": "vulnerability detection, and iterative firmware patch refinement",
+      "RQ2 architecture": "Multi-agent framework",
+      "RQ2 adaptation": "Structured prompt engineering and error-report-driven iterative refinement; specialized agent models trained on domain-specific datasets",
+      "RQ4 code_available": "yes + https://github.com/MoeinAbtahi/Securing-LLM-Generated-EmbeddedFirmware-through-Iterative-Testing-and-Patching",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0208",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "CTI",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Large-scale, real-world evaluation",
+      "RQ1 orientation": "proactive active defense against scams",
+      "RQ1 task_stage": "extract actionable threat intelligence",
+      "RQ2 architecture": "Single-prompt architecture generating the next response",
+      "RQ2 adaptation": "Prompting with predefined victim personas",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0210",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Proactive cyber defense and cooperative response",
+      "RQ1 task_stage": "real-time detection, and knowledge-driven mitigation recommendation generation",
+      "RQ2 architecture": "Three specialized agents: Prediction, Detection, and Mitigation",
+      "RQ2 adaptation": "ATT&CK–D3FEND retrieval; DistilGPT2 causal language-model fine-tuning and DistilBERT packet-pair classification fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0223",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/LLM4SOC-Topic/RulePilot)",
+      "RQ4 data_available": "yes (https://sites.google.com/view/rulepilot/dataset)"
+    },
+    "evidence": {
+      "study_type": "comprehensive evaluation and industry case study",
+      "RQ1 orientation": "Defensive threat detection",
+      "RQ1 task_stage": "SIEM-specific detection rule generation",
+      "RQ2 architecture": "LLM-based agent with CoT reasoning",
+      "RQ2 adaptation": "Least-to-Most Prompting; RAG using Microsoft migration documentation",
+      "RQ4 code_available": "yes https://github.com/LLM4SOC-Topic/RulePilot",
+      "RQ4 data_available": "yes https://sites.google.com/view/rulepilot/dataset"
+    }
+  },
+  {
+    "id": "R0249",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (https://cylab.be/waiti2025)"
+    },
+    "evidence": {
+      "study_type": "Analytical study of existing LLM-based penetration testing benchmarks; systematic mapping of six benchmarks",
+      "RQ1 orientation": "Offensive security",
+      "RQ1 task_stage": "Penetration testing across the full Cyber Kill Chain",
+      "RQ2 architecture": "not stated",
+      "RQ2 adaptation": "fine-tuning on custom datasets, and RAG with CTF writeups",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes + https://cylab.be/waiti2025"
+    }
+  },
+  {
+    "id": "R0276",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/andreashappe/cochise)",
+      "RQ4 data_available": "yes (https://github.com/andreashappe/cochise)"
+    },
+    "evidence": {
+      "study_type": "quantitative and qualitative empirical evaluation",
+      "RQ1 orientation": "Offensive security",
+      "RQ1 task_stage": "Assumed Breach penetration-testing",
+      "RQ2 architecture": "High-level Planner using Pentest-Task-Trees and structured output; low-level Executor",
+      "RQ2 adaptation": "Scenario prompting and tool-specific guidance",
+      "RQ4 code_available": "yes + https://github.com/andreashappe/cochise",
+      "RQ4 data_available": "yes + https://github.com/andreashappe/cochise"
+    }
+  },
+  {
+    "id": "R0284",
+    "codes": {
+      "study_type": "conceptual",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "alert triage; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; fine-tuning; RL",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Theoretical design-science artefact; ex-ante formative evaluation through structured comparison and cost projections",
+      "RQ1 orientation": "Autonomous cyber defence",
+      "RQ1 task_stage": "Semantic alert triage, adaptive threat response",
+      "RQ2 architecture": "Cooperative three-layer multi-agent system",
+      "RQ2 adaptation": "Five-step structured Chain-of-Thought prompting with KSL contextual enrichment; PPO policy updates and domain-specific policy fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0295",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; IR planning/playbooks; forensics/reporting",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "experimental study of the hybrid risk analysis subsystem",
+      "RQ1 orientation": "Information protection and cyber defense",
+      "RQ1 task_stage": "Continuous monitoring, detection, analysis, and response to cyber threats; incident search in system event logs and automated expert report generation",
+      "RQ2 architecture": "Multi-agent MAS-ISM",
+      "RQ2 adaptation": "Local RAG using TF-IDF and cosine similarity; declarative system prompt",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0309",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (https://doi.org/10.1184/R1/12841247)"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Defensive threat detection",
+      "RQ1 task_stage": "APT detection; behavioral analysis of lateral movement and data exfiltration",
+      "RQ2 architecture": "Three specialized agents: Email Analysis, Document Analysis, and Log Analysis",
+      "RQ2 adaptation": "Specialized prompt engineering; domain-specific LoRA fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes + https://doi.org/10.1184/R1/12841247"
+    }
+  },
+  {
+    "id": "R0311",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest; forensics/reporting",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (https://owasp.org/www-project-webgoat/; https://dvwa.co.uk/; http://www.isi.csic.es/dataset/)"
+    },
+    "evidence": {
+      "study_type": "empirical validation",
+      "RQ1 orientation": "Reconnaissance, vulnerability scanning, exploitation",
+      "RQ1 task_stage": "Reconnaissance, vulnerability scanning, exploitation, validation, and reporting",
+      "RQ2 architecture": "Table II labels the proposed method multi-agent",
+      "RQ2 adaptation": "Few-shot prompt engineering, structured templates, chain-of-thought reasoning, and embedding-based historical retrieval; analyst corrections incorporated into model retraining cycles",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "custom datasets and configurations upon reasonable request from the corresponding author; public sources: https://owasp.org/www-project-webgoat/, https://dvwa.co.uk/, http://www.isi.csic.es/dataset/"
+    }
+  },
+  {
+    "id": "R0315",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "offensive/pentest; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Automated penetration testing discovering multiple vulnerabilities; generation and selection of remediation recommendations",
+      "RQ1 task_stage": "Automated penetration testing discovering multiple vulnerabilities; generation and selection of remediation recommendations",
+      "RQ2 architecture": "Multiple LLM-based agents",
+      "RQ2 adaptation": "Role-play prompting and Counterfactual Prompting; Langchain-based RAG Instructor",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "Metasploitable2 stated to be open-source and freely available for download; URL not stated"
+    }
+  },
+  {
+    "id": "R0316",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; alert triage; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/pzambare3/NetMoniAI)",
+      "RQ4 data_available": "yes (https://github.com/pzambare3/NetMoniAI)"
+    },
+    "evidence": {
+      "study_type": "local micro-testbed and NS-3 evaluation",
+      "RQ1 orientation": "System-wide defense",
+      "RQ1 task_stage": "anomaly detection, threat classification, cross-node alert correlation and mitigation recommendations",
+      "RQ2 architecture": "Autonomous node-level micro-agents with a central Controller",
+      "RQ2 adaptation": "Structured prompting of GPT-O3",
+      "RQ4 code_available": "yes https://github.com/pzambare3/NetMoniAI",
+      "RQ4 data_available": "yes https://github.com/pzambare3/NetMoniAI"
+    }
+  },
+  {
+    "id": "R0320",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Comprehensive evaluation of multiple LLM-based penetration testing agents",
+      "RQ1 orientation": "Offensive security",
+      "RQ1 task_stage": "Reconnaissance, Credential Attacks, Exploitation, Post-Exploitation",
+      "RQ2 architecture": "Single-agent and modular agents; reasoning, command generation and parsing modules",
+      "RQ2 adaptation": "Prompt templates; PENHEAL retrieval-augmented and counterfactual prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0322",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "offensive/pentest; forensics/reporting",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "comparative evaluation and ablation studies",
+      "RQ1 orientation": "Dual-use penetration testing for security assessment",
+      "RQ1 task_stage": "Reconnaissance, vulnerability analysis, and exploitation; failure-aware replanning and report generation",
+      "RQ2 architecture": "Multi-agent system: Commander, Planner, Reconnaissance, Exploitation, Replan, Analysis, and Report agents",
+      "RQ2 adaptation": "role-specific prompt templates, and semantic retrieval of accumulated experience",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0340",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "initial prototype case study and preliminary comparative analysis",
+      "RQ1 orientation": "Security assurance and security compliance enforcement",
+      "RQ1 task_stage": "propose remediation",
+      "RQ2 architecture": "Compliance Assessment Agent and Reflection Agent",
+      "RQ2 adaptation": "RAG and Agentic RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0347",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "offensive/pentest; threat hunting/investigation; remediation",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "systematization of knowledge",
+      "RQ1 orientation": "Offensive and defensive security functions",
+      "RQ1 task_stage": "Reconnaissance, exploit confirmation, root cause analysis, patch synthesis, and fix verification and validation",
+      "RQ2 architecture": "no implemented closed-loop agent presented",
+      "RQ2 adaptation": "Prompting for candidate evidence-span suggestions",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0350",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; alert triage; threat hunting/investigation; IR planning/playbooks; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "demonstrated through a microservices system case study",
+      "RQ1 orientation": "Cyber defense",
+      "RQ1 task_stage": "Intrusion detection, incident triage, response prioritization and root cause investigations; ROE-compliant containment and recovery",
+      "RQ2 architecture": "MAPE-K multi-agent system",
+      "RQ2 adaptation": "Enterprise-specific fine-tuning using LoRA; graph RAG and whitelisted multi-shot, zero-shot and chain-of-thought prompt templates",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0363",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; forensics/reporting",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "comparative experiments and ablation studies",
+      "RQ1 orientation": "Defensive security monitoring and post-incident breach analysis",
+      "RQ1 task_stage": "Intrusion detection; incident scenario reconstruction, MITRE ATT&CK mapping, script analysis and report verification",
+      "RQ2 architecture": "An AI Agent central controller orchestrates normalization, candidate selection, semantic reasoning and reporting/verification",
+      "RQ2 adaptation": "Offline Teacher–Student CoT knowledge distillation using structured expert prompting; LoRA fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0365",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "CTI; threat hunting/investigation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/LucaCtt/ontologx)",
+      "RQ4 data_available": "yes (https://zenodo.org/records/17251494)"
+    },
+    "evidence": {
+      "study_type": "empirical evaluation and an ablation study",
+      "RQ1 orientation": "Extract CTI from raw logs",
+      "RQ1 task_stage": "Extract CTI from raw logs into ontology-compliant knowledge graphs; predict MITRE ATT&CK tactics from log sessions",
+      "RQ2 architecture": "An AI agent combining hybrid example retrieval, LLM KG generation, iterative validation/correction",
+      "RQ2 adaptation": "RAG with vector/full-text retrieval and MMR reranking; ontology-guided few-shot prompting",
+      "RQ4 code_available": "yes + https://github.com/LucaCtt/ontologx",
+      "RQ4 data_available": "yes + https://zenodo.org/records/17251494"
+    }
+  },
+  {
+    "id": "R0371",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; forensics/reporting; IR planning/playbooks",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "experiments with dedicated AI agent skills and existing security tools",
+      "RQ1 orientation": "Protection and support of cyber incident response",
+      "RQ1 task_stage": "Scanning for rootkits, network traffic monitoring and log checking; summarizing scan findings and recommendations",
+      "RQ2 architecture": "Minimalist nanobot agent with local reasoning LLM",
+      "RQ2 adaptation": "Prompting and custom skills",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "Data available on request due to restrictions; no URL stated"
+    }
+  },
+  {
+    "id": "R0384",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest; forensics/reporting; remediation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "semi-automated experimental validation",
+      "RQ1 orientation": "Offensive strategies to evaluate system vulnerabilities",
+      "RQ1 task_stage": "Planning, vulnerability discovery, analysis, exploitation, reporting and remediation",
+      "RQ2 architecture": "Semi-automatic LLM-assisted workflow",
+      "RQ2 adaptation": "Prompt engineering, role-playing prompt templates and structured JSON outputs",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0409",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/ipa-lab/hackingBuddyGPT)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "task-planning experiments and a low-level attack-execution prototype evaluation",
+      "RQ1 orientation": "Penetration testing in benign settings",
+      "RQ1 task_stage": "low-level vulnerability hunting and privilege escalation",
+      "RQ2 architecture": "GPT3.5 in an infinite command–SSH–output feedback loop",
+      "RQ2 adaptation": "Static, manually written prompts and prompt variations",
+      "RQ4 code_available": "yes https://github.com/ipa-lab/hackingBuddyGPT",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0427",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "experimental evaluation and a limited ablation study",
+      "RQ1 orientation": "Threat-informed defense",
+      "RQ1 task_stage": "Log anomaly detection; multi-class attack classification, autonomous threat analysis and MITRE ATT&CK TTP mapping",
+      "RQ2 architecture": "LangChain-based LLM agent coordinating seven tools",
+      "RQ2 adaptation": "Retrieval-Augmented Generation (RAG); recursive Thought–Action–Observation loop",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "EVTX-ATTACK-SAMPLES described as publicly available, but URL not stated in supplied text"
+    }
+  },
+  {
+    "id": "R0440",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning; RL",
+      "RQ4 code_available": "yes (https://github.com/UoIShieldLabs/agent_red)",
+      "RQ4 data_available": "yes (https://github.com/UoIShieldLabs/agent_red)"
+    },
+    "evidence": {
+      "study_type": "framework for network traffic generation with experimental evaluation",
+      "RQ1 orientation": "Network attack traffic generation",
+      "RQ1 task_stage": "Network attack traffic generation; generation of intermediate traffic representations and executable Scapy scripts",
+      "RQ2 architecture": "An AI agent identifies traffic patterns",
+      "RQ2 adaptation": "GRPO reinforcement learning with LoRA parameter-efficient fine-tuning; custom system prompting and online context retrieval",
+      "RQ4 code_available": "yes https://github.com/UoIShieldLabs/agent_red",
+      "RQ4 data_available": "yes https://github.com/UoIShieldLabs/agent_red"
+    }
+  },
+  {
+    "id": "R0447",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; forensics/reporting; IR planning/playbooks",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Cyber-defense",
+      "RQ1 task_stage": "Real-time cyber-attack classification, explanation, and structured reporting; suggested mitigation steps",
+      "RQ2 architecture": "Central core LLM agent orchestrates specialized classifiers, RAG and report generation",
+      "RQ2 adaptation": "Attack-specific supervised classifier fine-tuning; contextual prompting and iterative RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "SSTI dataset downloadable by password at reference [44], URL not stated in supplied text"
+    }
+  },
+  {
+    "id": "R0448",
+    "codes": {
+      "study_type": "benchmark",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "yes (https://github.com/isamu-isozaki/PentestGPT)",
+      "RQ4 data_available": "yes (https://github.com/isamuisozaki/AI-Pentest-Benchmark)"
+    },
+    "evidence": {
+      "study_type": "Open benchmark for LLM-based automated penetration testing",
+      "RQ1 orientation": "Ethical hacking or penetration testing: simulating cyberattacks",
+      "RQ1 task_stage": "Reconnaissance/enumeration, general techniques, exploitation, and privilege escalation",
+      "RQ2 architecture": "PentestGPT multi-agent approach",
+      "RQ2 adaptation": "Default PentestGPT prompts for GPT-4o; RAG over HackTricks",
+      "RQ4 code_available": "yes https://github.com/isamu-isozaki/PentestGPT",
+      "RQ4 data_available": "yes https://github.com/isamuisozaki/AI-Pentest-Benchmark"
+    }
+  },
+  {
+    "id": "R0451",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/r4wd3r/llms-are-acd)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "integration framework and experimental evaluation",
+      "RQ1 orientation": "Defensive",
+      "RQ1 task_stage": "detect and mitigate attacks while maintaining service availability",
+      "RQ2 architecture": "Multi-agent teams",
+      "RQ2 adaptation": "Instructional, few-shot and role prompting",
+      "RQ4 code_available": "yes https://github.com/r4wd3r/llms-are-acd",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0477",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; remediation; forensics/reporting",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "implemented and deployed at IHEP; functionality demonstration",
+      "RQ1 orientation": "defending against cyberattacks",
+      "RQ1 task_stage": "vulnerability scanning, attack detection, IP blocking, notifications, and incident reporting",
+      "RQ2 architecture": "An autonomous agent with scheduling, memory databases, and security tool interfaces",
+      "RQ2 adaptation": "Chain-of-thought prompting for task planning; retrieval-augmented generation",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0480",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "threat hunting/investigation; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/isbogdanov/forge-protocol)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "evaluation on CybORG CAGE-2",
+      "RQ1 orientation": "blue defender against an automated red attacker",
+      "RQ1 task_stage": "selects defense actions and interprets host-level observations",
+      "RQ2 architecture": "Hierarchical ReAct Planner with on-demand Analyst and ActionChooser sub-agents",
+      "RQ2 adaptation": "Prompt-only memory evolution without weight updates",
+      "RQ4 code_available": "yes + https://github.com/isbogdanov/forge-protocol",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0484",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; remediation",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/isbogdanov/agent-design-study)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Controlled empirical cost-performance study",
+      "RQ1 orientation": "autonomous cyber defense",
+      "RQ1 task_stage": "Monitor, Analyse, Remove, Restore, and Decoy actions",
+      "RQ2 architecture": "Monolithic ReAct Planner or fixed three-agent hierarchy",
+      "RQ2 adaptation": "Context engineering and identical role/action-reference prompts",
+      "RQ4 code_available": "yes + https://github.com/isbogdanov/agent-design-study",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0485",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; forensics/reporting; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "framework with experimental validation",
+      "RQ1 orientation": "network defense and intrusion detection",
+      "RQ1 task_stage": "Benign/malicious pre-detection, multi-class attack classification, SHAP feature attribution, and evidence-grounded incident-report generation with mitigation recommendations",
+      "RQ2 architecture": "Graph-based multi-agent pipeline with centralized shared state",
+      "RQ2 adaptation": "Retrieval-Augmented Generation; classification results, SHAP attributions, and network features injected into prompts",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0496",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "offensive/pentest; IR planning/playbooks",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "framework with a case study",
+      "RQ1 orientation": "Both cyberattack and defense strategies",
+      "RQ1 task_stage": "design and implementation of cyberattacks, countermeasure development",
+      "RQ2 architecture": "AutoGen multi-agent system",
+      "RQ2 adaptation": "Task-specific prompts",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0528",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; IR planning/playbooks",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Autonomous defense",
+      "RQ1 task_stage": "Anomaly detection; counterfactual control strategy formulation and physics-grounded intervention selection",
+      "RQ2 architecture": "Gemini Architect proposes three strategies using retrieved manuals; TimesFM Sentinel forecasts",
+      "RQ2 adaptation": "RAG-enhanced prompting with operational manuals and control constraints",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0538",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "CTI; detection",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Systematization of Knowledge (SoK); systematic review",
+      "RQ1 orientation": "Defensive",
+      "RQ1 task_stage": "gathering threat intelligence; automated mapping to MITRE ATT&CK and real-time detection",
+      "RQ2 architecture": "Synthesized canonical architecture: attacker-facing server, filter/router, deterministic responder, prompt creator, LLM, system state manager, and session history curator",
+      "RQ2 adaptation": "prompting, chain-of-thought prompting, RAG, and protocol-specific fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0541",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; remediation; forensics/reporting",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "framework with experimental evaluation",
+      "RQ1 orientation": "Autonomous cyber-threat defense",
+      "RQ1 task_stage": "Cyber-threat detection and response at charging stations; explainable threat mitigation and incident summaries",
+      "RQ2 architecture": "Distributed, tool-augmented, explainable multi-agent system",
+      "RQ2 adaptation": "Prompt engineering and RAG for SSA; fine-tuned DistilBERT",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0556",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "experiments on five benchmark phishing datasets",
+      "RQ1 orientation": "Phishing email detection",
+      "RQ1 task_stage": "Phishing email detection; binary classification as phishing or legitimate",
+      "RQ2 architecture": "Two LLM debater agents; third judge agent",
+      "RQ2 adaptation": "Template prompting; chain-of-thought prompting, role prompting",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0567",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; threat hunting/investigation; forensics/reporting; remediation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting; RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "experiments on NIST-SARD",
+      "RQ1 orientation": "Vulnerability identification; remediation guidance",
+      "RQ1 task_stage": "Vulnerability identification and CWE classification; root cause, impact and exploitation assessment, report generation and remediation guidance",
+      "RQ2 architecture": "Four-phase multi-agent workflow: Explorer, Analyst, Reporter and Judge",
+      "RQ2 adaptation": "RAG with flat, contextual or HyPE chunking; prompted LLM reranking",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0582",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "alert triage; threat hunting/investigation",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/Rub3cula/CyberHunt2025/)",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "proof-of-concept with evaluation",
+      "RQ1 orientation": "Assisting security analysts in alert handling and incident investigation",
+      "RQ1 task_stage": "Early-stage security alert investigation; contextualise alerts and identify true and false positives",
+      "RQ2 architecture": "Three distinct prompted LLM components: Investigator, Summary and Incident Verdict",
+      "RQ2 adaptation": "Basic prompts and context engineering; role instructions, examples and predefined queries",
+      "RQ4 code_available": "yes + https://github.com/Rub3cula/CyberHunt2025/ (experiment prompts and queries)",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0621",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "IR planning/playbooks",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; fine-tuning",
+      "RQ4 code_available": "yes (https://github.com/Kim-Hammar/csle)",
+      "RQ4 data_available": "yes (https://huggingface.co/datasets/kimhammar/CSLE-IncidentResponse-V1)"
+    },
+    "evidence": {
+      "study_type": "experimental evaluation on an incident response use case",
+      "RQ1 orientation": "Incident response planning; generating response and recovery actions",
+      "RQ1 task_stage": "Incident response planning; generating response and recovery actions from system logs and security alerts",
+      "RQ2 architecture": "An LLM in an iterative verification and refinement loop",
+      "RQ2 adaptation": "Fine-tuning, chain-of-thought prompting and in-context learning",
+      "RQ4 code_available": "yes; https://github.com/Kim-Hammar/csle",
+      "RQ4 data_available": "yes; https://huggingface.co/datasets/kimhammar/CSLE-IncidentResponse-V1"
+    }
+  },
+  {
+    "id": "R0698",
+    "codes": {
+      "study_type": "conceptual",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "CTI; alert triage; IR planning/playbooks; threat hunting/investigation; remediation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning; RL",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Vision and proposed framework",
+      "RQ1 orientation": "Defending organizations against evolving cyber threats",
+      "RQ1 task_stage": "Threat intelligence, alert triage, and incident response; context-aware investigation and remediation",
+      "RQ2 architecture": "LLM-based AI apprentice collaborating with SOC analysts",
+      "RQ2 adaptation": "Prompt engineering, in-context learning, Chain of Thought prompting, supervised fine-tuning, generative feedback, RLHF, and RAG",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0701",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/andreashappe/cochise)",
+      "RQ4 data_available": "yes (https://github.com/andreashappe/cochise)"
+    },
+    "evidence": {
+      "study_type": "prototype with compactness, capability, and analyzability evaluation",
+      "RQ1 orientation": "Offensive security research",
+      "RQ1 task_stage": "Autonomous penetration testing; enumerate and compromise Active Directory domains",
+      "RQ2 architecture": "Planner–Executor architecture",
+      "RQ2 adaptation": "Configurable scenario prompt; ReAct and Reflexion patterns",
+      "RQ4 code_available": "yes + https://github.com/andreashappe/cochise",
+      "RQ4 data_available": "yes + https://github.com/andreashappe/cochise"
+    }
+  },
+  {
+    "id": "R0703",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "defensive",
+      "RQ1 task_stage": "detection; alert triage; IR planning/playbooks",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "AI-Avatar case study in a simulated cyber range",
+      "RQ1 orientation": "Defensive; SOC described as a proactive defensive hub",
+      "RQ1 task_stage": "Monitoring, protection, threat detection, alert triage, and incident response",
+      "RQ2 architecture": "ChatGPT-based AI-Avatar with RAG, knowledge graphs, SIEM, IDS, and firewalls",
+      "RQ2 adaptation": "Fine-tuning, RAG, and knowledge graphs",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0712",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "multi-agent",
+      "RQ2 adaptation": "prompting",
+      "RQ4 code_available": "yes (https://github.com/andreashappe/cochise)",
+      "RQ4 data_available": "yes (https://github.com/andreashappe/cochise/tree/main/examples/initial-paper; https://zenodo.org/records/17456062)"
+    },
+    "evidence": {
+      "study_type": "Replicated Computational Results (RCR) Report",
+      "RQ1 orientation": "Offensive security capability evaluation",
+      "RQ1 task_stage": "Autonomous assumed-breach penetration-testing",
+      "RQ2 architecture": "High-level Planner creates plans and selects tasks; low-level Executor executes tool calls",
+      "RQ2 adaptation": "Prompts and tool calls",
+      "RQ4 code_available": "yes https://github.com/andreashappe/cochise",
+      "RQ4 data_available": "yes https://github.com/andreashappe/cochise/tree/main/examples/initial-paper ; https://zenodo.org/records/17456062"
+    }
+  },
+  {
+    "id": "R0730",
+    "codes": {
+      "study_type": "empirical",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "offensive/pentest; remediation",
+      "RQ2 architecture": "single-agent",
+      "RQ2 adaptation": "fine-tuning; RL",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "implementation results and comparative performance analysis",
+      "RQ1 orientation": "Automated penetration testing, vulnerability detection, and suggested remediation",
+      "RQ1 task_stage": "Automated penetration testing, vulnerability detection, and suggested remediation",
+      "RQ2 architecture": "LLM AI core, command processor, and integration with Nmap, Metasploit, Wireshark, and custom scripts",
+      "RQ2 adaptation": "Fine-tuned for cybersecurity applications; reinforcement learning from execution feedback",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0735",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "detection; IR planning/playbooks; threat hunting/investigation; offensive/pentest",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "yes (https://github.com/vnageshwaran-de/agentic-iot-security; https://doi.org/10.5281/zenodo.20726552)",
+      "RQ4 data_available": "yes (https://github.com/vnageshwaran-de/agentic-iot-security)"
+    },
+    "evidence": {
+      "study_type": "PRISMA 2020 systematic survey, taxonomy, and research roadmap",
+      "RQ1 orientation": "Autonomous IoT defense; also surveys autonomous penetration testing",
+      "RQ1 task_stage": "Detection, response, threat hunting, vulnerability discovery, deception; autonomous penetration testing",
+      "RQ2 architecture": "Surveys single-agent, multi-agent, hybrid and hierarchical designs",
+      "RQ2 adaptation": "Surveys CoT prompting, ReAct, plan-and-solve, reflection, RAG, fine-tuning",
+      "RQ4 code_available": "yes + https://github.com/vnageshwaran-de/agentic-iot-security ; https://doi.org/10.5281/zenodo.20726552",
+      "RQ4 data_available": "yes + https://github.com/vnageshwaran-de/agentic-iot-security (coded corpus, extraction matrix, codebook, and screening protocol)"
+    }
+  },
+  {
+    "id": "R0759",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "detection; remediation; threat hunting/investigation; offensive/pentest",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Comprehensive review",
+      "RQ1 orientation": "Critical Infrastructure Protection and proactive defense; also reviews offensive security benchmarks",
+      "RQ1 task_stage": "threat detection, vulnerability detection and mitigation, cyber-attack attribution; offensive security benchmarks",
+      "RQ2 architecture": "not stated",
+      "RQ2 adaptation": "zero-shot and few-shot prompting, Retrieval-Augmented Generation, instruction-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0014",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "offensive",
+      "RQ1 task_stage": "offensive/pentest",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    },
+    "evidence": {
+      "study_type": "Tutorial and survey",
+      "RQ1 orientation": "Primarily offensive and evaluative agents",
+      "RQ1 task_stage": "Automated vulnerability discovery and penetration testing",
+      "RQ2 architecture": "Surveys single- and multi-agent designs",
+      "RQ2 adaptation": "prompt engineering, CoT, ReAct, Plan-then-Execute, RAG, instruction-tuning, and incremental fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "not stated"
+    }
+  },
+  {
+    "id": "R0740",
+    "codes": {
+      "study_type": "review",
+      "RQ1 orientation": "dual",
+      "RQ1 task_stage": "CTI; detection; offensive/pentest; IR planning/playbooks; forensics/reporting",
+      "RQ2 architecture": "unclear",
+      "RQ2 adaptation": "prompting; RAG; fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "yes (URL not stated)"
+    },
+    "evidence": {
+      "study_type": "Systematic literature review following PRISMA 2020",
+      "RQ1 orientation": "Both defensive security tasks and penetration testing and red teaming",
+      "RQ1 task_stage": "Threat intelligence, vulnerability assessment, DevSecOps and SOC automation, intrusion detection; penetration testing, incident response and forensics",
+      "RQ2 architecture": "Reviews three single-agent and three multi-agent patterns",
+      "RQ2 adaptation": "Screening prompted with explicit inclusion and exclusion criteria; reviewed augmentation strategies include ICL, RAG, fine-tuning",
+      "RQ4 code_available": "not stated",
+      "RQ4 data_available": "Full query record, per-paper coding matrix, review protocol, and screening decisions stated as published with the paper; repository URL not stated in supplied text"
+    }
+  }
+]
+END_JSON

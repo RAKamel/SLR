@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0617,exclude,EC2,"systematically analyzes security vulnerability patterns in artificial intelligence (AI)-generated code",high
+R0618,exclude,EC3,"evaluation of the Model Context Protocol (MCP)",high
+R0619,include,,"CAF integrates large language model (LLM) generation with symbolic knowledge-base verification",high
+R0620,exclude,EC4,"generating ATT&CK-grounded malicious commandline samples",medium
+R0621,include,,"integrates the LLM in an iterative loop where it generates candidate actions",high
+R0622,exclude,EC2,"produce easy-to-understand explanations",high
+R0623,exclude,EC4,"reconceptualize AGI containment as securing critical infrastructure indispensable for its operation",high
+R0624,exclude,EC1,"Variational Autoencoder, Gaussian Copula, Denoising Diffusion Probabilistic Model (DDPM)",high
+R0625,exclude,EC3,"tests whether a large language model enforces it consistently",high
+R0626,include,,"structured function-calling pipeline across four stages: threat attribution, behavioral analysis, prioritization, and mitigation",high
+R0627,exclude,EC2,"automating the generation of defensive security rules",high
+R0628,exclude,EC2,"produces risk reports nonintrusively",high
+R0629,exclude,EC1,"through the lens of ML, DL, and RL models",high
+R0630,exclude,EC2,"automated aspects of vulnerability analysis",medium
+R0631,exclude,EC2,"enhances command generation accuracy through a novel two-stage training paradigm",high
+R0632,exclude,EC4,"biodefense, biosecurity, and biosafety risks",high
+R0633,exclude,EC4,"multiple-choice Q&A benchmark datasets",high
+R0634,exclude,EC4,"a generative honeypot shell written in Python",medium
+R0635,exclude,EC1,"hybrid Convolutional Neural Network–Gated Recurrent Unit (CNN-GRU) autoencoders",high
+R0636,exclude,EC2,"review paper investigates the application of generative AI techniques for the detection and mitigation of ransomware attacks",medium
+R0637,include,,"prompt-controlled agent (soft approach)",high
+R0638,include,,"multiple specialized LLM-driven agents that collaboratively perform tasks",high
+R0639,exclude,EC3,"how leaders prioritize GenAI threats",high
+R0640,exclude,EC1,"a customized deep neural network, GPS data, and a road map",high
+R0641,exclude,EC1,"MobileNetV2 deep learning architecture",high
+R0642,exclude,EC2,"automate IDS rule generation",high
+R0643,exclude,EC4,"adaptive, closed-loop framework that synergizes static knowledge-driven synthesis with dynamic, diagnosis-driven remediation",medium
+R0644,exclude,EC2,"agentic large language model (LLM) copilots that triage incidents and generate remediation steps",high
+END_CSV

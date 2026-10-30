@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0028",
+    "QA1": "Y",
+    "QA1_quote": "we present AutoBnB-RAG, an extension of the AutoBnB framework that incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations.",
+    "QA2": "Y",
+    "QA2_quote": "using the AutoGen [36] system with GPT4o [37] as the base model and a temperature setting of 0.7.",
+    "QA3": "Y",
+    "QA3_quote": "Each team structure is evaluated over 30 independent simulation runs to ensure consistency and statistical robustness.",
+    "QA4": "N",
+    "QA4_quote": "we omit these elements in our simulation to maintain a controlled evaluation setup."
+  }
+]
+END_JSON

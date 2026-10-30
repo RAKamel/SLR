@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0249,include,,"We analyze state-of-the-art benchmarking approaches used to evaluate LLM-based penetration testing",high
+R0276,include,,"first demonstration of a fully autonomous, LLM-driven framework capable of compromising accounts",high
+END_CSV

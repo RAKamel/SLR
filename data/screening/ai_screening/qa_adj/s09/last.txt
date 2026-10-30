@@ -1,0 +1,14 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0541",
+    "QA4": "P",
+    "QA4_quote": "we plan to investigate the adversarial resilience of LLM-driven agents"
+  },
+  {
+    "id": "R0582",
+    "QA3": "P",
+    "QA3_quote": "Our initial evaluation utilised a limited data representing a single attack scenario with a narrow, imagined alert."
+  }
+]
+END_JSON

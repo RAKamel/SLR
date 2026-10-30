@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0561,exclude,EC2,"The model is constrained to only consider artifacts provided at inference time",high
+R0562,exclude,EC2,"the LLM only interprets already flagged anomaly events",high
+R0563,exclude,EC2,"LLM-driven analysis provides an adaptive real-time security mechanism",high
+R0564,include,,"The LLM autonomously investigates network alerts using a set of tools",high
+R0565,exclude,EC2,"the review identified the most relevant types of LLM applications found in cybersecurity professional practice",medium
+R0566,include,,"feedback-driven workflow, powered by LLM agents, ensures accuracy and reliability",high
+R0567,include,,"RAVEN, a framework leveraging LLM agents and Retrieval Augmented Generation",medium
+R0568,exclude,EC4,"focusing on four main security-related applications - surveillance and patrol, border control, disaster response",high
+R0569,include,,"introducing an adaptive retrieval agent that adjusts context size in real time",high
+R0570,exclude,EC2,"integrates AI-driven solutions, such as intrusion detection systems (IDS)",high
+R0571,exclude,EC1,"We also investigate the use of large language models for automating attack generation",high
+R0572,include,,"intelligent agents autonomously detect, analyze and respond to cyber threats in real time",medium
+R0573,include,,"The Packet Induction Agent employs entropy-based segmentation and LLM-assisted type annotation",medium
+R0574,exclude,EC1,"combines combinatorial fusion analysis with generative artificial intelligence",high
+R0575,exclude,EC2,"This position paper proposes the use of Large Language Models (LLMs) to evaluate the compliance",high
+R0576,exclude,EC2,"design an LLM-based attacker to systematically prompt LLMs for exploit generation",medium
+R0577,exclude,EC2,"fine-tuned models of ChatGPT 3.5 Turbo by OpenAI and Command R by Cohere",high
+R0578,exclude,EC3,"classifying malicious and benign prompts using both traditional NLP methods and deep contextual embeddings",high
+R0579,exclude,EC4,"experiments for several LLMs such as GPT4oMini, GPT3.5, Gemini, Cohere, and Llama3",high
+R0580,exclude,EC2,"operates as a human-in-the-loop assistant",high
+R0581,include,,"ShipCrawler presents an agentic open-source intelligence (OSINT) platform",medium
+R0582,include,,"LLMs augmented with predefined queries and constrained tool access",high
+R0583,include,,"role-specialized LLM agents that engage in structured, multi-round debates",high
+R0584,exclude,EC4,"automated multi-agent policy analysis tool for compliance audit",high
+R0585,exclude,EC4,"This paper analyzes in depth the application of LLM in power systems",high
+R0586,exclude,EC3,"security vulnerabilities in LLM-powered dialogue systems",high
+R0587,exclude,EC2,"workflow acceleration, not flawless autonomy",medium
+R0588,exclude,EC1,"Quantum Generative AI Hybrid Framework",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0491,include,,"enables the autonomous triage of high-volume alerts without hardcoded integrations",high
+R0492,exclude,EC3,"Defense Against Prompt Injection in LLM-Generated SQL for AIoT Databases",high
+R0493,exclude,EC2,"comparative analysis of large language models (LLMs) for detecting cyber attacks",high
+R0494,include,,"framework for developing autonomous cyber defense agents that incorporate defender goals",high
+R0495,exclude,EC3,"protecting SIEM-integrated multi-agent deployments against attacks such as tool poisoning, prompt injection",high
+R0496,exclude,EC4,"implement a defense mechanism that significantly mitigates traffic delays",high
+R0497,exclude,EC4,"furthering the study and development of gamification systems involving LLM agents",high
+R0498,include,,"summarize the existing work from two perspectives: cyber offense and cyber defense",medium
+R0499,include,,"feasibility of designing highly plausible Deceptive Agents for proactive cyber defense strategies",high
+R0500,exclude,EC1,"applying Formal Verification (FV) techniques to MARL systems",high
+END_CSV

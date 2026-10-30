@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0161,include,,"a self-adaptable multi-agent red teaming architecture combining Retrieval-Augmented Generation with dynamic attack graph formation",high
+R0162,include,,"LLM agentic systems have improved the automation of offensive security tasks",high
+R0163,exclude,EC2,"generate attack patterns using large language models (LLMs)",high
+R0164,exclude,EC4,"integrates a knowledge graph with an AI-agent for network management data analysis",high
+R0165,include,,"automates key testing phases, including reconnaissance, vulnerability scanning, and exploit simulation",high
+R0166,exclude,EC2,"Deep learning is increasingly used in cybersecurity to detect, classify, prioritize, and explain",high
+R0167,include,,"utilizing LLM-based agents to develop, execute, and modify multi-step attack chains",high
+R0168,include,,"role-specialized agents iteratively extract, review, and adjudicate candidate profile-relevant facts",high
+R0169,include,,"Leveraging large language models (LLMs) as intelligent agents",high
+R0170,include,,"PENTESTGPT, an LLM-empowered automated penetration testing framework",high
+END_CSV

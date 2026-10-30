@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0421,include,,"ELISAR is designed as a collaborative multi-agent system",high
+R0422,include,,"agent frameworks - that underpin their adaptation to security tasks",high
+R0423,include,,"tool-using large language model (LLM) agents for offensive-security",high
+R0424,include,,"autonomous AI-based penetration testing framework that uses the Model Context Protocol",high
+R0425,exclude,EC3,"structured threat model for autonomous LLM agents operating in cybersecurity-sensitive environments",high
+R0426,exclude,EC2,"credentials through Claude Opus 4.7 extraction and manual analyst review",high
+R0427,include,,"recursive investigation capabilities enabled by a planning-capable LLM agent",high
+R0428,exclude,EC2,"future opportunities around future self-healing systems, autonomous cyber agents",high
+R0429,include,,"highlighting key tools and frameworks such as DeepExploit 2.0, PentestGPT, and Breachseek",medium
+R0430,exclude,EC2,"investigate the use of large language models with different prompting strategies to generate",high
+END_CSV

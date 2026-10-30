@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0681,include,,"autonomous decision-making system framework will focus on implementing instant network segmentation configurations",high
+R0682,exclude,EC4,"questionable, AI-generated academic papers on widely used preprint repositories",high
+R0683,exclude,EC2,"how AI enhances each stage of the vulnerability management lifecycle",high
+R0684,exclude,EC2,"Large Language Model (LLM) to edge computing in addressing IoT security",high
+R0685,exclude,EC4,"cloud computing and artificial intelligence (AI) are emerging as transformative solutions for grid modernization",high
+R0686,exclude,EC1,"framework that utilizes Generative Adversarial Networks to create dynamic, adaptive, and highly realistic honeypots",high
+R0687,exclude,EC2,"absence of runtime feedback loops for iterative payload refinement",high
+R0688,exclude,EC1,"multilayer defense framework is proposed that combines AI-driven intrusion detection, behavioral analytics",high
+R0689,exclude,EC5,"Special Issue Editorial: Generative AI for Secure Communications and Networking",high
+R0690,exclude,EC2,"Large Language Model (LLM) to provide real-time natural language explainability to operators",high
+END_CSV

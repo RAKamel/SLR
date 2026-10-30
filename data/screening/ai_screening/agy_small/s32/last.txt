@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0311,include,,"implementing a Reasoning-Acting (ReAct) loop for autonomous testing",high
+R0312,exclude,EC2,"evaluation of large language models (LLMs) across diverse cyber operational tasks",high
+R0313,exclude,EC2,"generate sub-millisecond intrusion predictions",high
+R0314,exclude,EC3,"scoping review to map anticipated vulnerabilities",high
+R0315,include,,"two-stage LLM-based framework designed to autonomously identify and mitigate security vulnerabilities",high
+R0316,maybe,,"agentic AI framework for automated network monitoring and security",medium
+R0317,include,,"facilitating real-time validation, automated threat mitigation, and continuous system updates",medium
+R0318,include,,"memory-augmented multi-agent framework for automated penetration testing",high
+R0319,include,,"automated penetration testing agent based on the principle of PSM driven by LLMs",high
+R0320,include,,"comprehensive evaluation of multiple LLM-based agents, ranging from singular to modular designs",high
+END_CSV

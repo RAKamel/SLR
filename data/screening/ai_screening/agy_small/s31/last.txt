@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0301,include,,"explore how LLMs and multi-agent systems can augment dynamic and static analysis",high
+R0302,include,,"enabling autonomous execution of full-cycle penetration testing",high
+R0303,exclude,EC2,"enabling accurate classification of malicious activities such as billing fraud, energy theft",high
+R0304,exclude,EC3,"attacks targeting both AI-specific threats (prompt injection) and software vulnerabilities",high
+R0305,exclude,EC2,"linking CVEs to MITRE ATT&CK techniques, Crimson enhances threat forecasting",high
+R0306,exclude,EC2,"evaluate the likelihood and impact of identified vulnerabilities",high
+R0307,exclude,EC3,"detect tool poisoning, indirect prompt injection through tool outputs, and supply chain manipulation",high
+R0308,include,,"an autonomous threat hunting system driven by Large Language Models (LLMs)",high
+R0309,include,,"a multi-agent language model architecture for log analysis",high
+R0310,include,,"shell-like framework with contextual capabilities, including adaptive deception, agents in the form of interactions",medium
+END_CSV

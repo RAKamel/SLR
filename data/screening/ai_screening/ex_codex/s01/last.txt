@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0025",
+  "study_type": "Self-Improving Federated Cybersecurity Sentinel framework with experimental evaluation",
+  "RQ1 task_stage": "Real-time intrusion detection, feature relevance assessment, automated anomaly investigation, and adaptive optimization of FL parameters",
+  "RQ1 domain": "Distributed networks with geographically distributed client nodes and heterogeneous network traffic",
+  "RQ1 orientation": "Defensive: intrusion detection and cybersecurity defenses",
+  "RQ2 architecture": "Four-layer client-server FL architecture: Data, Learning, AI, and Feedback; server-side DeepSeek analytics and iterative prompt-guided client optimization",
+  "RQ2 llm_used": "DeepSeek LLM; version not stated",
+  "RQ2 adaptation": "Structured JSON prompt engineering and adaptive prompt tuning; reinforcement learning with policy-gradient updates to the prompt generator",
+  "RQ3 autonomy_level": "Automatically analyzes traffic, ranks features, generates client-specific training directives, and adjusts FL training through a continuous feedback loop",
+  "RQ3 hitl": "Produces explanations and recommendations for responders; users drive feature engineering and model improvement; approval requirements not stated",
+  "RQ4 dataset": "UNSW-NB15",
+  "RQ4 environment": "Local PyTorch FL simulation with five clients and a central server; MacBook Pro M3 Pro with 18 GB unified memory",
+  "RQ4 metrics": "Accuracy, precision, recall, F1-score, AUC, and configuration adjustment time",
+  "RQ4 baseline_type": "FL-only method and baseline model; ablation studies of LLM-supported optimization",
+  "RQ4 headline_result": "Precision 0.96; F1-score 0.98; configuration adjustment time reduced by approximately 68%",
+  "RQ4 compared_to": "FL-only method; baseline Federated Learning; baseline model",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "Yes, on request from the corresponding author; URL not stated",
+  "RQ5 risks_addressed": "Data exposure and privacy; data poisoning and evasion attacks; malformed LLM outputs; outdated cyber-threat knowledge in pretrained general-purpose LLMs",
+  "RQ5 mitigations": "Homomorphic encryption, differential privacy, robust aggregation and adversarial training; structured JSON validation and fallback logic; LLM receives no raw data or model weights",
+  "author_limitations (verbatim)": "One problem with the current work is that it uses pretrained general-purpose LLMs, which are good but may not have the most up-to-date information about cyber threats that are changing.",
+  "author_future_work (verbatim)": "Future endeavors will concentrate on refining domain-specific LLMs through the utilization of curated cybersecurity corpora and the incorporation of adaptive feedback loops to enhance contextual accuracy progressively.",
+  "evidence (page/section)": "Study/tasks/results: Abstract and §5 (p. 9); architecture/domain/autonomy: §§3.1–3.4 (pp. 4–6); prompting/validation/fallback: §1 (p. 3), §3.3 (p. 5); models/environment/metrics: §4.1 (pp. 6–7); dataset: §4.2 (p. 7); privacy/mitigations: §§3.2, 3.4, 4.3 and Table 1 (pp. 4–7); human involvement: §4.4 (pp. 7–8); baselines: §4.5.3 (p. 9); limitations/future work: §5 (p. 9); data availability: Declarations, Data Availability Statement (p. 10)"
+}
+END_JSON

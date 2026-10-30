@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0731,exclude,EC5,"РОЗРОБКА ЕФЕКТИВНИХ ЗАХОДІВ ВЕБ-БЕЗПЕКИ ДЛЯ МЕРЕЖІ",high
+R0732,exclude,EC2,"SAGE: Signal-Amplified Guided Embeddings for Vulnerability Detection",high
+R0733,exclude,EC1,"generative adversarial imitation learning",high
+R0734,exclude,EC2,"evaluates current LLM architectures and their security applications",high
+R0735,include,,"systematic reviews of agentic AI and LLM-driven approaches for autonomous IoT cybersecurity",high
+R0736,exclude,EC1,"integrated as an extension of EvoMaster",high
+R0737,exclude,EC5,"Бенчмаркинг возможностей больших языковых моделей в задачах тестирования на проникновение",high
+R0738,exclude,EC1,"survey on different solutions for threat defense automation using ML techniques",high
+R0739,exclude,EC4,"line-level vulnerability localization from runtime failure evidence",high
+R0740,include,,"intelligent agents capable of multi-step reasoning, tool invocation, and autonomous decision-making",high
+END_CSV

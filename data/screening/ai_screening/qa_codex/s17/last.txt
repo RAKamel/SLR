@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0556",
+    "QA1": "Y",
+    "QA1_quote": "we propose a debate-driven multi-agent LLM framework for phishing email detection.",
+    "QA2": "P",
+    "QA2_quote": "we conduct experiments using different combinations of two LLMs, GPT-4 and LLaMA-2, as debater agents and judges.",
+    "QA3": "P",
+    "QA3_quote": "with the bestperforming agent configuration (GPT-4–LLaMA-2–GPT-4) as the baseline.",
+    "QA4": "N",
+    "QA4_quote": "certain datasets contained emails with exceptionally long content, which could exceed token limits imposed by LLM architectures."
+  },
+  {
+    "id": "R0567",
+    "QA1": "Y",
+    "QA1_quote": "a multi agent framework that leverages LLMs and Retrieval Augmented Generation (RAG) to automatically synthesize comprehensive vulnerability analysis reports.",
+    "QA2": "P",
+    "QA2_quote": "All these files are passed to an LLM along with a specialized ≈ 6200 token prompt",
+    "QA3": "P",
+    "QA3_quote": "This assessment is conducted by examining the logs produced by the Judge Agent.",
+    "QA4": "P",
+    "QA4_quote": "these fixes often prevent program failure by disabling or bypassing the problematic behavior"
+  },
+  {
+    "id": "R0582",
+    "QA1": "Y",
+    "QA1_quote": "To what degree can the proposed agentic approach accurately identify true and false positive alerts?",
+    "QA2": "Y",
+    "QA2_quote": "All prompts and queries used in the experiments are available on GitHub",
+    "QA3": "P",
+    "QA3_quote": "Our initial evaluation utilised a limited data representing a single attack scenario with a narrow, imagined alert.",
+    "QA4": "Y",
+    "QA4_quote": "LLMs are susceptible to various attacks, including prompt injection and other manipulation techniques."
+  }
+]
+END_JSON

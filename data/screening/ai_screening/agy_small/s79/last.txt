@@ -1,0 +1,7 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0781,exclude,EC1,"4D chaotic system, reversible cellular automata, and DNA encoding operations",high
+R0782,exclude,EC2,"dataset-specific multilingual Text-to-Text Transfer Transformer (mT5) training improves classification",high
+R0783,exclude,EC1,"multi-agent-driven hybrid digital twin framework for adaptive cybersecurity vulnerability verification",high
+R0784,exclude,EC3,"three-layer taxonomy of attacks on LLM-based systems",high
+END_CSV

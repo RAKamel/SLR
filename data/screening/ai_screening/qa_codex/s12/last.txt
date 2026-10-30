@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0384",
+    "QA1": "Y",
+    "QA1_quote": "This paper proposes SatGuard, a novel framework integrating a three-dimensional penetration testing methodology and a nonlinear risk assessment mechanism",
+    "QA2": "P",
+    "QA2_quote": "the model types, versions, and all prompt words used have been publicly disclosed in the main text.",
+    "QA3": "P",
+    "QA3_quote": "Validated in a simulated ground station environment, the framework achieved a 73.3% success rate (22/30 attempts) across critical ports",
+    "QA4": "Y",
+    "QA4_quote": "its generic nature imposes limitations on extrapolating results to operational satellite systems."
+  },
+  {
+    "id": "R0409",
+    "QA1": "Y",
+    "QA1_quote": "RQ: To what extent can we automate security testing with LLMs?",
+    "QA2": "Y",
+    "QA2_quote": "The prototype used GPT-3.5-turbo which contains safety measures against malicious prompts.",
+    "QA3": "P",
+    "QA3_quote": "Our script was routinely able to gain root privileges within the virtual machine.",
+    "QA4": "Y",
+    "QA4_quote": "Singular prototype runs were not stable, i.e., there was variation in the sequence and selection of commands given and vulnerabilities identified."
+  },
+  {
+    "id": "R0427",
+    "QA1": "Y",
+    "QA1_quote": "we propose LogRESP-Agent, a modular AI framework built around a reasoning-based agent for log-driven security prediction and response.",
+    "QA2": "P",
+    "QA2_quote": "The system is driven by a high-performance Large Language Model (LLM), which dynamically orchestrates a suite of specialized tools",
+    "QA3": "Y",
+    "QA3_quote": "Across both settings, the proposed framework consistently outperformed conventional baselines— including standalone models (MLP, RF, XGBoost)",
+    "QA4": "Y",
+    "QA4_quote": "its robustness against sophisticated zero-day threats remains to be evaluated in adversarial environments."
+  }
+]
+END_JSON

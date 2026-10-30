@@ -1,0 +1,3 @@
+BEGIN_JSON
+[{"id": "R0223", "QA1": "Y", "QA1_quote": "we propose RulePilot, which mimics human expertise via LLM-based agent for addressing rule-related challenges like rule creation or conversion.", "QA2": "P", "QA2_quote": "RulePilot consists of three key components: Chain of Thought (CoT) reasoning, Intermediate Representation (IR), and Reflection & Iterative Optimization.", "QA3": "Y", "QA3_quote": "We present a comprehensive evaluation of RulePilot in terms of textual similarity and execution success abilities", "QA4": "P", "QA4_quote": "Our evaluation yields intriguing insights into the capabilities and limitations of LLMs in rule generation."}]
+END_JSON

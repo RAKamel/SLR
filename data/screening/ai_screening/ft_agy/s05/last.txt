@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0075,include,,"Multi-Agent Cognitive Council (Tier 2) powered by Large Language Models (LLMs)",high
+R0095,include,,"automatization of pentest tasks. RedTeamLLM follows three key steps: summarizing, reasoning and act",high
+END_CSV

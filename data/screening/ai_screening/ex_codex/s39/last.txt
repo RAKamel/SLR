@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0448",
+  "study_type": "Open benchmark for LLM-based automated penetration testing; PentestGPT evaluation and ablation studies",
+  "RQ1 task_stage": "Reconnaissance/enumeration, general techniques, exploitation, and privilege escalation",
+  "RQ1 domain": "Vulnhub virtual machines designed for penetration testing and security research",
+  "RQ1 orientation": "Ethical hacking or penetration testing: simulating cyberattacks to identify system vulnerabilities",
+  "RQ2 architecture": "PentestGPT multi-agent approach with summarizing, reasoning, and task-explanation modules; ablations add summary of summaries, ReAct tool-based structured todo lists, and retrieval context",
+  "RQ2 llm_used": "GPT-4o; Llama 3.1-405B",
+  "RQ2 adaptation": "Default PentestGPT prompts for GPT-4o; modified prompts for Llama; summary injection, structured generation, and RAG over HackTricks using bge-large, ChromaDB, and bge-reranker",
+  "RQ3 autonomy_level": "LLMs suggest actions and commands; neither model completed a single end-to-end penetration testing experiment without failure, even with human assistance",
+  "RQ3 hitl": "Human operators execute suggested actions, provide feedback and full HTML, navigate websites, interpret commands, and operate GUI tools; failed tasks receive benchmark commands and expected outcomes",
+  "RQ4 dataset": "13 Vulnhub machines with 152 tasks; three public walkthroughs per machine; HackTricks content for RAG",
+  "RQ4 environment": "Locally run Vulnhub virtual machines; Funbox and Symfonos 2 for ablations, with prompts tuned on WestWild",
+  "RQ4 metrics": "Task success rates by machine, category, difficulty, and task sequence; correct solution within five attempts, or ten for initial enumeration",
+  "RQ4 baseline_type": "Comparison of LLMs using PentestGPT; base PentestGPT versus cumulative ablations",
+  "RQ4 headline_result": "Llama 3.1-405B outperformed GPT-4o on 7 machines, tied on 4, and performed worse on 2; neither gained root-level privileges on any machine without failure",
+  "RQ4 compared_to": "PentestGPT with GPT-4o; PentestGPT with Llama 3.1-405B; base model, Summary Injection, Structured Generation, and RAG configurations",
+  "RQ4 code_available": "yes https://github.com/isamu-isozaki/PentestGPT",
+  "RQ4 data_available": "yes https://github.com/isamuisozaki/AI-Pentest-Benchmark",
+  "RQ5 risks_addressed": "Malicious actors training LLMs for real-world cyberattacks; sensitive-data access; forgetting, hallucinations, repeated commands, and human evaluation errors/bias",
+  "RQ5 mitigations": "Responsible development and ethical oversight; strict human-action rules and attempt limits; summary memory, structured task management, and RAG",
+  "author_limitations (verbatim)": "Due to time and cost constraints, we conducted ablations on only 2 boxes; further studies on additional machines could provide more comprehensive insights.",
+  "author_future_work (verbatim)": "One area we are interested in pursuing is to increase the capability of our LLMs for Penetration Testing through Reinforcement Learning. We want to begin with a Penetration Testing Game with easier boxes, such as the boxes used in Happe, et al [Happe et al., 2024].",
+  "evidence (page/section)": "Abstract and §1: study and availability URLs; §2: architecture and orientation; §3, Table 1: benchmark, domain, human involvement; §4–4.2, Figure 4, Table 2: setup, metrics, comparisons and results; §4.3–4.3.3, Figure 5, Table 3: adaptation and ablations; §5: reliability issues; §6: autonomy and future work; §7: risks and oversight; §8: limitations"
+}
+END_JSON

@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0156",
+    "QA1": "Y",
+    "QA1_quote": "Cybersecurity defense strategy generation transforms threat intelligence into actionable defense measures against sophisticated multi-stage cyberattacks.",
+    "QA2": "P",
+    "QA2_quote": "All agents share the same backbone LLM without fine-tuning, specialization is achieved entirely through role-specific prompts",
+    "QA3": "Y",
+    "QA3_quote": "Experimental results demonstrate that MACD achieves 84.6% technique mapping accuracy and 72.3% defense coverage, significantly outperforming baseline methods",
+    "QA4": "P",
+    "QA4_quote": "Future work will explore real-time deployment and extending coverage to emerging attack vectors"
+  }
+]
+END_JSON

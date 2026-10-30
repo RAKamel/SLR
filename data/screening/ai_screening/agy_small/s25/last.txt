@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0241,exclude,EC2,"automatic generation of synthetic attacks, including XSS",high
+R0242,exclude,EC3,"outperforming conventional jailbreak methods such as DAN prompts",high
+R0243,include,,"agentic, Model Context Protocol (MCP)-driven workflow that scaffolds new detections",high
+R0244,exclude,EC4,"comprehensive review of recent research on LAINs from four perspectives",high
+R0245,include,,"combining LLM, knowledge graphs and automated planning to improve proactive cyber defence",high
+R0246,exclude,EC4,"deployment of large language models (LLMs) and agentic AI systems within the energy industry",high
+R0247,include,,"managing a Linux node using a dedicated agent",high
+R0248,exclude,EC4,"in the context of ongoing supply chain disruption",high
+R0249,include,,"feasibility of LLM-powered automation across the full adversarial pipeline within realistic environments",high
+R0250,exclude,EC3,"generate context-specific jailbreak attacks towards customized LLM applications",high
+END_CSV

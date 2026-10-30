@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0431,maybe,,"overview of the methodologies related to automated penetration testing",medium
+R0432,exclude,EC3,"Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents",high
+R0433,include,,"covering reinforcement learning (RL) agents, large language model (LLM)-based systems",high
+R0434,include,,"PTFusion, an LLM-driven web penetration testing framework",high
+R0435,include,,"Design and Implementation of a Multi-Agent Threat Intelligence Assistant Based on Generative AI",high
+R0436,exclude,EC2,"The ability of ChatGPT to analyze network scans and security logs is also evaluated.",high
+R0437,exclude,EC2,"qualitatively examined ChatGPT outputs for given prompts within this prominent software security task",high
+R0438,include,,"we propose an LLM-based automated penetration testing framework AutoPentestAL",high
+R0439,include,,"threat intelligence analysis framework based on large language models (LLMs)",high
+R0440,include,,"Our tool integrates an AI agent and a large language model",high
+END_CSV

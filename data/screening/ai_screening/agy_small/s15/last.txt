@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0141,exclude,EC2,"prompts and output from the interactive ChatGPT tool",high
+R0142,include,,"LLMs to automate the resolution and mitigation of these attacks in real-time",high
+R0143,exclude,EC2,"examine how large models can assist with scoring and remediation",high
+R0144,include,,"independently carry out security and operational regulations",high
+R0145,exclude,EC3,"novel privacy risks inherent in current agentic browser architectures",high
+R0146,exclude,EC2,"combines deterministic control methods with AI-driven Semantic analysis",high
+R0147,exclude,EC1,"anomaly detection method using autoencoders",high
+R0148,exclude,EC4,"implementation of AI systems in a manufacturing setup",high
+R0149,maybe,,"solution that can continuously and autonomously conduct comprehensive security assessments",medium
+R0150,exclude,EC3,"Interpretable Multi-Agent AI Forensic Architecture for Prompt Injection Investigation",high
+END_CSV

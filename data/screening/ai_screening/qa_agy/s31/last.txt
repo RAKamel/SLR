@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0363",
+    "QA1": "Y",
+    "QA1_quote": "This study proposes a Local LLM‑based incident analysis framework capable of high‑ level inference without data export",
+    "QA2": "P",
+    "QA2_quote": "controls the incident analysis process through the staged steps of ‘Normalization–Candidate Selection–Semantic Reasoning– Reporting/Verification’",
+    "QA3": "Y",
+    "QA3_quote": "detection accuracy of 88.4% and a MITRE ATT&CK Micro‑F1 of 0.91 compared to existing general‑purpose Local LLMs.",
+    "QA4": "Y",
+    "QA4_quote": "This research was primarily conducted using the public Atomic Red Team dataset, which inherently has limitations"
+  }
+]
+END_JSON

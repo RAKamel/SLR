@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0484",
+  "study_type": "Controlled empirical cost-performance study of compound LLM agent design; static architectural design-space study.",
+  "RQ1 task_stage": "Network defense using Monitor, Analyse, Remove, Restore, and Decoy actions.",
+  "RQ1 domain": "CybORG CAGE-2; a 13-host network modeled as an adversarial POMDP.",
+  "RQ1 orientation": "Defensive; autonomous cyber defense.",
+  "RQ2 architecture": "Monolithic ReAct Planner or fixed three-agent hierarchy: Planner, Analyst, ActionChooser; deterministic state tracking and compressed history, optional intra-step deliberation tools.",
+  "RQ2 llm_used": "Grok, Llama, Devstral, Qwen, Gemini 2.5 Flash Lite (G2.5FL), Gemini 3 Flash Preview (G3FP); exact versions of the first four not stated.",
+  "RQ2 adaptation": "Context engineering and identical role/action-reference prompts; optional self-questioning, self-critique, self-improvement and chain-of-thought prompting; no per-model tuning.",
+  "RQ3 autonomy_level": "At each step, updates the environment model, selects and validates an action, retries invalid outputs, and submits the validated action to the environment; Planner may delegate advisory assessments and rankings.",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "CybORG CAGE-2; containerized agent instances, scripted non-adaptive multi-stage attacker, 30-step episodes with unique seeds and fresh agent state.",
+  "RQ4 metrics": "Mean episode return, total prompt-plus-completion tokens per episode, returns per token spent (RPTS), return standard deviation, catastrophic failure rate (return < −150).",
+  "RQ4 baseline_type": "LLM architectural and context ablations; public leaderboard reward references for DRL, simple heuristic, random and no-op agents.",
+  "RQ4 headline_result": "Programmatic state abstraction improved Llama mean return by 76% (−214.7 to −51.4); distributed deliberation worsened Devstral return 3.37× (−37.8 to −127.4), with hierarchical token costs increasing 1.8–2.7×.",
+  "RQ4 compared_to": "obs; hist+net shared anchor; hier-base versus hier-delib; leaderboard references: Top DRL agent, Simple heuristic, Random Agent, Sleeping (no-op).",
+  "RQ4 code_available": "yes + https://github.com/isbogdanov/agent-design-study",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Invalid actions waste steps while the attacker advances; deliberation cascades amplify uncertainty and passive deferral, increasing catastrophic failures.",
+  "RQ5 mitigations": "Schema validation with up to three retries, Monitor fallback, tiered sub-agent JSON parsing and repair; bounded advisory roles and proposed centralized deliberation or uncertainty arbitration through confidence gating or aggregation.",
+  "author_limitations (verbatim)": "Our claims are scoped to structured adversarial POMDPs where deterministic state abstraction is feasible. We use a single environment (fixed topology, scripted adversary, 30-step horizon) and a single three-agent hierarchy; alternative topologies may exhibit different deliberation cascade dynamics.",
+  "author_future_work (verbatim)": "Extending ablations to diverse environments and designing inter-agent uncertainty arbitration protocols, such as confidence gating or calibrated aggregation, are also important next steps.",
+  "evidence (page/section)": "Study type: §§1, 9; tasks/domain/orientation: §2; architecture/adaptation/autonomy/mitigations: §§2–3.4; models/environment/metrics/baselines: §4 and Table 2; results/comparators/risks: §§5.1–5.4 and Table 3; proposed mitigations: §6; limitations/future work: §8; code and archived artifact: §9."
+}
+END_JSON

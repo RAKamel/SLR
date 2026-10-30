@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0186,include,,"Each agent collaborates in attack modeling, intelligence analysis, defense response, and strategy optimization",high
+R0196,maybe,,"dynamic payload generation and adaptive exploitation",medium
+R0211,exclude,EC4,"detecting military personnel in 434 mobile device images",high
+R0212,include,,"automatically propose patches for issues reported by SonarQube",high
+R0217,maybe,,"agent that utilizes multiple sources inputs to generate and generalize rules",medium
+R0223,maybe,,"mimics human expertise via LLM-based agent for addressing rule-related challenges",medium
+R0231,exclude,EC2,"a large language model (LLM) to generate contextual mitigation reports",high
+R0237,maybe,,"integrate with popular penetration test tools and deal with real cyber threats",medium
+R0238,include,,"an end-to-end cooperative multi-agent collaboration based red teaming system",medium
+R0243,maybe,,"This talk presents a practical, end-to-end pipeline",medium
+R0244,maybe,,"proactive cross-layer security mechanisms supported by large models and intelligent agents",medium
+R0246,include,,"autonomous agent loops with embedded task prioritisation",high
+R0249,include,,"LLM-powered automation across the full adversarial pipeline within realistic environments",medium
+END_CSV

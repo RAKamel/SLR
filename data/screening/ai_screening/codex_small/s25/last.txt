@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0673,exclude,EC2,"conceptual framework for assessing these interdependencies through a set of indicative metrics",high
+R0674,exclude,EC4,"initiative to empower Ethical Hacking (EH) education with ChatGPT-infused curriculum",high
+R0675,exclude,EC1,"At its core is a variational autoencoder (VAE)",high
+R0676,exclude,EC3,"designed to fortify AI systems against a wide range of adversarial attacks",high
+R0677,include,,"integrates large language models with an agent-based architecture",high
+R0678,exclude,EC2,"a generative AI engine that produces context-specific remediation plans",high
+R0679,exclude,EC2,"We review use cases for AI code generators for security",high
+R0680,exclude,EC5,"This doctoral forum paper outlines my thesis",high
+R0681,exclude,EC2,"small language model implemented using the HuggingFace Transformers framework",high
+R0682,exclude,EC4,"citation manipulation",high
+R0683,exclude,EC2,"examines how AI enhances each stage of the vulnerability management lifecycle",high
+R0684,exclude,EC2,"This paper provides a comprehensive overview of AI and Machine Learning (ML) enabled IoT cybersecurity",high
+R0685,exclude,EC4,"electric power grid faces unprecedented challenges",high
+R0686,exclude,EC1,"utilizes Generative Adversarial Networks to create dynamic, adaptive, and highly realistic honeypots",high
+R0687,exclude,EC2,"fine-tuning language models for automated SSTI payload generation",high
+R0688,exclude,EC2,"a multilayer defense framework is proposed that combines AI-driven intrusion detection",high
+R0689,exclude,EC5,"Special Issue Editorial",high
+R0690,exclude,EC2,"an LLM to provide real-time natural language explainability to operators",high
+R0691,include,,"An upper-level LLM agent with four modules—ReAct planning, IPDRR-based perception, long-short term memory, and action/tool integration",high
+R0692,include,,"integrating a Blue agent with live network observations, risk analytics, and interactive human decision support",medium
+R0693,include,,"A large language model (LLM) orchestrator, grounded via retrieval augmented generation (RAG)",high
+R0694,exclude,EC4,"mitigate DDoS attacks",high
+R0695,exclude,EC4,"hierarchical dual-agent framework for automated formative assessment",high
+R0696,include,,"Evaluating a multi-agent LLM framework that proposes, implements, and validates mitigations",high
+R0697,include,,"designing highly plausible Deceptive Agents for proactive cyber defense strategies",high
+R0698,include,,"LLM-based agents learn from human analysts the tacit knowledge embedded in SOC operations",high
+R0699,include,,"A significant emerging trend is the use of LLM-based autonomous agents",high
+R0700,exclude,EC4,"potential for cybersecurity education and workforce development",high
+END_CSV

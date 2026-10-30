@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0284",
+  "study_type": "Theoretical design-science artefact; ex-ante formative evaluation through structured comparison and cost projections",
+  "RQ1 task_stage": "Semantic alert triage, adaptive threat response, and episodic knowledge synthesis",
+  "RQ1 domain": "Enterprise IT SOC environments processing heterogeneous SIEM alert streams",
+  "RQ1 orientation": "Autonomous cyber defence",
+  "RQ2 architecture": "Cooperative three-layer multi-agent system: LLM Perception and Triage Layer, PPO Decision and Response Layer, and episodic Knowledge Synthesis Layer; shared SIO message bus and SOAR execution",
+  "RQ2 llm_used": "not stated",
+  "RQ2 adaptation": "Five-step structured Chain-of-Thought prompting with KSL contextual enrichment; PPO policy updates and domain-specific policy fine-tuning",
+  "RQ3 autonomy_level": "Designed to classify SIEM alerts, select and execute SOAR response playbooks, and update episodic knowledge and response policies autonomously",
+  "RQ3 hitl": "Human escalation for inconsistent LLM hypotheses or action confidence below 0.70; suspected reward poisoning triggers human review and policy-update suspension",
+  "RQ4 dataset": "None used empirically; DARPA OpTC and five CAGE Challenge 4 multi-stage attack campaigns proposed for future validation",
+  "RQ4 environment": "No implementation or empirical testbed; CybORG simulation environment, CAGE Challenge 4 variant, proposed for future validation",
+  "RQ4 metrics": "Comparative threat coverage, automation depth, operational cost reduction, and architectural completeness; projected alert automation, MTTR reduction, false-positive reduction, and analyst workload reduction",
+  "RQ4 baseline_type": "Published autonomous cyber defence frameworks; rule-based SIEM, SOAR-only, RL-based and LLM-based systems",
+  "RQ4 headline_result": "Designed targets, not measured outcomes: 85–90% alert automation, 65–75% MTTR reduction, 60–70% false-positive reduction, and 56–86% analyst workload reduction",
+  "RQ4 compared_to": "CO-DECYBER, ADIF, ACIR, IDSO, AI-Augmented SOC, Autonomous Critical Infrastructure Defence, RADAR; Rule-Based SIEM and SOAR-only",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Prompt injection, reasoning inconsistency, reward poisoning, collateral service disruption, correlated failures, inference latency, and compliance auditability; also acknowledges model drift, unsafe tool use, access control, and incorrect-action recovery",
+  "RQ5 mitigations": "Separate event data from instructions; dual-instance consistency checks and confidence-based human escalation; reward anomaly detection with policy-update suspension, disruption penalties, and phased deployment with analyst review",
+  "author_limitations (verbatim)": "It has not been implemented or empirically evaluated; all performance claims are projections requiring validation.",
+  "author_future_work (verbatim)": "Future work should also develop federated DRL training protocols to ensure policy convergence under data-scarce conditions and rigorously test the adversarial robustness of the PTL’s consistency-checking mechanism against novel prompt-injection strategies.",
+  "evidence (page/section)": "Abstract, pp. 1–2; The CyberAgent Framework / Overall Architecture, p. 6; Perception and Triage Layer, pp. 7–9; Decision and Response Layer, pp. 9–11; Knowledge Synthesis Layer, pp. 11–14; Operational Cost Reduction, TCO, and Latency Management, p. 14; Comparative Analysis Methodology, pp. 15–16; Results, Tables 1–4, pp. 17–21; Discussion / Theoretical Implications and phased adoption, pp. 21–22."
+}
+END_JSON

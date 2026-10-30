@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0451",
+    "QA1": "Y",
+    "QA1_quote": "we show the first study on how LLMs perform in multi-agent ACD environments",
+    "QA2": "Y",
+    "QA2_quote": "Formatter extracts action for LLM blue agent, which executes it in the CAGE4 environment.",
+    "QA3": "Y",
+    "QA3_quote": "We evaluate RL and LLM agents against a diverse adversary set",
+    "QA4": "Y",
+    "QA4_quote": "the LLM agents were prone to hallucinations, including misreading the communication vector observations, compromise levels, and security events."
+  },
+  {
+    "id": "R0477",
+    "QA1": "Y",
+    "QA1_quote": "this paper introduces ChatSOC, an autonomous agent for network security operations empowered by an LLM",
+    "QA2": "P",
+    "QA2_quote": "We have adopted chain-of-thought techniques to create prompts for task planning using large language models (LLMs).",
+    "QA3": "P",
+    "QA3_quote": "the operational time decreases from several hours to minutes",
+    "QA4": "N",
+    "QA4_quote": "In the future, we will conduct research on automated API integration."
+  },
+  {
+    "id": "R0480",
+    "QA1": "Y",
+    "QA1_quote": "We study this challenge in CybORG CAGE-2 [8], a stochastic cyber-defense POMDP",
+    "QA2": "Y",
+    "QA2_quote": "All agents use the same underlying LLMs, and differ only in their role-specific system prompts and their injected memory.",
+    "QA3": "Y",
+    "QA3_quote": "We therefore adopt Reflexion as the primary baseline and compare it against FORGE under identical model, memory representation, and training budget.",
+    "QA4": "Y",
+    "QA4_quote": "All evidence is confined to CAGE-2 B_line; generalization to other attacker types and POMDP environments remains untested."
+  }
+]
+END_JSON

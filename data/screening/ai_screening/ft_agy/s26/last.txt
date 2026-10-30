@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0541,exclude,EC2,"Provide a clear user-friendly interpretation of why this classification was made",high
+R0556,include,,"debate-driven multi-agent LLM framework for phishing email detection",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0281,exclude,EC2,"LLM-Guardian uses semantic anomaly scoring, conformal prediction for distribution-free confidence calibration",high
+R0282,exclude,EC2,"analyzing the effectiveness of generative approaches in intrusion detection compared to deterministic methods",high
+R0283,exclude,EC2,"propose a large language model-powered domain randomization method for synthetic environment generation",high
+R0284,include,,"three-layer agentic AI framework that integrates semantic alert triage, adaptive reinforcement-learning response",high
+R0285,include,,"three-agent ReAct architecture with retrieval-augmented generation and automated validation",high
+R0286,include,,"autonomously interpret reports, execute PoCs in isolated settings, and generate structured outputs",high
+R0287,exclude,EC2,"tool leverages LLMs to furnish additional information on commands, empowering users with AI-generated insights",high
+R0288,include,,"multi-agent architecture orchestrated by an AI agentic framework with a stateful workflow engine",high
+R0289,include,,"novel multi-agent framework based on Large Language Models (LLM) designed to extract insights",high
+R0290,exclude,EC2,"effectively identifying security flaws and suggesting actionable fixes",high
+END_CSV

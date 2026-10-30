@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0097,include,,"introduce hackingBuddyGPT, a fully automated LLM-driven prototype designed for evaluating autonomous Linux privilegeescalation",high
+R0139,include,,"Our framework leverages multi-agent collaboration to automate intelligence gathering, vulnerability analysis, and exploitation stages",high
+END_CSV

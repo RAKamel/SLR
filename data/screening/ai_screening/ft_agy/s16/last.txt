@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0340,exclude,EC4,"automating the security compliance process",high
+R0347,include,,"rubric for assessing agentic capabilities in security tasks.",high
+END_CSV

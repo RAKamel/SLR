@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0121,include,,"proposes a hybrid multi-agent penetration testing framework based on Large Language Models",high
+R0122,exclude,EC3,"identifies vulnerabilities arising from prompt injection",high
+R0123,exclude,EC4,"design of a decentralized smart home system based on Edge Computing",high
+R0124,include,,"AutoPenGPT, a multi-agent framework for automated Web security testing",high
+R0125,exclude,EC4,"multi-sensor aerial-ground surveillance infrastructure that integrates unmanned aerial vehicles",high
+R0126,exclude,EC2,"Large Language Models for Synthetic Dataset Generation of Cybersecurity Indicators of Compromise",high
+R0127,exclude,EC2,"zero-shot explainable phishing detection system that operates exclusively on webpage screenshots",high
+R0128,exclude,EC2,"invoking generative code synthesis only as a last resort",high
+R0129,exclude,EC2,"simultaneous multi-class threat classification and MITRE CAPEC-aligned mitigation generation",high
+R0130,include,,"autonomous agents that perform tasks such as reconnaissance, scanning, and exploitation",high
+END_CSV

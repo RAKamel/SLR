@@ -1,0 +1,19 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0025",
+    "QA3": "P",
+    "QA3_quote": "Figure 9 presents a comparison of baseline Federated Learning and the integrated FL with LLMamongst all clients."
+  },
+  {
+    "id": "R0028",
+    "QA4": "P",
+    "QA4_quote": "they can suffer from hallucinations or gaps in factual knowledge, especially when faced with domain-specific or evolving threats."
+  },
+  {
+    "id": "R0044",
+    "QA3": "Y",
+    "QA3_quote": "Using the PRISMA methodology, a structured search was conducted across six major scientific databases"
+  }
+]
+END_JSON

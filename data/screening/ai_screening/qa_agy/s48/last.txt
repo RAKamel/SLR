@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0541",
+    "QA1": "Y",
+    "QA1_quote": "RQ1: Can Agentic AI accurately detect and mitigate cyberattacks on IoEV charging stations with explainable mechanisms?",
+    "QA2": "P",
+    "QA2_quote": "implement a three-agent pipeline, where each agent uses LLM-driven reasoning and dynamic tool invocation",
+    "QA3": "P",
+    "QA3_quote": "its generated responses were compared with expert-verified GPT-4 references using BARTScore to assess linguistic quality",
+    "QA4": "P",
+    "QA4_quote": "focusing on their robustness against realistic threats such as prompt injection, jailbreaking, adversarial intent manipulation, and input poisoning."
+  }
+]
+END_JSON

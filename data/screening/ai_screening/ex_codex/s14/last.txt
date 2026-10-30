@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0200",
+  "study_type": "Three-phase methodology with experimental evaluation",
+  "RQ1 task_stage": "Automated security validation, vulnerability detection, and iterative firmware patch refinement",
+  "RQ1 domain": "Networked embedded systems; FreeRTOS firmware for networking and real-time control tasks",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "Multi-agent framework: Threat Detection, Performance Optimization, and Compliance Verification agents; iterative testing-feedback-patching loop with security rules database",
+  "RQ2 llm_used": "OpenAI GPT-4",
+  "RQ2 adaptation": "Structured prompt engineering and error-report-driven iterative refinement; specialized agent models trained on domain-specific datasets",
+  "RQ3 autonomy_level": "Automated validation, security testing, vulnerability classification, and LLM-generated patches in repeated fuzz-patch cycles with minimal human intervention",
+  "RQ3 hitl": "Minimal human validation before patches are merged; intervention for hardware-specific constraints and incomplete fixes",
+  "RQ4 dataset": "Generated firmware components SensorTask and NetworkTask, including MQTT handling; agent training uses embedded security databases, RTOS performance logs, and historical firmware vulnerability records",
+  "RQ4 environment": "Virtualized FreeRTOS on QEMU, using the official FreeRTOS QEMU port",
+  "RQ4 metrics": "VRR, SCI, TMCS, WCET, Task Jitter, Agent Detection Accuracy, and Iteration Efficiency Index",
+  "RQ4 baseline_type": "LLM-only firmware generation and individual-agent configurations",
+  "RQ4 headline_result": "All agents achieved 92.4% VRR versus 67.3% LLM-only, reported as 37.3% improvement; TMCS 95.8%, SCI 0.87",
+  "RQ4 compared_to": "LLM Only; Detection Agent; Optimization Agent; Verification Agent",
+  "RQ4 code_available": "yes + https://github.com/MoeinAbtahi/Securing-LLM-Generated-EmbeddedFirmware-through-Iterative-Testing-and-Patching",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Buffer overflows, race conditions, DoS, missed deadlines, hangs, and incomplete fixes; agent prompt injection/task hijacking and GPT-4 model-specific biases",
+  "RQ5 mitigations": "Fuzz testing, static analysis, runtime monitoring, security rules, iterative patch verification, mutex synchronization, and minimal human validation",
+  "author_limitations (verbatim)": "Our testing procedures rely heavily on predefined patterns, limiting their ability to uncover novel attack vectors or deeply contextual flaws.",
+  "author_future_work (verbatim)": "We plan to extend validation to physical embedded platforms including STM32, ESP32, and ARM Cortex-M boards to test hardware-specific vulnerabilities and evaluate security-performance trade-offs in realistic deployments.",
+  "evidence (page/section)": "Study/task/domain: Abstract, III.A–G, IV; architecture/adaptation: III.C, III.E, III.G–H, IV.A–C; autonomy/HITL: III.G, IV.C, V; dataset/environment: III.D–H, IV.D; metrics/baselines/results: III.I, V Table III; code: IV.D and footnote 1; data status: Table II, VI; risks/mitigations: I, III.B–G, V–VI; limitations/future work: VI."
+}
+END_JSON

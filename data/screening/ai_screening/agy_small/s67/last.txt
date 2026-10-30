@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0661,include,,"Despite rapid advances in Large Language Models (LLMs), reliably automating this BIR workflow",high
+R0662,exclude,EC1,"conceptual framework for implementing a unified AI and ML solution",high
+R0663,include,,"LLM-guided web/API dynamic application security testing (DAST)",high
+R0664,exclude,EC2,"develop computational cognitive profiles that simulate human behavior to bypass automated detection",high
+R0665,exclude,EC2,"as well as LLM-based code rewriting.",high
+R0666,exclude,EC1,"VAEs and GANs create a common hidden area in the proposed method.",high
+R0667,exclude,EC1,"we propose AG-TARA, which combines attack graph modeling, Graph Attention Networks (GAT)",high
+R0668,exclude,EC2,"automate compliance reporting, and improve threat detection.",high
+R0669,exclude,EC2,"Large Language Models (LLMs) to automate the customisation of security services",high
+R0670,exclude,EC4,"we posit that cybersecurity is the better test-case for general AI progress",high
+END_CSV

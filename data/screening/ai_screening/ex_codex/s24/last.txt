@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0315",
+  "study_type": "Two-stage LLM-based framework with experimental evaluation; proof of concept",
+  "RQ1 task_stage": "Automated penetration testing discovering multiple vulnerabilities; generation and selection of remediation recommendations",
+  "RQ1 domain": "Computer hosts, systems, and network infrastructures; evaluated on a single Linux virtual machine",
+  "RQ1 orientation": "Defensive: penetration testing as a defensive strategy and vulnerability remediation",
+  "RQ2 architecture": "Multiple LLM-based agents: Planner, Executor, Instructor, Summarizer, Extractor, Estimator, Advisor, and Evaluator; attack-plan update loop, recorded attack history, external knowledge base, Metasploit/Nmap, NVD API, and Group Knapsack Algorithm",
+  "RQ2 llm_used": "GPT-4: Planner, Executor, Advisor, Evaluator; GPT-3.5-turbo: Summarizer, Extractor, Estimator",
+  "RQ2 adaptation": "Role-play prompting and Counterfactual Prompting; Langchain-based RAG Instructor with two penetration-testing books",
+  "RQ3 autonomy_level": "After receiving the target IP address, autonomously plans and executes penetration testing and generates selected remediation recommendations; does not execute remediation strategies",
+  "RQ3 hitl": "User supplies target IP address; optionally specifies remediation costs and overall budget, and receives recommendations",
+  "RQ4 dataset": "Metasploitable2 official documentation: 10 types of vulnerabilities exploitable from the terminal",
+  "RQ4 environment": "Metasploitable2 Linux VM (2019-08-19); Kali Linux attacking VM (2024-01), with Metasploit and Nmap, on the same private network",
+  "RQ4 metrics": "Detection Coverage Score, Remediation Effectiveness Score, Remediation Cost Score, and overall performance score; averaged over three runs",
+  "RQ4 baseline_type": "LLM-based penetration-testing system and GPT-4; ablated PenHeal variants",
+  "RQ4 headline_result": "Detection coverage improved by 31% (score 5.67), remediation effectiveness by 32% versus PentestGPT (score 7.6), and costs reduced by 46%; reported overall score 9.87",
+  "RQ4 compared_to": "PentestGPT and GPT-4; PenHeal-noCounterfactual, PenHeal-noInstructor, PenHeal-noEvaluator",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "Metasploitable2 stated to be open-source and freely available for download; URL not stated",
+  "RQ5 risks_addressed": "Hallucinated or incorrect commands, repeated attack paths, ineffective or disruptive remediation recommendations; accidental damage, security/privacy concerns, and malicious misuse",
+  "RQ5 mitigations": "RAG guidance, Counterfactual Prompting, and budget-constrained recommendation evaluation; prompted to avoid exploitation following discovery, with cautious monitoring and usage advised",
+  "author_limitations (verbatim)": "Moreover, while the model performs well on a single machine, its efficacy on multiple machines within a network may vary. Due to time constraints, our testing has been limited to the Metasploitable2 machine, without the opportunity for broader experimentation.",
+  "author_future_work (verbatim)": "Therefore, future work could focus on enhancing the model’s integration of diverse cybersecurity tools to widen its applicability across different network settings.",
+  "evidence (page/section)": "Study type: §§1, 6.2; tasks/domain/orientation: §§1, 2.1.2, 4.1, 5.1.1; architecture/adaptation/models: §§2.2.2–2.2.3, 4.2–4.3, 5.1.2; autonomy/human involvement: §§4.1–4.2, 5.3, 6.2; dataset/environment/availability: §5.1.1; metrics/baselines/results: §§5.2–5.4, Figure 4; risks/mitigations: §§4.2.1–4.2.5, 4.3.3, 5.5.3, 6.2–6.3; limitations/future work: §6.2"
+}
+END_JSON

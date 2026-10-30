@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0249",
+  "study_type": "Analytical study of existing LLM-based penetration testing benchmarks; systematic mapping of six benchmarks to MITRE ATT&CK Enterprise.",
+  "RQ1 task_stage": "Penetration testing across the full Cyber Kill Chain, emphasizing post-exploitation, lateral movement, and multi-stage attack chains.",
+  "RQ1 domain": "Enterprise networks; interconnected multi-host environments, including Windows Active Directory.",
+  "RQ1 orientation": "Offensive security.",
+  "RQ2 architecture": "not stated",
+  "RQ2 llm_used": "not stated",
+  "RQ2 adaptation": "Reviewed approaches include foundation models, fine-tuning on custom datasets, and RAG with CTF writeups, CVE reports, or TTP-related information.",
+  "RQ3 autonomy_level": "not stated",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "Benchmark descriptions and disclosed MITRE ATT&CK mappings for AI-Pentest-Benchmark, NYU-CTF-Bench, 3CB, GoAD, AutoAttacker, and MHBench.",
+  "RQ4 environment": "Published benchmark environments analyzed; independent MHBench mapping based on environment descriptions in its paper.",
+  "RQ4 metrics": "Approximate number of environments and average targets per scenario; percentage of tasks representing MITRE ATT&CK tactics; Initial and Post-Compromise coverage.",
+  "RQ4 baseline_type": "Comparison of task-based penetration testing benchmarks.",
+  "RQ4 headline_result": "Post-Compromise coverage: AI-Pentest-Benchmark 15%, NYU-CTF-Bench 25%, 3CB 33%, GoAD 10%, AutoAttacker 28%, and MHBench 42%.",
+  "RQ4 compared_to": "AI-Pentest-Benchmark, NYU-CTF-Bench, Catastrophic Cyber Capabilities Benchmark (3CB), GoAD, AutoAttacker, and MHBench.",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "yes + https://cylab.be/waiti2025",
+  "RQ5 risks_addressed": "Offensive misuse and lowered skill barriers; hallucinations, context loss, benchmark contamination, and selective/test snooping.",
+  "RQ5 mitigations": "Private test sets and dynamic/procedural generation discussed; coherent attack-chain evaluation, MITRE ATT&CK coverage mapping, and transparent model/system cards recommended.",
+  "author_limitations (verbatim)": "Such mappings do not capture task interdependencies, regardless of whether complex scenarios are included.",
+  "author_future_work (verbatim)": "To support the next phase of progress, we identify three areas of research focus: 1) stronger emphasis on post-exploitation benchmarks; 2) systematic evaluation of multi-stage attack chains rather than disjoint tasks or individual challenges; 3) standardized, transparent reporting of benchmark coverage according to established frameworks.",
+  "evidence (page/section)": "Abstract and §1: study type and scope; §2 Operational Context: tasks and domain; §3 Automation and LLMs: reviewed adaptations and reliability risks; §4.1: contamination and mitigation approaches; §5 Systematic Assessment, Figures 1–2, Table 1, footnote 3: benchmark sources, comparison, metrics, results, data availability, limitations, and reporting recommendations; §6 Conclusion: future work."
+}
+END_JSON

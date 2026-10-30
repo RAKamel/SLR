@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0528",
+    "QA1": "Y",
+    "QA1_quote": "The Neuro-Agentic Loop is designed to autonomously identify new risks, develop counterfactual control strategies, and reject risky or hallucinatory actions.",
+    "QA2": "Y",
+    "QA2_quote": "The feasibility constraints are also checked (|µ| ≤ 60 mm/timestep, 5 ≤ δ ≤ 50 timesteps).",
+    "QA3": "P",
+    "QA3_quote": "a fully fair comparison would also include a foundation-model-only ablation",
+    "QA4": "Y",
+    "QA4_quote": "does not capture nonlinearities such as inflow coupling, hydraulic transients, or sensor lag"
+  },
+  {
+    "id": "R0538",
+    "QA1": "Y",
+    "QA1_quote": "We provide the first systematic review of LLMpowered honeypots",
+    "QA2": "P",
+    "QA2_quote": "we identify an emerging canonical model for LLM-honeypots (Figure 1) that incorporates components for filtering, state management, and generation",
+    "QA3": "Y",
+    "QA3_quote": "This framework delineates the capabilities LLM simulation can realistically advance versus those it fundamentally cannot address.",
+    "QA4": "Y",
+    "QA4_quote": "securing the honeypot itself against prompt injections, flooding attacks, or context overflow."
+  },
+  {
+    "id": "R0541",
+    "QA1": "Y",
+    "QA1_quote": "Can Agentic AI accurately detect and mitigate cyberattacks on IoEV charging stations with explainable mechanisms?",
+    "QA2": "P",
+    "QA2_quote": "The forecasting components rely on a pre-trained LSTM model",
+    "QA3": "P",
+    "QA3_quote": "the SA, merely maps the finalized problem and its instantiated parameters to external python solvers",
+    "QA4": "Y",
+    "QA4_quote": "their robustness against realistic threats such as prompt injection, jailbreaking, adversarial intent manipulation, and input poisoning."
+  }
+]
+END_JSON

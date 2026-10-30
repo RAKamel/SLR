@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0381,include,,"gathers project-specific evidence through autonomous LLM-driven agents",high
+R0382,exclude,EC2,"systematically evaluate the impact of different prompting strategies on the quality of LLM-generated code",high
+R0383,include,,"AMD, a multi-agent system integrating static analysis, dynamic sandboxing, threat intelligence enrichment",medium
+R0384,maybe,,"enables semi-automated vulnerability analysis and exploitation",medium
+R0385,exclude,EC2,"LLM-driven interpreter produces concise, human-readable explanations for IDS alerts",high
+R0386,include,,"modular multi-agent architecture that integrates established cybersecurity analysis tools with large language models",high
+R0387,exclude,EC2,"uses advanced natural language processing techniques, including a large language model (RoBERTa)",high
+R0388,include,,"Agentic AI framework for RF signal classification that combines consortium of fine-tuned vision-language models",high
+R0389,include,,"anomaly detection architecture integrating heterogeneous retrieval augmentation and multi-agent games",high
+R0390,include,,"real-time multi-agent system to detect and react to the network dynamically and efficiently",high
+END_CSV

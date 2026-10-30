@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0528,include,,"The Neuro-Agentic Loop is designed to autonomously identify new risks",high
+R0538,exclude,EC2,"generate convincing text, code, and shell interactions",high
+END_CSV

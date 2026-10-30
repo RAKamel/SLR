@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0041,include,,"Supervisor Agent that enables the shift from scripted automation to autonomous orchestration",high
+R0042,exclude,EC2,"Automated Cyber Threat Intelligence (CTI) generation through the usage of large language models",high
+R0043,include,,"orchestrating specialized agents via the LangGraph framework, ALIoTh dynamically plans and executes",high
+R0044,include,,"autonomous AI agents to enable intelligent attack detection and response.",high
+R0045,exclude,EC4,"machine-centric roadmap for adopting artificial intelligence in Internet-of-Things (IoT) automation",high
+R0046,exclude,EC4,"integrated into unmanned aerial vehicle (UAV) systems to support mission planning",high
+R0047,exclude,EC2,"finetuned DistilBERT model for anomaly detection in contextualized IAM and system logs",high
+R0048,exclude,EC3,"A Hallucination Detection Framework for Large Language Models in Cybersecurity",high
+R0049,include,,"LLM-based neurosymbolic architecture to identify and contain autonomously cyber threats",high
+R0050,exclude,EC2,"this system can detect the presence of a potential threat",high
+END_CSV

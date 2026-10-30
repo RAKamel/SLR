@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0427",
+    "QA1": "Y",
+    "QA1_quote": "we propose LogRESP-Agent, a modular AI framework built around a reasoning-based agent for log-driven security prediction and response.",
+    "QA2": "P",
+    "QA2_quote": "The system is driven by a high-performance Large Language Model (LLM), which dynamically orchestrates a suite of specialized tools",
+    "QA3": "Y",
+    "QA3_quote": "We evaluated LogRESP-Agent on both anomaly detection and multi-class classification tasks using the Monster-THC and EVTX-ATTACK-SAMPLES datasets.",
+    "QA4": "Y",
+    "QA4_quote": "Despite its strengths, LogRESP-Agent currently focuses on detection and explanation rather than direct automated response"
+  }
+]
+END_JSON

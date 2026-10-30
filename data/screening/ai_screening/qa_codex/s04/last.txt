@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0139",
+    "QA1": "Y",
+    "QA1_quote": "Our objective is to develop a comprehensive and automated penetration testing framework that integrates all stages",
+    "QA2": "P",
+    "QA2_quote": "PentestAgent employs a multi-agent design where each agent is responsible for a specific task in the penetration testing process.",
+    "QA3": "Y",
+    "QA3_quote": "Our comprehensive benchmark, based on VulHub’s vulnerable Docker environments and HackTheBox CTF challenges, provided a comprehensive test bed of PentestAgent.",
+    "QA4": "Y",
+    "QA4_quote": "We also implement several stop conditions to prevent unintended consequences of hallucination"
+  },
+  {
+    "id": "R0156",
+    "QA1": "Y",
+    "QA1_quote": "Cybersecurity defense strategy generation transforms threat intelligence into comprehensive and actionable defense measures through automated analysis and synthesis.",
+    "QA2": "P",
+    "QA2_quote": "All agents share the same backbone LLM without fine-tuning",
+    "QA3": "Y",
+    "QA3_quote": "Experimental results demonstrate that MACD significantly outperforms single-agent, retrieval-only, and deep research baselines",
+    "QA4": "P",
+    "QA4_quote": "Future work will explore real-time deployment and extending coverage to emerging attack vectors such as supply chain and IoT threats."
+  },
+  {
+    "id": "R0174",
+    "QA1": "Y",
+    "QA1_quote": "we propose a hyper-automation SOAR platform powered by agentic-LLM, leveraging Large Language Models (LLMs) to optimize automation workflows.",
+    "QA2": "P",
+    "QA2_quote": "The capabilities of a multi-step reasoning AI agent are demonstrated, featuring shared memory, external tool integration, and human-in-theloop functionality.",
+    "QA3": "P",
+    "QA3_quote": "Nonetheless, the validation conducted thus far remains limited in scope.",
+    "QA4": "Y",
+    "QA4_quote": "While machine-learning models have a potential risk of misclassification or false positives"
+  }
+]
+END_JSON

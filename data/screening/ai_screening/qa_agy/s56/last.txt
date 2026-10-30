@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0712",
+    "QA1": "Y",
+    "QA1_quote": "to evaluate the capabilities of LLMs to perform Assumed Breach Simulations against live networks.",
+    "QA2": "Y",
+    "QA2_quote": "OpenAI’s o1 (o1-preview-2024-12-17) for the high-level Planner with OpenAI’s GPT-4o (temperature set to 0) for the low-level Executor.",
+    "QA3": "Y",
+    "QA3_quote": "Evaluation of the LLM prototype was conducted by professional penetration testers tracking three distinct outcomes.",
+    "QA4": "P",
+    "QA4_quote": "If off-the-shelf LLMs are capable of penetration-testing, future LLMs should include safe rails to prevent abuse."
+  }
+]
+END_JSON

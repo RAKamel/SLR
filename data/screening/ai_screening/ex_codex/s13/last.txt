@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0197",
+  "study_type": "Proposed framework with comparative experiments and ablation studies",
+  "RQ1 task_stage": "Autonomous penetration testing: information gathering, vulnerability scanning and exploitation, privilege escalation, and lateral movement",
+  "RQ1 domain": "Enterprise networks with DMZ, Office, Operations, and Core Production security zones",
+  "RQ1 orientation": "Offensive: red-team internal network penetration",
+  "RQ2 architecture": "Two collaborative LLMs for strategic planning and tactical action generation; DQN with prioritized experience replay selects actions, with positive–negative separated feedback memory",
+  "RQ2 llm_used": "Qwen3-14B for strategic planning; Qwen3-Max for action generation",
+  "RQ2 adaptation": "Structured prompting and in-context environmental feedback with frozen LLM parameters; DQN policy learning with prioritized experience replay",
+  "RQ3 autonomy_level": "Autonomously generates and executes penetration-testing action sequences, ultimately retrieving the target Flag from the core production zone",
+  "RQ3 hitl": "not stated",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "Controlled enterprise penetration-testing simulation platform; ten business nodes across four logical security zones, with deterministic state transitions",
+  "RQ4 metrics": "Episode cumulative reward; logical violations and invalid prerequisite actions; feedback action repetition rates; action behavior distribution; penetration depth; decision steps in successful episodes",
+  "RQ4 baseline_type": "Deep reinforcement learning algorithms for large action spaces; knowledge-driven LLM baseline",
+  "RQ4 headline_result": "Average penetration depth 3.33 out of 4.00 versus reinforcement learning baselines ≤1.27 and LLM-based baseline 1.12; successful episodes averaged 128.43 decision steps",
+  "RQ4 compared_to": "BDQ (Branching Dueling Q-Network); Wolpertinger; Discrete SAC; Knowledge-Driven Baseline",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Factual hallucinations, environmentally invalid actions, repetitive trial-and-error loops, and premature convergence to suboptimal local optima",
+  "RQ5 mitigations": "Structured action templates, observed-entity parameter constraints, prompted prerequisite validation, and separated feedback memory; DQN evaluation, invalid-output fallback, and ε-greedy exploration",
+  "author_limitations (verbatim)": "Per-call latency was not systematically recorded during the original experiments; therefore, reliable mean, median, and latency-variability statistics are unavailable.",
+  "author_future_work (verbatim)": "Real enterprise networks may exhibit stochasticity due to network latency, service instability, defensive mechanisms, and concurrent activities; extending the framework to stochastic transition models is therefore an important direction for future work.",
+  "evidence (page/section)": "Study type and headline result: Abstract, p. 1; tasks and autonomy: §4.1.1, p. 16; domain and environment: §§2.1–2.2.1, pp. 4–5; orientation: Introduction and §2.2, pp. 3–4; architecture and adaptation: §§3.1–3.3, pp. 7–15; models: §§3.2 and 4.1.3, pp. 9, 17; metrics: §4.1.2, pp. 16–17; baselines: §4.2.1, pp. 17–19; risks and mitigations: Introduction, §§3.2.1–3.3.2, pp. 3, 9–15; limitations: §4.1.3, p. 17; future work: §2.1, p. 4. Supplied text ends during §4.3.1."
+}
+END_JSON

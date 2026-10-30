@@ -1,0 +1,10 @@
+# Public repository: keep publishers' copyrighted full texts and derived excerpts local
+data/fulltext/
+/*.pdf
+data/screening/ai_screening/**/brief.txt
+data/screening/ai_screening/ft_excerpts.json
+data/screening/ai_screening/qa_text.json
+data/screening/ai_screening/mech_codex/paper_backup/
+# working backups made before each write
+*_before_*.xlsx
+~$*

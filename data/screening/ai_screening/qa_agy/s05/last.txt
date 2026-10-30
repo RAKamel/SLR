@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0044",
+    "QA1": "Y",
+    "QA1_quote": "Based on our investigation and analysis, this study proposes a security framework augmented with SOC-LLM for blockchain-enabled multi-cloud systems.",
+    "QA2": "P",
+    "QA2_quote": "The proposed framework introduces specialized agents for detection, correlation, threat intelligence retrieval, blockchain evidence validation, explanation generation, and response planning.",
+    "QA3": "Y",
+    "QA3_quote": "Using the PRISMA methodology, a structured search was conducted across six major scientific databases",
+    "QA4": "Y",
+    "QA4_quote": "Although the systematic methodology used in this literature review analysis reduces selection bias, the following limitations should be noted."
+  }
+]
+END_JSON

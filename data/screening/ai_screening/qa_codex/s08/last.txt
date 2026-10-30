@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0309",
+    "QA1": "Y",
+    "QA1_quote": "to evaluate the effectiveness of the proposed approach against state-of-the-art APT detection methods.",
+    "QA2": "P",
+    "QA2_quote": "Three specialized agents (Email, Document, Log Analysis) coordinate through a Central Hub",
+    "QA3": "Y",
+    "QA3_quote": "The evaluation includes statistical validation of simulation quality, expert assessment of scenario realism, and performance comparison",
+    "QA4": "Y",
+    "QA4_quote": "the framework has not been evaluated in a fully adversarial setting"
+  },
+  {
+    "id": "R0311",
+    "QA1": "Y",
+    "QA1_quote": "to propose a novel four-layer AI agent architecture for automating routine security operations",
+    "QA2": "P",
+    "QA2_quote": "full replication would require access to the custom-developed test applications and specific tool configurations used in the experiments.",
+    "QA3": "Y",
+    "QA3_quote": "each approach was allocated an equivalent testing budget of 40 h per application set.",
+    "QA4": "Y",
+    "QA4_quote": "the controlled testing environment may not fully reflect the complexity of production-scale systems"
+  },
+  {
+    "id": "R0315",
+    "QA1": "Y",
+    "QA1_quote": "Can LLMs automate vulnerability remediation effectively and cost-efficiently?",
+    "QA2": "P",
+    "QA2_quote": "Our model, PenHeal, incorporates several LLM-based agents, enabling it to utilize common cybersecurity tools like Metasploit, Nmap, and API access",
+    "QA3": "P",
+    "QA3_quote": "Due to time constraints, our testing has been limited to the Metasploitable2 machine, without the opportunity for broader experimentation.",
+    "QA4": "Y",
+    "QA4_quote": "our model sometimes hallucinates, leading to the generation of incorrect commands"
+  }
+]
+END_JSON

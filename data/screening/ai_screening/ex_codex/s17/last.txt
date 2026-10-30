@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0223",
+  "study_type": "Fully functional prototype with comprehensive evaluation and industry case study",
+  "RQ1 task_stage": "SIEM-specific detection rule generation; rule conversion between Splunk SPL and Microsoft Sentinel KQL",
+  "RQ1 domain": "SIEM security operations, tailored to Splunk; Windows system, Sysmon, and PowerShell logs",
+  "RQ1 orientation": "Defensive threat detection",
+  "RQ2 architecture": "LLM-based agent with CoT reasoning, intermediate representation, and reflection/iterative optimization; function calling, grammar checks, and live Splunk API feedback",
+  "RQ2 llm_used": "GPT-4o; DeepSeek-V3 (671B); LLaMA-3 (405B); text-embedding-ada-002 for conversion retrieval",
+  "RQ2 adaptation": "Least-to-Most Prompting, expert-informed prompts with examples, CoT and reflection; RAG using Microsoft migration documentation for rule conversion",
+  "RQ3 autonomy_level": "Automatically generates detection rules without further intervention after receiving descriptions; autonomously selects tools and iteratively refines rules using execution feedback",
+  "RQ3 hitl": "Analysts provide rule descriptions; human operators verify correctness and effectiveness before final deployment",
+  "RQ4 dataset": "1,699 Splunk Security Content rules; 229,968 logs from 61 atomic tests; 30 industry SPL–KQL rule pairs",
+  "RQ4 environment": "Splunk 9.3.1 with trial license; controlled Windows 10 (64-bit) virtual machine running simulated atomic attacks",
+  "RQ4 metrics": "BLEU-4, ROUGE-1, ROUGE-L, METEOR; six semantic quality scores, precision, recall, F1, token usage, monetary cost, generation time",
+  "RQ4 baseline_type": "Standalone LLMs without structured reasoning or function calling; component ablation variants",
+  "RQ4 headline_result": "Textual similarity improvements of 20.9%–107.4%; detection F1 up to 1.00; aggregation-based and list-based conversions achieved precision, recall, and F1 of 1.000",
+  "RQ4 compared_to": "Standalone GPT-4o, DeepSeek-V3 (671B), and LLaMA-3 (405B)",
+  "RQ4 code_available": "yes https://github.com/LLM4SOC-Topic/RulePilot",
+  "RQ4 data_available": "yes https://sites.google.com/view/rulepilot/dataset",
+  "RQ5 risks_addressed": "Logical inconsistencies, syntax errors, missing conditions and field mappings, false positives/negatives, inefficient execution; sensitive information in industry rules",
+  "RQ5 mitigations": "Structured IR, scoring-based reflection, Splunk dry-run validation and execution feedback; final human verification and industry-data anonymization",
+  "author_limitations (verbatim)": "We analyze that the failures often occur when the key behavioral indicators are implicitly described in input descriptions, rendering RulePilot and vanilla LLMs ineffective.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "§1 Introduction: tasks, autonomy, headline results, releases; §2.2 Motivation Scenarios: human verification; §§3.1–3.3: architecture, prompting, validation, RAG; §§4.1.1–4.1.4: models, datasets, environment, baselines; §4.2: metrics; §4.3.1 and Tables 5–6: results and failure cases; §4.3.2 and Table 7: efficiency; §4.3.3: ablations; rule-conversion evaluation passage and Table 8 discussion: industry pairs, anonymization, conversion results"
+}
+END_JSON

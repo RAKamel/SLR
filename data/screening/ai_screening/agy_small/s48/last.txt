@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0471,exclude,EC2,"combines Evidence-Based Priority Scoring (EBPS), GNN-based reachability analysis, LLM-based patch synthesis",high
+R0472,include,,"controlled experimental evaluation of an LLM-guided offensive security pipeline against deterministic scripted baselines",high
+R0473,include,,"multi-agent architecture to enhance RL-based autonomous agents using a hierarchy of large language models",high
+R0474,include,,"agentic AI framework that harnesses the task decomposition and planning capabilities of Large Language Models",high
+R0475,exclude,EC4,"nine-pillar national AI governance control taxonomy tailored to Azerbaijan's legislative context",high
+R0476,exclude,EC2,"an on-premises LLM resolves conflicts only when demonstrations disagree",high
+R0477,include,,"autonomous agent for network security operations empowered by an LLM",high
+R0478,exclude,EC4,"Data validation has evolved from a static preprocessing step into a continuous requirement",high
+R0479,include,,"novel LLM agent as an autonomous cyber defender and benchmark it using the CAGE-2",high
+R0480,include,,"protocol that evolves prompt-injected natural-language memory for hierarchical ReAct agents",high
+END_CSV

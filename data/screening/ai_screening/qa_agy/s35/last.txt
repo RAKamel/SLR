@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0409",
+    "QA1": "Y",
+    "QA1_quote": "RQ: To what extent can we automate security testing with LLMs?",
+    "QA2": "Y",
+    "QA2_quote": "The prototype’s source code and documentation are provided at https://github.com/ipa-lab/hackingBuddyGPT.",
+    "QA3": "P",
+    "QA3_quote": "Our script was routinely able to gain root privileges within the virtual machine.",
+    "QA4": "Y",
+    "QA4_quote": "However, tools can easily be subverted for malicious purposes."
+  }
+]
+END_JSON

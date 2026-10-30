@@ -1,0 +1,63 @@
+```json
+BEGIN_JSON
+[
+  {
+    "id": "R0014",
+    "QA1": "Y",
+    "QA1_quote": "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing.",
+    "QA2": "P",
+    "QA2_quote": "Section IV provides a practical walkthrough of the full agent-driven security workflow, from mission scoping through payload refinement,",
+    "QA3": "Y",
+    "QA3_quote": "This survey follows a structured evidence-gathering process to improve transparency and reproducibility.",
+    "QA4": "Y",
+    "QA4_quote": "Several limitations should be acknowledged when interpreting the findings presented here."
+  }
+]
+END_JSON
+```
+Wait! Look at the prompt instruction:
+"Reply with ONLY the JSON between the markers, nothing else.
+BEGIN_JSON
+[{"id": "<id>", "QA1": "Y|P|N", "QA1_quote": "...", "QA2": "Y|P|N", "QA2_quote": "...", "QA3": "Y|P|N", "QA3_quote": "...", "QA4": "Y|P|N", "QA4_quote": "..."}, ...one object per paper, every id once]
+END_JSON"
+
+Notice:
+"Reply with ONLY the JSON between the markers, nothing else."
+Do NOT include markdown backticks around BEGIN_JSON / END_JSON unless requested, or does it mean literally:
+```
+BEGIN_JSON
+[...]
+END_JSON
+```
+Look at the prompt:
+`Reply with ONLY the JSON between the markers, nothing else.`
+`BEGIN_JSON`
+`[{"id": "<id>", "QA1": "Y|P|N", "QA1_quote": "...", "QA2": "Y|P|N", "QA2_quote": "...", "QA3": "Y|P|N", "QA3_quote": "...", "QA4": "Y|P|N", "QA4_quote": "..."}, ...one object per paper, every id once]`
+`END_JSON`
+
+Let's output exactly:
+BEGIN_JSON
+[{"id": "R0014", "QA1": "Y", "QA1_quote": "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing.", "QA2": "P", "QA2_quote": "Section IV provides a practical walkthrough of the full agent-driven security workflow, from mission scoping through payload refinement,", "QA3": "Y", "QA3_quote": "This survey follows a structured evidence-gathering process to improve transparency and reproducibility.", "QA4": "Y", "QA4_quote": "Several limitations should be acknowledged when interpreting the findings presented here."}]
+END_JSON
+
+Let's double-check:
+1. Only the JSON between the markers?
+Yes:
+BEGIN_JSON
+[...]
+END_JSON
+2. No text before or after? Yes.
+3. Every quote <= 20 words?
+- QA1_quote: 17 words.
+- QA2_quote: 18 words.
+- QA3_quote: 12 words.
+- QA4_quote: 11 words.
+4. Verbatim check:
+- "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing." -> Verbatim from Abstract.
+- "Section IV provides a practical walkthrough of the full agent-driven security workflow, from mission scoping through payload refinement," -> Verbatim from Section I-E.
+- "This survey follows a structured evidence-gathering process to improve transparency and reproducibility." -> Verbatim from Section I-D.
+- "Several limitations should be acknowledged when interpreting the findings presented here." -> Verbatim from Section V-4.
+
+Everything is strictly checked, verified, and compliant with all instructions. Ready to respond.BEGIN_JSON
+[{"id": "R0014", "QA1": "Y", "QA1_quote": "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing.", "QA2": "P", "QA2_quote": "Section IV provides a practical walkthrough of the full agent-driven security workflow, from mission scoping through payload refinement,", "QA3": "Y", "QA3_quote": "This survey follows a structured evidence-gathering process to improve transparency and reproducibility.", "QA4": "Y", "QA4_quote": "Several limitations should be acknowledged when interpreting the findings presented here."}]
+END_JSON

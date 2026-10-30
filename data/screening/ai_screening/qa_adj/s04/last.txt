@@ -1,0 +1,19 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0208",
+    "QA4": "P",
+    "QA4_quote": "Although templates accelerate response generation, overuse reduces novelty and may risk early detection by scammers."
+  },
+  {
+    "id": "R0210",
+    "QA3": "P",
+    "QA3_quote": "Extending the analysis to the full framework remains an important direction for future work."
+  },
+  {
+    "id": "R0276",
+    "QA2": "Y",
+    "QA2_quote": "The prototype version used for the experiment runs detailed within this paper was 3084bcdd99f85e5ce324f25d0d49f80439fd5382"
+  }
+]
+END_JSON

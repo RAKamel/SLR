@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0701",
+    "QA1": "Y",
+    "QA1_quote": "We present Cochise, a 630 LOC Python reference implementation for autonomous penetration-testing experiments.",
+    "QA2": "Y",
+    "QA2_quote": "The prototype implements a Planner–Executor architecture in which long-term state is maintained by the planner",
+    "QA3": "Y",
+    "QA3_quote": "We evaluate the harness against a live third-party testbed, Game of Active Directory (GOAD).",
+    "QA4": "Y",
+    "QA4_quote": "Any offensive security research is inherently dual-use research of concern (DURC)."
+  }
+]
+END_JSON

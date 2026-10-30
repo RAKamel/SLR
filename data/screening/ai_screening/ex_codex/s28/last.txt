@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0340",
+  "study_type": "Proposed security compliance framework with an initial prototype case study and preliminary comparative analysis",
+  "RQ1 task_stage": "Assess static security compliance of CU configuration files; identify non-compliance, generate explainable justifications, and propose remediation",
+  "RQ1 domain": "Next-generation RANs, O-RAN and AI-RAN; compliance module deployed in the SMO",
+  "RQ1 orientation": "Security assurance and security compliance enforcement",
+  "RQ2 architecture": "Compliance Assessment Agent and Reflection Agent with iterative refinement; prototype adds a RAG Query Generator Agent, semantic knowledge base, retrieval and re-ranking tools",
+  "RQ2 llm_used": "GPT-4.1 Mini; Gemini 2.5 Flash; Mistral Large-latest",
+  "RQ2 adaptation": "RAG and Agentic RAG; OpenAI 1536-dimensional embeddings, cosine similarity and re-ranking; knowledge-base feedback with validated remediation examples",
+  "RQ3 autonomy_level": "Prototype retrieves specifications and iteratively assesses compliance; proposed framework autonomously generates corrected configuration/code and applies compliance updates",
+  "RQ3 hitl": "Optional human escalation when agents fail to converge; human approval before enforcement, validation and override recommended until operator trust is established",
+  "RQ4 dataset": "Approximately 1,000 pages of O-RAN WG11 and eight 3GPP specifications, producing 6,400 chunks of 1,000 characters; four OpenAirInterface configuration files, each evaluated three times",
+  "RQ4 environment": "Static CU configuration compliance workflow implemented in N8N; configuration files obtained from OpenAirInterface",
+  "RQ4 metrics": "Task accuracy; BERTScore; response time in seconds",
+  "RQ4 baseline_type": "Different retrieval configurations across three LLMs",
+  "RQ4 headline_result": "Agentic RAG increased accuracy over No-RAG from 0.58 to 0.75 (GPT-4.1 Mini), 0.67 to 0.83 (Gemini 2.5 Flash), and 0.50 to 0.67 (Mistral); latency overheads approximately 74%, 189%, and 126%, respectively",
+  "RQ4 compared_to": "No-RAG and RAG configurations for GPT-4.1 Mini, Gemini 2.5 Flash and Mistral Large-latest",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinations and incorrect specification references; vendor inconsistencies and conflicting policies; compromised agents, poisoned RAG documents, manipulated inputs and falsified security events",
+  "RQ5 mitigations": "RAG, advanced prompting and multi-agent cross-validation; rollback, human approval and layered policy checks; isolation, encryption, anonymization, audits, adversarial training and input provenance/integrity verification",
+  "author_limitations (verbatim)": "Across all evaluated configurations, we observe occasional specification-level hallucinations, in which the system correctly identifies non-compliant portions of a configuration file but associates them with an incorrect specification identifier.",
+  "author_future_work (verbatim)": "Future work should focus on training models directly on telecom standards, RAN configuration schemas, known misconfigurations, security logs, and compliance policies.",
+  "evidence (page/section)": "Study type, tasks and domain: Abstract, III, III.A–B; architecture, adaptation and autonomy: III.A–B; models, datasets, environment, metrics, baselines and results: III.B, Table II; human oversight, risks and mitigations: III.A, III.B, IV.A–B; limitations: III.B; future work: IV.C"
+}
+END_JSON

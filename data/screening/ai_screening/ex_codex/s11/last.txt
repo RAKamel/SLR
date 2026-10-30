@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0156",
+  "study_type": "Multi-agent collaborative framework with experimental evaluation; CyberDefBench benchmark construction",
+  "RQ1 task_stage": "Threat understanding and ATT&CK technique mapping; reactive and proactive cybersecurity defense strategy generation",
+  "RQ1 domain": "Enterprise, Mobile, and ICS domains",
+  "RQ1 orientation": "Defensive",
+  "RQ2 architecture": "Three parallel expert agents: Technical Defense, Phase Defense, and APT Defense; Coordinator Agent performs post hoc integration, followed by validation and prioritization; stateless inference-time pipeline",
+  "RQ2 llm_used": "GPT-4 for all MACD agents; all-MiniLM-L6-v2 for embeddings",
+  "RQ2 adaptation": "Role-specific prompts and ATT&CK retrieval-augmented generation; no fine-tuning or continuous learning loop",
+  "RQ3 autonomy_level": "Automatically maps threat queries to techniques and generates, integrates, validates, and prioritizes defense recommendations",
+  "RQ3 hitl": "Measures failing feasibility checks are removed or flagged for manual assessment; security teams can adjust scoring weights",
+  "RQ4 dataset": "CyberDefBench: 160 scenarios derived from 40 real-world attack chains covering 12 APT groups; Simple, Confusing, Noisy, and False-positive scenarios",
+  "RQ4 environment": "Server with Intel Xeon Gold 6248R CPU and 128 GB RAM; evaluation on CyberDefBench",
+  "RQ4 metrics": "Technique Mapping Accuracy; Defense Coverage",
+  "RQ4 baseline_type": "Single-agent LLM; retrieval-only without LLM reasoning; autonomous web-search and synthesis LLM system",
+  "RQ4 headline_result": "84.6 ± 1.6% technique mapping accuracy and 72.3 ± 2.1% defense coverage; means and standard deviations over three runs",
+  "RQ4 compared_to": "Single-Agent LLM (SA-LLM, GPT-4); RAG-Only; Deep Research (Claude Deep Research)",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "yes + https://attack.mitre.org (Data Availability Statement specifies restrictions and permission from MITRE ATT&CK)",
+  "RQ5 risks_addressed": "Hallucinations, incorrect technique mappings, context forgetting, and inconsistent recommendations; deployment disruption and introduction of new attack surfaces",
+  "RQ5 mitigations": "ATT&CK-grounded RAG and confidence-threshold confirmation; coordinator conflict resolution and feasibility checks, with removal or manual review of failing measures",
+  "author_limitations (verbatim)": "Notably, all methods struggle with False-positive scenarios, with MACD achieving 70.0% accuracy compared to 62.5% for the best baseline, indicating that distinguishing legitimate activities from malicious behaviors remains challenging even with sophisticated multi-agent reasoning.",
+  "author_future_work (verbatim)": "Future work will explore real-time deployment and extending coverage to emerging attack vectors such as supply chain and IoT threats.",
+  "evidence (page/section)": "Study type: Abstract and Section 1; tasks/domain/architecture/adaptation/autonomy: Sections 3 and 4.1–4.4, Appendix A; human involvement and mitigations: Sections 4.3–4.5, Algorithm A1; dataset: Sections 5.1 and 6.1.3; metrics: Sections 5.3 and 6.1.2; models/environment: Section 6.1.3; baselines: Section 6.1.1; headline results: Section 6.1.4, Table 4; limitations: Section 6.1.5; risks: Sections 2.1 and 4.3–4.5; future work: Section 7; data availability: Data Availability Statement, page 14"
+}
+END_JSON

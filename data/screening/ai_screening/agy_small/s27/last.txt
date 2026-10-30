@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0261,include,,"combines agentic planning with LLM-based analysis to generate investigation hypotheses",high
+R0262,include,,"leveraging an LLM-driven, multi-agent framework for dynamic and static analysis of network traffic",high
+R0263,exclude,EC3,"vulnerable to adversarial “jailbreak” attacks designed to bypass safety guardrails",high
+R0264,include,,"automated SQLi penetration testing system based on a multi-agent architecture",high
+R0265,exclude,EC2,"LLM-powered response generation module, which formulates precise, actionable, and contextually relevant incident mitigation strategies",high
+R0266,exclude,EC2,"to generate plain-language summaries of penetration testing reports",high
+R0267,exclude,EC3,"automated red teaming framework for LLM-based agents by generating malicious MCP tools",high
+R0268,exclude,EC2,"leveraging Large Language Models (LLMs) to analyze the semantics of web pages",high
+R0269,exclude,EC3,"adversarial techniques, including prompt injection, jailbreak exploits, API-driven model extraction, and multilingual prompt manipulation",high
+R0270,maybe,,"handle everyday threat situations autonomously",medium
+END_CSV

@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0057,include,,"we propose a novel LLM agent-based framework, AutoPentester",high
+R0058,include,,"We evaluate different LLM-powered agent architectures, equipping them with essential forensic tools",high
+R0059,include,,"four large language model (LLM) agents - Detection, Intelligence, Response, and Analysis",high
+R0060,include,,"LLMs through a specialized multi-Agent architecture",high
+R0061,exclude,EC2,"the LLMs provide actionable recommendations to improve both performance and security",high
+R0062,exclude,EC3,"introduce Agent-in-the-Middle (AiTM), a novel attack that exploits the fundamental communication mechanisms in LLM-MAS",high
+R0063,exclude,EC2,"inputs values to verify whether it is possible to output attack routes",high
+R0064,exclude,EC1,"Generative Artificial Intelligence (GAI), encompassing Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Diffusion Models (DMs)",high
+R0065,exclude,EC1,"The system employs a multi-dimensional heuristic detection algorithm",high
+R0066,exclude,EC1,"a Long ShortTerm Memory (LSTM) based Generative Adversarial Network (GAN) attack mechanism",high
+R0067,exclude,EC4,"diagnoses failures, and submits self-healing pull requests",high
+R0068,include,,"an agentic synthetic generation engine driven by a large language model",high
+R0069,include,,"The ReAct agent, powered by a fine-tuned LLM, iteratively analyzes security alerts",high
+R0070,include,,"a knowledge-informed, selfreflective PT framework powered by LLMs",high
+R0071,exclude,EC4,"a graduate level course designed to teach the ethical hacking methodology",high
+R0072,exclude,EC3,"a security-oriented framework for risk identification, evaluation, and mitigation in a multiagent GIS system",high
+R0073,exclude,EC2,"evaluates GenAI’s effectiveness across the key stages of penetration testing",high
+R0074,include,,"a novel real-time multi-agent IoT threat mitigation and recommendation system",high
+R0075,include,,"a Multi-Agent Cognitive Council (Tier 2) powered by Large Language Models (LLMs)",high
+R0076,exclude,EC2,"the VTIF features a threat detection rule algorithm that automates the identification of cyber threats",high
+R0077,exclude,EC2,"an LLM-based pipeline that transforms analyst prompts and representative payloads into deployable rules",high
+R0078,include,,"a dual-agent collaborative detection framework",high
+R0079,exclude,EC1,"Experiments conducted in simulated enterprise testbeds show that governance-integrated AI agents",high
+R0080,exclude,EC2,"The method uses transformer-based designs like BERT and GPT to figure out what words imply",high
+R0081,exclude,EC2,"generative models strengthen cybersecurity through enhanced intrusion prevention and threat detection",high
+R0082,include,,"uses LLM agents augmented with domain-specific knowledge to detect cross-service vulnerabilities",high
+R0083,exclude,EC2,"This paper, explore the use of transformer-built large language models (LLMs) for CAN-bus intrusion detection.",high
+R0084,exclude,EC2,"proposes a new approach to using the LLMs in the automation of the analysis and within the validation process",high
+END_CSV

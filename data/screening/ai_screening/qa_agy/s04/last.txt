@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0040",
+    "QA1": "Y",
+    "QA1_quote": "we first analyze if LLMs can autonomously execute multi-host red team exercises.",
+    "QA2": "Y",
+    "QA2_quote": "All code is publicly available: https://github.com/bsinger98/Incalmo",
+    "QA3": "Y",
+    "QA3_quote": "we develop MHBench, a novel multihost attack benchmark with 40 realistic emulated networks (from 22 to 50 hosts).",
+    "QA4": "Y",
+    "QA4_quote": "We acknowledge that Incalmo is a dual-use technology that could be leveraged by real attackers."
+  }
+]
+END_JSON

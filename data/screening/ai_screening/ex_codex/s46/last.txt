@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0528",
+  "study_type": "Neuro-Agentic Control framework with experimental evaluation",
+  "RQ1 task_stage": "Anomaly detection; counterfactual control strategy formulation and physics-grounded intervention selection",
+  "RQ1 domain": "Industrial IoT cyber-physical systems; SWaT water treatment tank-level control",
+  "RQ1 orientation": "Autonomous defense",
+  "RQ2 architecture": "Two-stage control system: Gemini Architect proposes three strategies using retrieved manuals; TimesFM Sentinel forecasts, simulates counterfactuals, and selects or rejects actions in a closed loop",
+  "RQ2 llm_used": "Gemini 2.5 Flash-Lite (Algorithm 1 labels Gemini-2.5-Flash); TimesFM2.5, 200M parameters",
+  "RQ2 adaptation": "RAG-enhanced prompting with operational manuals and control constraints; frozen, pre-trained TimesFM used for inference without fine-tuning",
+  "RQ3 autonomy_level": "Autonomously identifies risks, develops counterfactual control strategies, rejects unsafe actions, and selects an intervention or Monitor",
+  "RQ3 hitl": "Manual prohibits opening MV201 during HIGH ALARM without authorization; outputs are human-auditable and interpretable",
+  "RQ4 dataset": "SWaT, July version 2, 2019: 78 columns, 14,996 data points; LIT301 tank-level variable",
+  "RQ4 environment": "Dataset-based stochastic batch testing: 15 trials with injected Sudden Spike, Gradual Drift, and High Noise patterns",
+  "RQ4 metrics": "Risk Reduction; Hallucination Rejection Rate; breach prevention, mitigated peak, rejected strategies, and control-cycle latency",
+  "RQ4 baseline_type": "Deep learning forecasting models under the same triggering and intervention scaffolding",
+  "RQ4 headline_result": "Prevented 5/15 breaches (33.3%) versus LSTM 4/15 (26.7%) and TCN 2/15 (13.3%); zero physically invalid actions executed",
+  "RQ4 compared_to": "LSTM; Temporal Convolutional Network (TCN)",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinatory, physically invalid or unsafe control actions causing overflow; inference latency and adversarial manipulation of the forecast horizon",
+  "RQ5 mitigations": "RAG operational constraints and structured JSON validation; actuator-bound checks, counterfactual risk evaluation, unsafe-action rejection, and fallback to Monitor",
+  "author_limitations (verbatim)": "It approximates first-order valve/pump effects, but does not capture nonlinearities such as inflow coupling, hydraulic transients, or sensor lag that a high-fidelity plant simulator or digital twin would model.",
+  "author_future_work (verbatim)": "Future research will focus on optimizing the inference latency to accommodate faster-moving electromechanical processes by exploring model quantization and distillation of foundation models. We also aim to expand the evaluation of the Neuro-Agentic framework beyond the SWaT dataset to diverse industrial environments.",
+  "evidence (page/section)": "Study/task/domain/orientation: Abstract, I, IV-A; architecture/models/adaptation/autonomy/HITL: IV-A–D, Algorithm 1, prompt and RAG knowledge-base boxes, VII-B; dataset/environment/metrics: V-A–C; baselines/results: VI-A–B, Tables II–IV, VII-A(ii), VIII; risks/mitigations: IV-B–D, VII, VIII; limitations quote: VII-A(i); future-work quote: VIII; code/data availability: not stated."
+}
+END_JSON

@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0505,exclude,EC1,"Experimental evaluation across CIC-IDS2017, EMBER, and ISCX URL datasets demonstrates detection accuracy up to 98.3%.",high
+R0506,exclude,EC2,"the chatbot uses an LLM to create an interface with human cybersecurity experts.",high
+R0507,include,,"We propose a multi-agent architecture that interacts with remote web-based management interfaces to harden, update, or restore systems.",high
+R0508,exclude,EC4,"This study contributes a framework for understanding the human factor in cybersecurity by identifying preference as a key moderator of socio-technical risk",high
+R0509,include,,"At inference, RAG retrieves the top-K relevant tuples for the current observation, which are incorporated into an LLM prompt to enable few-shot reasoning.",high
+R0510,exclude,EC1,"The agent teams were evaluated in an Automated Cyber Operation (ACO) gym",high
+R0511,exclude,EC4,"a shell honeypot system designed to address the aforementioned limitations.",high
+R0512,include,,"the suggested action from the LLM is used as a reference policy.",high
+R0513,include,,"dynamically maps them to executable security workflows.",high
+R0514,exclude,EC2,"A local AI module that summarizes those alerts using Gemini 1.5's free-tier API",high
+R0515,exclude,EC1,"This study suggests an alternating adversarial training framework for LLM-based network incident response.",medium
+R0516,include,,"the Result Analysis Agent is responsible for parsing the output from the tools to decide what the next logical step is.",high
+R0517,include,,"This paper presents an agentic generative AI system combining Cybersecurity Knowledge Graphs (CSKGs) and Large Language Model (LLM) agents.",high
+R0518,include,,"an LLM-based agent interprets to generate structured penetration-testing workflows.",high
+R0519,exclude,EC2,"This paper presents a PRISMA-guided bibliometric and thematic review of 149 studies",medium
+R0520,exclude,EC2,"Using a PRISMA-guided review of 422 recent works, we develop a unified taxonomy of AI–cyber interactions.",medium
+R0521,exclude,EC3,"This paper introduces a comprehensive threat model tailored specifically for GenAI agents",high
+R0522,include,,"The agent generates, validates and refines hunt scripts in a sandboxed environment",high
+R0523,include,,"We present MaLO, a configurable security platform to formalize and evaluate dynamic multi-agent graphs.",high
+R0524,exclude,EC5,"This paper addresses the gap by presenting a systematic methodology for discovering and selecting open-source Gen-AI-based penetration testing tools",high
+R0525,exclude,EC3,"This article proposes a novel Zero Trust architectural framework, complete with rigorous mathematical formalization, specifically engineered for secure multi-agent ecosystems.",high
+R0526,include,,"LLMSQLi simulates the step-by-step process of human experts in testing tasks through the LLM Muti-Agent collaboration model.",high
+R0527,include,,"L2M-AID orchestrates a team of collaborative agents, each driven by a Large Language Model (LLM), to achieve adaptive and resilient security.",high
+R0528,include,,"This paper introduces a neuro-agentic control framework, a novel architecture that couples an LLMbased planner",high
+R0529,exclude,EC3,"We introduce Agent OS - a five-layer operating system abstraction with an Agent Kernel",high
+R0530,exclude,EC2,"This position article maps large language model (LLM) capabilities onto the MITRE ATT&CK and NIST Cybersecurity Frameworks.",high
+R0531,include,,"The parsing module extracts structured evidence from tool outputs and feeds it back to the next reasoning step.",high
+R0532,exclude,EC3,"The AAC addresses this gap by synthesising foundational theories, including related cognitive architecture models",medium
+END_CSV

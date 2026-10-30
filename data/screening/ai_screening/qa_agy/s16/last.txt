@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0210",
+    "QA1": "Y",
+    "QA1_quote": "we propose a role-based multi-agent framework for proactive cyber defense and cooperative response in IoT networks.",
+    "QA2": "P",
+    "QA2_quote": "The proposed architecture is structured around three specialized agents: a Prediction Agent, a Detection Agent, and a Mitigation Agent.",
+    "QA3": "Y",
+    "QA3_quote": "Extensive evaluation on the CICIoT2023 dataset demonstrates the eﬀectiveness of the proposed framework, achieving 98.24% accuracy",
+    "QA4": "Y",
+    "QA4_quote": "Despite these strengths, the evaluation relied on a single IoT dataset"
+  }
+]
+END_JSON

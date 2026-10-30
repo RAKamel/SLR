@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0427",
+  "study_type": "Modular AI framework with experimental evaluation and a limited ablation study",
+  "RQ1 task_stage": "Log anomaly detection; multi-class attack classification, autonomous threat analysis and MITRE ATT&CK TTP mapping",
+  "RQ1 domain": "Real-world Windows enterprise endpoint process logs; Windows attack event logs",
+  "RQ1 orientation": "Threat-informed defense",
+  "RQ2 architecture": "LangChain-based LLM agent coordinating seven tools through a recursive Thought–Action–Observation loop; short-term memory and a global reasoning trace",
+  "RQ2 llm_used": "Gemini-2.0-Flash; MiniLM-L12-v2 for TTP embeddings and LogBERT for anomaly scoring",
+  "RQ2 adaptation": "Retrieval-Augmented Generation (RAG); contextual reasoning and recursive hypothesis refinement",
+  "RQ3 autonomy_level": "Independently selects and invokes tools, expands context and refines hypotheses until sufficient evidence supports a final explanation",
+  "RQ3 hitl": "User-defined or system-triggered analysis goal; explanations support downstream analysts in validating, replicating or acting upon results",
+  "RQ4 dataset": "Monster-THC: 33,559 endpoint process logs; EVTX-ATTACK-SAMPLES: 3167 malicious logs across eight attack categories",
+  "RQ4 environment": "Experiments on collected enterprise endpoint logs and repository Windows attack logs; stratified 80/20 training–testing split",
+  "RQ4 metrics": "TPR, FPR, Accuracy and F1-score; five-run mean F1, standard deviation and Welch’s t-test",
+  "RQ4 baseline_type": "Unsupervised anomaly detection models; supervised machine learning classifiers and agent-based ensemble variants",
+  "RQ4 headline_result": "Monster-THC: 99.97% accuracy and 97.00% F1-score; EVTX-ATTACK-SAMPLES: 99.54% accuracy and 99.47% F1-score",
+  "RQ4 compared_to": "Autoencoder, LogBERT, MLP, Random Forest and XGBoost",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "EVTX-ATTACK-SAMPLES described as publicly available, but URL not stated in supplied text; Monster-THC availability not stated",
+  "RQ5 risks_addressed": "False positives, missed anomalies and insufficient or conflicting evidence; detection accuracy under significant data distribution shifts",
+  "RQ5 mitigations": "Contextual correlation, rule matching and evidence-grounded reasoning traces; extend analysis or output “inconclusive” under low confidence, with retraining considered for distribution shifts",
+  "author_limitations (verbatim)": "While structured human evaluations (e.g., fidelity or sufficiency scoring) remain important, they are left for future work as part of a broader deployment and user feedback phase.",
+  "author_future_work (verbatim)": "Future work will explore replacing the LLM-assigned utility scores with trainable, data-driven models to further enhance adaptivity and theoretical grounding.",
+  "evidence (page/section)": "Abstract and §1: framework, tasks and headline results; §§3–3.3, pp. 5–11: architecture, autonomy, human role, uncertainty handling and explanations; §3.1, p. 8: future work; §§4.1–4.2, pp. 11–14: datasets, setup, models and baselines; §4.3, pp. 14–17: metrics and results; §4.4, p. 20: human-evaluation limitation; §4.5, pp. 20–21: ablation; §5(1), p. 21: deployment, distribution shifts and maintenance. Supplied text ends at the start of §5(2)."
+}
+END_JSON

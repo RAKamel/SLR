@@ -78,19 +78,21 @@ The source for workbook §1–§2 and the progress slides. Labels:
 | Field | Your text |
 |---|---|
 | Working title | Agentic AI for Autonomous Cybersecurity: From Intrusion Detection to Autonomous Incident Response *(chosen 2026-10-29: the approved topic title)* |
-| AI subfield / area | [YOU] |
-| Problem statement (2–3 sentences) | [YOU] |
-| Why a survey is needed now | [YOU] |
+| Student | Rami Ahmed Kamel · ID 202612134 *(your answer, 2026-10-29)* |
+| AI subfield / area | Agentic AI; Large language models *(your choice: same as the keywords)* |
+| Problem statement (2–3 sentences) | [YOU]. Framing chosen 2026-10-29: **A + B**, i.e. lifecycle coverage (detect → hunt → respond) as the scope, with autonomy level and human oversight as the analytical lens. You write the sentences |
+| Why a survey is needed now | [YOU], to be written after the "what it misses" column for S1–S8 (§A) |
+| RQ wording | [YOU], to be typed by you directly in workbook §1.1, then copied here and into the paper |
 | In scope | *(your selections, 2026-10-29)* LLM-based **agentic/autonomous** systems for: intrusion/anomaly detection; SOC alert triage; threat hunting/attack investigation; CTI extraction; IR planning/playbooks; autonomous remediation (incl. RL+LLM hybrids); forensics/post-incident reporting; offensive/pentest agents |
 | Out of scope | *(your selections)* LLMs used only as a classifier/detector with no agent loop, tools, planning or autonomy; security *of* LLM agents (prompt injection, jailbreaks) |
 | Time window | From 2020 to 2026 |
 | Keywords (4–6) | Agentic AI; Large language models; Intrusion detection; Incident response |
 | RQ structure | 5 RQs (your choice): RQ1 Landscape · RQ2 Design · RQ3 Autonomy & oversight · RQ4 Evidence · RQ5 Risk |
-| RQ1 + data to extract | [YOU word it]. Directions: lifecycle stages, deployment context, offense–defense duality → `task_stage`, `domain`, `orientation` |
-| RQ2 + data to extract | [YOU word it]. Directions: agent architectures, LLMs & adaptation → `architecture`, `llm_used`, `adaptation` |
-| RQ3 + data to extract | [YOU word it]. Direction: autonomy level and human oversight → `autonomy_level`, `hitl` |
-| RQ4 + data to extract | [YOU word it]. Directions: datasets/environments, metrics/baselines, effectiveness vs classical, reproducibility → `dataset`, `environment`, `metrics`, `baseline_type`, `headline_result`, `compared_to`, `code_available`, `data_available` |
-| RQ5 + data to extract | [YOU word it]. Direction: safety and trust risks → `risks_addressed`, `mitigations` |
+| RQ1 + data to extract | **RQ1 (your choice, 2026-10-30, from 3 AI-brainstormed options, disclosed):** "Which cybersecurity-operations tasks, deployment settings, and defensive or offensive orientations have LLM-based agentic systems been applied to between 2020 and 2026?" → `task_stage`, `domain`, `orientation` |
+| RQ2 + data to extract | **RQ2 (your choice, 2026-10-30, from 3 AI-brainstormed options, disclosed):** "How are LLM-based cybersecurity agents designed in terms of agent architecture (single- or multi-agent), underlying LLMs, and adaptation technique (prompting, retrieval augmentation, fine-tuning, reinforcement learning)?" → `architecture`, `llm_used`, `adaptation` |
+| RQ3 + data to extract | **RQ3 (your choice, 2026-10-30, from 3 AI-brainstormed options, disclosed):** "Which actions do LLM-based cybersecurity agents perform without human involvement, and which human-in-the-loop controls do they use?" → `autonomy_level`, `hitl` |
+| RQ4 + data to extract | **RQ4 (your choice, 2026-10-30, from 3 AI-brainstormed options, disclosed):** "Which datasets, environments, metrics and baselines are used to evaluate LLM-based cybersecurity agents, and how reproducible are these evaluations?" → `dataset`, `environment`, `metrics`, `baseline_type`, `headline_result`, `compared_to`, `code_available`, `data_available` |
+| RQ5 + data to extract | **RQ5 (your choice, 2026-10-30, merging two AI-brainstormed options at your request, disclosed):** "Which safety, reliability and misuse risks do studies of LLM-based cybersecurity agents report, and how do they mitigate them to support safe and trustworthy operation?" → `risks_addressed`, `mitigations` |
 
 ---
 

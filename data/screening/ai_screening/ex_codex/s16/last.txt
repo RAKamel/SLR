@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0210",
+  "study_type": "Multi-agent cybersecurity framework with experimental evaluation",
+  "RQ1 task_stage": "Proactive intrusion prediction, real-time detection, and knowledge-driven mitigation recommendation generation",
+  "RQ1 domain": "6G-enabled IoT networks; resource-constrained IoT and edge environments",
+  "RQ1 orientation": "Proactive cyber defense and cooperative response",
+  "RQ2 architecture": "Three specialized agents: Prediction, Detection, and Mitigation; CrewAI v1.10.1 coordination layer with contextual preservation, forecasting-validation feedback, dual LightGBM detection, and ATT&CK–D3FEND retrieval",
+  "RQ2 llm_used": "DistilGPT2; DistilBERT; LLAMA 3.2 1B via Ollama",
+  "RQ2 adaptation": "DistilGPT2 causal language-model fine-tuning and DistilBERT packet-pair classification fine-tuning; validation feedback guides additional fine-tuning data selection and hyperparameter re-optimization",
+  "RQ3 autonomy_level": "Autonomous agents forecast and validate packets, classify traffic, fuse alerts, and retrieve structured mitigation recommendations; defensive actions are not directly executed",
+  "RQ3 hitl": "Recommendations can be reviewed and enforced by external security platforms, network administrators, or automated response systems",
+  "RQ4 dataset": "CICIoT2023 subset covering DoS, DDoS, spoofing, reconnaissance, and benign traffic; derived forecasting, validation, packet/flow classification, and 65,000-sample forecasted-packet datasets",
+  "RQ4 environment": "Kaggle notebooks with two Tesla T4 GPUs (16 GB VRAM each) and 29 GB system memory; experiments on CICIoT2023 PCAP traffic",
+  "RQ4 metrics": "Accuracy, precision, recall, F1-score, forecast acceptance rate, detection ratio Rd, inference latency, throughput, and storage footprint; correctness and relevance of mitigation mappings",
+  "RQ4 baseline_type": "Agentic, traditional deep-learning, ensemble, and proactive intrusion detection approaches; packet detection with and without flow context",
+  "RQ4 headline_result": "98.24% proactive detection accuracy on forecasted packets; 99.94% real-time flow detection accuracy and 0.9973 macro F1-score",
+  "RQ4 compared_to": "AgenticCyber [58]; LLM-based multi-agent system for LAE-IoT [59]; single-agent IDS [57]; DL approaches [31]; LightGBM [29]; proactive works [16], [17]; multi-agent DDoS defense frameworks [46]",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Forecasted packets may violate protocol semantics or temporal consistency; payload privacy, temporally correlated data leakage, and unrestricted autonomous reasoning",
+  "RQ5 mitigations": "DistilBERT validation discards forecasts below 0.5 confidence; payload exclusion, flow-consistent splitting, and constrained agent scopes defined by tasks and ATT&CK–D3FEND knowledge",
+  "author_limitations (verbatim)": "Despite these strengths, the evaluation relied on a single IoT dataset, which, although recent and comprehensive, may not fully represent the heterogeneity of real-world 6G-enabled IoT deployments or the breadth of emerging attack vectors.",
+  "author_future_work (verbatim)": "Extending the analysis to the full framework remains an important direction for future work.",
+  "evidence (page/section)": "Study/tasks/domain/orientation: Abstract, I, VI; architecture/models/adaptation/autonomy/HITL/risks/mitigations: III-A–D, IV-B–E, V-A; datasets/environment/metrics: IV-A–D; results: V-A–B; mitigation evaluation: V-C; comparisons: V-D, Table 12; limitations: VI; future work: V-B, p. 10190. Code and data availability: not stated in supplied text."
+}
+END_JSON

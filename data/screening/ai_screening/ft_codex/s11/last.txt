@@ -1,0 +1,8 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0730,include,,"execute relevant security commands and adapt its testing strategies accordingly",high
+R0735,include,,"wrap LLM reasoning in perception, planning, memory, tool-use, and multi-agent communication loops",high
+R0740,uncertain,,"Rising application of AI in EU banking and payments sector",high
+R0756,exclude,EC2,"fine-tuning of LLMs using sequence classification, a supervised classification method",high
+R0759,uncertain,,"present insights on applying Agentic AI for proactive defense mechanisms",medium
+END_CSV

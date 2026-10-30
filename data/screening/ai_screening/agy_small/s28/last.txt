@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0271,exclude,EC4,"threat reasoning for real-time maritime situational awareness",high
+R0272,include,,"Red Team Agent performs semantic code analysis to invent context-aware, novel exploit chains",high
+R0273,include,,"integrating reasoning and tool usage in an iterative loop",high
+R0274,include,,"autonomous threat investigation, incident triage, and coordinated autonomous response",high
+R0275,include,,"adaptive multi-agent framework that integrates Large Language Models (LLM), Reinforcement Learning (RL)",high
+R0276,include,,"employ LLMs to autonomously perform Assumed Breach penetration-testing against enterprise networks",high
+R0277,exclude,EC2,"LLM-assisted reporting module that automatically translates technical findings into structured executive and technical reports",high
+R0278,include,,"Agent modules are used to interact with industry-standard pentesting tools",high
+R0279,exclude,EC3,"mutates prompts to test for jailbreak vulnerabilities across multiple LLM models",high
+R0280,exclude,EC2,"Language Model (LLM)-assisted semantics into a cost-sensitive decision framework",high
+END_CSV

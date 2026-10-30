@@ -1,23 +1,33 @@
 {
   "_help": "Replace every null with a whole number, then run: python scripts\\prisma.py. identified_by_db: hits per database (delete a key you did not search). *_reasons: {\"reason, worded as in your exclusion criteria\": n}. included = Studies included in review = database branch (assessed_full_text - sum of its reasons) + citation-searching branch (citation_searching_assessed - sum of its reasons).",
-  "_status_2026-10-29": "Filled from data/screening/corpus.xlsx summary (query v14: Scopus 515 + IEEE 424 + ACM 37 + snowball 96). WoS not searched (key removed). Citation searching: 96 retrieved, of which 25 duplicate database records, so 71 unique go to screening; citation_searching_sought = 71 minus those excluded at title/abstract. Retraction check (EC7) on 784 records: 0 retracted, 27 to check by hand.",
+  "_status_2026-10-29": "Filled from data/screening/corpus.xlsx summary (query v14: Scopus 515 + IEEE 424 + ACM 37 + snowball 96). WoS not searched (key removed). Citation searching (your decision 2026-10-29: count the retrieval filter as automation): 221 identified, 125 removed by automation tools (year/peer-review filters), 25 duplicates of database records, so 71 unique go to screening; citation_searching_sought = 71 minus those excluded at title/abstract. Retraction check (EC7) on 784 records: 0 retracted, 27 to check by hand.",
+  "_status_2026-10-30": "Title/abstract screening done (corpus.xlsx ta_decision; amendment 2026-10-30 in protocol_criteria.md): 28 records decided by you, 657 by Codex+agy agreement, 99 by Codex adjudication. Database branch: 713 screened, 364 excluded, 349 sought (include + maybe). Citation searching: 71 screened, 53 excluded, 18 sought. Full-text fields stay null until full-text assessment.",
   "identified_by_db": {
     "scopus": 515,
     "ieee": 424,
     "acm": 37
   },
-  "identified_citation_searching": 96,
+  "identified_citation_searching": 221,
+  "citation_searching_removed_before_screening": {
+    "removed by automation tools (outside 2020-2026 or not peer-reviewed)": 125,
+    "duplicates of database records": 25
+  },
   "duplicates_removed": 263,
   "other_removed_before_screening": 0,
   "screened": 713,
-  "excluded_title_abstract": null,
-  "sought_for_retrieval": null,
-  "not_retrieved": null,
-  "assessed_full_text": null,
-  "excluded_full_text_reasons": null,
-  "included": null,
-  "citation_searching_sought": null,
-  "citation_searching_not_retrieved": null,
-  "citation_searching_assessed": null,
-  "citation_searching_excluded_reasons": null
+  "excluded_title_abstract": 364,
+  "sought_for_retrieval": 349,
+  "not_retrieved": 289,
+  "assessed_full_text": 60,
+  "excluded_full_text_reasons": {
+    "EC2: LLM used only as a classifier, detector or text generator (not agentic)": 2,
+    "EC5: not peer-reviewed or not a paper": 1
+  },
+  "included": 61,
+  "citation_searching_sought": 18,
+  "citation_searching_not_retrieved": 12,
+  "citation_searching_assessed": 6,
+  "citation_searching_excluded_reasons": {
+    "EC2: LLM used only as a classifier, detector or text generator (not agentic)": 2
+  }
 }

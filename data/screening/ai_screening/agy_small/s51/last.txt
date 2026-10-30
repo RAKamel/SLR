@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0501,include,,"agentic Generative AI framework to create a dynamic and evolving deception environment",high
+R0502,exclude,EC4,"apply post hoc explainability methods to a Deep Reinforcement Learning (DRL)-based cyber defense agent",high
+R0503,include,,"survey, we examine the architectural shifts from single-model assistants to tool-augmented agents",high
+R0504,exclude,EC4,"surveys AI deployment in offensive and defensive roles across kinetic battlefields",high
+R0505,exclude,EC1,"adversarial dual-model discrimination, dynamic sandboxing, reinforcement-driven deception, and secure lifecycle governance",high
+R0506,exclude,EC2,"chatbot uses an LLM to create an interface with human cybersecurity experts",high
+R0507,include,,"browser agents interacting with large language models (LLMs), can automate IoT security operations",high
+R0508,exclude,EC4,"analyze how an analyst's fundamental preference for human versus automation-led activity moderates their perception",high
+R0509,include,,"LLM then predicts the most suitable defensive action for the given observation",high
+R0510,include,,"hybrid AI model comprising Multi-Agent Reinforcement Learning (MARL), Large Language Models (LLMs)",high
+END_CSV

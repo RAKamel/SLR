@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0320,include,,"multiple LLM-based agents, ranging from singular to modular designs, across realistic penetration testing scenarios",high
+R0322,include,,"CurriculumPT: LLM-Based Multi-Agent Autonomous Penetration Testing with Curriculum-Guided Task Scheduling",high
+END_CSV

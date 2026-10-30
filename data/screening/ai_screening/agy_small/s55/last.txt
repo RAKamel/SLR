@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0541,include,,"dedicated agents for cyber-threat detection and response at charging stations",high
+R0542,exclude,EC4,"Multi-Agent System for Network Protocol Fuzzing",high
+R0543,exclude,EC2,"systematically map the current landscape of LLM applications in cybersecurity",high
+R0544,include,,"places agents inside containerized DT sandboxes for automated security assessment",high
+R0545,exclude,EC4,"support reviewers' decisions on awarding artifact badges",high
+R0546,exclude,EC3,"shifts AI security from a narrow focus on system-centric protection",high
+R0547,exclude,EC1,"proposes the use of automated penetration testing using script files",high
+R0548,exclude,EC3,"analyzes the perception–reasoning interface through a Priority Manipulation Attack",high
+R0549,exclude,EC2,"essential to building normatively aligned autonomous CTI agents",high
+R0550,exclude,EC2,"inference for binary alert classification and natural-language justification",high
+END_CSV

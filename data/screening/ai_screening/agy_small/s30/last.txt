@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0291,include,,"framework that structures autonomous penetration testing through an explicit causal decision loop",high
+R0292,exclude,EC2,"explore the emerging role of LLMs as phishing detection tools",high
+R0293,include,,"The LLM was connected to perform cybersecurity tasks using an MCP server",medium
+R0294,exclude,EC2,"pathways for using out-of-the-box LLMs and agentic artificial intelligence",high
+R0295,exclude,EC2,"automated generation of expert reports in the state language",high
+R0296,exclude,EC3,"probe LLMs for vulnerabilities such as prompt injections and data leaks",high
+R0297,include,,"multiple AI agents powered by Large Language Models (LLMs) to autonomously generate and deploy",high
+R0298,include,,"system, integrating large language models and reinforcement learning, achieves an automation degree of 83%",high
+R0299,exclude,EC1,"integrates Federated Learning (FL) with a Deep Learning-based Intrusion Detection",high
+R0300,include,,"framework that leverages LLM agents in conjunction with advanced prompting strategies",high
+END_CSV

@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0141,exclude,EC2,"illustrated with prompts and output from the interactive ChatGPT tool",high
+R0142,exclude,EC2,"uses LLMs to automate the resolution and mitigation of these attacks",medium
+R0143,exclude,EC2,"how large models can assist with scoring and remediation",high
+R0144,include,, "independently carry out security and operational regulations",high
+R0145,exclude,EC3,"privacy risks inherent in current agentic browser architectures",high
+R0146,exclude,EC2,"advanced scanners powered by Large Language Model (LLMs)",medium
+R0147,exclude,EC1,"anomaly detection method using autoencoders",high
+R0148,exclude,EC4,"implementation of AI systems in a manufacturing setup",high
+R0149,exclude,EC5,"© 2025 IEEE.",low
+R0150,exclude,EC3,"for hostile-operation reconstruction within multi-agent LLM ecosystems",high
+R0151,exclude,EC2,"for distributed network intrusion detection",medium
+R0152,exclude,EC2,"integrating these methods into real-world workflows",high
+R0153,exclude,EC4,"proposing a curriculum for postgraduate cybersecurity education",high
+R0154,include,,"an agentic AI framework that resolves both deficiencies through a two-stage closed-loop pipeline",high
+R0155,exclude,EC2,"The Matching task is addressed using DeepSeek Coder",high
+R0156,include,,"orchestrates specialized AI agents to generate ATT&CK-aligned defense strategies",high
+R0157,exclude,EC3,"five attack classes on a simulated AutoGen-based multi-agent orchestration environment",high
+R0158,include,,"a multi-agent system leveraging Large Language Models (LLMs) to transform raw security alerts",high
+R0159,exclude,EC3,"defensive strategies designed to safeguard tool-using LLM systems",high
+R0160,exclude,EC2,"able to generate fuzz payloads with an average success rate",high
+R0161,include,,"a self-adaptable multi-agent red teaming architecture",high
+R0162,include,,"building effective LLM-based offensive security agents",high
+R0163,exclude,EC2,"generate attack patterns using large language models (LLMs)",high
+R0164,include,,"integrates a knowledge graph with an AI-agent for network management data analysis",medium
+R0165,include,,"automates key testing phases, including reconnaissance, vulnerability scanning, and exploit simulation",high
+R0166,exclude,EC2,"structured narrative review with an evidence-oriented synthesis",high
+R0167,include,,"utilizing LLM-based agents to develop, execute, and modify multi-step attack chains",high
+R0168,include,,"an ontology-driven multi-agent debate framework",high
+END_CSV

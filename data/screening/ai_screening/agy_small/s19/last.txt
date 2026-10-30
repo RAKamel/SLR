@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0181,exclude,EC4,"Large language models and prostate MRI reporting",high
+R0182,include,,"emulates essential penetration testing tasks, including reconnaissance, vulnerability scanning, and exploit simulation",high
+R0183,include,,"combines Qwen-1.5B as a probabilistic action-prior generator with Monte Carlo Tree Search",high
+R0184,include,,"allows an LLM to invoke scanners, parse outputs, consult vulnerability databases, and generate exploits",high
+R0185,exclude,EC2,"We input the vulnerable code to ChatGPT and measure its accuracy",high
+R0186,maybe,,"Each agent collaborates in attack modeling, intelligence analysis, defense response, and strategy optimization",medium
+R0187,include,,"multi-agent autonomous pentesting framework integrating LLMs and expert systems",high
+R0188,include,,"enrichment as a parallel evidence-gathering and reasoning task performed by an autonomous agent",high
+R0189,exclude,EC3,"LLM-based agentic systems introduce a compositional, workflow-level attack surface",high
+R0190,include,,"Following the ReAct paradigm, the agent identifies knowledge gaps in the reasoning process",high
+END_CSV

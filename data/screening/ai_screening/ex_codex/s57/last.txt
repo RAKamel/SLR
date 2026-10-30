@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0730",
+  "study_type": "Automated penetration testing system; implementation results and comparative performance analysis",
+  "RQ1 task_stage": "Automated penetration testing, vulnerability detection, and suggested remediation; SQL injection and cross-site scripting testing",
+  "RQ1 domain": "Organizational networks and web applications; Kali Linux, Windows, and MacOS",
+  "RQ1 orientation": "Simulates cyber-attacks to identify vulnerabilities and enhance network security",
+  "RQ2 architecture": "LLM AI core, command processor, and integration with Nmap, Metasploit, Wireshark, and custom scripts; execution-feedback loop with stored test results and knowledge-base updates",
+  "RQ2 llm_used": "OpenHermes-2.5-Mistral-7B",
+  "RQ2 adaptation": "Fine-tuned for cybersecurity applications; reinforcement learning from execution feedback to adjust command generation",
+  "RQ3 autonomy_level": "Generates and executes context-aware testing commands from user input; analyzes feedback and refines testing strategies",
+  "RQ3 hitl": "Users specify target systems, test scope and depth, vulnerability types, and configuration parameters",
+  "RQ4 dataset": "not stated",
+  "RQ4 environment": "Configured environments mirroring typical network setups in small to large organizations; network assessments and web application attack scenarios",
+  "RQ4 metrics": "Number of vulnerabilities detected, detection accuracy, speed of identification, and effectiveness of suggested remediations",
+  "RQ4 baseline_type": "Traditional penetration testing combining manual expert testing and automated tools",
+  "RQ4 headline_result": "Testing time described as reduced from weeks to mere hours; no numerical measurements reported",
+  "RQ4 compared_to": "Traditional manual and automated penetration testing; no named baseline systems",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "False positives and false negatives; inaccurate, incomplete, or biased data causing erroneous assessments and misguided actions",
+  "RQ5 mitigations": "Encryption in transit and at rest, authentication, and continuous monitoring; robust data verification and refinement of detection algorithms",
+  "author_limitations (verbatim)": "Another significant challenge was the model's reliance on the quality of input data. Inaccurate or incomplete data led to erroneous assessments, which could potentially result in misguided actions.",
+  "author_future_work (verbatim)": "Future developments will focus on expanding the model’s capabilities to encompass even more complex and dynamically changing network environments. Efforts will also be directed towards reducing the incidence of false positives and false negatives by refining the model’s algorithms and enhancing its data processing capabilities.",
+  "evidence (page/section)": "Abstract, p. 1826: system, model, platforms; §1 Introduction: security tasks and purpose; §3 System Overview, pp. 1827–1828: architecture, tools, user involvement, security protocols; §4 Advanced System Mechanics and AI Integration and §§4.1–4.3, pp. 1828–1829: fine-tuning, command generation, execution, feedback and reinforcement learning; §5 Implementation Results and Performance Analysis, pp. 1829–1830: environments, metrics, risks, limitations and future work; §6 Comparative Analysis: Traditional vs. LLM-Based Penetration Testing, p. 1830: comparison, time reduction and data-quality risks"
+}
+END_JSON

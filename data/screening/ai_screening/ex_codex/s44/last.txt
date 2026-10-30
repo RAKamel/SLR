@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0485",
+  "study_type": "Graph-based multi-agent framework with experimental validation",
+  "RQ1 task_stage": "Benign/malicious pre-detection, multi-class attack classification, SHAP feature attribution, and evidence-grounded incident-report generation with mitigation recommendations",
+  "RQ1 domain": "IoT network traffic; lightweight pre-detection for edge deployment",
+  "RQ1 orientation": "Defensive: network defense and intrusion detection",
+  "RQ2 architecture": "Graph-based multi-agent pipeline with centralized shared state: Random Forest pre-detection, MLP/RF/XGBoost soft-voting ensemble with SHAP, and LangGraph ReAct summary agent; Chroma DB historical knowledge, Tavily Web Search, and ArXiv Search",
+  "RQ2 llm_used": "Llama-3.1-8b-instant via Groq API for summary generation and RAGAs LLM-as-Judge",
+  "RQ2 adaptation": "Retrieval-Augmented Generation; classification results, SHAP attributions, and network features injected into prompts; iterative retrieval and reasoning",
+  "RQ3 autonomy_level": "Automatically filters benign traffic, classifies potential threats, retrieves evidence, and generates structured security reports with mitigation recommendations; report is the terminal pipeline output",
+  "RQ3 hitl": "Mitigation recommendations are next steps for the incident response team; faithfulness below 0.5 warrants manual review; model disagreement presents an opportunity for human intervention",
+  "RQ4 dataset": "ACI IoT Network Dataset 2023: 1,170,570 network-flow records, 71 numerical features, 11 classes; 176 samples for RAG evaluation",
+  "RQ4 environment": "Held-out dataset evaluation with an 80/20 stratified train–test split and 10-fold stratified cross-validation within training; summary agent uses Groq API and retrieval tools",
+  "RQ4 metrics": "Accuracy, precision, recall, weighted F1, macro F1, per-class F1, confusion matrices, precision–recall curve, model size, inference time, token usage, faithfulness, and groundedness",
+  "RQ4 baseline_type": "Individual machine-learning classifiers compared with the soft-voting ensemble",
+  "RQ4 headline_result": "Ensemble accuracy 99.7971%, weighted F1 99.7983%, macro F1 99.2284%; groundedness 1.0 and faithfulness 0.64; UDP Flood F1 improves from 48% with MLP to 95% with ensemble",
+  "RQ4 compared_to": "Random Forest, XGBoost, and Multi-Layer Perceptron",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinated or unsupported security recommendations, incorrect cross-document synthesis and attribution, service disruptions from inappropriate mitigation, missed attacks, false positives, and minority-class detection weaknesses",
+  "RQ5 mitigations": "RAG grounding, SHAP context, inline citations, prompts prohibiting invented information and requiring missing-context disclosure; faithfulness/groundedness evaluation, manual review below 0.5 faithfulness, and ensemble soft voting",
+  "author_limitations (verbatim)": "Single dataset",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Study/task/domain/orientation: Abstract and Sections 1, 3.1 (pp. 1–8); architecture/models/adaptation/autonomy: Sections 3.1.1–3.1.3, 3.5–3.6, Tables 2–3 (pp. 7–14); HITL/risks/mitigations: Sections 3.6.3, 3.7.2, 4.2 (pp. 10–14, 17); dataset/environment/metrics: Sections 3.2–3.3, 3.7 (pp. 8, 11–14); results/baselines: Abstract, Sections 4.1–4.2, Table 5 (pp. 1, 14–18); limitations: Section 2.6, Table 1 (p. 5). Supplied text ends during Section 4.2."
+}
+END_JSON

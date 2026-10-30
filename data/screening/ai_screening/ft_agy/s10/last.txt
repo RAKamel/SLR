@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0223,exclude,EC2,"our RulePilot can automatically generate the detection rules without more intervention",high
+R0237,exclude,EC2,"provision of interactive support to specialists during the testing process",high
+END_CSV

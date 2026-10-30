@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0759",
+    "QA1": "Y",
+    "QA1_quote": "This review paper comprehensively analyzes AI-driven approaches for Critical Infrastructure Protection (CIP).",
+    "QA2": "N",
+    "QA2_quote": "Section 8 presents how Agentic AI can proactively mitigate operational risks and ensure system resiliency in complex environments.",
+    "QA3": "P",
+    "QA3_quote": "Searches were conducted using JSTOR (jstor.org) and Google Scholar using a combination of search methodologies.",
+    "QA4": "Y",
+    "QA4_quote": "However, practical deployment also requires addressing challenges such as model robustness, adversarial resistance, and integration with existing security frameworks."
+  }
+]
+END_JSON

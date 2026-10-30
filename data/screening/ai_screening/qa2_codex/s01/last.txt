@@ -1,0 +1,27 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0014",
+    "QA1": "Y",
+    "QA1_quote": "This paper provides a tutorial and survey of LLM-based agents for automated vulnerability discovery and penetration testing.",
+    "QA2": "P",
+    "QA2_quote": "Models such as GPT-4, Claude 3, and Llama 3 vary in their context window capabilities",
+    "QA3": "P",
+    "QA3_quote": "the search initially identified over 200 candidate records",
+    "QA4": "Y",
+    "QA4_quote": "Third, evaluation heterogeneity limits direct cross-framework comparison",
+    "QA4_quote": "Third, evaluation heterogeneity limits direct cross-framework comparison"
+  },
+  {
+    "id": "R0740",
+    "QA1": "Y",
+    "QA1_quote": "A five-dimensional taxonomy for classifying LLM-based cybersecurity agents by security function, agent architecture, knowledge augmentation, human-in-the-loop posture, and evaluation rigor.",
+    "QA2": "P",
+    "QA2_quote": "MA-CH—centralized hierarchical orchestrator dispatching to specialized subagents",
+    "QA3": "Y",
+    "QA3_quote": "The sample and its per-record decisions are published with the deposit.",
+    "QA4": "Y",
+    "QA4_quote": "the corpus is reported as a documented subset rather than an exhaustive census."
+  }
+]
+END_JSON

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0541",
+  "study_type": "Agentic AI framework with experimental evaluation",
+  "RQ1 task_stage": "Cyber-threat detection and response at charging stations; explainable threat mitigation and incident summaries",
+  "RQ1 domain": "Internet of Electric Vehicles (IoEV), including EV charging stations and edge infrastructure",
+  "RQ1 orientation": "Autonomous cyber-threat defense",
+  "RQ2 architecture": "Distributed, tool-augmented, explainable multi-agent system: Safety and Security Agent (SSA), Personalized Support Agent (PSA), Contextualizer Agent (CA), and Solver Agent (SA); shared explainable reasoning layer",
+  "RQ2 llm_used": "LLaMA2-7B, LLaMA2-13B, LLaMA3-8B; fine-tuned DistilBERT intent recognizer, DeBERTa and RoBERTa comparisons; GPT-4 references and DeepSeek judge",
+  "RQ2 adaptation": "Prompt engineering and RAG for SSA; fine-tuned DistilBERT, pretrained ML/DL tools, and continual learning through federated, transfer, and split learning",
+  "RQ3 autonomy_level": "Agents continuously monitor battery conditions, detect faults and intrusions, dynamically invoke diagnostic and explainability tools, and generate responses; support agents formalize, contextualize, and solve optimization requests",
+  "RQ3 hitl": "Application layer provides decision oversight and feedback; domain experts verify and annotate evaluation references and assess generated responses",
+  "RQ4 dataset": "EVBattery, CICEVSE2024, UrbanEV; synthetic intent-recognition and charging-optimization query datasets",
+  "RQ4 environment": "Python and LangChain implementation on three NVIDIA H100 GPUs; real-world datasets, with experiments repeated at least three times",
+  "RQ4 metrics": "Accuracy, precision, recall, F1-score, MAE, MSE, RMSE, inference time, model size; BARTScore, exact match rates, and expert judgments",
+  "RQ4 baseline_type": "ML/DL architecture comparisons; intent-recognition model and prompt-engineered LLaMA comparisons against expert-verified GPT-4 references",
+  "RQ4 headline_result": "EVCS LSTM detection: 99.3% accuracy and 99.33% F1-score; LLaMA3-8B SSA EVCS responses: 0.93 accuracy-based BARTScore",
+  "RQ4 compared_to": "EVCS detection: MLP and XGBoost; SSA: LLaMA2-7B and LLaMA2-13B, using expert-verified GPT-4 references",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Sensitive telemetry and calendar privacy, replay and correlation attacks, inference and model inversion attacks; LLM constraint violations, prompt injection, jailbreaking, adversarial intent manipulation, and input poisoning",
+  "RQ5 mitigations": "TLS with mutual authentication and ephemeral session keys; minimal retention, scoped agent access, pseudonymization, federated learning with differential privacy, SHAP explanations, and external numerical solvers enforcing constraints",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "Future research will explore dynamic agent collaboration strategies, real-world field trials, and integration with emerging V2G standards to further advance resilient, trustworthy electricmobility ecosystems.",
+  "evidence (page/section)": "Abstract and I: framework, tasks, orientation, planned public release; III.B–D: architecture, privacy safeguards, autonomy, oversight, RAG and tools; IV.A–D, Tables I–IV and Figure 2: models, datasets, environment, metrics, comparisons and results; V: risks and future work"
+}
+END_JSON

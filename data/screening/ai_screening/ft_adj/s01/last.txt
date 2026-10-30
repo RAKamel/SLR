@@ -1,0 +1,7 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0025,include,,"automated anomaly investigation, and adaptive optimization of FL parameters",medium
+R0039,include,,"autonomously solve beginner-level offensive security tasks by connecting the model to OverTheWire’s Bandit capture-the-flag game",high
+R0057,exclude,EC5,"may be revised following the review process",high
+R0200,include,,"Identified issues are categorized using CWE, then used to prompt targeted LLM-generated patches",high
+END_CSV

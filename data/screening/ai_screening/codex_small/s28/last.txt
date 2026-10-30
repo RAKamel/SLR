@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0757,exclude,EC2,"This review critically examines the foundational elements, real-world applications, and limitations of LLMs in cybersecurity",high
+R0758,exclude,EC1,"The research explores the possibilities for agentic AI to automate critical tasks within Security Operations Centers",medium
+R0759,exclude,EC2,"This paper presents a comprehensive benchmarking study of 21 state-of-the-art open-source LLMs",high
+R0760,exclude,EC4,"LLM agents for smart city management",high
+R0761,exclude,EC2,"This study surveys the performance of ChatGPT , GPT4all, Dolly, Stanford Alpaca",high
+R0762,exclude,EC2,"extracting detection results from LLM responses",high
+R0763,exclude,EC1,"This paper proposes a novel multi-agent network intrusion detection framework",high
+R0764,exclude,EC2,"BERT and RoBERTa achieve the highest detection accuracies",high
+R0765,exclude,EC4,"The networking domain is characterized by its high complexity and rapid iteration",medium
+R0766,exclude,EC2,"Generative Artificial Intelligence-based existing solutions for the very diverse set of security issues",medium
+R0767,exclude,EC1,"We selected open state-of-the-art publicly available algorithms",high
+R0768,exclude,EC1,"The objective of this study is to integrate the categorization and analysis of current datasets",high
+R0769,exclude,EC2,"This paper presents a comprehensive benchmarking study of 21 state-of-the-art open-source LLMs",high
+R0770,exclude,EC2,"we study the potential black-box use of LLM chatbots as a support tool for security analysts",high
+R0771,exclude,EC4,"prevailing research topics, tools, and frameworks in the field of AI security",high
+R0772,include,,"The iterative refinement process, evaluated through comprehensive metrics",medium
+R0773,maybe,,"Cross-domain alert correlation methodology for industrial control systems",low
+R0774,exclude,EC1,"reinforcement-tuned prediction of cyber-risks",high
+R0775,maybe,,"MCP-driven real-time security monitoring: A hybrid LLM and behavior-aware framework",low
+R0776,exclude,EC1,"agents utilise predictive models and represent decision-makers",high
+R0777,maybe,,"A comprehensive survey of AI driven threat validation techniques",low
+R0778,exclude,EC1,"The proposed model used an Autoencoder-based anomaly detection agent",high
+R0779,exclude,EC3,"This survey synthesizes end-to-end security research across three dominant threat classes",high
+R0780,exclude,EC2,"LLMs operate in parallel to generate, normalize, and continuously update TTP rules",medium
+R0781,exclude,EC4,"A secure image encryption scheme",high
+R0782,include,,"This study presents a multi-agent framework for Arabic scam analysis",medium
+R0783,exclude,EC1,"Red-team and blue-team agents then orchestrate vulnerability triggering, attack-chain replay",high
+R0784,exclude,EC2,"We discuss the use of LLMs for attacking and protecting",medium
+END_CSV

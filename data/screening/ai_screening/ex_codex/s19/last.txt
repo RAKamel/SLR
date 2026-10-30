@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0276",
+  "study_type": "Autonomous penetration-testing prototype with quantitative and qualitative empirical evaluation",
+  "RQ1 task_stage": "Assumed Breach penetration-testing: reconnaissance, credential access, and discovery; initial explorations into lateral movement and execution",
+  "RQ1 domain": "Microsoft Active Directory enterprise networks",
+  "RQ1 orientation": "Offensive security",
+  "RQ2 architecture": "High-level Planner using Pentest-Task-Trees and structured output; low-level Executor using tool-calling to execute Linux commands over SSH",
+  "RQ2 llm_used": "GPT-4o (gpt-4o-2024-08-06), DeepSeek-V3, Gemini-2.5-Flash (Preview), o1 (o1-preview-2024-12-17) Planner with GPT-4o Executor, Alibaba Qwen3",
+  "RQ2 adaptation": "Scenario prompting and tool-specific guidance; Pentest-Task-Tree high-level planning",
+  "RQ3 autonomy_level": "Fully autonomous plan-making and execution; selects tasks, executes and verifies commands, integrates results, and exploits found vulnerabilities",
+  "RQ3 hitl": "Humans select the target environment; critical safety concerns necessitate human oversight",
+  "RQ4 dataset": "GOAD version 3; initial potential user list simulating OSINT results and rockyou.txt password wordlist",
+  "RQ4 environment": "GOAD virtual Active Directory network with three domain controllers and two Windows servers; Kali Linux attacker VM",
+  "RQ4 metrics": "not stated",
+  "RQ4 baseline_type": "Non-reasoning LLMs; closed-weight and open-weight model configurations",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "GPT-4o and DeepSeek-V3 as baseline non-reasoning LLMs",
+  "RQ4 code_available": "yes + https://github.com/andreashappe/cochise",
+  "RQ4 data_available": "yes + https://github.com/andreashappe/cochise",
+  "RQ5 risks_addressed": "Dual-use abuse, attacks outside the intended environment, account lock-outs, and potential dataset contamination; rabbit holes and information-transfer challenges",
+  "RQ5 mitigations": "Scenario prompts restrict target IP range, exclude management systems and prohibit online brute-force attacks; command timeout and inspection of logs for non-causal attack flows",
+  "author_limitations (verbatim)": "However, our research also illuminates existing limitations, including instances of LLM “going down rabbit holes”, challenges in comprehensive information transfer between planning and execution modules, and critical safety concerns that necessitate human oversight.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract; §§1, 1.3–1.5, 2.5 and Table 2; §§3.1–3.3.2. Supplied text ends at the beginning of §3.4; evaluation metrics, quantitative results and explicit future-work statements are not provided."
+}
+END_JSON

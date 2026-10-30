@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0341,exclude,EC3,"Enforcing Web Security Constraints for LLM-driven Robot Agents for Online Transactions",high
+R0342,exclude,EC1,"The dataset will be used to train artificial intelligence (AI) models",high
+R0343,include,,"Multi-Agent Large Language Model Framework Enabling Automatic Penetration Testing",high
+R0344,exclude,EC3,"first thorough security assessment of MCP implementations, uncovering serious weaknesses",high
+R0345,include,,"Language Model Agents (LMAs) are emerging as a powerful primitive for augmenting red-team operations.",high
+R0346,include,,"AI-agent orchestration for automated testing and cyber threat analysis in DevSecOps environments",high
+R0347,include,,"framework defining the agentic capabilities of security systems across security life cycle",high
+R0348,exclude,EC2,"integrates fine-tuned LLM-based classifiers and a Retrieval-Augmented Generation (RAG) component",high
+R0349,exclude,EC3,"Automating Cybersecurity Risk Assessment for AI Systems in Military & Critical Infrastructure",high
+R0350,include,,"agent-based framework designed to deliver autonomous and policy-compliant cyber defense",high
+END_CSV

@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0156,include,,"orchestrates specialized AI agents to generate ATT&CK-aligned defense strategies",high
+R0174,include,,"autonomous LLM agents capable of dynamically generating, adapting, and executing contextual playbooks",high
+END_CSV

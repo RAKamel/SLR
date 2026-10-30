@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0111,exclude,EC2,"LLM system for autonomous log analysis, designed to enhance cyber threat detection",high
+R0112,exclude,EC2,"ChatGPT use did speed up attacks, but efficacy dropped when requesting specialized knowledge",high
+R0113,exclude,EC3,"discover and exploit indirect prompt injection vulnerabilities across diverse LLM agents",high
+R0114,exclude,EC2,"innovate predictive maintenance, anomaly detection, and adaptive threat response",high
+R0115,include,,"Environment-Grounded Multi-Agent Workflow for Autonomous Penetration Testing",high
+R0116,include,,"disparate domains of process automation, data-driven decision-making, and cybersecurity incident response",medium
+R0117,maybe,,"automated malicious ad detection framework driven by an autonomous agent",medium
+R0118,exclude,EC2,"bibliometric analysis of LLM- and transformer-based NIDS research",high
+R0119,exclude,EC4,"challenging traditional university information literacy education",high
+R0120,include,,"constrained agentic AI component integrated into a SIEM/SOAR environment to support incident triage",high
+END_CSV

@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0097",
+    "QA1": "Y",
+    "QA1_quote": "RQ1: What is the efficacy of LLMs in performing autonomous Linux privilege-escalation attacks?",
+    "QA2": "Y",
+    "QA2_quote": "We publicly release the source code of our prototype2, the created testbed3, and captured trajectory data4",
+    "QA3": "Y",
+    "QA3_quote": "We curated a novel, publicly available Linux privilege-escalation benchmark comprising distinct, single-vulnerability virtual machines, enabling controlled and reproducible evaluation.",
+    "QA4": "Y",
+    "QA4_quote": "Both the selection of vulnerability classes within the chosen benchmark and the selected LLMs could be subject to selection bias."
+  }
+]
+END_JSON

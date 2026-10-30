@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0210",
+    "QA1": "Y",
+    "QA1_quote": "The proposed framework integrates prediction, detection, and mitigation within a uniﬁed and coordinated network architecture.",
+    "QA2": "P",
+    "QA2_quote": "It leverages SLMs for packet-level intrusion forecasting, a LightGBM-based classiﬁer for real-time detection",
+    "QA3": "P",
+    "QA3_quote": "the reported results assess the correctness and relevance of the generated recommendations rather than the eﬀectiveness of their real-world execution.",
+    "QA4": "Y",
+    "QA4_quote": "the evaluation relied on a single IoT dataset"
+  },
+  {
+    "id": "R0223",
+    "QA1": "Y",
+    "QA1_quote": "we propose RulePilot, an LLM-based agent system designed to automate rule creation and conversion for SIEM detection.",
+    "QA2": "P",
+    "QA2_quote": "RulePilot consists of three key components: Chain of Thought (CoT) reasoning, Intermediate Representation (IR), and Reflection & Iterative Optimization.",
+    "QA3": "Y",
+    "QA3_quote": "We conduct a field study by executing the generated rules in a realistic Splunk environment, evaluating their execution success",
+    "QA4": "P",
+    "QA4_quote": "certain field validations and the final results require human oversights"
+  },
+  {
+    "id": "R0249",
+    "QA1": "Y",
+    "QA1_quote": "The goal of this paper is hence to analyze existing benchmarks",
+    "QA2": "N",
+    "QA2_quote": "We contribute an analysis of current benchmarks and associated environments",
+    "QA3": "Y",
+    "QA3_quote": "We illustrate the identified limitations by systematically mapping six prominent and emerging benchmarks to the MITRE ATT&CK Enterprise Matrix",
+    "QA4": "Y",
+    "QA4_quote": "Such mappings do not capture task interdependencies, regardless of whether complex scenarios are included."
+  }
+]
+END_JSON

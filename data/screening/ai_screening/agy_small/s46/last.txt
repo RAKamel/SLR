@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0451,include,,"first study on how LLMs perform in multi-agent ACD environments",high
+R0452,include,,"hybrid multi-agent system in which specialised LLM subagents reason over classical SIEM/XDR telemetry",high
+R0453,include,,"embedding specialized generative AI agents across the pipeline for proactive security and automated remediation",high
+R0454,exclude,EC3,"helps identify vulnerabilities and possible attacks on LLMs",high
+R0455,include,,"intelligent cybersecurity defense framework based on large language model Agents",high
+R0456,include,,"autonomously detect and exploit misconfiguration vulnerabilities",high
+R0457,maybe,,"the system succeeds in achieving privilege escalation on Linux hosts",medium
+R0458,exclude,EC4,"produce a holistic and clarifiable third-party vendor risk assessment",high
+R0459,exclude,EC2,"enable cost-effective retrieval and question answering from in-domain knowledge bases",high
+R0460,exclude,EC4,"enhances the accuracy of code vulnerability detection",high
+END_CSV

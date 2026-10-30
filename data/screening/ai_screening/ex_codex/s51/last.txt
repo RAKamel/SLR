@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0582",
+  "study_type": "Experimental agentic security investigation workflow; proof-of-concept with evaluation",
+  "RQ1 task_stage": "Early-stage security alert investigation; contextualise alerts and identify true and false positives",
+  "RQ1 domain": "SOC alert investigation using web-server Suricata IDS logs, auth logs and syslog",
+  "RQ1 orientation": "Assisting security analysts in alert handling and incident investigation",
+  "RQ2 architecture": "Three distinct prompted LLM components: Investigator, Summary and Incident Verdict; iterative SQL/grep investigation loop limited to two executions",
+  "RQ2 llm_used": "GPT-5-mini; claude-3-haiku-20240307; qwen3:30b; gemma3:27b",
+  "RQ2 adaptation": "Basic prompts and context engineering; role instructions, examples and predefined queries",
+  "RQ3 autonomy_level": "Independently selects queries, gathers and summarises log evidence, and issues a verdict or requests another iteration; not fully autonomous",
+  "RQ3 hitl": "Uncertain verdicts necessitate manual investigation; analyst manual verification of results",
+  "RQ4 dataset": "AIT Log Data Set V1.1; malicious and benign 30-minute subsets with a hypothetical “Suspicious behaviour” alert",
+  "RQ4 environment": "Offline web-server log investigation; DuckDB SQL-compatible Suricata logs and text logs searched with grep",
+  "RQ4 metrics": "Verdict accuracy and distribution, false negatives and iteration frequency; confidence, query execution/nonempty counts and grep success",
+  "RQ4 baseline_type": "Same LLM given overview query and alert text directly, without automated investigation and enrichment",
+  "RQ4 headline_result": "Average malicious detection accuracy 93%; GPT-5-mini 100%, versus 0% malicious-subset accuracy for all baseline models; 2/400 benign runs received malicious verdicts",
+  "RQ4 compared_to": "Baseline Incident Verdict LLM without the workflow, using Claude 3 Haiku, Gemma 3:27B, GPT-5-mini and Qwen3:30B",
+  "RQ4 code_available": "yes + https://github.com/Rub3cula/CyberHunt2025/ (experiment prompts and queries)",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucination, stochastic output variability, incorrect verdicts and unsafe SQL; prompt injection and other manipulation attacks",
+  "RQ5 mitigations": "Time-bounded parameterized SQL, validated regex, normalized limits and SELECT-only free SQL excluding unsafe keywords; strict evidence instructions and uncertain verdicts",
+  "author_limitations (verbatim)": "Our initial evaluation utilised a limited data representing a single attack scenario with a narrow, imagined alert. We believe this is sufficient for a preliminary assessment, but acknowledge it fails to capture the full complexity and diversity of real-world security logs and data, which should be addressed in the future.",
+  "author_future_work (verbatim)": "Future exploration should incorporate more extensive and diverse datasets. This data should include a variety of attacks, logs and system configurations.",
+  "evidence (page/section)": "Study/task/domain/orientation: Abstract, I, III, IV-A, VI; architecture/autonomy: III, IV-C; models: IV-B; adaptation/guardrails/HITL: IV-C, VI; dataset/environment: IV-A–B; metrics/baselines/results: IV-C–D, V, Tables I–IV, VI-RQ2; availability: III footnote 2; risks/limitations/future work: VI and VI-A."
+}
+END_JSON

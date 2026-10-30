@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0208,include,,"using conversational honeypots to engage scammers and extract actionable threat intelligence",high
+R0210,include,,"coordinated defense loop composed of three specialized agents",high
+END_CSV

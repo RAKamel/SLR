@@ -1,0 +1,3 @@
+BEGIN_JSON
+[{"id": "R0320", "QA1": "Y", "QA1_quote": "This study presents a comprehensive evaluation of multiple LLM-based agents, ranging from singular to modular designs", "QA2": "Y", "QA2_quote": "PENTESTGPT: Modular penetration testing agent that integrates multiple components (e.g., planner, parser, and command generator), all powered by GPT-4.", "QA3": "Y", "QA3_quote": "Our tasks draw upon vulnerable platforms such as Hack The Box (HTB), Metasploitable and Vulnhub.", "QA4": "Y", "QA4_quote": "The integration LLMs into cybersecurity operations necessitates careful consideration of ethical and safety implications."}]
+END_JSON

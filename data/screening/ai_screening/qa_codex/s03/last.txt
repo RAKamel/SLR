@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0075",
+    "QA1": "Y",
+    "QA1_quote": "we introduce H2-MAS, a hierarchical security framework",
+    "QA2": "P",
+    "QA2_quote": "The specific source code and proprietary model weights are not publicly available due to commercial intellectual property restrictions.",
+    "QA3": "P",
+    "QA3_quote": "the absolute performance metrics (e.g., 97.6% accuracy) reflect the system’s logic consistency rather than its guaranteed performance in the wild.",
+    "QA4": "Y",
+    "QA4_quote": "When processed by the Cognitive Council without input sanitization, the prompt injection succeeded in 10 out of 10 instances"
+  },
+  {
+    "id": "R0095",
+    "QA1": "Y",
+    "QA1_quote": "We therefore propose and evaluate RedTeamLLM, an integrated architecture with a comprehensive security model for automatization of pentest tasks.",
+    "QA2": "P",
+    "QA2_quote": "It entails 3 LLM session, i.e. 3 interaction dialogs built by assistant and user messages",
+    "QA3": "P",
+    "QA3_quote": "The maximum number of steps achieved over the 5 runs is considered, i.e. the better execution.",
+    "QA4": "Y",
+    "QA4_quote": "The evaluation of recursive planning, memory management and plan correction is also a necessity"
+  },
+  {
+    "id": "R0097",
+    "QA1": "Y",
+    "QA1_quote": "RQ1: What is the efficacy of LLMs in performing autonomous Linux privilege-escalation attacks?",
+    "QA2": "P",
+    "QA2_quote": "We publicly release the source code of our prototype30, the created testbed31, and captured trajectory data32",
+    "QA3": "Y",
+    "QA3_quote": "against baselines of human professional penetration-testers and traditional automated tools.",
+    "QA4": "Y",
+    "QA4_quote": "Both the selection of vulnerability classes within the chosen benchmark and the selected LLMs could be subject to selection bias."
+  }
+]
+END_JSON

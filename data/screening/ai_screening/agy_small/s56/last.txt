@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0551,exclude,EC4,"to facilitate predictive maintenance in industrial systems",high
+R0552,include,,"LLM-based penetration-testing agents execute multi-step security tasks through tool use and environment feedback",high
+R0553,include,,"leverages LLMs for security incident response while maintaining strict operational controls",high
+R0554,exclude,EC2,"foundation model NVLabs C-RADIOv4 is used as a feature extractor",high
+R0555,include,,"multi-agent systems that simulate human security expert collaboration",high
+R0556,include,,"uses two LLM agents to present arguments for or against the classification task",high
+R0557,exclude,EC3,"examines the emerging threats and mitigation strategies for these agentic systems",high
+R0558,include,,"knowledge-guided agentic AI to function as an intelligent forensic assistant",high
+R0559,exclude,EC2,"leverages large language models (LLMs) with retrievalaugmented generation (RAG) to evaluate incident relevance",high
+R0560,include,,"Agentic Retrieval-Augmented Generation (Agentic RAG) architecture for AI-assisted cybersecurity incident pre-triage",high
+END_CSV

@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0451,include,,"We examine how ACD teams of LLM and RL agents can interact",high
+R0477,include,,"ChatSOC streamlines these operations by dynamically planning and executing tasks",high
+R0480,include,,"We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP",high
+R0484,include,,"compound LLM agent defending a network in the CybORG CAGE-2 POMDP",high
+R0485,include,,"a ReAct-based summary agent that synthesizes classification results with external threat intelligence",high
+R0496,include,,"The framework automates the creation of traffic scenarios, the design of cyberattack strategies",high
+END_CSV

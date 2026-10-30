@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0741,exclude,EC1,"Improved Deep Recurrent Q-Network of POMDPs for Automated Penetration Testing",high
+R0742,exclude,EC1,"detailed description of the process and tools used to conduct penetration testing",high
+R0743,exclude,EC1,"explores software tools that can be used to perform penetration testing.",high
+R0744,exclude,EC2,"ability to process unstructured data and generate context-aware outputs supports both operational tasks",medium
+R0745,exclude,EC2,"uses LLMs to generate attack techniques based on the MITRE attack framework",high
+R0746,include,,"utilizing large language model (LLM) driven multi-agent systems to automate and expedite vulnerability detection",high
+R0747,exclude,EC1,"Forensic analysis for windows based ransomware attacks",high
+R0748,exclude,EC4,"effective way to solve psychological problems and serve the public.",high
+R0749,maybe,,"application of LLMs to various cybersecurity tasks",medium
+R0750,exclude,EC1,"approaches leveraging deep learning neural networks for this purpose have been presented.",high
+END_CSV

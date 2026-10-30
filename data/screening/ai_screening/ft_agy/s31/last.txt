@@ -1,0 +1,6 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0730,include,,"execute relevant security commands and adapt its testing strategies accordingly",high
+R0735,include,,"systematic reviews of agentic AI and LLM-driven approaches for autonomous IoT cybersecurity",high
+R0740,exclude,EC4,"Rising application of AI in EU banking and payments sector",high
+END_CSV

@@ -1,0 +1,16 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0431,maybe,,"Review of Path Planning and Decision-Making in Automated Penetration Testing",medium
+R0432,exclude,EC3,"Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents",high
+R0435,include,,"Design and Implementation of a Multi-Agent Threat Intelligence Assistant Based on Generative AI",high
+R0440,include,,"Our agent can autonomously train the LoRA adapters, search online documentation",high
+R0449,include,,"Security Operations Centers (SOCs) are leveraging AI, large language models and agent-based approaches",high
+R0450,include,,"framework’s ability to autonomously identify, filter, and exploit vulnerabilities",high
+R0457,maybe,,"This research experiments with automatic penetration testing via large language models (LLMs)",medium
+R0460,exclude,EC4,"this approach enhances the accuracy of code vulnerability detection and improves inference capabilities",high
+R0471,maybe,,"independent vulnerability remediation model",medium
+R0476,exclude,EC2,"an on-premises LLM resolves conflicts only when demonstrations disagree",high
+R0496,include,,"The framework automates the creation of traffic scenarios, the design of cyberattack strategies",high
+R0498,exclude,EC3,"comprehensive survey of attacks against, and defenses of, the LLM-based agents",high
+R0510,include,,"integrates a hybrid AI model comprising Multi-Agent Reinforcement Learning (MARL), Large Language Models (LLMs)",high
+END_CSV

@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0197,include,,"LLM-Augmented Reinforcement Learning Framework for Autonomous Penetration Testing",high
+R0200,exclude,EC4,"combines LLM-based firmware generation with automated security validation and iterative refinement",high
+END_CSV

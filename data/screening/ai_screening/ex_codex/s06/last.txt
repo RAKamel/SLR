@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0070",
+  "study_type": "AutoPT framework with a comparative case study",
+  "RQ1 task_stage": "Information Gathering, Vulnerability Identification, Exploitation, Post-Exploitation, Capture the Flag, Documentation",
+  "RQ1 domain": "Web penetration testing on a Linux machine running on an intranet; HTB Sau machine",
+  "RQ1 orientation": "Authorized cyberattacks for penetration testing",
+  "RQ2 architecture": "Assisted agent comprising Process Navigator, Generator, Reflector, Success Log and Failure Log; chained LLM sessions, seven-state PT Stage Machine and hierarchical knowledge retrieval",
+  "RQ2 llm_used": "OpenAI GPT-4o; llama-text-embed-v2index for knowledge embedding",
+  "RQ2 adaptation": "Predefined system prompts, RAG over MITRE ATT&CK and OWASP Testing Guide knowledge in Pinecone VDB; self-reflection with in-context rewards and failure reasons",
+  "RQ3 autonomy_level": "Identifies the PT stage, selects tactics, techniques and abstract actions, generates operational guidance, and reflects on and scores execution results",
+  "RQ3 hitl": "Human operators provide instructions, execute generated guidance on the target machine and input results to the Reflector",
+  "RQ4 dataset": "MITRE ATT&CK and OWASP Testing Guide knowledge; HTB Sau walkthrough used to obtain ground-truth actions",
+  "RQ4 environment": "HTB Sau virtual machine, accessed through HTB OpenVPN and Pwnbox; three runs per system with target resets",
+  "RQ4 metrics": "Stage-transition success rate (1/n attempts); credential capture rate (captured flags / total flags)",
+  "RQ4 baseline_type": "Base LLM model",
+  "RQ4 headline_result": "Captured all 6 flags across three runs (100%) versus GPT-4o's 5 flags (83.3%); reported improvement of 16.7%",
+  "RQ4 compared_to": "GPT-4o",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Short-sighted planning, hallucinations, context loss and failure to learn from previous experiences; proper authorization, data protection and avoidance of harm",
+  "RQ5 mitigations": "PT Stage Machine, persistent Success Log, reflective Failure Log and knowledge-informed RAG; human execution within a fully authorized HTB testing ground",
+  "author_limitations (verbatim)": "not stated",
+  "author_future_work (verbatim)": "In the future, our research should focus on testing our framework in different experimental environments. Ablation experiments will be carried out to determine which component of the framework has the most significant impact on the experimental results. We will develop dynamic knowledge integration pipelines to address emerging threats and enhance reflection capabilities through Reinforcement Learning with Human Feedback.",
+  "evidence (page/section)": "Study type: Introduction, p. 3; tasks: §2.3.1, Table 2, pp. 7–8; domain: §3.1, p. 10 and Fig. 5, p. 11; orientation: §1, p. 1; architecture/autonomy/HITL: §§2.1–2.5, pp. 3–9; adaptation/knowledge: §§2.2–2.5 and §3.1; models/environment/metrics/baseline/ethics: §3.1, p. 10; dataset ground truth/results: §3.2, p. 10 and Table 3, p. 12; reliability risks/mitigations: §1, p. 2; future work: §4, pp. 11–12"
+}
+END_JSON

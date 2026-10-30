@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0322",
+  "study_type": "Penetration testing framework with comparative evaluation and ablation studies",
+  "RQ1 task_stage": "Reconnaissance, vulnerability analysis, and exploitation; failure-aware replanning and report generation",
+  "RQ1 domain": "General-purpose CVE environments; intended for intelligent systems and intelligent transportation systems",
+  "RQ1 orientation": "Dual-use penetration testing for security assessment",
+  "RQ2 architecture": "Multi-agent system: Commander, Planner, Reconnaissance, Exploitation, Replan, Analysis, and Report agents; ReAct-style execution–replanning loop, shared EKB, and MCP-integrated Nmap, Nikto, Metasploit, SQLMap",
+  "RQ2 llm_used": "GPT-4o-mini via OpenAI API; ablation configuration: 128 k context window, temperature = 0",
+  "RQ2 adaptation": "Curriculum-guided task scheduling, role-specific prompt templates, and semantic retrieval of accumulated experience; no model fine-tuning or external supervision",
+  "RQ3 autonomy_level": "Autonomously plans, executes tools, replans after failures, evaluates outcomes, and updates experience; continues until success or maximum attempts",
+  "RQ3 hitl": "User supplies a high-level objective in Phase 2; human approval, review, or intervention during execution not stated",
+  "RQ4 dataset": "Vulhub CVEs: curriculum sets of 15 Simple, 20 Medium, and 15 Complex CVEs; 15-CVE hold-out set and 30-CVE stratified ablation test set",
+  "RQ4 environment": "Vulhub Docker containers in an Ubuntu VM; separate Kali Linux attacker VM with customized MCP interface, connected through NAT in an isolated local network",
+  "RQ4 metrics": "Exploitation Success Rate (ESR), Average Steps per Task (AST), Average Time to Exploit (ATE), Average Token Usage (ATU), Experience Knowledge Base Hit Rate (EHR)",
+  "RQ4 baseline_type": "LLM-based penetration testing frameworks using the same GPT-4o-mini model; component-removal ablations",
+  "RQ4 headline_result": "Table 3: ESR 60.0% versus 42.0% for PentestAgent, an 18 percentage-point improvement; ATE 390 ± 80 s, ATU 3.5 ± 0.7 M tokens, AST 5.1",
+  "RQ4 compared_to": "AutoPT, VulnBot, PentestAgent; No EKB, No CL, No CL + No EKB",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Dual-use misuse; reasoning instability, hallucinated outputs, limited context windows, API latency, costs and rate limits",
+  "RQ5 mitigations": "Failure-aware replanning, maximum attempt limits, and isolated experimental environments; explicit ethical safeguards mentioned but details absent from supplied text",
+  "author_limitations (verbatim)": "First, the current methods of experience representation in the knowledge base, such as structured exploitation cases and reusable prompt templates, may not fully capture the nuanced and contextdependent nature of real-world penetration testing.",
+  "author_future_work (verbatim)": "Future work will explore broader and more diverse vulnerability sets and test the framework under more realistic, constrained environments to better assess its robustness and practical applicability.",
+  "evidence (page/section)": "Study/task/domain: Abstract, §§1, 4.1 (pp. 1–4, 12–13); architecture/adaptation/autonomy/HITL: §§3.1–3.4 (pp. 6–12); model/datasets/environment/metrics: §§4.1–4.4, Tables 2–4 (pp. 12–16); comparisons/results: §4.3, Table 3 (pp. 14–15); risks/mitigations: §§3.4, 4.1, 5.2–5.4 (pp. 11–13, 16–17); limitations/future work: §5.3 (p. 17). Supplied text ends mid-sentence in §5.4."
+}
+END_JSON

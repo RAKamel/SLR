@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0729,exclude,EC2,"A thorough literature analysis is conducted, including current digital forensic models, tools, large language models (LLMs)",high
+R0730,include,,"interprets context and user input to execute relevant security commands and adapt its testing strategies accordingly",high
+R0731,exclude,EC1,"використання фреймворку OWASP є важливим кроком у розробці ефективних заходів веб-безпеки",high
+R0732,exclude,EC2,"SAGE integrates task-conditional Sparse Autoencoders (SAEs) to isolate and amplify these faint vulnerability signals",high
+R0733,exclude,EC1,"GAIL-PT: An intelligent penetration testing framework with generative adversarial imitation learning",medium
+R0734,exclude,EC2,"This review examines the application of LLMs across critical cybersecurity domains, including cyber threat intelligence (CTI), threat hunting",high
+R0735,include,,"We analyze 153 peer-reviewed studies published between 2020 and 2026",high
+R0736,exclude,EC1,"we propose a series of novel automated oracles aimed at detecting violations of access policies in REST APIs",high
+R0737,exclude,EC5,"Стремительное развитие больших языковых моделей (БЯМ) создало беспрецедентные возможности",high
+R0738,exclude,EC1,"Machine Learning (ML) is vital to threat defense automation",high
+R0739,exclude,EC4,"LLM agents perform project-level, line-level vulnerability localization from runtime failure evidence",high
+R0740,include,,"intelligent agents capable of multi-step reasoning, tool invocation, and autonomous decision-making across complex security tasks",high
+R0741,exclude,EC1,"we propose a new algorithm named ND3RQN, which is applied to the automated black-box penetration testing",high
+R0742,exclude,EC1,"The work provided by many researchers in the field of penetration (PEN) testing is reviewed and analyzed",high
+R0743,exclude,EC1,"The article explores software tools that can be used to perform penetration testing",high
+R0744,exclude,EC2,"This paper provides a comprehensive and State-of-the-Art review of the significant role of LLMs in cyber security",high
+R0745,exclude,EC2,"we investigate how generative LLM tools can be used to synthesise cyber-attacks targeting Industrial Control Systems (ICS)",high
+R0746,include,,"LLM driven multi-agent systems to automate and expedite vulnerability detection",high
+R0747,exclude,EC2,"The rise of ransomware: Forensic analysis for windows based ransomware attacks",medium
+R0748,exclude,EC4,"researchers tend to accept qualitative research as an effective way to solve psychological problems",high
+R0749,exclude,EC2,"providing a systematic literature review, covering the analysis of over 300 works",medium
+R0750,exclude,EC1,"deep learning neural networks",high
+R0751,exclude,EC2,"comparing the effectiveness of LLMs in detecting phishing URLs when utilized with prompt-engineering techniques versus when fine-tuned",high
+R0752,exclude,EC1,"including convolutional neural networks (CNNs), long short-term memory (LSTM) networks, recurrent neural networks (RNNs)",high
+R0753,exclude,EC2,"LLMs to generate dynamic and complex adaptable cybersecu-rity exercise scenarios",high
+R0754,exclude,EC1,"Our work investigates one-dimensional CNN-based models (1D-CNNPD) to detect phishing emails",high
+R0755,maybe,,,"Next gen cybersecurity paradigm towards artificial general intelligence: Russian market challenges and future global technological trends",low
+R0756,maybe,,,"Benchmarking Large Language Models for Log Analysis, Security, and Interpretation",low
+END_CSV

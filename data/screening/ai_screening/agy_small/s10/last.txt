@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0091,exclude,EC4,"Tests on SaaS document data prove success.",high
+R0092,include,,"PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing",high
+R0093,exclude,EC3,"testing the cognitive vulnerabilities of LLMs in cyber security settings",high
+R0094,include,,"ZeroGuard: A Multi-Agent Zero-Trust Framework for Autonomous IaC Security Remediation",high
+R0095,include,,"RedTeamLLM: An Agentic AI Framework for Offensive Security",high
+R0096,include,,"LLM-Augmented Agentic Consensus Swarms for Autonomous Edge Security",high
+R0097,include,,"fully automated LLM-driven prototype designed for evaluating autonomous Linux privilege-escalation",high
+R0098,exclude,EC2,"review of 177 articles published in 2018-2024 on the application of LLMs",high
+R0099,include,,"Reliable SOC LLM Agent with Workflow Generation",high
+R0100,include,,"CoAnalyst: An Agentic, LLM-Based Cybersecurity Analyst for Industrial Control Systems",high
+END_CSV

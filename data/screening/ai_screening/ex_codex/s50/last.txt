@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0567",
+  "study_type": "Multi-agent framework with experiments on NIST-SARD",
+  "RQ1 task_stage": "Vulnerability identification and CWE classification; root cause, impact and exploitation assessment, report generation and remediation guidance",
+  "RQ1 domain": "Memory corruption analysis in user code and binary programs; evaluated on vulnerable source code",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "Four-phase multi-agent workflow: Explorer, Analyst, Reporter and Judge; code ingestion and RAG retrieval using ChromaDB",
+  "RQ2 llm_used": "Falcon-H1R-7B (F16), Falcon-H1-7B-Instruct (F16), Falcon-H1-34B-Instruct (Q8), Falcon3-10B-Instruct (F16); Claude 4.5 Sonnet and Gemini 3.1 Pro judges; Grok 4.1-Fast reranker and chunk context generator",
+  "RQ2 adaptation": "RAG with flat, contextual or HyPE chunking; embedding, hybrid or HyPE retrieval; cross-encoder or prompted LLM reranking",
+  "RQ3 autonomy_level": "Automatically ingests code, retrieves knowledge, generates vulnerability findings, exploitation analysis, fix snippets and structured reports, then evaluates reports",
+  "RQ3 hitl": "Manual inspection of collected report URLs; not stated for the agentic analysis workflow",
+  "RQ4 dataset": "105 memory-focused vulnerable NIST-SARD samples covering 15 CWE types; retrieval corpus of 70 Google Project Zero reports and 1,321 MITRE CWE entries",
+  "RQ4 environment": "NYUAD Jubail High Performance Computing",
+  "RQ4 metrics": "LLM-as-a-Judge Structural Integrity, Ground-Truth Alignment/Factual Grounding, Code Reasoning Quality and Remediation Quality (each 0–10); overall mean and remediation success rate",
+  "RQ4 baseline_type": "Comparison of four Falcon models across ten RAG configurations",
+  "RQ4 headline_result": "Average remediation success rate of 54.21%; successful fixes must address the root cause and be syntactically valid according to both judges",
+  "RQ4 compared_to": "Falcon H1 34B Instruct, Falcon H1R 7B, Falcon H1 7B Instruct and Falcon 3 10B Instruct across flat, contextual and HyPE RAG configurations",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Hallucinated CWEs/CVEs, false negatives, noisy retrieval and malformed fixes; fixes that bypass problematic behavior or fail to address root causes",
+  "RQ5 mitigations": "Curated RAG knowledge and reranking; two independent judges assess source code and ground truth, assigning zero factual-grounding scores for hallucinated CWEs/CVEs",
+  "author_limitations (verbatim)": "This model reliably generates syntactically valid code, but remediation quality degrades when fixes require understanding intent, control flow, or multi-step reasoning.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract and I Introduction: study and tasks; title and IV-C Benchmark: domain; III-B RAG Engine and III-C Agentic Workflow: architecture, adaptation, autonomy and evaluation safeguards; III-A Data Collection Pipeline: manual inspection and retrieval corpus; IV-A LLM Selection and IV-B Parameters and Features: models; IV-C–D: dataset and metrics; V Results, Table II and V-E CWE Remediation Statistics: comparisons, results and limitations; VI Conclusion: analyst assistance; Acknowledgements: computing environment"
+}
+END_JSON

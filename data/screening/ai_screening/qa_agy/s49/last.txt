@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0556",
+    "QA1": "Y",
+    "QA1_quote": "To address these challenges, we propose a debate-driven multi-agent LLM framework for phishing email detection.",
+    "QA2": "P",
+    "QA2_quote": "we conduct experiments using different combinations of two LLMs, GPT-4 and LLaMA-2, as debater agents and judges.",
+    "QA3": "P",
+    "QA3_quote": "The proposed framework is evaluated on multiple phishing email datasets and demonstrate that mixed-agent configurations consistently outperform homogeneous configurations.",
+    "QA4": "N",
+    "QA4_quote": ""
+  }
+]
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0631,exclude,EC2,"automated translation of natural language into penetration testing commands",high
+R0632,exclude,EC4,"evaluating the biological risk posed by LLMs, agentic systems, and autonomous systems",high
+R0633,exclude,EC2,"multiple-choice Q&A benchmark datasets comprising 80, 500, 2000, and 10,000 questions",high
+R0634,exclude,EC2,"LLM configured to behave like a real shell",high
+R0635,exclude,EC1,"integrates hybrid Convolutional Neural Network–Gated Recurrent Unit (CNN-GRU) autoencoders with generative augmentation",high
+R0636,exclude,EC2,"transformer models and generative adversarial networks leveraged exclusively to detect and mitigate ransomware",high
+R0637,include,,"design guardrails to address them in two LLM-based variants: a prompt-controlled agent",high
+R0638,include,,"framework employs multiple specialized LLM-driven agents that collaboratively perform tasks",high
+R0639,exclude,EC3,"Enterprises are adopting Generative Artificial Intelligence (GenAI) faster than they can secure it",high
+R0640,exclude,EC1,"VCA employs a generative adversarial network to manipulate the vision sensor's output",high
+END_CSV

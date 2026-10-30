@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0075",
+    "QA1": "Y",
+    "QA1_quote": "In this paper, we introduce H2-MAS, a hierarchical security framework that combines a high-speed Random Forest classifier",
+    "QA2": "Y",
+    "QA2_quote": "All agents (Prosecutor, Defender, Judiciary) utilized the gpt-4o-mini. The temperature was set to T = 0.0",
+    "QA3": "P",
+    "QA3_quote": "As the evaluation relies on synthetic data, the absolute performance metrics (e.g., 97.6% accuracy) reflect the system’s logic consistency",
+    "QA4": "Y",
+    "QA4_quote": "we acknowledge specific limitations inherent to LLM-based security:"
+  }
+]
+END_JSON

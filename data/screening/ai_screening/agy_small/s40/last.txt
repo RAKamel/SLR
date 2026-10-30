@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0391,exclude,EC4,"responsible integration of LLMs into cybersecurity education",high
+R0392,exclude,EC3,"automated framework for red team prompt injection testing of LLMs",high
+R0393,include,,"LLM-agent-based penetration testing agent tailored for automated SQLi attacks",high
+R0394,include,,"stateful multi-agent architecture coordinated through LangGraph",high
+R0395,maybe,,"evaluating methods that include supervised fine-tuning, prompt engineering, Retrieval-Augmented Generation (RAG), and multi-agent architectures",medium
+R0396,include,,"characterize an operational model in which AI agents execute multi-step workflows",medium
+R0397,include,,"conceptual architecture integrating large language models with next-generation honeypot systems",high
+R0398,include,,"Autonomous AI agents, powered by advanced machine learning and Large Language Models",high
+R0399,exclude,EC2,"incident reports are generated via the Mixtral-8x7B-Instruct large language model",high
+R0400,exclude,EC2,"how these chatbots can assist novice information security specialists",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0331,exclude,EC2,"LLMs trained to associate IDS rules to TTPs in the MITRE ATT&CK framework",high
+R0332,exclude,EC3,"The Agentic Kill Chain: A Cognitive Threat Framework for Autonomous Agent Ecosystems",high
+R0333,exclude,EC2,"GenAI-driven cybersecurity also detects threats and anomalies in real-time",high
+R0334,exclude,EC1,"multi-agent protocol based on an integrative multi-lateral negotiation algorithm",high
+R0335,exclude,EC2,"investigates the effectiveness of fine-tuning versus Retrieval-Augmented Generation (RAG) in adapting Large Language Models",high
+R0336,include,,"multi-agent collaborative decisionmaking framework for autonomous penetration testing",high
+R0337,exclude,EC2,"integrates a fine-tuned transformer-based classifier for real-time behavioral pattern recognition",high
+R0338,include,,"multi-agent framework, including narrator and decision-maker agents, is used",medium
+R0339,include,,"multi-agent framework that makes use of large language models (LLMs)",high
+R0340,include,,"leverages LLM-based AI agents integrated with a retrieval-augmented generation (RAG) pipeline",high
+END_CSV

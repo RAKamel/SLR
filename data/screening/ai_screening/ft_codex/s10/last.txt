@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0621,include,,"Our framework integrates the LLM in an iterative loop where it generates candidate actions",high
+R0698,include,,"LLM-based AI agents learn from human analysts the tacit knowledge embedded in SOC operations",medium
+R0701,include,,"a ReAct-style executor issues commands over SSH and self-corrects based on command outputs",high
+R0703,include,,"five levels of AI autonomy from manual to fully autonomous",medium
+R0712,include,,"autonomously conducts complex penetration-tests on live enterprise networks",medium
+R0717,exclude,EC2,"utilization of Transformers and LLMs in cyber-threat detection systems",high
+END_CSV

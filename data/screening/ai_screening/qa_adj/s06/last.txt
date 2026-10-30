@@ -1,0 +1,21 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0320",
+    "QA2": "P",
+    "QA2_quote": "re-implement AUTOATTACKER (Xu et al., 2024b) and PENHEAL (Huang and Zhu, 2023) based on their published descriptions."
+  },
+  {
+    "id": "R0322",
+    "QA3": "Y",
+    "QA3_quote": "ablation studies confirm that the curriculum is essential for effective skill acquisition"
+  },
+  {
+    "id": "R0347",
+    "QA2": "P",
+    "QA2_quote": "We preregister inclusion criteria, query templates, screening rules, and coding rubrics",
+    "QA3": "P",
+    "QA3_quote": "Numerical reliability values below are provisional and will be replaced by the audited artifact at release."
+  }
+]
+END_JSON

@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0311",
+  "study_type": "Four-layer AI-agent architecture with a conceptual framework and empirical validation.",
+  "RQ1 task_stage": "Reconnaissance, vulnerability scanning, exploitation, validation, and reporting; automated vulnerability prioritization.",
+  "RQ1 domain": "Web application security testing.",
+  "RQ1 orientation": "not stated",
+  "RQ2 architecture": "Four layers: data collection, AI Agent Core, automated testing execution, and human validation; ReAct loop, CNN-LSTM detection, short-/long-term memory, vector retrieval, and security-tool integration. Table II labels the proposed method multi-agent.",
+  "RQ2 llm_used": "LLM based on the GPT-4 architecture; specific version not stated.",
+  "RQ2 adaptation": "Few-shot prompt engineering, structured templates, chain-of-thought reasoning, and embedding-based historical retrieval; analyst corrections incorporated into model retraining cycles.",
+  "RQ3 autonomy_level": "Autonomously discovers assets, orchestrates testing, prioritizes vulnerabilities, adapts exploitation payloads, performs PoC checks, and generates reports.",
+  "RQ3 hitl": "Analysts review and triage findings, refine CVSS scores, ensure compliance mapping, provide corrective feedback, and oversee operations through dashboards.",
+  "RQ4 dataset": "10,000 labeled HTTP requests from CSIC 2010 and 5,000 custom-collected samples; 50 applications from OWASP WebGoat 2023.4, DVWA 1.10, and custom-developed systems.",
+  "RQ4 environment": "Controlled testing environment on isolated Ubuntu 22.04 LTS virtual machines; six-month evaluation with simulated remediation workflows.",
+  "RQ4 metrics": "Detection rates by severity, overall accuracy, false positive/negative rates, testing time, MTTR, attack-surface coverage, zero-day detection, assessment cost, and autonomous adaptation.",
+  "RQ4 baseline_type": "Manual penetration testing by certified professionals; traditional automated scanning without AI augmentation.",
+  "RQ4 headline_result": "Accuracy 89.2% (95% CI: 86.4–92.0%) versus 67.4% for traditional automation (p < 0.001); MTTR 74.3 to 28.5 days (61.6% reduction), false positives 24.3% to 4.8%.",
+  "RQ4 compared_to": "Manual; Traditional auto. Specific baseline scanner names not stated.",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "yes; custom datasets and configurations upon reasonable request from the corresponding author; public sources: https://owasp.org/www-project-webgoat/, https://dvwa.co.uk/, http://www.isi.csic.es/dataset/",
+  "RQ5 risks_addressed": "False positives and misclassifications, infinite reasoning loops, limitations in zero-day and insecure-design detection, model drift, and evolving threats.",
+  "RQ5 mitigations": "Human validation and oversight, multiple independent PoC checks, attention-based contextual validation, iterative ReAct correction, and a maximum of 10 iterations per testing cycle.",
+  "author_limitations (verbatim)": "First, the controlled testing environment may not fully reflect the complexity of production-scale systems with diverse technology stacks and network configurations. Second, the six-month evaluation window may be insufficient to capture long-term model drift or evolving threat landscapes.",
+  "author_future_work (verbatim)": "Future research avenues include the integration of multiagent systems to enable collaborative security testing, the development of specialized reasoning pipelines tailored to distinct vulnerability categories, and the exploration of federated learning strategies to support privacy-preserving threat-intelligence sharing.",
+  "evidence (page/section)": "Study type: Abstract and VI; tasks/domain/autonomy: III.A–D; architecture/models/adaptation/tools: III.B–C and Table II; human involvement: III.E; datasets/environment/baselines: III.C.2 and IV.A; metrics/results: IV.B–C, Table IV, and Abstract; risks/mitigations: III.C–E, IV.C, and V; limitations: V.A; future work: VI; availability: Data Availability Statement."
+}
+END_JSON

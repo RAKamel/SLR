@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0221,include,,"introduces an agentic framework that leverages Large Language Models",high
+R0222,exclude,EC2,"tool and command recommendations",high
+R0223,exclude,EC2,"automatically generate the detection rules without more intervention",high
+R0224,include,,"iteratively refines candidate outputs through self correction",high
+R0225,exclude,EC2,"novel benchmark comprising six distinct datasets designed to evaluate LLM capabilities",high
+R0226,include,,"powered by a large language model (LLM)-based multi-agent system",high
+R0227,include,,"orchestrates remediation strategies including automated rollbacks, security gating, and adaptive pipeline optimization",high
+R0228,include,,"framework incorporates iterative feedback loops among agents, allowing for query refinement",high
+R0229,exclude,EC4,"rheological performance of asphalt binder",high
+R0230,include,,"into an agentic AI workflow",high
+END_CSV

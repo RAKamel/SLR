@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0225,exclude,EC2,"This paper introduces VAP-6, a novel benchmark comprising six distinct datasets",high
+R0226,include,,"a large language model (LLM)-based multi-agent system that provides accurate, explainable, and real-time detection",high
+R0227,include,,"A GenAI reasoning layer orchestrates remediation strategies including automated rollbacks, security gating, and adaptive pipeline optimization.",medium
+R0228,include,,"The framework incorporates iterative feedback loops among agents, allowing for query refinement, evidence validation, and contradiction resolution",high
+R0229,exclude,EC4,"This study evaluates the effect of the incorporation of superficially modified zinc oxide nanoparticles",high
+R0230,include,,"we introduce an end-to-end framework that ingests cybersecurity attack trends and streaming news ... into an agentic AI workflow",high
+R0231,maybe,,"a large language model (LLM) to generate contextual mitigation reports",medium
+R0232,exclude,EC3,"A structured, multi-phase attack framework inspired by the MITRE ATT&CK model is proposed",high
+R0233,exclude,EC5,"© The Author(s), under exclusive license to Springer Nature Switzerland AG 2026.",medium
+R0234,include,,"a novel multi-agent framework for automated CTI enrichment, built on orchestrated large language model (LLM)-based AI agents",high
+R0235,include,,"a multi-agent LLM layer for complex reasoning, all governed by a centralized, ACID-compliant State and Memory Platform",high
+R0236,exclude,EC2,"MCPPM is a lightweight privacy framework for the Local MCP + Remote LLM architecture.",high
+R0237,maybe,,"The tool utilizes application programming interface access to LLMs",medium
+R0238,maybe,,"we present DeepAttacker, an end-to-end cooperative multi-agent collaboration based red teaming system",medium
+R0239,include,,"LLMs can act as intelligent attack agents to perform end-to-end penetration testing.",medium
+R0240,include,,"The proposed agent continuously monitors spam folders ... and autonomously executes remediation actions",high
+R0241,exclude,EC2,"for the automatic generation of synthetic attacks, including XSS ... SQL Injections, and Command Injections",high
+R0242,exclude,EC3,"CRAFT, a multi-agent red-teaming system that leverages policy-aware persuasive strategies to undermine a policy-adherent agent",high
+R0243,exclude,EC5,"This talk presents a practical, end-to-end pipeline",high
+R0244,maybe,,"LLMs, Vision-Language Models (VLMs), and Multimodal LLMs (MLLMs) also support intelligent task planning, anomaly detection",medium
+R0245,include,,"we extend the capabilities of Autonomous Cyber Defence (ACD) agents",medium
+R0246,include,,"autonomous agent loops with embedded task prioritisation",high
+R0247,include,,"manage a Linux node using a dedicated agent from the point of view of security topics",high
+R0248,exclude,EC4,"This paper presents a framework for considering response to disruption",high
+R0249,maybe,,"we examine the challenge of assessing the feasibility of LLM-powered automation across the full adversarial pipeline",medium
+R0250,exclude,EC3,"RedAgent, to generate context-specific jailbreak attacks towards customized LLM applications.",high
+R0251,exclude,EC1,"Chimera-RL combines curriculum-driven Hierarchical Reinforcement Learning (HRL), parameterized macro-actions, and mission-graph–guided exploration",high
+R0252,exclude,EC1,"This work considers SEI mimicry using three signal features mimicking countermeasures; “off-the-self” DL",high
+END_CSV

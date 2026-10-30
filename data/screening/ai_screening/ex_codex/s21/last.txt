@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0295",
+  "study_type": "Architecture design and experimental study of the hybrid risk analysis subsystem Sandwich Engine",
+  "RQ1 task_stage": "Continuous monitoring, detection, analysis, and response to cyber threats; incident search in system event logs and automated expert report generation",
+  "RQ1 domain": "Organization’s information systems; SIEM and Security Operations Centers (SOCs)",
+  "RQ1 orientation": "Information protection and cyber defense",
+  "RQ2 architecture": "Multi-agent MAS-ISM with threat assessment, resource, and protection mechanism agents, knowledge bases, and decentralized coalition auctions; Sandwich Engine combines local deterministic filtering, session isolation and anonymization with cloud LLM report generation",
+  "RQ2 llm_used": "Gemini 2.5 Flash (gemini-2.5-flash); unspecified local models using Ollama",
+  "RQ2 adaptation": "Local RAG using TF-IDF and cosine similarity; declarative system prompt with SOC analyst role, language constraints, report schema and mapping rules; Temperature = 0.0",
+  "RQ3 autonomy_level": "Automatically filters logs, identifies anomalous sessions, reconstructs attack timelines, anonymizes data and generates structured incident reports and response recommendations; MAS recalculates protection coalitions as conditions change",
+  "RQ3 hitl": "SOC analysts receive reports, instructions and recommendations for further decision-making; approval or intervention procedures not stated",
+  "RQ4 dataset": "Verification dataset of 10,000 SIEM event rows with artificially generated legitimate background transactions and a deterministic attack timeline; Auth.log, Db.log, Firewall.log and Storage.log",
+  "RQ4 environment": "Developed cyberattack emulator randomly mixing event logs; experiments on static file samples, with local processing and Google GenAI cloud API",
+  "RQ4 metrics": "Information noise filtering coefficient, context token and row counts, local/cloud processing time, End-to-End Latency, and coincidence of generated instructions with reference cyber-threat maps",
+  "RQ4 baseline_type": "Traditional manual SOC Tier-1 analysis; direct LLM processing and local model configurations",
+  "RQ4 headline_result": "99.75% noise filtering: 10,000 rows/300,000 tokens reduced to 25 rows/~750 tokens, a 400-fold reduction; abstract reports 12 seconds, while §5.2 reports 15-second End-to-End Latency versus 15–45 minutes manually",
+  "RQ4 compared_to": "Traditional manual incident analysis by a SOC Tier-1 analyst; direct LLM; unspecified local models using Ollama",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Confidential data leakage to cloud models, AI hallucinations, context-window overload, black-box decision-making and loss of attack context; report structure and language errors",
+  "RQ5 mitigations": "Local deterministic anomaly detection and session isolation, data masking before encrypted cloud transfer, compressed context, and constrained prompting; LLM used exclusively as a linguistic processor",
+  "author_limitations (verbatim)": "the evolution of the incident is considered within the framework of one compromised account (user_id or IP);",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Study type, tasks and domain: Abstract, §§3–4 (p.36); architecture and autonomy: §5.1 (pp.36–38), §5.2 (pp.38–42); model, adaptation and mitigations: §4 (p.36), §5.2 (pp.38–42); human role: Abstract and §5.2 (p.41); datasets, environment, metrics, baselines and results: §5.2 (pp.41–42), Abstract; risks: §§1–2 (pp.33–36), §5.2; limitations: §4, adopted simplifications (p.36). Supplied text ends within Fig.7 (p.43)."
+}
+END_JSON

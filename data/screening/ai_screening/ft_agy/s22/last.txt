@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0451,include,,"first study on how LLMs perform in multi-agent ACD environments",high
+R0477,include,,"autonomous agent for network security operations empowered by an LLM",high
+END_CSV

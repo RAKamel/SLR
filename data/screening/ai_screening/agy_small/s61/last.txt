@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0601,exclude,EC2,"Sentence Transformers for semantic threat typing, and a high-accuracy DistilBERT model",high
+R0602,exclude,EC2,"uses adaptation techniques such as fine-tuning to detect and classify common web attacks",high
+R0603,exclude,EC2,"Generating Malware with Large Language Models",high
+R0604,exclude,EC2,"employing LLMs to translate deprecated language to new APIs",high
+R0605,include,,"AUTHSENTRY is proposed as an LLM-agent-assisted black-box framework",high
+R0606,exclude,EC2,"generate test cases by using three distinct prompts",high
+R0607,exclude,EC2,"applicability of large language models (LLM) for multi-label classification of HTTP traffic",high
+R0608,exclude,EC4,"AI as Our Research Assistant in Academia",high
+R0609,exclude,EC2,"extensive review of the field of prompt engineering in cybersecurity",high
+R0610,exclude,EC4,"Enhancing Public Safety Through Threat Modeling",high
+END_CSV

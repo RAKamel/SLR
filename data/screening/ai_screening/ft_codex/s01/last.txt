@@ -1,0 +1,9 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0007,exclude,EC2,"providing intelligent, real-time feedback, natural language threat explanations, and adaptive learning support during training exercises",medium
+R0025,include,,"automated anomaly investigation, and adaptive optimization of FL parameters",medium
+R0028,include,,"enables agents to issue retrieval queries and incorporate external evidence during collaborative investigations",high
+R0039,include,,"autonomously solve beginner-level offensive security tasks by connecting the model to OverTheWire’s Bandit capture-the-flag game",high
+R0040,include,,"Incalmo uses LLMs to plan red team exercises in terms of high-level declarative tasks",high
+R0044,include,,"integrates blockchain-based evidence integrity, statistical anomaly detection, machine learning, large language models, and autonomous AI agents",high
+END_CSV

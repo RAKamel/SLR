@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0698",
+  "study_type": "Vision and proposed framework for AI-driven human-machine co-teaming in SOCs",
+  "RQ1 task_stage": "Threat intelligence, alert triage, and incident response; context-aware investigation and remediation",
+  "RQ1 domain": "Security Operations Centers (SOCs); complex enterprise networks",
+  "RQ1 orientation": "Defending organizations against evolving cyber threats",
+  "RQ2 architecture": "LLM-based AI apprentice collaborating with SOC analysts; four modules for data integration, situational awareness, adaptive decision-making, and explainable AI/plan execution, with a multi-graph model and feedback learning",
+  "RQ2 llm_used": "Falcon, LLaMA, and Mistral proposed as example open-source foundation models; versions not stated",
+  "RQ2 adaptation": "Prompt engineering, in-context learning, Chain of Thought prompting, supervised fine-tuning, generative feedback, RLHF, and RAG; learning signals from op traces and ethnographic fieldnotes",
+  "RQ3 autonomy_level": "Proposed automatic analysis of information streams, data normalization, and generation of investigative suggestions and reports; validated plans translated into executable artifacts with minimal manual intervention",
+  "RQ3 hitl": "Analysts evaluate, refine, and directly edit outputs; human analysts review plan feasibility and effectiveness before validated plan execution, with oversight mechanisms",
+  "RQ4 dataset": "Proposed parallel corpus of format-conversion input-output pairs; proposed retrospective analysis using CSIS Significant Cyber Incidents and historical media from the Way Back Machine",
+  "RQ4 environment": "Proposed on-premises deployment and fieldwork in real-world SOCs, followed by piloting with production SOC analysts",
+  "RQ4 metrics": "Proposed number of interaction rounds needed to obtain useful information; qualitative and quantitative assessments of return on investment",
+  "RQ4 baseline_type": "Proposed comparison of updated LLM agents against previous versions; comparison of learning strategies",
+  "RQ4 headline_result": "not stated",
+  "RQ4 compared_to": "Previous version of the LLM agent; named baselines not stated",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Sensitive SOC data and privacy; inconsistent outputs, hallucinations, trust, explainability, and incomplete or uncertain data",
+  "RQ5 mitigations": "On-premises open-source models; evidence-based human verification, feedback learning, data-source trust scoring, explainable reports, and structured plan review and execution oversight",
+  "author_limitations (verbatim)": "While AI-driven co-teaming presents transformative potential, challenges remain, including trust in AI outputs, explainability, and continuous learning from SOC interactions.",
+  "author_future_work (verbatim)": "Future research should explore fine-tuning SOC-specific LLMs, enhancing AI explainability, and integrating human feedback loops for iterative learning.",
+  "evidence (page/section)": "Abstract and §1: study type, tasks, setting, orientation; §2: reliability risks and human verification; §§3–3.1: models, on-premises deployment, adaptation and learning; §3.2: proposed metrics and comparisons; §§4–4.2.2: architecture, proposed data and validation sources, trust scoring; §§4.3–4.4.3: autonomy, human feedback, plan review and execution; §5: limitations and future work. Supplied text ends mid-§5.1."
+}
+END_JSON

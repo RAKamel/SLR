@@ -1,0 +1,27 @@
+BEGIN_JSON
+{
+  "id": "R0759",
+  "study_type": "Comprehensive review of AI-driven approaches for Critical Infrastructure Protection.",
+  "RQ1 task_stage": "Reviews threat detection, vulnerability detection and mitigation, cyber-attack attribution, and proactive defense mechanisms.",
+  "RQ1 domain": "Critical National Infrastructures, including energy grids, water systems, transportation networks, communications, and ICSs.",
+  "RQ1 orientation": "Critical Infrastructure Protection and proactive defense; also reviews offensive security benchmarks.",
+  "RQ2 architecture": "not stated",
+  "RQ2 llm_used": "Reviewed models include GPT-3.5, GPT-3.5-Turbo, GPT-4, LLaMA 2, Llama 3, Vicuna, Mistral, Zephyr, CodeLlama, DeepSeek-Coder, StarCoder2, and InCoder.",
+  "RQ2 adaptation": "Reviews zero-shot and few-shot prompting, Retrieval-Augmented Generation, instruction-tuning, and Feedback-Driven Security Patching using static code analysis.",
+  "RQ3 autonomy_level": "Reviewed NYU CTF benchmark supports advanced function calling and external tool integration for fully automated evaluation.",
+  "RQ3 hitl": "Human experts validate CyberMetric questions and manually review OpsEval questions; system approval or intervention points not stated.",
+  "RQ4 dataset": "Reviewed benchmarks: SECURE, NetEval, DebugBench, SecQA, SecurityEval, CyberMetric, SecEval, PythonSecurityEval, OpsEval, EvilInstructCoder, CS-Eval, CyberSecEval, LLMSecEval, NYU CTF Dataset, DIA-Bench, eyeballvul, AttackER, and CYBERSECEVAL 3.",
+  "RQ4 environment": "not stated",
+  "RQ4 metrics": "Reviewed benchmarks report vulnerability mitigation improvement and Attack Success Rates (ASR@1).",
+  "RQ4 baseline_type": "Reviewed comparisons include other LLMs, human participants, self-feedback methods, and models with and without mitigations.",
+  "RQ4 headline_result": "Reviewed PythonSecurityEval reports up to 17.6% improvement in vulnerability mitigation; reviewed EvilInstructCoder reports 76–86% ASR@1 with 0.5% poisoned instruction data.",
+  "RQ4 compared_to": "Self-feedback methods for PythonSecurityEval; human participants for NetEval, CyberMetric, and NYU CTF.",
+  "RQ4 code_available": "not stated",
+  "RQ4 data_available": "not stated",
+  "RQ5 risks_addressed": "Insecure code generation, compliance with cyberattack requests, adversarial data poisoning, model-inversion privacy risks, hallucinations, test leakage, and reliability and confidence inconsistencies.",
+  "RQ5 mitigations": "Reviews static-analysis-guided security patching, human expert validation, secure implementation examples, and withholding 80% of OpsEval to prevent test leakage.",
+  "author_limitations (verbatim)": "This provided challenges for paper selection and review due to the broad range of areas covered. However, this article aims to provide a baseline assessment of the selected topics and should be read in the context of a foundation for further research.",
+  "author_future_work (verbatim)": "not stated",
+  "evidence (page/section)": "Abstract and Section 1, pp. 1–5: review scope, domain, orientation, selection limitations; Section 3, Tables 2–3 and Sections 3.1–3.16, pp. 10–16: reviewed benchmarks, models, methods, automation, comparisons, quantitative results, and mitigations; Section 4, pp. 16–18: cybersecurity threats, poisoning, and model inversion. Supplied text ends during Section 4; Sections 7–10 are not provided."
+}
+END_JSON

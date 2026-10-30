@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0253,exclude,EC3,"defense system rooted in established malware detection and threat intelligence practices",high
+R0254,include,,"framework based on Large Language Models (LLMs) supported by a Multi-Agent layer",medium
+R0255,include,,"we propose ARuleCon, an agentic SIEM-rule conversion approach",high
+R0256,include,,"lightweight Agentic Retrieval-Augmented Generation (RAG) framework",high
+R0257,exclude,EC3,"security challenges such as prompt injection, impersonation, and supply chain vulnerabilities",high
+R0258,exclude,EC2,"generates customized OS-specific remediation instructions",high
+R0259,maybe,,"The architecture uses the large language models to understand the raw security telemetry data",medium
+R0260,exclude,EC1,"a hierarchical multi-agent framework grounded in Dempster-Shafer (D-S) Evidence Theory",medium
+R0261,include,,"Agentic Large Language Model (LLM)-based cyber threat hunting system",high
+R0262,include,,"LLM-driven, multi-agent framework for dynamic and static analysis of network traffic",high
+R0263,exclude,EC3,"vulnerable to adversarial “jailbreak” attacks designed to bypass safety guardrails",high
+R0264,include,,"automated SQLi penetration testing system based on a multi-agent architecture integrated with Large Language Models",high
+R0265,exclude,EC2,"LLM-powered response generation module, which formulates precise, actionable, and contextually relevant incident mitigation strategies",high
+R0266,exclude,EC2,"to generate plain-language summaries of penetration testing reports",high
+R0267,exclude,EC3,"automated red teaming framework for LLM-based agents by generating malicious MCP tools",high
+R0268,exclude,EC2,"leveraging Large Language Models (LLMs) to analyze the semantics of web pages",high
+R0269,exclude,EC3,"a comprehensive threat taxonomy and adversarial framework targeting both conventional and agentic RAG systems",high
+R0270,exclude,EC2,"This research study also highlights autonomous security enhancements, improved security posture against emerging threats",medium
+R0271,exclude,EC4,"improve maritime border surveillance",high
+R0272,include,,"a multi-agent AI framework where specialized Large Language Model (LLM)-based agents engage",high
+R0273,include,,"a LLM (Claude 3.5 Sonnet) as a CTF Agent, integrating reasoning and tool usage in an iterative loop",high
+R0274,include,,"LLMs as the reasoning engine to handle autonomous threat investigation, incident triage, and coordinated autonomous response",high
+R0275,include,,"an adaptive multi-agent framework that integrates Large Language Models (LLM), Reinforcement Learning (RL), and Retrieval-Augmented Generation (RAG)",high
+R0276,include,,"LLM-driven autonomous systems to address these challenges in real-world Active Directory enterprise networks",high
+R0277,exclude,EC2,"an LLM-assisted reporting module that automatically translates technical findings",high
+R0278,include,,"Based on an agentic AI architecture, the system uses dedicated AI agents",high
+R0279,exclude,EC3,"mutates prompts to test for jailbreak vulnerabilities across multiple LLM models",high
+R0280,include,,"a lightweight, GPU-free (CPU-only), closed-loop SOC agent",high
+END_CSV

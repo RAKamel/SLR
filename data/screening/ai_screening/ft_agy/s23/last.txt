@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0480,include,,"We evaluate on CybORG CAGE-2, a stochastic network-defense POMDP",high
+R0484,include,,"compound LLM agent defending a network in the CybORG CAGE-2 POMDP",high
+END_CSV

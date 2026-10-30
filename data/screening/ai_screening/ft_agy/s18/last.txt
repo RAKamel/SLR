@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0365,include,,"autonomous AI agent designed to extract CTI from raw logs",medium
+R0371,include,,"running cyber security tools and processing their output in support of cyber incident response",high
+END_CSV

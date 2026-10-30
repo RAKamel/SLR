@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0021,exclude,EC2,"correlating new vulnerabilities to known vehicle systems or components utilizing a large language model",high
+R0022,include,,"Large Language Model–based penetration testing agent (PenTest++)",high
+R0023,exclude,EC3,"Mitigating Toxic Flows and Adversarial Exploits in Multi-Agent Ecosystems",high
+R0024,exclude,EC2,"converts these feature attributions and the CNN’s binary prediction into concise natural-language justifications",high
+R0025,exclude,EC2,"enabling prompt-driven analytics for real-time intrusion detection, feature relevance assessment",high
+R0026,exclude,EC3,"block prompt injection and jailbreak attempts",high
+R0027,include,,"Autonomous Offensive Cyber Security Framework that incorporates Large Language Models (LLMs) to automate",high
+R0028,include,,"incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations",high
+R0029,include,,"implementation uses the ReAct paradigm with cryptographically secured agent communication",high
+R0030,exclude,EC2,"automatically interprets scan results, generates AI-driven reports, and provides personalized recommendations",high
+END_CSV

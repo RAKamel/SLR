@@ -1,0 +1,15 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0567",
+    "QA1": "Y",
+    "QA1_quote": "a framework leveraging LLM agents and Retrieval Augmented Generation (RAG) to synthesize comprehensive vulnerability analysis reports.",
+    "QA2": "P",
+    "QA2_quote": "RAVEN implements a four-phase multi-agent system for automated vulnerability analysis and report generation.",
+    "QA3": "P",
+    "QA3_quote": "We evaluate RAVEN on 105 vulnerable code samples covering 15 CWE types from the NIST-SARD dataset.",
+    "QA4": "P",
+    "QA4_quote": "these fixes often prevent program failure by disabling or bypassing the problematic behavior rather than directly addressing"
+  }
+]
+END_JSON

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0201,include,,"neuro-symbolic, multi-agent framework for stateful network penetration testing",high
+R0202,include,,"automated incident response through four specialised agents: Detection, Classification, Response, and Forensic",high
+R0203,exclude,EC2,"AI-based response evaluation, and LLM-driven risk scoring",high
+R0204,include,,"agentic feedback-loop driven framework that involves open-source LLMs",high
+R0205,exclude,EC2,"using CodeBERT for the payload generation and as a classifier",high
+R0206,include,,"significantly improves the automation of post-exploitation operations for red team members",high
+R0207,exclude,EC2,"helps penetration testers with options and suggestions during the five stages of penetration testing",high
+R0208,include,,"using conversational honeypots to engage scammers and extract actionable threat intelligence",high
+R0209,include,,"automatically enforces firewall rules to block malicious IP addresses without relying on manual supervision",medium
+R0210,include,,"coordinated defense loop composed of three specialized agents",high
+END_CSV

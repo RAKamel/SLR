@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0101,exclude,EC3,"systematically evaluate these security risks in leading LLMs",high
+R0102,include,,"traffic, security, and QoS optimization agents make decisions",medium
+R0103,exclude,EC4,"navigating the evolving landscape of AI-driven data management",high
+R0104,maybe,,"The use of LLM-based agents in cybersecurity presents promising new directions",medium
+R0105,exclude,EC2,"providing contextual guidance, command suggestions, and technical explanations in natural language",high
+R0106,exclude,EC2,"generating architecture-based penetration test cases",high
+R0107,include,,"automated penetration testing framework driven by Large Language Models",high
+R0108,include,,"Autonomous Cyber Defence (ACD) agent to monitor and act within critical network segments",high
+R0109,exclude,EC2,"Large language models (LLMs) can classify network flows for intrusion detection",high
+R0110,include,,"MetaGPT-based multi-agent framework that automates the entire penetration testing lifecycle",high
+END_CSV

@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0081,exclude,EC4,"improve system-level environmental performance across two interconnected layers in sustainable smart cities",high
+R0082,include,,"orchestrator-worker analysis with parallel Verification Agents followed by an independent Judge Agent",high
+R0083,exclude,EC2,"use of transformer-built large language models (LLMs) for CAN-bus intrusion detection",high
+R0084,exclude,EC2,"using the LLMs in the automation of the analysis and within the validation process",high
+R0085,include,,"potential of Large Language Models based frameworks in real-world penetration testing",high
+R0086,exclude,EC3,"bridges three literatures developed in isolation, Industry 5.0 cybersecurity, agentic AI security",high
+R0087,exclude,EC4,"real-time monitoring of radiation and energy-efficient wireless resource allocation",high
+R0088,exclude,EC4,"pedagogical framework for integrating generative AI (GenAI) into university-level cybersecurity curricula",high
+R0089,include,,"collecting relevant threat intelligence and orchestrating the deployment of counteractions",high
+R0090,exclude,EC4,"interpretable AI framework enabling GPT to self-explain loan rejections",high
+END_CSV

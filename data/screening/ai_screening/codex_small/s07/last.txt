@@ -1,0 +1,31 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0169,include,,"LLM-based multi-agent collaboration using the Backdoors & Breaches (B&B) framework",high
+R0170,include,,"PENTESTGPT is an LLM-empowered automated penetration testing framework",high
+R0171,include,,"a modular multi-agent system powered by Large Language Models (LLMs)",high
+R0172,exclude,EC4,"A proof-of-concept use case involving the location of missing persons from public data",high
+R0173,include,,"our framework employs a Controller that manages the execution of agents across stages",high
+R0174,include,,"a hyper-automation SOAR platform powered by agentic-LLM",high
+R0175,exclude,EC1,"a Mixture of Experts (MoE) ensemble of spatiotemporal graph neural networks",high
+R0176,exclude,EC2,"LLM-assisted analysis",high
+R0177,exclude,EC3,"we propose a novel jailbreak attack and defense optimization framework",high
+R0178,exclude,EC1,"it forecasts the future development trends of satellite network penetration testing technologies",medium
+R0179,maybe,,"we explore the potential of Generative Artificial Intelligence (GenAI) in synergy with agentic AI approach",medium
+R0180,exclude,EC2,"LLM and Vision-Language Model (VLM)-based anomaly detection and notification system",high
+R0181,exclude,EC2,"LLMs can restructure radiology text, extract discrete variables, draft supervised summaries",high
+R0182,maybe,,"an AI-driven automated penetration testing framework that integrates LLMs",medium
+R0183,include,,"combines Qwen-1.5B as a probabilistic action-prior generator with Monte Carlo Tree Search",high
+R0184,include,,"an LLM to invoke scanners, parse outputs, consult vulnerability databases, and generate exploits",high
+R0185,exclude,EC2,"we input the vulnerable code to ChatGPT and measure its accuracy in vulnerability identification and fixing",high
+R0186,include,,"Each agent collaborates in attack modeling, intelligence analysis, defense response, and strategy optimization",high
+R0187,include,,"a multi-agent autonomous pentesting framework integrating LLMs and expert systems",high
+R0188,include,,"an agentic, asynchronous alert-enrichment framework",high
+R0189,exclude,EC3,"a multi-agent framework that coordinates Red Team, Blue Team, and Critic agents for threat anchoring",high
+R0190,include,,"Following the ReAct paradigm, the agent identifies knowledge gaps in the reasoning process",high
+R0191,include,,"THAITI, a locally deployed multiagent prototype for threat hunting using AI agents and threat intelligence",high
+R0192,exclude,EC1,"The system is built on Python-Flask server code",medium
+R0193,include,,"a hierarchical multi-agent approach that leverages the reasoning capabilities of Large Language Models (LLMs)",high
+R0194,exclude,EC2,"generative models strengthen defense by simulating zero-day attack scenarios",high
+R0195,exclude,EC3,"a blackbox red-teaming framework for attacking web agents",high
+R0196,maybe,,"GAI-driven automation improves the efficiency of pentesting",medium
+END_CSV

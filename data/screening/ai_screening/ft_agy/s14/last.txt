@@ -1,0 +1,5 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0315,include,,"a two-stage LLM-based framework designed to autonomously identify and mitigate security vulnerabilities",high
+R0316,include,,"These agents capture traffic, detect anomalies, and reason using LLMs.",high
+END_CSV

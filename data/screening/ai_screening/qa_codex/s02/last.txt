@@ -1,0 +1,37 @@
+BEGIN_JSON
+[
+  {
+    "id": "R0040",
+    "QA1": "Y",
+    "QA1_quote": "we explore whether LLMs can autonomously execute red-team exercises.",
+    "QA2": "Y",
+    "QA2_quote": "we mitigate this limitation by open-sourcing MHBench, prompts, model numbers, and Incalmo’s code.",
+    "QA3": "Y",
+    "QA3_quote": "The baseline systems are evaluated on the 10 environments with 5 independent trial runs.",
+    "QA4": "Y",
+    "QA4_quote": "We acknowledge that closed-source LLMs may make some of the results harder to reproduce."
+  },
+  {
+    "id": "R0044",
+    "QA1": "Y",
+    "QA1_quote": "we propose a SOC-LLM-augmented security architecture",
+    "QA2": "P",
+    "QA2_quote": "the details and discussion of this implementation are beyond the scope of this review.",
+    "QA3": "P",
+    "QA3_quote": "Twenty-four primary papers published between 2019 and 2025 were selected for analysis after clear inclusion and exclusion criteria were applied.",
+    "QA4": "Y",
+    "QA4_quote": "Full empirical validation through operational deployment in a live multi-cloud testbed remains a priority for future work."
+  },
+  {
+    "id": "R0070",
+    "QA1": "Y",
+    "QA1_quote": "we propose a knowledge-informed, self-reflective PT framework powered by LLMs, called RefPentester.",
+    "QA2": "Y",
+    "QA2_quote": "we leveraged llama-text-embed-v2index [29] to embed the PT knowledge.",
+    "QA3": "P",
+    "QA3_quote": "We conducted three experiments on the Sau machine from HTB as a case study.",
+    "QA4": "Y",
+    "QA4_quote": "In the future, our research should focus on testing our framework in different experimental environments."
+  }
+]
+END_JSON

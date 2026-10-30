@@ -1,0 +1,13 @@
+BEGIN_CSV
+id,decision,ec_code,evidence,confidence
+R0511,include,,"hierarchical planning design within multi-agent cooperation to generate exploitable shell responses",high
+R0512,include,,"enabling the agent to generate tailored mitigation strategies for detected cyber attacks",high
+R0513,include,,"framework that leverages large language models (LLMs), intention understanding, and autonomous agents",high
+R0514,exclude,EC2,"A local AI module that summarizes those alerts using Gemini 1.5's free-tier API",high
+R0515,include,,"suggests an alternating adversarial training framework for LLM-based network incident response",high
+R0516,include,,"introduces a multi-agent cybersecurity framework driven by Large Language Models (LLMs)",high
+R0517,include,,"autonomously generates and executes context-aware cyberattack chains",high
+R0518,include,,"combines Large Language Model (LLM) inference with the Model Context Protocol (MCP)",high
+R0519,exclude,EC2,"examining publication trends and dominant research themes in LLM-enabled cybersecurity",high
+R0520,exclude,EC2,"We systematize this space along four axes: AI-for-Cyber, Cyber-for-AI, LLM-for-Cyber, and Cyber-for-LLMs",high
+END_CSV
