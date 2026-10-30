@@ -8,3 +8,5 @@ data/screening/ai_screening/mech_codex/paper_backup/
 # working backups made before each write
 *_before_*.xlsx
 ~$*
+__pycache__/
+*.py[cod]

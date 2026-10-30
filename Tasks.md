@@ -1,10 +1,37 @@
 # Tasks.md: DAI 701 Midterm SLR
 
+## LIVE FINALIZATION STATUS — 2026-10-31
+
+**Confirmed deadline:** **2026-10-31 at 16:00 (Asia/Dubai, UAE time).**
+**Current scope:** submission-ready midterm SLR package. The post-submission final presentation (Phase 8) is excluded from this run by the author's 2026-10-30 direction.
+
+| Workstream | Current evidence-based state | Next action |
+|---|---|---|
+| Search, deduplication, snowballing | Complete: 976 database hits + 221 citation-searching records; 784 unique records screened | Final reproducibility audit only |
+| Title/abstract screening | Complete mechanically: 784/784 decisions recorded | Author verification remains disclosed as partial |
+| Full text, QA and extraction | 66 assessed, 61 included; QA and AI-prefilled extraction present | Author must verify extracted facts and coding decisions |
+| PRISMA and generated tables | **Fixed 2026-10-30:** counts reconcile; citation branch now shows 71 screened and 53 excluded; both figure copies match | Final rendered-PDF inspection remains |
+| References | **Repaired 2026-10-30:** 81 complete, unique DOI records; malformed metadata and TeX escaping fixed | Only 61 are cited while the manuscript body is empty; author must cite ≥80 relevant sources in the written synthesis |
+| Manuscript | **Blocked on author content:** `paper/` is still an explicit `[YOU]` skeleton | Author supplies judgments/prose; AI may structure, clarify, validate and typeset |
+| Submission package | Overleaf ZIP exists but is not final while the manuscript is empty | Rebuild only after manuscript and appendices pass gates |
+
+**Integrity boundary:** the author supplies the taxonomy, critique, research gaps and synthesis. AI assistance is disclosed and is limited to permitted mechanics, evidence extraction, questions/options, clarity editing and verification.
+
+**Independent verdict (2026-10-31): NOT READY.** Both the ultra-effort agent judge and `agy` Gemini 3.8 Flash (High) accepted the PRISMA fix (`0cf97d9`), bibliography repair (`a4bbfdb`), and the factual tracker/front-matter changes. They identified the same submission blockers: the core manuscript is unwritten, 411 codes and 61 extraction rows need author verification, all 61 gap/annotated-bibliography fields are blank, only 61 unique sources are cited, and no compiled PDF exists.
+
+### Author input currently required
+
+- [ ] Write the central problem statement and why the review is timely now.
+- [ ] Confirm or revise the proposed taxonomy dimensions: task stage × defensive/offensive orientation, with autonomy/human oversight as an overlay.
+- [ ] Verify the 61 AI-prefilled extraction rows and the 411 AI-agreed code fields still blank in `your_final_code`.
+- [ ] Fill the 61 `my_gap_note [YOU ONLY]` and 61 `annotated_bib [YOU, 2-3 lines]` cells.
+- [ ] Supply the author-written taxonomy, critique, gap analysis, synthesis and manuscript prose for clarity editing and typesetting.
+
 **Topic (approved, Week 3 gate passed):** Agentic AI for Autonomous Cybersecurity: From Intrusion Detection to Autonomous Incident Response
 **Handout §10 suggested title:** *Agentic AI for Autonomous Cybersecurity Operations: A Systematic Review of LLM-Based Intrusion Detection, Threat Hunting, and Incident Response* (you decide the final wording in M1.1)
-**Deliverable:** the midterm SLR only (handout rubric, 20 pts). Due **end of Week 9**. Today, 2026-10-23, is the end of Week 8; get the exact date and time from the professor today (T0.1).
+**Deliverable:** the midterm SLR only (handout rubric, 20 pts). Due **2026-10-31 at 16:00 UAE time** (confirmed by the author on 2026-10-30).
 **Capacity:** 3–5 working days, hence the compressed schedule below.
-**Last updated:** 2026-10-23
+**Last updated:** 2026-10-31
 
 ## STATUS 2026-10-29: what is built, and what is left (read this first)
 

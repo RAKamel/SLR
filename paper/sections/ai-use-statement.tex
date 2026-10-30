@@ -1,3 +1,25 @@
-% [YOU] Use of AI tools (disclosure).
-% Must contain: every AI tool used, the task it helped with, and whether its output was verified
-% (mirror the "Use of AI Tools" table in the workbook).
+The review used AI tools for search support, record-processing mechanics, screening, evidence extraction, coding assistance, document preparation, and verification. The intellectual contribution reserved for the author---the taxonomy, comparative interpretation, critique, research gaps, and synthesis---was not delegated. The dated, run-level record is retained in the project workbook and \texttt{Tasks.md}; Table~\ref{tab:ai-use} summarizes the tool roles and verification status relevant to this manuscript.
+
+\small
+\begin{longtable}{@{}p{0.13\linewidth}p{0.20\linewidth}p{0.42\linewidth}p{0.17\linewidth}@{}}
+\caption{Use of AI and automated research tools.}\label{tab:ai-use}\\
+\hline
+Date & Tool & Role & Verification status \\
+\hline
+\endfirsthead
+\hline
+Date & Tool & Role & Verification status \\
+\hline
+\endhead
+\hline
+\endfoot
+2026-10-22--30 & Claude Code / Claude chat & Parsed the handout and workbook; assisted with planning, query translation, browser-mediated exports, scripts, workbook synchronization, and document mechanics. & Counts and generated artifacts checked by scripts; workbook fields still require author verification. \\
+2026-10-22--30 & Consensus, Crossref, and doi.org & Located candidate background studies and resolved bibliographic metadata and DOI records. & Metadata checked against retrieved DOI or publisher records; no fields were intentionally inferred. \\
+2026-10-29--30 & OpenAlex & Retrieved backward/forward citation-search records, open-access locations, and retraction-status evidence. & Counts and DOI matches checked by scripts; unresolved no-DOI/not-found retraction cases remain disclosed. \\
+2026-10-29--30 & OpenAI Codex CLI & Blind title/abstract screening, full-text excerpt assessment, QA scoring, factual extraction, code assignment, adjudication support, and later mechanical repository fixes. & Evidence quotes and arithmetic checked automatically; many screening, extraction, and coding judgments remain only partly human-verified. \\
+2026-10-29--30 & Google Antigravity CLI (agy; Gemini) & Independent blind screening/QA/coding rater and high-effort repository judge. & Agreement and quote checks recorded; AI agreement does not substitute for author verification. \\
+2026-10-30 & Codex desktop orchestration and independent agent judges & Reconciled the task tracker, reran gates, repaired the PRISMA generator and verified bibliography defects, and reviewed readiness. & Diffs and project gates independently rerun; no taxonomy, critique, gaps, or synthesis authored. \\
+\end{longtable}
+\normalsize
+
+The principal unresolved verification limitation at submission preparation time is that AI-prefilled extraction and many AI-agreed coding fields have not yet been individually confirmed by the author. This limitation must remain visible unless that verification is completed before submission.
