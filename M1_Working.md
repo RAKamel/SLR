@@ -80,9 +80,9 @@ The source for workbook §1–§2 and the progress slides. Labels:
 | Working title | Agentic AI for Autonomous Cybersecurity: From Intrusion Detection to Autonomous Incident Response *(chosen 2026-10-29: the approved topic title)* |
 | Student | Rami Ahmed Kamel · ID 202612134 *(your answer, 2026-10-29)* |
 | AI subfield / area | Agentic AI; Large language models *(your choice: same as the keywords)* |
-| Problem statement (2–3 sentences) | [YOU]. Framing chosen 2026-10-29: **A + B**, i.e. lifecycle coverage (detect → hunt → respond) as the scope, with autonomy level and human oversight as the analytical lens. You write the sentences |
-| Why a survey is needed now | [YOU], to be written after the "what it misses" column for S1–S8 (§A) |
-| RQ wording | [YOU], to be typed by you directly in workbook §1.1, then copied here and into the paper |
+| Problem statement (2–3 sentences) | *(written by the author, 2026-10-31)* Current research on LLM cybersecurity agents is difficult to evaluate because most results rest on contaminated CTF proxies, small task sets, and undisclosed scaffolding choices that blur what the model contributes and what the harness contributes. Add missing human and tool baselines, binary success metrics, and withheld frontier evidence, and you get claims that cannot be compared, reproduced, or taken at face value. |
+| Why a survey is needed now | *(written by the author, 2026-10-31)* A systematic review is timely now because the literature has grown faster than its evaluation discipline, and early benchmarks are saturating while regulators and SOC teams already act on their numbers. Mapping what the evidence actually supports today sets the reporting standards the field needs before weak practices harden into convention. |
+| RQ wording | Five author-selected RQs recorded below and copied into `paper/sections/01-introduction.tex` on 2026-10-30 |
 | In scope | *(your selections, 2026-10-29)* LLM-based **agentic/autonomous** systems for: intrusion/anomaly detection; SOC alert triage; threat hunting/attack investigation; CTI extraction; IR planning/playbooks; autonomous remediation (incl. RL+LLM hybrids); forensics/post-incident reporting; offensive/pentest agents |
 | Out of scope | *(your selections)* LLMs used only as a classifier/detector with no agent loop, tools, planning or autonomy; security *of* LLM agents (prompt injection, jailbreaks) |
 | Time window | From 2020 to 2026 |

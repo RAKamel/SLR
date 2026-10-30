@@ -1,1 +1,24 @@
-% [YOU] Taxonomy figure (your own TikZ, or \includegraphics of your own drawing). Your original synthesis only.
+% Drawing mechanics for the taxonomy structure confirmed by the author on 2026-10-31.
+\begin{tikzpicture}[
+  font=\scriptsize,
+  box/.style={draw, rounded corners, align=left, inner sep=5pt,
+    text width=0.91\columnwidth},
+  flow/.style={-{Latex[length=2mm]}, semithick}
+]
+  \node[box, fill=black!5] (stage) {%
+    \textbf{Primary dimension: cybersecurity task stage}\\[2pt]
+    Detection $\bullet$ Alert triage $\bullet$ Threat hunting/investigation $\bullet$ CTI\\
+    IR planning/playbooks $\bullet$ Remediation $\bullet$ Forensics/reporting $\bullet$ Offensive/pentest};
+
+  \node[box, fill=black!2, below=5mm of stage] (orientation) {%
+    \textbf{Secondary dimension: orientation}\\[2pt]
+    Defensive $\bullet$ Offensive $\bullet$ Dual-use};
+
+  \node[box, dashed, below=5mm of orientation] (overlay) {%
+    \textbf{Cross-cutting overlay: agency and oversight}\\[2pt]
+    Reported autonomy $\bullet$ Human guidance, approval, review, and intervention\\
+    \textit{Author-defined overlay levels and study mappings pending verification}};
+
+  \draw[flow] (stage) -- (orientation);
+  \draw[flow, dashed] (orientation) -- (overlay);
+\end{tikzpicture}
