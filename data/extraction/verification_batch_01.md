@@ -27,7 +27,8 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 19; `fulltext_qa` row 140; `coding_ai` rows 121–127.
 - Why first: analytical benchmark review with no agent implementation; architecture currently conflicts with the two-value codebook.
 - Verify first: study type, task stage, architecture, LLMs, adaptation, autonomy/HITL, headline results, and data availability.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Author confirmations recorded in the workbook: `study_type = review`; `orientation = dual` (both offensive and defensive); `task_stage = all eight protocol stages`; `architecture = not applicable`; `adaptation = RAG; fine-tuning; RL`; `code_available = not stated`; `data_available = yes (URL)` at `https://github.com/m1550773n/On-the-Potential-of-LLMs-for-Offensive-Security` (retrieved via the Agent Reach GitHub route at commit `9ba052367c2db95763c295e6b4e4b4982693a243`).
+- [ ] Extraction verified  [ ] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 2. R0484 — Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP
 
