@@ -125,7 +125,14 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 27; `fulltext_qa` row 180; `coding_ai` rows 177–183.
 - Why now: the unit of analysis spans single-agent and modular systems, so a single architecture label could distort the comparison table.
 - Verify first: study type/unit of analysis, architecture, models/adaptations, autonomy/HITL, baselines/results, availability, and QA2.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after two-reviewer full-paper verification: `study_type = empirical`; `orientation = offensive`; `task_stage = offensive/pentest`; `architecture = mixed`; `adaptation = prompting; RAG`; `code_available = not stated`; `data_available = not stated` for exact-study artifacts.
+- The `mixed` author decision is reaffirmed: the study directly compares GPT-4, Claude 3.5 Sonnet, and Gemini 2.0 Flash single-agent configurations with modular PENTESTGPT, AUTOATTACKER, and PENHEAL systems, then applies five isolated architectural interventions to the modular baselines.
+- Appendix F corrects the earlier partial extraction: the evaluation uses `gpt-4`, Claude 3.5 Sonnet, and Gemini 2.0 Flash with temperature `0.8`, top-p `1.0`, and 2048 maximum tokens. Table 8 lists 14 machines and 204 subtasks in total (derived from the displayed counts), including VulnHub as well as HackTheBox and Metasploitable.
+- QA changed to `Y,P,P,Y = 3.0` after cross-review. Agy initially retained QA3=Y for breadth but accepted Sol's downgrade because modular baseline SCRs differ by 20-27 percentage points across Tables 4-5 without an aggregation explanation; repetitions/uncertainty are absent; augmented MITM success is unquantified; KL changes meaning; and `Maximum 100%` is an additive sum of isolated gains rather than an evaluated combined system.
+- Reported augmentation improvements are recorded as percentage points: Adaptive Planning adds `27.1` points to AUTOATTACKER, `11.0` to PENTESTGPT, and `20.3` to PENHEAL; RTM adds `5.0` points to each. The exact-study benchmark harness, reimplementations, interventions, prompts, logs, and results are not stated as released; public framework/target-platform availability is not treated as this study's artifact.
+- The complete four-sentence author limitation passage is restored. Evaluated interventions are distinguished from recommended safeguards such as policy filters, sandboxing, audit trails, and persistent oversight.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High agreed on every factual field and code and resolved the initial QA3 disagreement through evidence cross-review. No author factual question remains.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 10. R0447 — CyberRAG: An Agentic RAG Cyber Attack Classification and Reporting Tool
 
