@@ -51,7 +51,12 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 30; `fulltext_qa` row 193; `coding_ai` rows 198–204.
 - Why now: framework/SoK with no implemented closed-loop agent; provisional reliability values and adjudicated QA2–QA3 affect synthesis credibility.
 - Verify first: study type, architecture, autonomy/HITL, corpus, results, risks/mitigations, limitations/future work, and QA2–QA3.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after full-paper and live-artifact two-reviewer verification: `study_type = review`; `orientation = dual`; `task_stage = offensive/pentest; threat hunting/investigation; remediation`; `architecture = not applicable`; `adaptation = prompting; RAG; RL` for reviewed security-agent methods; `code_available = no`; `data_available = no`.
+- The paper claims released prompts, scripts, score sheets, evidence pointers, and reliability tables, but reference [67] explicitly describes `https://github.com/MKhurana07/clasp` as empty; independent inspection on 2026-10-31 confirmed no files. This source contradiction is retained, and the provisional reliability values cannot be independently audited.
+- Security-agent autonomy is `not stated` and HITL is `not applicable` because no agent is implemented. The separate GPT-4.1 evidence-triage workflow and human coder verification remain recorded as review-method facts.
+- QA confirmed `Y,N,P,Y = 2.5`: QA2 is N because no security agent is implemented; QA3 is P because the stated reliability evidence is provisional and unavailable; QA4 is Y because limitations, risks, regressions, error propagation, and safety constraints are substantively discussed.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High initially differed on QA2/QA4, adaptation scope, and empty-repository coding, then reached complete agreement after cross-review under the existing protocol and R0249 precedent.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 4. R0025 — Generative AI–Guided Sentinel for Self-Optimizing Federated Cybersecurity and Intelligent Threat Detection
 
