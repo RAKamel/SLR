@@ -9,7 +9,7 @@
 |---|---|---|
 | Search, deduplication, snowballing | Complete: 976 database hits + 221 citation-searching records; 784 unique records screened | Final reproducibility audit only |
 | Title/abstract screening | Complete mechanically: 784/784 decisions recorded | Author verification remains disclosed as partial |
-| Full text, QA and extraction | 66 assessed, 61 included; R0249 factual extraction, QA and all seven codes independently verified; 60 study rows and 405 final-code cells remain | Author writes R0249's gap note/annotation, then verification continues with R0484 |
+| Full text, QA and extraction | 66 assessed, 61 included; R0249 factual extraction, QA and all seven codes independently verified; its author-written gap note is recorded; 60 study rows and 405 final-code cells remain | Author writes R0249's annotation, then verification continues with R0484 |
 | PRISMA and generated tables | **PRISMA fixed 2026-10-30:** counts reconcile; citation branch shows 71 screened and 53 excluded; both figure copies match. Coded-count tables reproduce the current provisional codes only | Author verifies codes, regenerates tables, then inspects the rendered PDF |
 | References | **Repaired 2026-10-30:** 81 complete, unique DOI records; malformed metadata and TeX escaping fixed | Only 61 are cited; integrate ≥80 relevant sources where they support author-written claims, without citation padding |
 | Manuscript | **Author drafting started 2026-10-31:** problem/timeliness framing and RQs are present; taxonomy dimensions are confirmed and mechanically drawn without unverified counts | Author verifies taxonomy mappings and supplies the remaining critique, gaps, synthesis and prose |
@@ -17,7 +17,7 @@
 
 **Integrity boundary:** the author supplies the taxonomy, critique, research gaps and synthesis. AI assistance is disclosed and is limited to permitted mechanics, evidence extraction, questions/options, clarity editing and verification.
 
-**Independent verdict (2026-10-31): NOT READY.** Both the ultra-effort agent judge and `agy` Gemini 3.8 Flash (High) accepted the PRISMA fix (`0cf97d9`), bibliography repair (`a4bbfdb`), factual tracker/front-matter changes (`f8c1193`), and verified-package rebuild (`fdd8452`). The current submission blockers remain: the core manuscript is unwritten, 405 final-code cells and 60 factual extraction/QA rows need verification, all 61 gap/annotated-bibliography fields are blank, only 61 unique sources are cited, and no compiled PDF exists. The author must also document adjudication of the low inter-rater agreement ($\kappa=0.220$) and must not describe the automated first-7,000/last-2,000-character triage as complete full-text reading.
+**Independent verdict (2026-10-31): NOT READY.** Both the ultra-effort agent judge and `agy` Gemini 3.8 Flash (High) accepted the PRISMA fix (`0cf97d9`), bibliography repair (`a4bbfdb`), factual tracker/front-matter changes (`f8c1193`), and verified-package rebuild (`fdd8452`). The current submission blockers remain: the core manuscript is unwritten, 405 final-code cells and 60 factual extraction/QA rows need verification, 60 gap-note fields and all 61 annotated-bibliography fields are blank, only 61 unique sources are cited, and no compiled PDF exists. The author must also document adjudication of the low inter-rater agreement ($\kappa=0.220$) and must not describe the automated first-7,000/last-2,000-character triage as complete full-text reading.
 
 **Executable script/structure checkpoint (2026-10-31 01:42 UAE):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated both provisional derived tables and resolved all 61 cited keys; PRISMA reconciliation passed; and the root/paper PRISMA figures are byte-identical with SHA-256 `C0713F0188D42FD5615275D11532D67A10D30765938759DC6B844E05148898F1`. These are script and archive checks, not evidence of manuscript completeness or successful LaTeX compilation. The Overleaf source bundle was rebuilt and inspected, but no local TeX compiler is available for the mandatory rendered-PDF check.
 
@@ -25,9 +25,9 @@
 
 - [x] Write the central problem statement and why the review is timely now. Completed by the author 2026-10-31 and integrated into Section 1.
 - [x] Confirm or revise the proposed taxonomy dimensions: task stage × defensive/offensive orientation, with autonomy/human oversight as an overlay. Confirmed by the author 2026-10-31; drawing mechanics added without unverified counts or inferred overlay levels.
-- [ ] Verify the first prioritised ten studies in `data/extraction/verification_batch_01.md`. R0249 factual extraction/QA/codes completed by two-reviewer consensus; its author-only gap note and annotation remain. Architecture-codebook decision completed 2026-10-31: R0249/R0347 = `not applicable`; R0484/R0320 = `mixed`.
+- [ ] Verify the first prioritised ten studies in `data/extraction/verification_batch_01.md`. R0249 factual extraction/QA/codes completed by two-reviewer consensus and its author-written gap note is recorded; only its annotation remains. Architecture-codebook decision completed 2026-10-31: R0249/R0347 = `not applicable`; R0484/R0320 = `mixed`.
 - [ ] Verify the remaining AI-prefilled extraction rows and AI-agreed code fields still blank in `your_final_code`.
-- [ ] Fill the 61 `my_gap_note [YOU ONLY]` and 61 `annotated_bib [YOU, 2-3 lines]` cells.
+- [ ] Fill the remaining 60 `my_gap_note [YOU ONLY]` and 61 `annotated_bib [YOU, 2-3 lines]` cells.
 - [ ] Supply the author-written taxonomy, critique, gap analysis, synthesis and manuscript prose for clarity editing and typesetting.
 
 **Topic (approved, Week 3 gate passed):** Agentic AI for Autonomous Cybersecurity: From Intrusion Detection to Autonomous Incident Response

@@ -33,7 +33,7 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Author-approved baseline description: cross-benchmark methodological comparison using MITRE ATT&CK coverage; no human, tool-only, or agent-performance baseline (2026-10-31).
 - Two-reviewer consensus (`gpt-6.1-sol` xhigh + `agy`): the six headline percentages are correct but represent approximated benchmark tactic-distribution coverage, not agent success; comparators/risks/limitations/future work are supported; mitigations are discussed or recommended rather than implemented; QA remains `Y,N,Y,Y = 3` with the documented QA2/QA3 qualifications.
 - The reviewers unanimously superseded the earlier pre-verification `dual`, all-eight-stage, added-`RL`, and five-function-HITL entries because the full paper does not support them as study-level facts.
-- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [x] Gap note written  [ ] Annotation written
 
 ### 2. R0484 — Context, Reasoning, and Hierarchy: A Cost-Performance Study of Compound LLM Agent Design in an Adversarial POMDP
 
