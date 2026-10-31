@@ -63,7 +63,11 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 2; `fulltext_qa` row 22; `coding_ai` rows 2–8.
 - Why now: eligibility was adjudicated after rater disagreement; QA3 and the claimed agentic feedback loop require author checking.
 - Verify first: eligibility, study type, task stage, architecture, adaptation, autonomy/HITL, baseline/result, data availability, mitigations, and QA3.
-- [ ] Eligibility verified  [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Eligibility retained by two-reviewer full-paper consensus under IC3's conceptual-framework allowance: the paper describes automatic client interpretation of structured directives and a feedback/action design, although the RL loop's empirical execution is not established.
+- Final categorical coding: `study_type = empirical`; `orientation = defensive`; `task_stage = detection; threat hunting/investigation`; `architecture = single-agent`; `adaptation = prompting; RL` with RL explicitly qualified as formalized but not empirically established; `code_available = not stated`; `data_available = yes (no URL)` on request.
+- QA confirmed `Y,P,P,Y = 3.0`. QA3 remains partial because the paper reports five clients but plots four, headline precision/F1 conflict with Figure 9, the 68% timing claim lacks supporting analysis, dataset labels are unreconciled, local-epoch settings conflict, and RL execution is not demonstrated.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High initially differed on adaptation and QA4, then agreed after cross-review under the existing codebook and literal QA criterion.
+- [x] Eligibility verified  [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 5. R0740 — LLM-Based Agents for Cybersecurity: A Systematic Review of Architectures, Applications, and Open Challenges
 
