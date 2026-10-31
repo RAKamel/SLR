@@ -86,7 +86,12 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 15; `fulltext_qa` row 108; `coding_ai` rows 93–99.
 - Why now: eligibility and QA3 were adjudicated, while the defensive orientation is inferred rather than stated.
 - Verify first: eligibility, task/domain scope, orientation, architecture, adaptation, autonomy/HITL, dataset/environment, result, code URL, risks, and QA3.
-- [ ] Eligibility verified  [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Eligibility retained: networked-firmware vulnerability detection and remediation meet IC3/IC4. Defensive orientation is inferred from the task under the author-approved rule.
+- Final categorical coding: `study_type = empirical`; `orientation = defensive`; `task_stage = detection; remediation`; `architecture = multi-agent` as reported; `adaptation = prompting`; `code_available = yes (URL)`; `data_available = yes (URL)` for qualified sample artifacts at the corrected repository URL.
+- Official repository verified at commit `5e26c484abe9a0762832fd2a31c1f63259ac0951`. The workbook had omitted the `Embedded-Firmware` hyphen; the PDF hyperlink itself is correct.
+- Artifact qualification: released code does not substantiate three trained specialist agents, and its refinement path applies GPT-4 patches to log files rather than firmware C source before no rebuild/retest. Headline metrics remain author-reported and unreproduced. Sample fuzz inputs/logs/analysis JSON are public, but the full training/evaluation corpus is not established as released.
+- QA confirmed `Y,P,P,Y = 3.0`; reviewers agreed after cross-review to remove the unsupported foundation-model fine-tuning label and code the available sample data as `yes (URL)`.
+- [x] Eligibility verified  [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 7. R0315 — PenHeal: A Two-Stage LLM Framework for Automated Pentesting and Optimal Remediation
 
