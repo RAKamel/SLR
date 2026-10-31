@@ -98,7 +98,13 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 25; `fulltext_qa` row 175; `coding_ai` rows 163–169.
 - Why now: the only study with two coding disagreements; orientation and data-availability rules materially affect two tables.
 - Verify first: task stages, orientation, architecture, adaptation, autonomy/HITL, baselines/results, data availability, risks, and QA3.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after two-reviewer full-paper verification: `study_type = empirical`; `orientation = dual`; `task_stage = offensive/pentest; remediation`; `architecture = multi-agent`; `adaptation = prompting; RAG`; `code_available = not stated`; `data_available = yes (URL)` at `https://docs.rapid7.com/metasploit/metasploitable-2/`.
+- QA remains `Y,P,P,Y = 3.0`. QA3 is partial because the evaluation uses three runs on one VM, remediation recommendations are scored but not executed, raw traces are unavailable, and the printed overall-score formula conflicts with Figure 4 arithmetic.
+- Direct page rendering confirmed that the printed equation is $(S_D+S_R-C)/3$, while Figure 4 behaves as an undivided sum. GPT-4 matches the undivided expression exactly at `0.94`; the displayed PenHeal and PentestGPT components sum to `9.94` and `2.94`, respectively, but the figure reports `9.87` and `2.87`. The source inconsistency is preserved without attributing it to unavailable unrounded values.
+- The paper's stated 46% cost reduction uses GPT-4 as the comparator (`3.33` versus `6.13`), whereas the stated 31% detection and 32% remediation gains use PentestGPT. Remediation “effectiveness” is an Evaluator-LLM-assigned recommendation value; the strategies were not executed.
+- The later `Jaacky-Huaang/PenHealNet` repository accompanies a separate multi-machine follow-up and is not evidence that this exact study released code. The official Rapid7 Metasploitable2 URL supports benchmark availability; the authors' three-run logs and transcripts are not stated to be released.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High agreed on all factual fields, QA, and codes after the equation typography was resolved from the rendered source page.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 8. R0311 — Design and Empirical Evaluation of a Four-Layer AI Agent Architecture for Automated Web Application Security Testing
 
