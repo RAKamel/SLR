@@ -1,13 +1,59 @@
-% [YOU] Section 5 Analysis by category -- THE CORE, author-written.
-% Must contain: one subsection per taxonomy category with a critical synthesis of that branch (integrate,
-% compare, explain), trends, strengths and limitations. Not a paper-by-paper summary.
-% Every category subsection must END IN CRITIQUE (limitations, open questions), never in enumeration.
-% At least two comparison tables of your own making (stubs below; headers and cells are yours).
+The synthesis below is deliberately bounded to studies whose complete reports and relevant artifacts have undergone the two-reviewer verification workflow. It therefore illustrates cross-study patterns without treating the still-provisional corpus frequencies as final evidence.
 
-\comparisontable{\textit{[YOU]}}{tab:comparison-1}{llll}
-  {\textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]}}
-  {\textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} \\}
+\subsection{Detection, Triage, Investigation, and Reporting}
 
-\comparisontable{\textit{[YOU]}}{tab:comparison-2}{llll}
-  {\textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]}}
-  {\textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} & \textit{[YOU]} \\}
+Defensive agents increasingly combine specialized detectors with an LLM that coordinates retrieval and explanation. CyberRAG uses one central LLM agent to orchestrate attack-specific encoder classifiers, retrieval, reassessment, and report generation~\cite{R0447_Blefari_2026}. This architecture improved the reported unified payload-classification accuracy from 84.75\% for classifier-only selection to 94.92\% with LLaMA3.1:8B and RAG. The gain is not an end-to-end SOC result: explanation scoring begins from true attack labels, sample counts are missing, and the robustness denominator is inconsistent between text and figure caption.
+
+OntoLogX addresses a different investigative unit: it converts logs into ontology-constrained knowledge graphs and predicts ATT\&CK tactics~\cite{R0365_Cotti_2026}. Retrieval and validation improve Claude Sonnet 4 KG F1 from 0.283 in the recorded baseline to 0.832 with a populated database, and the study releases code plus annotated data. Even this comparatively reproducible case retains contradictory reported values and an impossible printed construction-success ratio. \textbf{Critique:} accuracy or graph-quality improvements do not by themselves establish analyst benefit, streaming robustness, or resistance to adversarial telemetry. The verified evidence remains dominated by controlled payloads, curated logs, and offline scoring.
+
+\subsection{Incident Response, Compliance, and Remediation}
+
+The evidence separates three outcomes that are often conflated: generating advice, producing a corrected artifact, and applying a verified change. The RAN-compliance prototype generates and reflects on corrected configuration text, but live enforcement through the proposed SMO/O1 workflow is not evaluated~\cite{R0340_Chatzimiltis_2026}. Agentic RAG increases reported task accuracy across three models, while response time rises by approximately 74--189\%; the study also gives conflicting descriptions of how its ordinary-RAG queries are produced.
+
+In autonomous network defense, architectural complexity is not uniformly beneficial. Across 3,475 CybORG CAGE-2 episodes, programmatic state abstraction improves one Llama configuration, whereas a distributed Devstral hierarchy worsens mean return and increases token use~\cite{R0484_Bogdanov_2026}. The result cautions against treating additional roles or deliberation as capability by default. \textbf{Critique:} the reviewed systems rarely connect a proposed action to transactional execution, rollback, and post-action validation. Corrected text and simulated rewards are useful intermediate evidence, but they should not be reported as demonstrated production remediation.
+
+\subsection{Offensive and Penetration-Testing Workflows}
+
+Offensive studies expose the strongest distinction between agent autonomy and LLM assistance. CurriculumPT implements a seven-agent workflow with tool execution, failure-aware replanning, curriculum scheduling, and retrieved experience~\cite{R0322_Wu_2025}. Its comparison table reports 60\% exploitation success, but a second table reports 66.7\% for another set also labelled as the 15-CVE hold-out evaluation. Its ablation percentages also cannot be reconstructed from ten once-tested CVEs per stratum without an unstated denominator or averaging procedure.
+
+SatGuard, by contrast, is an empirical LLM-assisted penetration-testing workflow rather than an implemented software agent~\cite{R0384_Xiao_2025}. Testers submit scan output, copy generated commands into a CLI, and request follow-up analysis; consequently its architecture is coded not applicable under the review rule. The reported 22/30 successful attempts and 5.5 interactions per test measure a human-mediated process, and repair suggestions are not executed. \textbf{Critique:} task success must be accompanied by the intervention policy, supplied hints, retry rules, and action boundary. Otherwise a score can obscure whether the model completed a chain autonomously or helped a human complete it.
+
+\subsection{Cross-Cutting Architecture and Evaluation Patterns}
+
+The verified records show that ``single-agent'', ``multi-agent'', and ``mixed'' describe the evaluated control structure rather than the number of software modules. CyberRAG remains single-agent because its classifiers and retriever are tools; CurriculumPT is mixed at study level because it evaluates a focal multi-agent system against an agentic non-MAS comparator; and SatGuard has no implemented agent despite discussing conceptual autonomous variants. Prompting and retrieval commonly modify context rather than model weights, while fine-tuning may apply only to an auxiliary encoder.
+
+Two reporting practices consistently improve interpretability: preserving the original evaluation unit and separating exact-study artifacts from dependencies. A public vulnerable VM or open framework does not establish release of prompts, run traces, splits, or interventions. Conversely, an exact repository may still be partial or inaccessible. \textbf{Critique:} cross-paper ranking is not defensible until denominators, stopping rules, human interventions, model versions, costs, and artifact scope are reported consistently.
+
+\begin{table*}[tbp]
+  \caption{Verified examples of task, architecture, and operational action boundaries.}\label{tab:comparison-1}
+  \scriptsize
+  \begin{tabular}{@{}p{0.14\textwidth}p{0.20\textwidth}p{0.15\textwidth}p{0.42\textwidth}@{}}
+    \toprule
+    Study & Primary task & Architecture & Verified operational boundary \\
+    \midrule
+    CyberRAG~\cite{R0447_Blefari_2026} & Alert triage, detection, reporting, advisory IR & Single-agent & Core LLM controls classifier and retrieval tools; mitigation and patch guidance are advisory; automated response is future work. \\
+    OntoLogX~\cite{R0365_Cotti_2026} & CTI extraction and investigation & Single-agent & Generates, validates, and stores knowledge graphs; code, configuration, prompts, and annotations are released. \\
+    RAN compliance~\cite{R0340_Chatzimiltis_2026} & Compliance reporting and artifact correction & Multi-agent & Produces corrected configuration text; live monitoring and enforcement remain proposed. \\
+    Agent design study~\cite{R0484_Bogdanov_2026} & Simulated network defense & Mixed & Compares monolithic and hierarchical agents in CybORG; actions affect a simulated environment. \\
+    CurriculumPT~\cite{R0322_Wu_2025} & Penetration testing and reporting & Mixed & Focal seven-agent system invokes tools and replans; human supplies the high-level objective; HITL maturity is internally inconsistent. \\
+    SatGuard~\cite{R0384_Xiao_2025} & Penetration testing and reporting & Not applicable & Human submits scan output and executes generated commands; no autonomous controller or applied remediation is demonstrated. \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+\begin{table*}[tbp]
+  \caption{Verified evaluation evidence and its principal qualification.}\label{tab:comparison-2}
+  \scriptsize
+  \begin{tabular}{@{}p{0.14\textwidth}p{0.27\textwidth}p{0.24\textwidth}p{0.26\textwidth}@{}}
+    \toprule
+    Study & Evaluation unit & Reported finding & Qualification / artifact scope \\
+    \midrule
+    CyberRAG~\cite{R0447_Blefari_2026} & Payload classification, conditional explanations, adversarial/OOD queries & 84.75\% to 94.92\% reported classification accuracy & Counts and one dataset identity are missing; SSTI archive is linked but password/access are unverified; framework code is not stated. \\
+    OntoLogX~\cite{R0365_Cotti_2026} & 50 annotated AIT logs and 161 Cowrie sessions & Claude Sonnet 4 KG F1 reaches 0.832 in the populated-DB condition & Runnable code and annotations are public; several printed values conflict or are impossible. \\
+    RAN compliance~\cite{R0340_Chatzimiltis_2026} & Four CU files, three repetitions, nine model/retrieval settings & Agentic-RAG accuracy exceeds No-RAG across three models & Only four files; annotation/scoring detail and uncertainty are incomplete; no live RAN test. \\
+    Agent design study~\cite{R0484_Bogdanov_2026} & 3,475 CybORG episodes, 72 model/configuration pairs & Abstraction can improve return; hierarchy can worsen return and token cost & Configurations/prompts are released; original logs may be requested, while raw provider transcripts and seeds are not bundled. \\
+    CurriculumPT~\cite{R0322_Wu_2025} & Curriculum, hold-out, and ablation CVE sets & Table 3 reports 60\% ESR versus 24--42\% baselines & Two N=15 hold-out tables conflict; ablation denominators are unreconciled; no exact-study release is stated. \\
+    SatGuard~\cite{R0384_Xiao_2025} & 30 human-mediated exploitation attempts & 22/30 success; 5.5 interactions per test & No measured manual baseline, implemented agent, executed repair, or external study artifact. \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

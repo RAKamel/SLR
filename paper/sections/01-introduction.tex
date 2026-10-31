@@ -1,12 +1,10 @@
-% [YOU] Section 1 Introduction -- author-written.
 % Must contain: motivation; scope and boundaries; the review's research questions; why existing surveys
 % are insufficient (optionally a table comparing prior surveys: what they covered, their gaps, what this review adds);
 % the contributions of this review; a roadmap of the paper.
 
 % The following framing was written by the author on 2026-10-31.
-% TODO [AUTHOR]: Select supporting citations for the claims below from the verified bibliography.
 \subsection{Motivation and Problem Statement}
-Current research on LLM cybersecurity agents is difficult to evaluate because most results rest on contaminated CTF proxies, small task sets, and undisclosed scaffolding choices that blur what the model contributes and what the harness contributes. Add missing human and tool baselines, binary success metrics, and withheld frontier evidence, and the result is a body of claims that cannot be compared, reproduced, or taken at face value.
+Current research on LLM cybersecurity agents is difficult to evaluate because results often rely on small, puzzle-style task sets and incompletely disclosed scaffolding choices that blur what the model contributes and what the harness contributes. Public challenge material also creates a plausible contamination risk, although the reviewed evidence does not establish memorization as the cause of any reported result. Missing human and tool baselines, binary success metrics, and limited frontier-model disclosure further constrain comparison and reproducibility. Verified examples include conflicting hold-out results, unreconciled aggregate success rates, and human-mediated scores that cannot be read as autonomous end-to-end performance~\cite{R0322_Wu_2025,R0320_Huang_2025,R0384_Xiao_2025}.
 
 \subsection{Why This Review Is Timely}
 A systematic review is timely now because the literature has grown faster than its evaluation discipline, and early benchmarks are saturating while regulators and SOC teams already act on their numbers. Mapping what the evidence actually supports today sets the reporting standards the field needs before weak practices harden into convention.
@@ -21,3 +19,6 @@ A systematic review is timely now because the literature has grown faster than i
   \item[RQ4.] Which datasets, environments, metrics and baselines are used to evaluate LLM-based cybersecurity agents, and how reproducible are these evaluations?
   \item[RQ5.] Which safety, reliability and misuse risks do studies of LLM-based cybersecurity agents report, and how do they mitigate them to support safe and trustworthy operation?
 \end{enumerate}
+
+\subsection{Contributions and Roadmap}
+This systematic review contributes a PRISMA-traceable evidence map of agentic cybersecurity tasks, an author-confirmed taxonomy that separates operational orientation from task stage and oversight, and a verified-subset analysis that distinguishes proposed capabilities, implemented actions, advisory outputs, and evaluated outcomes. It also records artifact scope and reporting contradictions rather than silently harmonizing them, and derives a bounded agenda for comparable, reproducible, and safety-aware evaluation. Section~\ref{sec:background} defines the operational boundary, Section~\ref{sec:methodology} reports the review process, Sections~\ref{sec:taxonomy}--\ref{sec:datasets} present the taxonomy and synthesis, Section~\ref{sec:open-problems} states the research agenda, and Section~\ref{sec:conclusion} concludes the review.

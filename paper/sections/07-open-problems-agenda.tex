@@ -1,4 +1,41 @@
-% [YOU] Section 7 Open problems and research agenda -- author-written.
-% Must contain: research gaps derived from empty taxonomy cells and from the critique in Section 5;
-% concrete future directions; and it must cover ethics, fairness, reproducibility, and the safety and
-% dual-use risks of autonomous response.
+The verified evidence supports a bounded research agenda. The observations below are drawn from complete-paper checks and are separated from the proposed directions; they are not inferred from unverified empty taxonomy cells.
+
+\subsection{Comparable and Contamination-Resistant Evaluation}
+
+\paragraph{Evidence-supported observation.}
+Evaluation units range from payloads and CVEs to subtasks, machines, and simulated episodes. CurriculumPT reports two different result sets for evaluations both labelled as a 15-CVE hold-out set, while its ablation percentages require an unstated denominator or averaging rule~\cite{R0322_Wu_2025}. The penetration-testing architecture comparison likewise contains unreconciled aggregate and category-level completion rates~\cite{R0320_Huang_2025}. Public benchmark write-ups also create a contamination risk, although the reviewed studies do not demonstrate memorization as the causal explanation for performance.
+
+\paragraph{Research direction.}
+Future benchmarks should publish withheld task manifests, explicit attempt and stopping rules, partial-progress measures, human-intervention logs, model snapshots, and cost/latency budgets. Procedurally generated or newly disclosed targets can reduce exposure risk, but they should be paired with expert and conventional-tool baselines so that an agent's marginal contribution is measurable.
+
+\subsection{From Advice to Verified Closed-Loop Action}
+
+\paragraph{Evidence-supported observation.}
+The reviewed systems frequently stop at a report, recommendation, or corrected artifact. CyberRAG provides mitigation and patch guidance while placing controlled automated response in future work~\cite{R0447_Blefari_2026}. The RAN-compliance prototype generates corrected configuration text but does not evaluate enforcement in a running network~\cite{R0340_Chatzimiltis_2026}. SatGuard's human operators execute generated commands and no repair is applied~\cite{R0384_Xiao_2025}. These cases show why output generation should not be equated with operational remediation.
+
+\paragraph{Research direction.}
+Closed-loop studies should define an action boundary and evaluate the complete sequence: authorization, precondition checks, execution, independent outcome validation, failure detection, and rollback. Safety claims should be tested under both successful and failed actions, with blast radius, service impact, false-action rate, recovery time, and analyst intervention recorded.
+
+\subsection{Calibrated Autonomy and Human Oversight}
+
+\paragraph{Evidence-supported observation.}
+Human involvement is reported inconsistently. CurriculumPT describes oversight as incorporated in one section and as future work in another~\cite{R0322_Wu_2025}; SatGuard is explicitly human-mediated despite discussing autonomous variants~\cite{R0384_Xiao_2025}. Conversely, simulated autonomous-defense studies can omit runtime human involvement by design~\cite{R0484_Bogdanov_2026}. A label such as ``human in the loop'' therefore does not identify when a person intervenes, what evidence they see, or how long approval takes.
+
+\paragraph{Research direction.}
+Evaluations should report oversight as a sequence of decision points: objective setting, tool authorization, action approval, exception handling, output review, and override. Adjustable-autonomy policies can then be tested against uncertainty, target criticality, and estimated impact. Human-factor measures should include verification time, missed errors, workload, and recovery from misplaced trust.
+
+\subsection{Dual-Use Safety, Fairness, and Governance}
+
+\paragraph{Evidence-supported observation.}
+Offensive and defensive orientation describes the task performed, not the legitimacy of its use. Authorized penetration-testing agents can still execute disruptive commands, while defensive agents may create service impact through an incorrect containment action. The verified reports discuss scope restrictions and human review unevenly, and the extraction does not yet support a corpus-wide rate for effective guardrails.
+
+\paragraph{Research direction.}
+Future work should test authorization controls, target scoping, rate limits, isolation, immutable audit logs, and refusal/recovery behaviour rather than merely listing them. Fairness evaluation should consider which organizations, languages, environments, and analyst skill levels are represented by benchmarks, and whether false positives or automation failures impose unequal operational costs.
+
+\subsection{Reproducible Artifacts and Auditable Claims}
+
+\paragraph{Evidence-supported observation.}
+Artifact scope varies sharply. OntoLogX releases runnable code, configuration, prompts, and annotated data~\cite{R0365_Cotti_2026}. CyberRAG links a dataset archive whose password/access could not be verified and does not state a framework-code release~\cite{R0447_Blefari_2026}. Other studies name public dependencies without releasing the exact prompts, splits, traces, and interventions used in evaluation. Numerical contradictions remain visible even in otherwise detailed papers.
+
+\paragraph{Research direction.}
+Artifact review should require exact model identifiers, prompts, tool versions, environment snapshots, task manifests, seeds, action traces, and scripts that reproduce every reported table. When security or privacy prevents open release, authors should specify restricted-access procedures and provide auditable aggregate evidence. Machine-readable result schemas and automated consistency checks can detect denominator, arithmetic, and table/prose conflicts before publication.
