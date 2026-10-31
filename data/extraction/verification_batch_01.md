@@ -74,7 +74,12 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 62; `fulltext_qa` row 357; `coding_ai` rows 422–428.
 - Why now: an earlier exclusion used the wrong document, and the extracted text omitted later sections; the study is influential for related-work and gap claims.
 - Verify first from the correct publisher report: all `F:AB`, especially architecture, adaptation, autonomy/HITL, reported percentages, data availability, limitations/future work, and QA2.
-- [ ] Correct report verified  [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Correct 50-page publisher report verified (SHA-256 `38f44eb70f62357cd342a69a096927708b4d71724dfc8781e6a67c1a230625c6`); the earlier two-page EBA factsheet is a different document. Eligibility remains included.
+- Final categorical coding: `study_type = review`; `orientation = dual`; all eight task stages; `architecture = not applicable`; `adaptation = prompting; RAG; fine-tuning; RL`; `code_available = yes (URL)` and `data_available = yes (URL)` at `https://doi.org/10.5281/zenodo.22025510`.
+- QA confirmed `Y,N,P,Y = 2.5`. QA3 is partial because 29 full-text exclusions are untraceable, EC3 conflicts with an included E1 conceptual study, and the deposited recovery file retains an excluded 60th record with stale denominators, although the central 59-study counts are reproducible.
+- Zenodo artifact independently inspected: it contains the 59-study matrix, 211 screening records, protocols, searches, and analysis scripts. The paper's headline counts were independently recomputed; the stale verification file does not alter the published 59-study denominators.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High agreed after cross-review on all factual corrections, QA, task-stage/adaptation expansion, and artifact coding.
+- [x] Correct report verified  [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 6. R0200 — Securing LLM-Generated Embedded Firmware Through AI Agent-Driven Validation and Patching
 
