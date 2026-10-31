@@ -40,7 +40,11 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 44; `fulltext_qa` row 272; `coding_ai` rows 296–302.
 - Why now: directly compares a monolithic planner with a three-agent hierarchy; its architecture classification changes the taxonomy frequency table.
 - Verify first: architecture, models, adaptation, autonomy/HITL, dataset, baselines, headline result, risks/mitigations, and QA2.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after full-paper and linked-artifact two-reviewer verification: `study_type = empirical`; `orientation = defensive`; `task_stage = detection; threat hunting/investigation; remediation`; `architecture = mixed`; `adaptation = prompting`; `code_available = yes (URL)` at `https://github.com/isbogdanov/agent-design-study`; `data_available = yes (no URL)` because the authors state that original logs may be available on request.
+- Exact model identifiers and hierarchy flags were verified in the paper-linked artifact at commit `32bf00025ee3919702961346aa4372c3622183a7`. The artifact resolves an Appendix C sentence that conflicts with the main-text definition of `hier-base`: all three agents have deliberation disabled in the base hierarchy.
+- QA confirmed `Y,Y,Y,Y = 4`; missing original seeds and raw transcripts prevent bit-for-bit original-run regeneration but do not prevent executable reruns using the released code and configurations.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High agreed on every factual correction and code after cross-review. Claude Opus 4.6 Thinking was attempted first but was quota-limited.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ### 3. R0347 — SoK: Measuring what Matters for Closed-Loop Security Agents
 
