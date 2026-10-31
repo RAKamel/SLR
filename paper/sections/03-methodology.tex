@@ -1,8 +1,32 @@
-% [YOU] Section 3 Review methodology -- author-written.
-% Must contain the SLR protocol (PRISMA 2020 + Kitchenham & Charters 2007): databases (>= 3) and the exact search
-% strings with run dates and hit counts; deduplication; backward/forward snowballing; inclusion/exclusion and
-% quality criteria; the PRISMA 2020 flow diagram with real numbers; how papers were coded (extraction fields);
-% screening reliability (Cohen's kappa) and how disagreements were resolved.
+\subsection{Protocol and Scope}
+
+The review follows PRISMA 2020 reporting principles and records its decisions in a dated protocol and audit trail~\cite{M1_Page_2021,M3_Page_2021}. Explicit eligibility rules, extraction fields, and documented amendments support transparency, consistent with established software-engineering review practice~\cite{M6_Brereton_2007}.
+
+Eligible reports were English-language, peer-reviewed journal articles or conference papers published during 2020--2026 and identified by the search date. They had to address an in-scope cybersecurity-operations task and include an LLM or foundation-model component with agentic or autonomous behaviour. Surveys and conceptual frameworks were eligible, including frameworks without empirical evaluation. Their study type is retained to distinguish proposed capabilities and secondary evidence from evaluated implementations.
+
+Exclusions covered systems without an LLM/foundation-model component; models used only as classifiers, detectors, or text generators; work primarily about attacks on LLMs or agents themselves; tasks outside cybersecurity operations; and ineligible publication types or languages. Full-text non-retrieval and retraction were recorded separately. Retraction exclusion took precedence over other criteria.
+
+\subsection{Search and Record Processing}
+
+The final search, version~14, was run on 29 October 2026 in Scopus, IEEE Xplore, and the ACM Digital Library. It combined terminology for foundation models, agentic behaviour, cybersecurity, and operational tasks, with an additional penetration-testing branch. Appendix~\ref{app:search-strings} records the exact database-specific strings. The searches identified 515 Scopus records, 424 IEEE records, and 37 ACM records.
+
+Scopus results combined 473 records from the preceding query with a 42-record update. Because the complete IEEE query timed out, it was executed as three component queries whose deduplicated union represented the final query. ACM phrase variants were expanded because its search syntax did not support the same phrase truncation. Web of Science was not searched because institutional Core Collection access was unavailable.
+
+Backward and forward citation searching used OpenAlex and five selected seed papers, following the complementary role of snowballing in software-engineering reviews~\cite{M4_Wohlin_2014}. Of 221 citation-search records, 125 were removed by the recorded year/peer-review retrieval filters and 25 duplicated database records, leaving 71 for screening. Query development recovered 18 of 19 indexed validation papers. Because the query was refined against this same set, that result is a development check rather than an independent recall estimate.
+
+Records were merged by normalized DOI, followed by normalized title and year when DOI evidence did not indicate different works. The scripts preserve duplicate decisions and metadata provenance. The database branch contained 976 identified records and 263 duplicates, leaving 713 records. Together with the citation-search branch, 784 unique records entered title/abstract screening.
+
+\subsection{Screening and Retrieval}
+
+The screening procedure changed during the review, and the final decision record preserves attribution. Codex and agy initially screened records independently from the same metadata and fixed criteria. Across 784 records, three-category agreement was 0.875 with Cohen's $\kappa=0.753$. When restricted to the 745 records for which neither rater selected ``maybe'', binary $\kappa$ was 0.824.
+
+A planned blind author spot-check stopped after eight decisions because five changed the route assigned by both AI raters, all toward full-text retrieval. The subsequent protocol amendment allowed AI agreement and Codex adjudication to determine records not decided by the author. The title/abstract record attributes 28 decisions to the author, 657 to AI agreement, and 99 to Codex adjudication. These are not two-human-reviewer decisions.
+
+The database branch sought 349 reports and the citation-search branch sought 18. Retrieval stopped after the authorized open-access pass and documented corrections. In total, 301 of 367 sought reports were not retrieved: 289 from databases and 12 from citation searching. Sixty-six reports were assessed, comprising 60 database reports and six citation-search reports. Five were excluded at full text: four for non-agentic use of an LLM and one for an ineligible publication type. The included set therefore contains 61 studies, comprising 57 database studies and four citation-search studies.
+
+Initial full-text eligibility decisions used extracted excerpts comprising the first 7000 and last 2000 characters. The initial 65-report comparison produced observed agreement of 0.738 and $\kappa=0.220$; disagreements and uncertain decisions were adjudicated by Codex. Later retrieval and document-identity corrections produced the final 66-report assessment count. Selected included reports subsequently received complete-paper verification, but this process is unfinished.
+
+Retraction checks used OpenAlex, with Crossref as a fallback. No included study was flagged as retracted in the recorded full-text recheck. This finding is limited to the coverage and dates of those services.
 
 \begin{figure}[htbp]
   \centering
@@ -13,3 +37,13 @@
   \Description{Flow diagram with separate database and citation-searching branches. A total of 784 records were screened, 367 reports were sought, 66 reports were assessed, and 61 studies were included.}
   \label{fig:prisma}
 \end{figure}
+
+\subsection{Quality Assessment and Extraction}
+
+Four questions assessed clarity of aims and security tasks; reproducibility of agent, model, and tool descriptions; adequacy of evaluation; and discussion of limitations, threats, and risks. Scores were Yes~(1), Partial~(0.5), or No~(0), producing totals from zero to four. There was no quality-based exclusion threshold. For conceptual papers and surveys, evaluation adequacy concerned the rigour of the argument or review method.
+
+Codex and agy initially scored the included reports independently, with disagreements adjudicated by Codex. Their initial assessment used length-limited extracted text. Factual extraction was also AI-prefilled from extracted text, with section pointers and explicit attribution. Fields cover study type, tasks, domain and orientation, architecture, models and adaptation, autonomy and oversight, evaluation, artifact availability, risks, limitations, and future work.
+
+The author subsequently defined the categorical codebook. Architecture permits single-agent, multi-agent, mixed for studies evaluating both, and not applicable where no agent is implemented. Task stages and adaptation techniques are multi-label. Later verification compares complete papers and linked artifacts through two independent AI reviews and cross-review, preserving unresolved source inconsistencies.
+
+At manuscript preparation, many extraction rows and coding fields remain AI-prefilled and have not completed this verification or individual author confirmation. Consequently, category frequencies describe a provisional workbook snapshot. AI agreement is not treated as independent human validation, and no final corpus-wide comparative claim is inferred solely from those frequencies.

@@ -1,3 +1,17 @@
-% [YOU] Threats to validity -- author-written.
-% Must contain: an honest account of this review's own limitations (e.g. search, database, language and venue
-% bias; single-screener bias) and the mitigations used.
+\paragraph{Search and access bias.}
+The search covers three databases and citation searching, but excludes Web of Science because institutional access was unavailable. English-language and peer-review restrictions omit relevant technical reports and preprints. Terminology varies across agentic AI, automation, orchestration, and cybersecurity tasks, so relevant work may remain outside the retrieved set. Recovering 18 of 19 validation papers does not establish general recall because the search was refined on that same set. The five citation-search seeds may also favour established or highly cited research.
+
+The largest access limitation is non-retrieval: 301 of 367 sought reports, approximately 82.0\%, were not assessed. The resulting set is strongly shaped by open-access availability and automated retrieval success. Bot-blocked open-access reports and closed-access reports can therefore be absent for reasons unrelated to relevance or quality. The included 61 studies should not be interpreted as a complete census of the field.
+
+\paragraph{Screening and verification bias.}
+Most title/abstract decisions were AI-made, and the author's eight-decision blind spot-check changed five routes toward retrieval. That small, stopped sample does not estimate the overall error rate, but it provides direct evidence that AI agreement was insufficient assurance of eligibility. Codex also served as an adjudicator after acting as an initial rater, limiting adjudication independence.
+
+Initial full-text screening used excerpts rather than complete papers. Length-limited inputs were also used for initial QA and extraction. An alternate open-access link supplied the wrong document for one study; the mistake was corrected after document inspection. Later complete-paper and artifact checks reduce these risks for the records checked, but many rows remain AI-prefilled and two-reviewer verification is incomplete. AI cross-review does not replace individual author confirmation.
+
+\paragraph{Construct and synthesis validity.}
+Terms such as ``agent'', ``multi-agent'', ``autonomous'', and ``remediation'' are not used consistently across sources. Tool modules can be mistaken for independent agents, retrieval can be mistaken for parameter learning, and recommendations can be mistaken for executed actions. The codebook and evidence pointers make these distinctions explicit, while autonomy and human oversight remain descriptive until their categorical levels are finalized.
+
+Surveys, conceptual frameworks, and empirical systems also provide different kinds of evidence. Their inclusion broadens coverage but requires preserving study type and avoiding double counting of reviewed experiments. Heterogeneous outcomes do not support a pooled performance estimate. Unresolved numerical and implementation contradictions are retained in the extraction record.
+
+\paragraph{Temporal and reproducibility limits.}
+The search is a dated snapshot. Model APIs, defaults, repositories, and standards can change after an experiment or retrieval date. Retraction checks are likewise limited by service coverage and the recorded check date. Public availability of this review's workflow supports inspection, but does not certify that every source artifact is executable or that every extracted value has been verified. All frequency statements remain provisional until the remaining factual and categorical checks are completed.

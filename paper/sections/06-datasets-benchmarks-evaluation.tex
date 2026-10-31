@@ -1,2 +1,25 @@
-% [YOU] Section 6 Datasets, benchmarks and evaluation -- author-written.
-% Must contain: what the field trains and tests on; the metrics used; the reproducibility status of the work.
+\subsection{Evaluation Units and Environments}
+
+The included evidence uses different evaluation units, including attack payloads, subtasks, vulnerable machines, CVE exploitation attempts, and simulated defender episodes. These units require separate interpretation. In the verified penetration-testing examples, Huang et al.\ evaluate tasks on HackTheBox, Metasploitable, and VulnHub machines, whereas CurriculumPT organizes Vulhub CVEs into a curriculum and separate evaluation sets~\cite{R0320_Huang_2025,R0322_Wu_2025}. The former lists 14 machines and 204 subtasks; the latter reports 50 curriculum CVEs, a 15-CVE hold-out set, and a 30-CVE ablation set. These counts do not establish equivalent task difficulty or independent trial counts.
+
+Payload classification and explanation introduce another unit of analysis. CyberRAG combines SQL-injection and XSS resources with a constructed SSTI dataset, then evaluates classification, explanation quality, and robustness~\cite{R0447_Blefari_2026}. Its explanation evaluation begins with true attack labels, so those scores characterize conditional explanation quality rather than the complete classification-to-reporting pipeline.
+
+Benchmark scope must also be distinguished from agent performance. The ATT\&CK coverage values examined by Missotten et al.\ describe the distribution of benchmark tasks across tactics, not the probability that an agent succeeds~\cite{R0249_Missotten_2025}. Simulated environments and public vulnerability platforms provide controlled conditions, but their results remain bounded by the available actions, task construction, and environment state.
+
+\subsection{Metrics and Comparability}
+
+The verified studies report exploitation or subtask success, accuracy, false positives, time, token use, human interventions, and explanation scores. Each measures a different aspect of the system. A success rate depends on its denominator, stopping rule, permitted tools, available hints, and treatment of partial progress. Time and token costs also depend on whether failed attempts are included and which model and orchestration settings are used.
+
+Source inconsistencies are retained rather than silently reconciled. CurriculumPT reports different results for two tables labelled as a 15-CVE hold-out evaluation, while its ablation percentages require an aggregation explanation beyond the stated once-per-CVE design~\cite{R0322_Wu_2025}. Huang et al.\ likewise report modular-agent aggregate completion rates that are not reconciled with their task-category results~\cite{R0320_Huang_2025}. These results remain author-reported values with qualifications.
+
+Operational outcomes need equally careful interpretation. Kulambayev et al.'s remediation-time values come from simulated workflows rather than observed production patch deployment~\cite{R0311_Kulambayev_2026}. PenHeal evaluates the value of recommended remediation strategies without executing those strategies~\cite{R0315_Huang_2024}. Neither result directly measures the safety or effectiveness of unattended remediation in an operational network.
+
+Because tasks, denominators, environments, and outcomes differ, this review does not estimate a pooled effectiveness measure. Results are retained in their original units and interpreted alongside their baselines, implementation scope, and quality-assessment qualifications.
+
+\subsection{Reproducibility and Artifact Scope}
+
+Artifact availability is recorded separately for code and data. A public dependency, dataset homepage, or later follow-up repository is not automatically a release of the evaluated system. Similarly, ``not stated'' is distinguished from an explicit statement of unavailability, and on-request access is distinguished from an openly downloadable artifact.
+
+The verified examples illustrate different levels of access. The compound-agent design study releases executable code and configurations, while original seeds and complete provider transcripts are not bundled~\cite{R0484_Bogdanov_2026}. CyberRAG links its constructed SSTI dataset, but the cited repository contains a password-described archive whose contents and access were not verified; this does not establish release of the complete framework or all evaluation sets~\cite{R0447_Blefari_2026}.
+
+The extraction record therefore preserves exact model identifiers where available, tool and environment configuration, task manifests, prompts, stopping rules, raw-trace availability, and the relationship between an artifact and the study. Corpus-wide availability percentages remain provisional while record-level verification continues.
