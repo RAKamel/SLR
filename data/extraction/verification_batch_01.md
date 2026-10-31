@@ -139,13 +139,20 @@ Do not infer a categorical autonomy or human-oversight level yet. Those two fiel
 - Workbook locations: `extraction` row 39; `fulltext_qa` row 248; `coding_ai` rows 261–267.
 - Why now: the supplied text ended before the complete limitations/future-work material, and the dataset URL was not present in the supplied excerpt.
 - Verify first: task stage, architecture, models/adaptation, autonomy/HITL, datasets/metrics/results, data availability, risks, limitations/future work, and QA3.
-- [ ] Extraction verified  [ ] QA verified  [ ] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
+- Final categorical coding after two-reviewer complete-paper verification: `study_type = empirical`; `orientation = defensive`; `task_stage = detection; alert triage; IR planning/playbooks; forensics/reporting`; `architecture = single-agent`; `adaptation = prompting; RAG; fine-tuning`; `code_available = not stated`; `data_available = yes (https://github.com/francescopirox/ssti_dataset)`.
+- The architecture is one core LLM agent controlling classifier and RAG tools. The BERT-family classifiers are fine-tuned encoder tools, not separately planning/coordinating agents; fine-tuning is not attributed to the generative core.
+- Alert triage is explicit in Section 6. Mitigation and patch guidance support advisory IR planning, while automated defensive actions are excluded because controlled/auditable response is future work.
+- QA remains `Y,P,P,Y = 3.0`. The complete paper supplies limitations and future work, but sample counts and the fourth orchestration dataset are missing; explanation evaluation is conditioned on true labels; factual consistency is underspecified; and robustness denominators conflict.
+- The missing monolithic-classifier baseline (73.4%), LLaMA3.1:8B robustness results (94% adversarial, 91% OOD), encoder selections, training parameters, and qualified 0.8-second latency claim are now recorded. The 84.75% to 94.92% improvement is recorded as 10.17 percentage points.
+- Reference [44] resolves to the exact study-created SSTI repository. GitHub inspection found only `finaldataset.7z` (35,346 bytes), with no README/password instructions; archive access/content was not verified. No exact-study CyberRAG code release was verified.
+- Two-reviewer consensus: `gpt-6.1-sol` xhigh and `agy` Gemini 3.8 Flash High independently agreed, then cross-reviewed the task-stage, availability, QA, and evidence corrections. No author factual question remains.
+- [x] Extraction verified  [x] QA verified  [x] Seven codes confirmed  [ ] Gap note written  [ ] Annotation written
 
 ## Batch completion gate
 
 - [x] Architecture codebook decision recorded.
-- [ ] All ten extraction rows verified against the reports.
-- [ ] All relevant QA items checked.
-- [ ] All 70 `your_final_code` cells completed.
+- [x] All ten extraction rows verified against the reports by the required two-reviewer workflow.
+- [x] All relevant QA items checked.
+- [x] All 70 `your_final_code` cells completed.
 - [ ] Ten author gap notes and ten annotated-bibliography entries completed.
-- [ ] `python scripts\make_tables.py` rerun and changed counts reviewed.
+- [x] `python scripts\make_tables.py` rerun after R0447; 61 citation keys resolve and the coded-count tables reflect 352 still-blank final-code cells outside this completed batch.
