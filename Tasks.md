@@ -532,13 +532,13 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 ## PHASE 7: Submission (Day 5, before the Week 9 deadline) via Moodle
 
 **§11 deliverables**
-- [x] The final manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel_FINAL.pdf` and all 30 pages were visually inspected. The earlier unlocked-name copy lacks only the final QA-table caption and should not be uploaded.
+- [x] The final manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel_FINAL.pdf` and all 30 pages were visually inspected. The earlier `SLR_Submission_Ramy_Kamel.pdf` copy is still open in another process, lacks the final QA-table caption, and must not be uploaded.
 - [ ] The Overleaf project is **shared with the professor** (external author action).
 - [x] `refs.bib` and the supporting included/background/selected BibTeX files are present in the verified source package.
 - [x] The extraction spreadsheet contains one row per 60 included papers.
 - [x] The PRISMA-2020 flow diagram and completed checklist are present and compile.
 - [x] The AI-use disclosure statement is present and updated through the final 39-study audit.
-- [ ] *(Only if the professor confirms it, see slide 7)* synchronize the stale `DAI701_SLR_Project_Workbook_v1.docx` from 61 to 60 included studies, verify every field, and add the signed AI-use statement before submission.
+- [x] **Not required by Handout §11.** `DAI701_SLR_Project_Workbook_v1.docx` remains a stale 61-study working artifact and must not be uploaded. Synchronize and sign it only if the professor separately requests the workbook.
 
 **§13 checklist**
 - [x] The question, scope and RQs are explicit and answerable.
