@@ -5,6 +5,7 @@ Requires openpyxl. The workbook and bibliographies are read only.
 """
 
 from collections import Counter
+import json
 from pathlib import Path
 import re
 import sys
@@ -248,8 +249,18 @@ def main():
         ]
         included.sort(key=lambda row: text(row["id"]))
         included_ids = {text(row["id"]) for row in included}
-        if len(included) != 61 or len(included_ids) != 61 or "" in included_ids:
-            raise ValueError("Expected exactly 61 distinct included study IDs.")
+        prisma_counts = json.loads(
+            (ROOT / "data/prisma_counts.json").read_text(encoding="utf-8")
+        )
+        expected_included = prisma_counts["included"]
+        if (
+            len(included) != expected_included
+            or len(included_ids) != expected_included
+            or "" in included_ids
+        ):
+            raise ValueError(
+                f"Expected exactly {expected_included} distinct included study IDs."
+            )
         qa = qa_table(included, study_references())
         counts = frequency_tables(sheet_records(workbook["coding_ai"]), included_ids)
     finally:

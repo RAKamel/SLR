@@ -2,6 +2,7 @@
   "_help": "Replace every null with a whole number, then run: python scripts\\prisma.py. identified_by_db: hits per database (delete a key you did not search). *_reasons: {\"reason, worded as in your exclusion criteria\": n}. included = Studies included in review = database branch (assessed_full_text - sum of its reasons) + citation-searching branch (citation_searching_assessed - sum of its reasons).",
   "_status_2026-10-29": "Filled from data/screening/corpus.xlsx summary (query v14: Scopus 515 + IEEE 424 + ACM 37 + snowball 96). WoS not searched (key removed). Citation searching (your decision 2026-10-29: count the retrieval filter as automation): 221 identified, 125 removed by automation tools (year/peer-review filters), 25 duplicates of database records, so 71 unique go to screening; citation_searching_sought = 71 minus those excluded at title/abstract. Retraction check (EC7) on 784 records: 0 retracted, 27 to check by hand.",
   "_status_2026-10-30": "Title/abstract screening done (corpus.xlsx ta_decision; amendment 2026-10-30 in protocol_criteria.md): 28 records decided by you, 657 by Codex+agy agreement, 99 by Codex adjudication. Database branch: 713 screened, 364 excluded, 349 sought (include + maybe). Citation searching: 71 screened, 53 excluded, 18 sought. Full-text fields stay null until full-text assessment.",
+  "_status_2026-11-01": "Final complete-paper Sol/Agy cross-review excluded database-channel record R0075 under EC2 because its three personas run inside one classifier prompt with no agent loop, tools, memory, planning, feedback or environmental action. Final full-text result: 66 assessed, 6 excluded (5 EC2 and 1 EC5), 60 included.",
   "identified_by_db": {
     "scopus": 515,
     "ieee": 424,
@@ -20,10 +21,10 @@
   "not_retrieved": 289,
   "assessed_full_text": 60,
   "excluded_full_text_reasons": {
-    "EC2: LLM used only as a classifier, detector or text generator (not agentic)": 2,
+    "EC2: LLM used only as a classifier, detector or text generator (not agentic)": 3,
     "EC5: not peer-reviewed or not a paper": 1
   },
-  "included": 61,
+  "included": 60,
   "citation_searching_sought": 18,
   "citation_searching_not_retrieved": 12,
   "citation_searching_assessed": 6,

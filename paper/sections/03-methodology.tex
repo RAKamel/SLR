@@ -1,6 +1,6 @@
 \subsection{Protocol and Scope}
 
-The review follows PRISMA 2020 reporting principles and records its decisions in a dated protocol and audit trail~\cite{M1_Page_2021,M3_Page_2021}. Explicit eligibility rules, extraction fields, and documented amendments support transparency, consistent with established software-engineering review practice~\cite{M6_Brereton_2007}.
+The review follows PRISMA 2020 reporting principles and records its decisions in a dated protocol and audit trail~\cite{M1_Page_2021,M3_Page_2021}. Explicit eligibility rules, extraction fields, and documented amendments support transparency, consistent with established software-engineering systematic-review and mapping-study practice~\cite{M5_Petersen_2015,M6_Brereton_2007}.
 
 Eligible reports were English-language, peer-reviewed journal articles or conference papers published during 2020--2026 and identified by the search date. They had to address an in-scope cybersecurity-operations task and include an LLM or foundation-model component with agentic or autonomous behaviour. Surveys and conceptual frameworks were eligible, including frameworks without empirical evaluation. Their study type is retained to distinguish proposed capabilities and secondary evidence from evaluated implementations.
 
@@ -22,9 +22,9 @@ The screening procedure changed during the review, and the final decision record
 
 A planned blind author spot-check stopped after eight decisions because five changed the route assigned by both AI raters, all toward full-text retrieval. The subsequent protocol amendment allowed AI agreement and Codex adjudication to determine records not decided by the author. The title/abstract record attributes 28 decisions to the author, 657 to AI agreement, and 99 to Codex adjudication. These are not two-human-reviewer decisions.
 
-The database branch sought 349 reports and the citation-search branch sought 18. Retrieval stopped after the authorized open-access pass and documented corrections. In total, 301 of 367 sought reports were not retrieved: 289 from databases and 12 from citation searching. Sixty-six reports were assessed, comprising 60 database reports and six citation-search reports. Five were excluded at full text: four for non-agentic use of an LLM and one for an ineligible publication type. The included set therefore contains 61 studies, comprising 57 database studies and four citation-search studies.
+The database branch sought 349 reports and the citation-search branch sought 18. Retrieval stopped after the authorized open-access pass and documented corrections. In total, 301 of 367 sought reports were not retrieved: 289 from databases and 12 from citation searching. Sixty-six reports were assessed, comprising 60 database reports and six citation-search reports. Six were excluded at full text: five for non-agentic use of an LLM and one for an ineligible publication type. The included set therefore contains 60 studies, comprising 56 database studies and four citation-search studies.
 
-Initial full-text eligibility decisions used extracted excerpts comprising the first 7000 and last 2000 characters. The initial 65-report comparison produced observed agreement of 0.738 and $\kappa=0.220$; disagreements and uncertain decisions were adjudicated by Codex. Later retrieval and document-identity corrections produced the final 66-report assessment count. Selected included reports subsequently received complete-paper verification, but this process is unfinished.
+Initial full-text eligibility decisions used extracted excerpts comprising the first 7000 and last 2000 characters. The initial 65-report comparison produced observed agreement of 0.738 and $\kappa=0.220$; disagreements and uncertain decisions were adjudicated by Codex. Later retrieval and document-identity corrections produced the final 66-report assessment count. All provisionally included reports subsequently received complete-paper verification by independent Sol and Agy reviewers with cross-review of disagreements. That review excluded one single-pass classifier under EC2, producing the final 60-study corpus. This remains AI verification rather than independent human confirmation.
 
 Retraction checks used OpenAlex, with Crossref as a fallback. No included study was flagged as retracted in the recorded full-text recheck. This finding is limited to the coverage and dates of those services.
 
@@ -34,7 +34,7 @@ Retraction checks used OpenAlex, with Crossref as a fallback. No included study 
   % and copied here by scripts/make_overleaf_zip.ps1. Do not edit it by hand; edit the JSON and re-run both.
   \input{figures/prisma_flow}
   \caption{PRISMA 2020 flow of records through identification, screening, eligibility assessment, and inclusion.}
-  \Description{Flow diagram with separate database and citation-searching branches. A total of 784 records were screened, 367 reports were sought, 66 reports were assessed, and 61 studies were included.}
+  \Description{Flow diagram with separate database and citation-searching branches. A total of 784 records were screened, 367 reports were sought, 66 reports were assessed, and 60 studies were included.}
   \label{fig:prisma}
 \end{figure}
 
@@ -46,4 +46,4 @@ Codex and agy initially scored the included reports independently, with disagree
 
 The author subsequently defined the categorical codebook. Architecture permits single-agent, multi-agent, mixed for studies evaluating both, and not applicable where no agent is implemented. Task stages and adaptation techniques are multi-label. Later verification compares complete papers and linked artifacts through two independent AI reviews and cross-review, preserving unresolved source inconsistencies.
 
-At manuscript preparation, many extraction rows and coding fields remain AI-prefilled and have not completed this verification or individual author confirmation. Consequently, category frequencies describe a provisional workbook snapshot. AI agreement is not treated as independent human validation, and no final corpus-wide comparative claim is inferred solely from those frequencies.
+At manuscript finalization, the two-AI workflow had reviewed all included extraction rows, QA scores and categorical codes, and all 420 final-code cells were populated. Individual author confirmation and the author-only gap and annotation fields remain incomplete. Consequently, category frequencies still describe a provisional AI-reviewed workbook snapshot. AI agreement is not treated as independent human validation, and no final corpus-wide comparative claim is inferred solely from those frequencies.

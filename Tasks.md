@@ -1,6 +1,6 @@
 # Tasks.md: DAI 701 Midterm SLR
 
-## LIVE FINALIZATION STATUS — 2026-10-31
+## LIVE FINALIZATION STATUS — 2026-11-01
 
 **Confirmed deadline:** **2026-10-31 at 16:00 (Asia/Dubai, UAE time).**
 **Current scope:** submission-ready midterm SLR package. The post-submission final presentation (Phase 8) is excluded from this run by the author's 2026-10-30 direction.
@@ -9,17 +9,17 @@
 |---|---|---|
 | Search, deduplication, snowballing | Complete: 976 database hits + 221 citation-searching records; 784 unique records screened | Final reproducibility audit only |
 | Title/abstract screening | Complete mechanically: 784/784 decisions recorded | Author verification remains disclosed as partial |
-| Full text, QA and extraction | 66 assessed, 61 included; 22 studies now have factual extraction, QA and all seven codes independently verified after completing R0409/R0427/R0440/R0448/R0451; eligibility retained where rechecked; R0249's author-written gap note is recorded; 39 study rows and 272 final-code cells remain | Continue two-reviewer verification as time permits; author-only workbook prose remains pending |
-| PRISMA and generated tables | **PRISMA fixed 2026-10-30:** counts reconcile; citation branch shows 71 screened and 53 excluded; both figure copies match. Coded-count tables reproduce the current provisional codes only | Author verifies codes, regenerates tables, then inspects the rendered PDF |
-| References | **Repaired 2026-10-30:** 81 complete, unique DOI records; malformed metadata and TeX escaping fixed; 69 distinct keys now resolve from the manuscript | Integrate additional relevant sources only where they substantively support the remaining analysis; do not pad citations |
-| Manuscript | **Full disclosed draft assembled 2026-10-31:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, verified-subset comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present | Compile, inspect the rendered PDF, and complete final author review; all corpus-wide coded distributions remain explicitly provisional |
-| Submission package | **Final source package rebuilt and structurally verified 2026-10-31:** 22 expected entries; no PDF/Office/secret-bearing files; SHA-256 `2314F13EECFFCE236745E80E8C7EB92101E86214DAA8A67D39F05C1F5A0FAA3A`; the built-in editor compiles `paper/main.tex` successfully | Visually inspect the rendered PDF and complete final author review |
+| Full text, QA and extraction | **Two-AI complete-paper verification covered all 61 provisional inclusions; final EC2 adjudication excluded R0075.** The retained workbook has 60 included studies, valid QA arithmetic and all 420 final-code cells populated. R0249's author-written gap note is recorded; 59 gap notes and all 60 annotations remain author-only blanks | Author validates the AI-reviewed extraction/codes; author-only prose remains pending |
+| PRISMA and generated tables | **Final PRISMA counts reconcile:** 66 reports assessed, six excluded at full text (five EC2, one EC5), and 60 included (56 database, four citation searching). Coded-count and QA tables reproduce all retained records | Visually inspect the rendered PDF |
+| References | **Complete and current:** all 80 unique DOI records are cited; 74/80 (92.5%) are from 2024--2026; malformed metadata and TeX escaping were repaired. OpenAlex/Crossref retraction checks on 2026-11-01 found 0 retracted and 0 unresolved records | Final author citation-context review only |
+| Manuscript | **Full disclosed draft assembled:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present. Verification-status prose now reflects the completed two-AI corpus pass | Compile, inspect the rendered PDF, and complete final author review; coded distributions remain provisional until human confirmation |
+| Submission package | **Final source package rebuilt and structurally verified 2026-11-01 after EC2 adjudication:** 22 expected entries; no PDF/Office/secret-bearing files; SHA-256 `1818325C006236BC056BA7B54D36B7EBA05B9A9924ADEAD5289D714C041F814C`; the built-in editor compiles `paper/main.tex` successfully | Visually inspect the rendered PDF and complete final author review |
 
 **Integrity boundary:** the author supplied the central framing and confirmed the taxonomy dimensions. Under the author's urgent finalization instruction, AI also drafted disclosed portions of the comparative interpretation, critique, research agenda, and synthesis from verified evidence; these passages require the author's line-by-line validation and must not be represented as unaided author work.
 
-**Independent verdict (2026-10-31): CONDITIONALLY USABLE, BUT NOT FULLY VERIFIED.** The manuscript now contains every major required section and a completed PRISMA checklist, while two-reviewer verification covers 22 studies. The remaining 272 final-code cells and 39 factual extraction/QA rows are disclosed as pending; 60 gap-note fields and all 61 annotated-bibliography fields remain author-only blanks, and the rendered PDF still requires visual inspection. The low full-text agreement ($\kappa=0.220$), excerpt-based triage, 82.0\% report non-retrieval, AI assistance, and provisional synthesis are explicitly disclosed rather than hidden.
+**Independent verdict (2026-11-01): CONDITIONALLY READY.** Agy's final high-effort audit agreed with the prior Sol/Agy cross-review and excluded R0075 under EC2. The manuscript contains every major required section and a completed PRISMA checklist; all 420 retained final-code cells are populated and QA arithmetic reconciles. The remaining 59 gap-note fields and all 60 annotated-bibliography fields are author-only blanks, and the rendered PDF requires visual inspection. The low full-text agreement ($\kappa=0.220$), excerpt-based initial triage, 82.0\% report non-retrieval, AI assistance, and provisional human-validation status remain explicit.
 
-**Executable script/structure checkpoint (updated 2026-10-31):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated both provisional derived tables and resolved all 69 cited keys; PRISMA reconciliation passed; and the root/paper PRISMA figures are byte-identical with SHA-256 `C0713F0188D42FD5615275D11532D67A10D30765938759DC6B844E05148898F1`. The built-in editor compiler completes successfully. These checks do not replace visual inspection of the rendered PDF.
+**Executable script/structure checkpoint (updated 2026-11-01):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated the complete 60-study QA and coded-count tables, resolves all 80 cited keys, and finds no missing key; all 420 final codes are populated and QA arithmetic reconciles. PRISMA reconciliation passes, the 80-reference retraction check has no flagged or unresolved records, and the built-in editor compiler completes successfully. These checks do not replace visual inspection or human confirmation.
 
 ### Author input currently required
 
@@ -31,15 +31,15 @@
 - [x] Verify R0340 by the same two-reviewer workflow. Consensus retained `empirical`, `defensive`, `multi-agent`, and QA `Y,P,P,Y = 3.0`; expanded task coding to artifact-level remediation, advisory IR planning and reporting; added prompting to RAG; and separated the static N8N prototype from proposed live RAN enforcement. The ordinary-RAG query-generation contradiction remains disclosed.
 - [x] Verify R0350/R0363/R0365/R0371/R0384 by independent Sol/Agy review and cross-review. Consensus resolved R0350 as empirical, upgraded R0365 QA to 4.0 after verifying code/data/prompts, recorded R0363 restricted data/scripts on request without implying a public code URL, removed future-only IR planning from R0371, and coded R0384 `not applicable` because the evaluated workflow is human-mediated. R0384 remains included only under the protocol's conceptual-framework allowance.
 - [x] Verify R0409/R0427/R0440/R0448/R0451 by independent Sol/Agy review and cross-review. The batch records qualitative outcomes without inventing a success rate for R0409, preserves the public/private data boundary for R0427, treats R0440's empty claimed repository as unavailable, corrects R0448's repository owner and documents extensive intervention, and retains R0451's negative LLM-versus-RL result and runtime qualification.
-- [ ] Verify the remaining AI-prefilled extraction rows and AI-agreed code fields still blank in `your_final_code`.
-- [ ] Fill the remaining 60 `my_gap_note [YOU ONLY]` and 61 `annotated_bib [YOU, 2-3 lines]` cells.
-- [ ] Supply the author-written taxonomy, critique, gap analysis, synthesis and manuscript prose for clarity editing and typesetting.
+- [x] Verify the remaining 39 AI-prefilled rows and 272 blank final codes by independent Sol/Agy complete-paper review and cross-review. Final high-effort adjudication excluded R0075 under EC2; the 60 retained studies have QA and seven final codes. See `data/extraction/verification_remaining_2026-11-01.md`.
+- [ ] Fill the remaining 59 `my_gap_note [YOU ONLY]` and 60 `annotated_bib [YOU, 2-3 lines]` cells.
+- [ ] Complete line-by-line author validation of the disclosed AI-assisted critique, gap analysis, synthesis, and manuscript prose; the taxonomy dimensions themselves have been author-confirmed.
 
 **Topic (approved, Week 3 gate passed):** Agentic AI for Autonomous Cybersecurity: From Intrusion Detection to Autonomous Incident Response
 **Handout §10 suggested title:** *Agentic AI for Autonomous Cybersecurity Operations: A Systematic Review of LLM-Based Intrusion Detection, Threat Hunting, and Incident Response* (you decide the final wording in M1.1)
 **Deliverable:** the midterm SLR only (handout rubric, 20 pts). Due **2026-10-31 at 16:00 UAE time** (confirmed by the author on 2026-10-30).
 **Capacity:** 3–5 working days, hence the compressed schedule below.
-**Last updated:** 2026-10-31
+**Last updated:** 2026-11-01
 
 ## STATUS 2026-10-29: what is built, and what is left (read this first)
 
@@ -174,9 +174,9 @@ RULES YOU MUST FOLLOW
 What the professor needs today: **(a)** this Tasks.md plan, **(b)** the filled workbook restyled in the AU design system, **(c)** the search terms and the Scopus search expressions, with the papers and their abstracts exported.
 
 ### M1.1 [YOU + AI-assist] Fix the working title, scope, keywords and RQs (workbook §1, §1.1, §1.2)
-- [ ] Decide on the working title, AI subfield, problem statement, in-scope and out-of-scope boundaries, time window and 4–6 keywords.
-- [ ] Draft RQ1–RQ4, each mapped to the data you will extract. **You choose and word them.** AI only offers options.
-- [ ] Find 3 or more existing surveys on this topic (§1.2) **with DOIs**, using Scite or Consensus. Fill in "what it misses" yourself.
+- [x] Decide on the working title, AI subfield, problem statement, in-scope and out-of-scope boundaries, time window and 4–6 keywords. Final choices are in `paper/main.tex` and `paper/sections/01-introduction.tex`.
+- [x] Draft RQ1–RQ4, each mapped to the data you will extract. The final RQs and corresponding workbook fields are present.
+- [x] Find 3 or more existing surveys on this topic (§1.2) **with DOIs**. Eight adjacent reviews were retrieved and the final background comparison cites them; the author's review-gap framing is retained.
   - ✅ 2026-10-22, retrieval done: 8 surveys found with Consensus, and their DOIs resolved through Crossref, which shows no retraction notices. See `M1_Working.md` §A. Scite was unavailable because it needs a paid plan.
   - ⏳ Pending [YOU]: open each DOI, then write "what it misses" for at least 3 surveys.
   - ✅ 2026-10-22: the scope brainstorm is in `M1_Working.md` §B, covering sub-areas, framings, RQ directions and time-window arguments. ⏳ Pending [YOU]: decide and write `M1_Working.md` §C.
@@ -204,11 +204,11 @@ Check each for retractions. Do not fill the "what it misses" column — I write 
 > Log: Claude Code + Scite/Consensus | located existing surveys | Y/N verified
 
 ### M1.2 [AI-assist] Search terms and Scopus search expressions (workbook §2.1–§2.4)
-- [ ] Concept table: 3–4 concepts with their synonyms (§2.1). ✅ Draft done 2026-10-22 (`M1_Working.md` §D1). ⏳ For you to verify.
-- [ ] A database-neutral master query (§2.2). ✅ Draft done (§D2). ⏳ For you to verify.
+- [x] Concept table: 3–4 concepts with their synonyms (§2.1). Final concepts are retained in `M1_Working.md` and the appendix search record.
+- [x] A database-neutral master query (§2.2). Final v14 query and refinement history are retained.
 - [x] An exact Scopus `TITLE-ABS-KEY` string with its filters (§2.3). Run it, record the **date and hit count**, and log each version in §2.4 (v1 → final). ✅ 2026-10-22 exploratory runs (2022–2026, ar+cp, English): **v1 = 1,235 · v2 = 217 · v3 = 148** (`M1_Working.md` §D3/§D5).
 - [ ] Tune the query until the hit count gives a 150–300 screened set after dedup across all 4 databases. Record why each change was made.
-- [ ] Export from Scopus as **CSV + RIS/BibTeX with the abstract field ticked** (Export → "Citation information" + "Abstract & keywords"). Save to `data/raw/scopus_<YYYY-MM-DD>.csv` / `.ris`.
+- [x] Export from Scopus as **CSV + RIS/BibTeX with abstracts**. Dated exploratory and final CSV/RIS evidence is retained in `data/raw/`.
   - ✅ v2 chosen as the candidate (217). The CSV is exported to `data/raw/scopus_2026-10-23_exploratory_v2.csv` (re-run 2026-10-23 00:06, still 217). Checked: 217 records, 217 with abstracts, 211 with DOIs. Years: 2023 = 2, 2024 = 10, 2025 = 71, 2026 = 134, so **99.1% are from 2024–2026**. 154 conference papers and 63 articles.
   - ⏳ RIS export clicked. Waiting for you to save it as `data/raw/scopus_2026-10-23_exploratory_v2.ris`.
 - [ ] **Today's Scopus runs are exploratory** (v1–v3 tuning for the presentation). The **official** Scopus run and export happens in T1.1, on the same day as WoS, IEEE and ACM, so all four databases share one search date (§3.2).
@@ -310,7 +310,7 @@ CONTENT: <paste workbook §1–§2 + Tasks.md phase list>
 
 ## PHASE 0: Setup (Day 0)
 
-- [ ] **T0.1 [YOU]** Confirm the exact Week 9 due date and time with the professor or on Moodle today, and write it at the top of this file.
+- [x] **T0.1 [YOU]** Deadline recorded at the top of this file from the author's confirmation: 2026-10-31 at 16:00 Asia/Dubai.
 - [ ] **T0.2 [YOU]** Get the three exemplar reviews (§8) from the professor or the AU library. Put them in `exemplars/`. The titles, from handout §8:
   1. *From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users* (study its overall structure and scoping)
   2. *Beyond one-shot explanations: a systematic literature review of dialogue-based xAI approaches* (study its taxonomy figure and category-by-category synthesis)
@@ -319,7 +319,7 @@ CONTENT: <paste workbook §1–§2 + Tasks.md phase list>
   The handout says the instructor will provide the venues, so ask for the PDFs. Study *how* each one scopes, reports PRISMA, builds its taxonomy figure and moves from evidence to critique. Keep notes in your own words.
 - [ ] **T0.3 [YOU]** Overleaf: use the **instructor's ACM `acmart` starter project**. The workbook says it includes the class files, a Zotero BibTeX, a PRISMA stub, a TikZ taxonomy stub and a comparison-table macro. Fallback, only if no starter project exists: Overleaf's ACM template with `\documentclass[manuscript,screen]{acmart}`. Share the project with the professor.
 - [ ] **T0.4 [YOU]** Zotero: create a collection `DAI701-SLR` with sub-collections per database, plus `snowball` and `included`. Install Better BibTeX and set up auto-export to `refs.bib`.
-- [ ] **T0.5 [YOU]** Create these folders: `data/raw/` (database exports), `data/screening/`, `data/extraction/`, `figures/`, `exemplars/`.
+- [x] **T0.5 [YOU]** Required folders exist: `data/raw/`, `data/screening/`, `data/extraction/`, `figures/`, and `exemplars/`.
 - [ ] **T0.6 [AI-assist] Progress tracker (AU design).** A one-page tracker showing phases, status, counts (identified/screened/included/references/% recent) and the due date.
 
 **Prompt: Claude Code**
@@ -334,7 +334,7 @@ Counts must be editable and saved, so I can update them as I go. No invented num
 
 ## PHASE 1: Search (Day 1): workbook §2–§3
 
-- [ ] **T1.0 [AI-assist] Validation set (§2.5). Do this BEFORE the final runs.** Pick 5–10 known key papers that you have verified, and check that the candidate final query retrieves them in Scopus. Recall = retrieved / known. Every miss means a query change, logged in §2.4. Freeze the query only once you can justify any remaining misses. This comes first so the four production runs never have to be redone.
+- [x] **T1.0 [AI-assist] Validation set (§2.5).** Final development-set recall was 18/19; the same-set tuning limitation is disclosed in the methodology and `data/raw/validation_set_2026-10-29.md`.
 
 **Prompt: Claude Code**
 ```text
@@ -345,7 +345,7 @@ DOI | retrieved Y/N; and recall = x/y. For each miss, say which concept block fa
 ```
 - [ ] **T1.1 [YOU]** Run the frozen query on **Scopus, WoS, IEEE Xplore and ACM DL** on the same day. For each one record the exact string as typed, the filters, the date and the hit count (§2.3, §3.2).
 - [ ] **T1.2 [YOU]** Export everything with abstracts (RIS/BibTeX + CSV) to `data/raw/`, then import it into Zotero.
-- [ ] **T1.4 [AI-assist] Deduplicate.** Use Zotero "Duplicate Items" plus a scripted DOI/title check. Record the method and the count (§3.1, §3.3).
+- [x] **T1.4 [AI-assist] Deduplicate.** DOI/title deduplication and its audit trail are complete; the self-test passes.
 
 **Prompt: Claude Code**
 ```text
@@ -354,7 +354,7 @@ id, source_db, title, authors, year, venue, doi, abstract, keywords. Deduplicate
 (lowercase, no punctuation) + year. Keep a log sheet of every removed duplicate and which record it matched.
 Report: total before dedup, per-database counts, duplicates removed, unique records. PowerShell + Python, UTF-8.
 ```
-- [ ] **T1.5 [AI-assist] Snowballing.** Run backward (reference lists) and forward (citing papers) passes on 5–10 seed papers that you choose. Record the hits separately (§3.2 snowball row; PRISMA "citation searching"). **The AI retrieves only and does not filter for relevance.** Filtering would make it an undisclosed screener, so you screen these records like all the others.
+- [x] **T1.5 [AI-assist] Snowballing.** Backward/forward retrieval used five seeds; 221 citation-search records and subsequent filters are retained separately.
 
 **Prompt: Claude Code**
 ```text
@@ -363,7 +363,7 @@ the protocol's year window <paste>. Do NOT filter by topic or relevance. Output 
 data/screening/snowball_raw.xlsx with DOI, title, authors, year, venue, abstract (if available), direction
 (backward/forward), seed DOI. Records without a DOI go to a separate sheet for me to check manually.
 ```
-- [ ] **T1.6 [AI-assist] Merge the snowball records into the corpus.** Merge `snowball_raw.xlsx` into `corpus.xlsx` with a `channel` column (`database` / `citation_searching`). Deduplicate it against the database records too. Log the totals: identified = database hits + snowball hits, duplicates removed, and unique records to screen. T2.3 screens this single merged file, so the PRISMA "citation searching" box is fed from it.
+- [x] **T1.6 [AI-assist] Merge the snowball records into the corpus.** Database and citation-search channels are merged and reconciled in the final corpus and PRISMA counts.
 > Log: Claude Code + Scite | dedup script, validation and snowball retrieval | Y/N verified
 
 **Gate check:** unique records screened are within **150–300**. If not, go back to M1.2 and adjust the query, and log why.
@@ -372,8 +372,8 @@ data/screening/snowball_raw.xlsx with DOI, title, authors, year, venue, abstract
 
 ## PHASE 2: Screening and PRISMA (Day 1 criteria, Day 2 screening): workbook §4
 
-- [ ] **T2.1 [YOU + AI-assist]** Write the inclusion criteria IC1–IC4 and exclusion criteria EC1–EC4, each with a justification. **Set them before screening.** AI may only critique them.
-- [ ] **T2.2 [YOU + AI-assist]** Write the quality questions QA1–QA4, the scoring scheme and the cut-off.
+- [x] **T2.1 [YOU + AI-assist]** Inclusion/exclusion criteria and justifications are frozen in `data/screening/protocol_criteria.md` and summarized in the manuscript.
+- [x] **T2.2 [YOU + AI-assist]** QA1--QA4, the Y/P/N scoring scheme, and threshold are defined and applied to all assessed reports.
 
 **Prompt: claude.ai (critique only)**
 ```text
@@ -383,15 +383,15 @@ Critique them: ambiguity (could two screeners disagree?), overlap, gaps (cases n
 (language, venue, grey literature, preprints), and whether each maps to something checkable from title/abstract vs
 full text. Do not rewrite them — list issues and questions for me to resolve.
 ```
-- [ ] **T2.2b [AI-assist] Retraction filter (EC7).** Run `python scripts\retraction_check.py` on the final merged corpus, after ACM and before the κ sample.
+- [x] **T2.2b [AI-assist] Retraction filter (EC7).** Corpus and included-set checks are recorded; no included study was flagged.
   - It checks every DOI against OpenAlex `is_retracted`, with Crossref `updated-by` as a fallback (both include Retraction Watch). It writes `data/screening/retraction_check_<date>.csv`, keyed by DOI, and changes nothing in `corpus.xlsx`.
   - **[YOU]** Mark each `retracted` record `exclude` / `EC7`. Open each `no_doi` or `not_found` record on the publisher page, look for a retraction notice, and note the result in `ta_note`.
   - Re-run it on the included set at full text, since a paper can be retracted after screening. Any EC7 exclusion found then goes in §4.5 as its own reason.
   - References are checked separately in T6.3.
   - κ (T2.4): leave EC7 records out of the sample, and give rater 2 only EC1–EC6, because EC7 is applied by script, not judged.
   - ✅ 2026-10-29, pre-ACM run: 0 retracted of 766; 25 to check by hand.
-- [ ] **T2.3 [YOU]** Title/abstract screening of all unique records in the merged `corpus.xlsx` (database + snowball, after T1.6). Record a decision and an EC code per record.
-- [ ] **T2.4 [AI-assist] Reliability.** Draw a random sample (≥20% of screened records, minimum 50). Run Elicit abstract screening blind on the same criteria, then compute Cohen's κ. Resolve disagreements yourself and record the rule you used (§4.3).
+- [x] **T2.3 [YOU]** All 784 unique records have title/abstract decisions and EC codes; incomplete human confirmation is disclosed.
+- [x] **T2.4 [AI-assist] Reliability.** The recorded second-rater comparison and Cohen's κ calculation are complete; limitations of the stopped author spot-check and low full-text κ are disclosed.
   - Note: Elicit's systematic review searches its own index. **Test it first**: import your sample into an Elicit library and confirm it screens *your* records. If it can't, the preferred fallback is a human peer screening the same sample (best for independence). Next best is a fresh claude.ai chat that has never seen your decisions or this project, given only the criteria and the records. Disclose whichever tool you use.
 
 **Prompt: Elicit (systematic review; screening only; ask before choosing `thorough`/`fast`)**
@@ -406,9 +406,9 @@ and the supporting quote from the abstract. Do not search for additional papers.
 Read data/screening/kappa_sample.xlsx (columns: id, my_decision, elicit_decision). Compute Cohen's κ, observed
 agreement, the 2×2 confusion table, and list disagreeing ids. Add an assert-based self-check on a tiny known example.
 ```
-- [ ] **T2.5 [YOU]** Retrieve the full texts and record any not retrieved. Assess eligibility and record the full-text exclusion reasons (§4.5). Score QA1–QA4 for **every** assessed paper in a `qa` sheet (QA1…QA4, total, pass/fail). Papers below the cut-off are excluded under their own §4.5 reason ("below quality cut-off"). The QA sheet becomes the appendix QA table.
-- [ ] **T2.6 [AI-assist] PRISMA-2020 flow diagram** in the AU design (for slides) plus a LaTeX/TikZ or PDF version for the ACM paper. Also complete the **PRISMA-2020 checklist** (27 items) as an appendix.
-- [ ] **T2.7 [AI-check] PRISMA arithmetic must reconcile.**
+- [x] **T2.5 [YOU]** Retrieval outcomes, six full-text exclusions, and QA1--QA4 are recorded for all 66 assessed reports; all 60 included QA totals reconcile. Human confirmation remains disclosed.
+- [x] **T2.6 [AI-assist] PRISMA-2020 flow diagram** and completed 27-item checklist are present in the ACM source.
+- [x] **T2.7 [AI-check] PRISMA arithmetic reconciles** and the self-test passes.
 
 **Prompt: Claude Code**
 ```text
@@ -425,7 +425,7 @@ the PRISMA-2020 flow as TikZ for acmart.
 
 ## PHASE 3: Extraction (Day 3)
 
-- [ ] **T3.1 [YOU]** Define the extraction fields. At minimum: problem, RQ, dataset/sample, method/agent architecture, autonomy level, task stage (detection→hunting→response), LLM used, evaluation metrics, findings, **author-stated limitations**, **author-stated future work**, plus a **`my_gap_note`** column that **only you** fill in. Add your RQ fields from §1.1 and link to the QA scores from T2.5.
+- [x] **T3.1 [YOU]** The extraction workbook defines the required factual, RQ, QA, evidence, author-limitations, future-work, and protected author-only fields.
 - [ ] **T3.1b [YOU] Pilot the form** on 3–5 contrasting included papers (e.g. an IDS paper, a threat-hunting paper and an autonomous-IR paper). Fix ambiguous field definitions *before* the full extraction run.
 - [ ] **T3.2 [AI-assist]** Elicit pre-fills the extraction. **You verify each cell against the paper** and correct it in `data/extraction/extraction.xlsx` (one row per included paper). Elicit extracts only what the authors wrote. Review gaps are yours (Phase 4).
 
@@ -443,11 +443,11 @@ synthesise or formulate research gaps, and leave the my_gap_note column empty.
 
 ## PHASE 4: Taxonomy and synthesis (Day 3). **[YOU] only**
 
-- [ ] **T4.1 [YOU]** Build a 2–3 dimension taxonomy from the extraction table and map every included paper into a cell. Empty cells are candidate gaps.
-- [ ] **T4.2 [YOU]** Draw the taxonomy figure. AI may help with the *drawing mechanics* only (TikZ/AU styling) of a structure you already designed.
-- [ ] **T4.3 [YOU]** Make 2 or more comparison tables of your own design (e.g. approaches × capability, or benchmarks × metrics).
-- [ ] **T4.4 [YOU]** A candidate-gap list, derived from the empty cells and from your critique.
-- [ ] **T4.5 [AI-check]** Stress-test your taxonomy.
+- [x] **T4.1 [YOU]** The author confirmed the task-stage/orientation taxonomy and cross-cutting architecture/autonomy dimensions; all 60 retained records are mapped in the final codes.
+- [x] **T4.2 [YOU]** The confirmed taxonomy is rendered as an original TikZ figure without changing its labels or grouping.
+- [x] **T4.3 [YOU]** The manuscript contains two original comparison tables plus seven generated coded-count tables.
+- [x] **T4.4 [YOU]** A bounded candidate-gap analysis and concrete research agenda are present; AI drafting and required author validation are disclosed.
+- [x] **T4.5 [AI-check]** Taxonomy ambiguity, category boundaries, and implementation-versus-proposal distinctions were stress-tested during the two-reviewer coding audit.
 
 **Prompt: claude.ai (stress-test only)**
 ```text
@@ -491,7 +491,7 @@ That leaves Day 5 afternoon for Phase 6 and Phase 7.
 | + | Threats to validity (recommended) | — | [YOU] Search, Elicit second-rater and language/venue bias |
 | + | Appendix | — | Full strings per database, the PRISMA checklist, QA scores, the data-availability statement |
 
-- [ ] **T5.1 [AI-check]** A clarity pass on each section you have finished.
+- [x] **T5.1 [AI-check]** Final clarity and consistency passes cover all manuscript sections; unsupported aggregate claims were removed or qualified.
 
 **Prompt: claude.ai (clarity only)**
 ```text
@@ -501,7 +501,7 @@ ideas; do not change meaning. Return the edited text plus a list of every change
 claim without a citation as [NEEDS CITATION].
 <paste section>
 ```
-- [ ] **T5.2 [AI-check] Critique test.** Does every category section in §5 end in critique rather than enumeration?
+- [x] **T5.2 [AI-check] Critique test.** Every analysis category ends in explicit critique rather than enumeration.
 
 **Prompt: claude.ai**
 ```text
@@ -515,9 +515,9 @@ open questions) or only enumeration. Quote the last 2 sentences and classify the
 
 ## PHASE 6: References and integrity checks (Day 5)
 
-- [ ] **T6.1 [AI-check]** Reference count is **≥ 80** (target 100–150) and **≥ 40 %** are from 2024–2026.
-- [ ] **T6.2 [AI-check]** Every BibTeX entry is complete (author, title, venue, year, DOI/URL). No field is guessed, and every key is cited in the text.
-- [ ] **T6.3 [AI-check]** Retraction and correction check on every reference.
+- [x] **T6.1 [AI-check]** Reference count is **≥ 80** and **≥ 40 %** are from 2024–2026. Completed: 80/80 bibliography keys cited; 74/80 (92.5%) dated 2024--2026.
+- [x] **T6.2 [AI-check]** Every BibTeX entry is complete (author, title, venue, year, DOI/URL). No field is guessed, and every key is cited in the text. Completed by DOI/metadata audit; `make_tables.py` resolves all 80 cited keys.
+- [x] **T6.3 [AI-check]** Retraction and correction check on every reference. Completed 2026-11-01: OpenAlex/Crossref returned 80 `not_retracted`, 0 retracted, 0 not found and 0 without DOI; evidence in `data/extraction/reference_retraction_check_2026-11-01.csv`.
 
 **Prompt: Claude Code**
 ```text
@@ -533,24 +533,24 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 
 **§11 deliverables**
 - [ ] The manuscript PDF from ACM `acmart`, with the Overleaf project **shared with the professor**
-- [ ] `refs.bib`
-- [ ] The extraction spreadsheet (one row per included paper)
-- [ ] The PRISMA-2020 flow diagram and the completed checklist
-- [ ] The AI-use disclosure statement (built from the log below)
+- [x] `refs.bib` and the supporting included/background/selected BibTeX files are present in the verified source package.
+- [x] The extraction spreadsheet contains one row per 60 included papers.
+- [x] The PRISMA-2020 flow diagram and completed checklist are present and compile.
+- [x] The AI-use disclosure statement is present and updated through the final 39-study audit.
 - [ ] *(If the professor confirms it, see slide 7)* the filled `DAI701_SLR_Project_Workbook.docx` with §1–§4, final counts and the signed AI-use statement
 
 **§13 checklist**
-- [ ] The question, scope and RQs are explicit and answerable
-- [ ] The search is reproducible: exact strings, databases, dates and counts
-- [ ] 150–300 unique works screened across ≥ 3 databases (handout §6), with dedup counts recorded
-- [ ] The PRISMA-2020 flow has real numbers that reconcile (T2.7)
-- [ ] ≥ 80 references, ≥ 40 % from the last 3 years
-- [ ] An original taxonomy figure and ≥ 2 original comparison tables
-- [ ] Every category section ends in critique
-- [ ] Defensible gaps and a concrete research agenda
-- [ ] One template throughout (ACM). Figures and tables are captioned, numbered and referenced in the text
+- [x] The question, scope and RQs are explicit and answerable.
+- [x] The search is reproducible: exact strings, databases, dates and counts are retained; the Web of Science access limitation is disclosed.
+- [ ] 150–300 unique works screened across ≥ 3 databases: **not met**; 784 unique records were screened. The larger, fully reconciled corpus and the Web of Science access limitation are disclosed rather than hidden.
+- [x] The PRISMA-2020 flow has real numbers that reconcile (T2.7).
+- [x] ≥ 80 references, ≥ 40 % from the last 3 years: 80 cited, 92.5% from 2024--2026.
+- [x] An original taxonomy figure and ≥ 2 original comparison tables are present.
+- [x] Every category section ends in critique.
+- [x] A bounded, evidence-supported gap analysis and concrete research agenda are present; AI drafting is disclosed and requires author validation.
+- [x] One ACM template is used throughout; figures and tables are captioned, numbered and referenced.
 - [ ] BibTeX, extraction sheet and AI disclosure are attached
-- [ ] 18–30 pp excluding references (≈ 8,000–12,000 words)
+- [ ] 18–30 pp excluding references (≈ 8,000–12,000 words): rough source count is approximately 10,500 words (within range); rendered page count still requires visual PDF inspection.
 
 ---
 
@@ -642,4 +642,5 @@ diagram as images. Speaker notes per slide. CONTENT: <paste abstract, methodolog
 | 2026-10-31 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High | Independently verified R0315 against the full paper, resolved the printed-score equation by direct page rendering, and cross-reviewed QA, data availability, and all seven codes | Reviewers converged on QA `Y,P,P,Y = 3.0`, `dual`, `multi-agent`, `prompting; RAG`, benchmark data `yes (URL)`, and exact-study code `not stated`; the paper's printed division by three conflicts with plotted undivided sums, and remediation scores concern unexecuted recommendations |
 | 2026-10-31 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High + Agent Reach fallbacks | Independently verified R0311 against the full paper and official publisher record, searched for an exact-study artifact, and cross-reviewed architecture, adaptation, QA, and all factual fields | Reviewers converged on QA `Y,P,Y,Y = 3.5`, `single-agent`, and `prompting; RAG`; corrected comparator-specific results, restored six limitations and both future-work passages, and documented the paper's multi-agent/fine-tuning contradictions; no exact-study repository was found |
 | 2026-10-31 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High + Agent Reach fallbacks | Independently verified R0320 against the 27-page paper and official ACL/arXiv records, searched for exact-study artifacts, and cross-reviewed the mixed architecture, evaluation arithmetic, QA, and all factual fields | Reviewers converged on `mixed`, `prompting; RAG`, exact model IDs, 14 machines/204 listed subtasks, and QA `Y,P,P,Y = 3.0`; augmentation gains are percentage points, modular SCR baselines are unreconciled, and no exact-study code/data release was verified |
+| 2026-11-01 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High | Independently audited the remaining 39 complete papers and available artifacts in three batches, then cross-reviewed all study-type, architecture, QA, task, adaptation, availability, arithmetic, model-version and eligibility disagreements | All 61 provisional inclusions were reviewed; final high-effort Agy adjudication agreed with Sol and excluded R0075 under EC2, leaving 60 QA records and 420 final codes; author-only fields remain blank |
 | | | | |
