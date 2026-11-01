@@ -3,5 +3,6 @@
 - `python scripts\retraction_check.py` (EC7 flag report → `data\screening\retraction_check_<date>.csv`; run after the ACM merge, before the kappa sample; `--selftest` to check)
 - `python scripts\prisma.py`
 - `.\scripts\make_overleaf_zip.ps1`
+- `.\scripts\make_moodle_bundle.ps1` (builds the 13-entry final/supporting submission ZIP; intentionally excludes the stale workbook and superseded PDF)
 - `python scripts\snowball.py --date 2026-10-29 10.48550/arxiv.2308.06782 10.1145/3708821.3733882 10.1109/csr61664.2024.10679480 10.1145/3766895 10.1109/access.2025.3602681` (OpenAlex backward+forward; `--selftest` to check)
 - Final merge (as run 2026-10-29), keeping any screening decisions: `Copy-Item data\screening\corpus.xlsx data\screening\corpus_before_acm.xlsx; python scripts\merge_dedup.py scopus=data\raw\scopus_2026-10-29_v13.csv scopus=data\raw\scopus_2026-10-29_v14_delta.ris ieee=data\raw\ieee_2026-10-29_v14.ris acm=data\raw\acm_2026-10-29_v14.csv data\raw\snowball_2026-10-29.csv --carry data\screening\corpus_before_acm.xlsx --out data\screening\corpus.xlsx --force` (R-ids are renumbered; decisions follow by DOI/title; do this before the kappa sample)

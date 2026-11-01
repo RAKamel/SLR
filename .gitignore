@@ -1,6 +1,7 @@
 # Public repository: keep publishers' copyrighted full texts and derived excerpts local
 data/fulltext/
 /*.pdf
+/SLR_Moodle_Submission_Ramy_Kamel.zip
 data/screening/ai_screening/**/brief.txt
 data/screening/ai_screening/ft_excerpts.json
 data/screening/ai_screening/qa_text.json

@@ -13,7 +13,7 @@
 | PRISMA and generated tables | **Final PRISMA counts reconcile:** 66 reports assessed, six excluded at full text (five EC2, one EC5), and 60 included (56 database, four citation searching). Coded-count and QA tables reproduce all retained records; the final PDF was visually inspected page by page | Author validation only |
 | References | **Complete and current:** all 80 unique DOI records are cited; 74/80 (92.5%) are from 2024--2026; malformed metadata and TeX escaping were repaired. OpenAlex/Crossref retraction checks on 2026-11-01 found 0 retracted and 0 unresolved records | Final author citation-context review only |
 | Manuscript | **Full disclosed draft assembled and rendered:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present. The 30-page PDF was compiled without ACM review line numbers and visually inspected page by page | Complete final author review; coded distributions remain provisional until human confirmation |
-| Submission package | **Final source package rebuilt and structurally verified 2026-11-01:** 22 expected entries, no unsafe paths, valid ZIP structure, final non-review `acmart` source, and a numbered QA table; SHA-256 `FF9B0E7901A7DDAFA6B4A1B5484D0BAF9D62FF2E1687121D7CFC1083A2A13194`. `SLR_Submission_Ramy_Kamel_FINAL.pdf` is 30 pages, visually verified, SHA-256 `455B64E1B23BEAA0BE47320FB303B708F58E47100D2673602E87E2ACA254597A` | Author review, then upload/share through Overleaf and Moodle |
+| Submission package | **Final artifacts rebuilt and structurally verified 2026-11-01:** the 22-entry non-review Overleaf source ZIP has SHA-256 `FF9B0E7901A7DDAFA6B4A1B5484D0BAF9D62FF2E1687121D7CFC1083A2A13194`; the visually verified 30-page `SLR_Submission_Ramy_Kamel_FINAL.pdf` has SHA-256 `455B64E1B23BEAA0BE47320FB303B708F58E47100D2673602E87E2ACA254597A`; and the 13-entry `SLR_Moodle_Submission_Ramy_Kamel.zip` has SHA-256 `D44EBF9FB92224005CA89D6D42EEC5787524D60F79AD8E79881FB4F254DFB400`. The Moodle bundle excludes the stale workbook and superseded PDF | Author review, then upload/share through Overleaf and Moodle |
 
 **Integrity boundary:** the author supplied the central framing and confirmed the taxonomy dimensions. Under the author's urgent finalization instruction, AI also drafted disclosed portions of the comparative interpretation, critique, research agenda, and synthesis from verified evidence; these passages require the author's line-by-line validation and must not be represented as unaided author work.
 
@@ -533,6 +533,7 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 
 **§11 deliverables**
 - [x] The final manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel_FINAL.pdf` and all 30 pages were visually inspected. The earlier `SLR_Submission_Ramy_Kamel.pdf` copy is still open in another process, lacks the final QA-table caption, and must not be uploaded.
+- [x] `SLR_Moodle_Submission_Ramy_Kamel.zip` contains the final PDF, source package, extraction workbook, four BibTeX files, PRISMA evidence, protocol, and AI-use statement; its internal SHA-256 manifest reconciles and excludes stale artifacts.
 - [ ] The Overleaf project is **shared with the professor** (external author action).
 - [x] `refs.bib` and the supporting included/background/selected BibTeX files are present in the verified source package.
 - [x] The extraction spreadsheet contains one row per 60 included papers.
@@ -550,7 +551,7 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 - [x] Every category section ends in critique.
 - [x] A bounded, evidence-supported gap analysis and concrete research agenda are present; AI drafting is disclosed and requires author validation.
 - [x] One ACM template is used throughout; figures and tables are captioned, numbered and referenced.
-- [ ] BibTeX, extraction sheet and AI disclosure are attached in Moodle (external author action; the files are ready locally).
+- [ ] BibTeX, extraction sheet and AI disclosure are attached in Moodle (external author action; all are staged and verified in `SLR_Moodle_Submission_Ramy_Kamel.zip`).
 - [x] 18–30 pp excluding references (≈ 8,000–12,000 words): the rendered PDF is 30 pages total and approximately 25.5 pages excluding the reference section when appendices are included. The narrative body is approximately 5,833 extracted words, so no claim is made that it independently meets the alternative word-count proxy.
 
 ---
