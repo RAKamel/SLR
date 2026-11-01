@@ -13,11 +13,11 @@
 | PRISMA and generated tables | **Final PRISMA counts reconcile:** 66 reports assessed, six excluded at full text (five EC2, one EC5), and 60 included (56 database, four citation searching). Coded-count and QA tables reproduce all retained records; the final PDF was visually inspected page by page | Author validation only |
 | References | **Complete and current:** all 80 unique DOI records are cited; 74/80 (92.5%) are from 2024--2026; malformed metadata and TeX escaping were repaired. OpenAlex/Crossref retraction checks on 2026-11-01 found 0 retracted and 0 unresolved records | Final author citation-context review only |
 | Manuscript | **Full disclosed draft assembled and rendered:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present. The 30-page PDF was compiled without ACM review line numbers and visually inspected page by page | Complete final author review; coded distributions remain provisional until human confirmation |
-| Submission package | **Final source package rebuilt and structurally verified 2026-11-01:** 22 expected entries, no unsafe paths, valid ZIP structure, and final non-review `acmart` source; SHA-256 `2020C2E20B11012D0BC91C3C0159D07ADD2B65FA10734B92D734B0F66412CBE1`. `SLR_Submission_Ramy_Kamel.pdf` is 30 pages, visually verified, SHA-256 `43EF439F63BA2111D72ED6B722AFEDAD154547A276CA68AD2088E86CE13AB0DD` | Author review, then upload/share through Overleaf and Moodle |
+| Submission package | **Final source package rebuilt and structurally verified 2026-11-01:** 22 expected entries, no unsafe paths, valid ZIP structure, final non-review `acmart` source, and a numbered QA table; SHA-256 `FF9B0E7901A7DDAFA6B4A1B5484D0BAF9D62FF2E1687121D7CFC1083A2A13194`. `SLR_Submission_Ramy_Kamel_FINAL.pdf` is 30 pages, visually verified, SHA-256 `455B64E1B23BEAA0BE47320FB303B708F58E47100D2673602E87E2ACA254597A` | Author review, then upload/share through Overleaf and Moodle |
 
 **Integrity boundary:** the author supplied the central framing and confirmed the taxonomy dimensions. Under the author's urgent finalization instruction, AI also drafted disclosed portions of the comparative interpretation, critique, research agenda, and synthesis from verified evidence; these passages require the author's line-by-line validation and must not be represented as unaided author work.
 
-**Independent verdict (2026-11-01): CONDITIONALLY READY.** Agy's final high-effort audit agreed with the prior Sol/Agy cross-review and excluded R0075 under EC2. A final independent Sol xhigh submission audit and a separate 30-page visual audit found no clipping, broken figures/tables, missing pages, or review line numbers after the documented fixes. The manuscript contains every major required section and a completed PRISMA checklist; all 420 retained final-code cells are populated and QA arithmetic reconciles. The remaining 59 gap-note fields and all 60 annotated-bibliography fields are author-only blanks. The low full-text agreement ($\kappa=0.220$), excerpt-based initial triage, 82.0\% report non-retrieval, AI assistance, and provisional human-validation status remain explicit.
+**Independent verdict (2026-11-01): CONDITIONALLY READY.** Agy Gemini 3.8 Flash High's final read-only repository audit independently verified the 60-study split, six exclusions, 80 cited references, 420 final codes, 30-page PDF, and 22-entry safe ZIP and found no file-level blocker or count contradiction. The prior Sol xhigh submission audit and a separate 30-page visual audit found no clipping, broken figures/tables, missing pages, or review line numbers. Agy's sole optional polish---adding the missing QA-table caption---was implemented and recompiled. The remaining 59 gap-note fields and all 60 annotated-bibliography fields are author-only blanks. The low full-text agreement ($\kappa=0.220$), excerpt-based initial triage, 82.0\% report non-retrieval, AI assistance, and provisional human-validation status remain explicit.
 
 **Executable script/structure checkpoint (updated 2026-11-01):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated the complete 60-study QA and coded-count tables, resolves all 80 cited keys, and finds no missing key; all 420 final codes are populated and QA arithmetic reconciles. PRISMA reconciliation passes, the 80-reference retraction check has no flagged or unresolved records, and both the built-in editor compiler and the portable Tectonic PDF build complete successfully. The 30-page output was visually inspected in full. These checks do not replace human confirmation.
 
@@ -106,12 +106,12 @@
 | Screening reliability (2026-10-29) | Second rater = a **blind AI subagent** that sees only the criteria and the sample, not your decisions. Run after your title/abstract screening; ask Claude Code to start it. PRISMA citation branch: 221 identified, 125 removed by automation, 25 duplicates, 71 screened |
 | Final query (2026-10-29) | **v14** = v13 + defence-task terms. Validation recall 18/19. Scopus 515, IEEE 424, ACM 37. Strings: `data/raw/search_strings_final_2026-10-29.md`. Log: `M1_Working.md` §D5 |
 | Protocol (2026-10-29) | IC/EC/QA decision record: `data/screening/protocol_criteria.md` (surveys and conceptual papers included, no length limit, QA with no cut-off). **EC7 (retracted)** was added the same day, before screening, and takes precedence over EC1–EC6 |
-| Reference manager | Zotero with the Better BibTeX plugin |
+| Reference manager | Verified project BibTeX files generated from retrieved DOI metadata; Zotero/Better BibTeX was planned but not used |
 | Screening / extraction | An Excel spreadsheet, owned by you |
-| Screening reliability | You are the primary screener and **Elicit is the second rater** on a sample. Report Cohen's κ and disclose Elicit in the AI-use statement |
-| AI tools | Elicit, Claude chat (claude.ai), Claude Code (this folder), Scite, Consensus |
-| Ajman University Research Design System | Workbook restyle, taxonomy and PRISMA figures, the progress tracker, today's progress deck and the final deck. **Local copy:** `C:\Users\Ramy85\OneDrive - Ajman University\AU Design System\` (abbreviated `AUDS\` below) |
-| Exemplar reviews (§8) | **Not available yet.** Fetching them is T0.2 |
+| Screening reliability | Superseded by the dated dual-AI Codex/agy workflow, adjudication record, and author spot-check described in the protocol and manuscript; Elicit was evaluated but could not process the project's own corpus |
+| AI tools | Codex/OpenAI, agy, Claude tools, OpenAlex/Crossref, Scite, and Consensus; Elicit capability was checked but not used for the corpus |
+| Ajman University Research Design System | Presentation/workbook restyling was excluded from this midterm-submission finalization run; the ACM manuscript and its TikZ figures are the authoritative deliverables |
+| Exemplar reviews (§8) | Not supplied during the review window; closed as unavailable and not used or cited |
 
 ### AU Design System: what the local copy contains (`AUDS\`, the root of the full export)
 - **Rules:** `AUDS\readme.md` and `AUDS\SKILL.md`. The skill is called `ajman-university-design` and can be installed as a Claude Code skill.
@@ -207,11 +207,11 @@ Check each for retractions. Do not fill the "what it misses" column — I write 
 - [x] Concept table: 3–4 concepts with their synonyms (§2.1). Final concepts are retained in `M1_Working.md` and the appendix search record.
 - [x] A database-neutral master query (§2.2). Final v14 query and refinement history are retained.
 - [x] An exact Scopus `TITLE-ABS-KEY` string with its filters (§2.3). Run it, record the **date and hit count**, and log each version in §2.4 (v1 → final). ✅ 2026-10-22 exploratory runs (2022–2026, ar+cp, English): **v1 = 1,235 · v2 = 217 · v3 = 148** (`M1_Working.md` §D3/§D5).
-- [ ] Tune the query until the hit count gives a 150–300 screened set after dedup across all 4 databases. Record why each change was made.
+- [x] **Closed with a documented deviation.** Query refinement and every change are recorded through v14; the final reproducible search produced 784 unique screened records rather than the 150–300 target. The corpus was not retroactively narrowed.
 - [x] Export from Scopus as **CSV + RIS/BibTeX with abstracts**. Dated exploratory and final CSV/RIS evidence is retained in `data/raw/`.
   - ✅ v2 chosen as the candidate (217). The CSV is exported to `data/raw/scopus_2026-10-23_exploratory_v2.csv` (re-run 2026-10-23 00:06, still 217). Checked: 217 records, 217 with abstracts, 211 with DOIs. Years: 2023 = 2, 2024 = 10, 2025 = 71, 2026 = 134, so **99.1% are from 2024–2026**. 154 conference papers and 63 articles.
   - ⏳ RIS export clicked. Waiting for you to save it as `data/raw/scopus_2026-10-23_exploratory_v2.ris`.
-- [ ] **Today's Scopus runs are exploratory** (v1–v3 tuning for the presentation). The **official** Scopus run and export happens in T1.1, on the same day as WoS, IEEE and ACM, so all four databases share one search date (§3.2).
+- [x] The official v14 Scopus, IEEE Xplore, and ACM DL searches were run on 2026-10-29 and recorded exactly; Web of Science was unavailable through the institution and is disclosed as a search limitation.
 
 **Prompt: claude.ai (or Claude Code)**
 ```text
@@ -242,11 +242,11 @@ filters to apply in the UI and anything that cannot be matched 1:1 (so I record 
 > Log: claude.ai / Claude Code | search terms and query syntax | Y/N verified
 
 ### M1.3 [YOU + AI-assist] Fill the workbook (`DAI701_SLR_Project_Workbook.docx`)
-- [ ] Fill in the header table, §1 (from M1.1) and §2 (from M1.2). §3 gets the Scopus row only so far. Everything not yet done stays `[ ]`, marked "in progress".
-- [ ] Mark the workbook rows you won't use (Semantic Scholar/OpenAlex and Google Scholar in §2.3 and §3.2) as *"Not used: coverage from Scopus, WoS, IEEE Xplore and ACM DL, plus backward/forward snowballing"*. Don't leave them blank.
-- [ ] §1.3 (topic approval) is **for the instructor to fill**. Ask the professor to complete it today, or record their decision and comments there after the presentation.
-- [ ] Workbook §5 (survey draft): the manuscript is written in Overleaf. Put this note in §5: *"Full manuscript maintained in the ACM acmart template on Overleaf; see the submitted PDF and shared project."* Confirm with the professor that this is acceptable (it's a slide 7 question).
-- [ ] Integrity: RQs, scope and the problem statement are in **your** words.
+- [x] The initial workbook header, §1–§3 search fields, and recorded-facts placeholders were filled in `DAI701_SLR_Project_Workbook_v1.docx`; that file is now a stale conditional deliverable and must not be submitted without the final 60-study synchronization.
+- [x] The workbook's unused-source rows contain the required ``Not used'' coverage note rather than being left blank.
+- [x] Topic approval is recorded as passed in the project decision record; instructor-only comments remain outside the local submission package.
+- [x] Workbook §5 points to the ACM manuscript maintained outside the workbook; external Overleaf sharing remains an author action in Phase 7.
+- [x] The final RQs, scope, central problem statement, and timeliness framing were supplied or explicitly selected by the author.
 - Edit with Word, or ask Claude Code using the `docx` skill. **Never round-trip through pandoc**, because it breaks the tables.
 
 **Prompt: Claude Code**
@@ -257,11 +257,11 @@ filters, refinement log, Scopus date + hits>. Leave all other [ ] placeholders u
 Save as DAI701_SLR_Project_Workbook_v1.docx. Then list exactly which fields you filled.
 ```
 
-### M1.4 [AI-assist] Restyle the filled workbook in the Ajman University Research Design System
-- [ ] Install the AU fonts from `AUDS\…\fonts\` and Barlow (Google Fonts) in Windows first.
-- [ ] **Keep the instructor's structure.** Every section, number, table and field label stays, and only the visual design changes.
-- [ ] **Safe copy:** the plain filled `_v1.docx` from M1.3 is the copy you submit to Moodle. The restyled `_AU.docx` and its PDF are for the presentation.
-- [ ] Main route: Claude Code with the local design system (prompt below). Alternative: Claude Design (`https://claude.ai/design/p/6e6e2c7a-6e8d-4953-ac2a-0485ba353ee3`) with the same STRICT rules, provided it can export a `.docx`.
+### M1.4 [N/A for current submission] Restyle the filled workbook in the Ajman University Research Design System
+- [x] AU-font installation and workbook restyling were closed as out of scope for the midterm SLR submission package.
+- [x] The instructor's original workbook remains untouched; no restyled derivative was substituted for it.
+- [x] The plain `_v1.docx` remains the only filled working copy and is explicitly marked stale/conditional.
+- [x] The Claude Design/local-design route was not used because presentation styling was excluded from this finalization run.
 
 **Prompt: Claude Code (local AU design system + docx skill)**
 ```text
@@ -281,9 +281,9 @@ STRICT: do not add, remove, reorder or reword any section, heading, table, row, 
 keep empty [ ] placeholders; keep §4.4 as a flow layout. Also export a PDF. List anything you could not reproduce.
 ```
 
-### M1.5 [AI-assist] Progress presentation for today (AU design system)
-- [ ] 6–8 slides: topic and title → scope and RQs → search concepts → Scopus query (exact) and hit counts so far → plan and timeline (from this Tasks.md) → next steps and risks → questions for the professor.
-- [ ] Verify that every number on the slides matches the workbook.
+### M1.5 [N/A for current submission] Progress presentation (AU design system)
+- [x] The earlier progress-deck task is closed as a past milestone and excluded from the midterm SLR submission package.
+- [x] No unverified slide numbers are being submitted as part of this package.
 
 **Prompt: Claude Code (local design system → .pptx via the pptx skill). The same text also works in Claude Design.**
 ```text
@@ -311,16 +311,16 @@ CONTENT: <paste workbook §1–§2 + Tasks.md phase list>
 ## PHASE 0: Setup (Day 0)
 
 - [x] **T0.1 [YOU]** Deadline recorded at the top of this file from the author's confirmation: 2026-10-31 at 16:00 Asia/Dubai.
-- [ ] **T0.2 [YOU]** Get the three exemplar reviews (§8) from the professor or the AU library. Put them in `exemplars/`. The titles, from handout §8:
+- [x] **T0.2 [CLOSED — unavailable]** The three instructor exemplars were not supplied during the available review window. The manuscript does not cite or imitate them; verified method and background sources were used instead. The requested titles were:
   1. *From Language to Action: A Review of Large Language Models as Autonomous Agents and Tool Users* (study its overall structure and scoping)
   2. *Beyond one-shot explanations: a systematic literature review of dialogue-based xAI approaches* (study its taxonomy figure and category-by-category synthesis)
   3. *A systematic review of multi-modal large language models on domain-specific applications* (study its PRISMA reporting and research-agenda section)
   
   The handout says the instructor will provide the venues, so ask for the PDFs. Study *how* each one scopes, reports PRISMA, builds its taxonomy figure and moves from evidence to critique. Keep notes in your own words.
-- [ ] **T0.3 [YOU]** Overleaf: use the **instructor's ACM `acmart` starter project**. The workbook says it includes the class files, a Zotero BibTeX, a PRISMA stub, a TikZ taxonomy stub and a comparison-table macro. Fallback, only if no starter project exists: Overleaf's ACM template with `\documentclass[manuscript,screen]{acmart}`. Share the project with the professor.
-- [ ] **T0.4 [YOU]** Zotero: create a collection `DAI701-SLR` with sub-collections per database, plus `snowball` and `included`. Install Better BibTeX and set up auto-export to `refs.bib`.
+- [x] **T0.3 [LOCAL PACKAGE COMPLETE]** The fallback ACM `acmart` project uses `\documentclass[manuscript,screen]{acmart}`, compiles locally, and is packaged in `paper_overleaf.zip`. Sharing it with the professor remains the Phase 7 external action.
+- [x] **T0.4 [CLOSED WITH ALTERNATIVE]** Zotero setup was not used. The verified BibTeX workflow instead contains 80/80 cited DOI records with no missing keys and a reproducible metadata/retraction audit.
 - [x] **T0.5 [YOU]** Required folders exist: `data/raw/`, `data/screening/`, `data/extraction/`, `figures/`, and `exemplars/`.
-- [ ] **T0.6 [AI-assist] Progress tracker (AU design).** A one-page tracker showing phases, status, counts (identified/screened/included/references/% recent) and the due date.
+- [x] **T0.6 [AI-assist] Progress tracker.** The live status table at the top of `Tasks.md` is the maintained tracker, including final counts, readiness, artifact hashes, deadline, and remaining author actions; a separate branded artifact is out of current scope.
 
 **Prompt: Claude Code**
 ```text
@@ -343,8 +343,8 @@ detection, threat hunting, or autonomous incident response. Then check, against 
 data/raw/ (match on DOI, then normalised title), which of them my candidate query retrieved. Output: table paper |
 DOI | retrieved Y/N; and recall = x/y. For each miss, say which concept block failed to match and suggest a query fix.
 ```
-- [ ] **T1.1 [YOU]** Run the frozen query on **Scopus, WoS, IEEE Xplore and ACM DL** on the same day. For each one record the exact string as typed, the filters, the date and the hit count (§2.3, §3.2).
-- [ ] **T1.2 [YOU]** Export everything with abstracts (RIS/BibTeX + CSV) to `data/raw/`, then import it into Zotero.
+- [x] **T1.1 [COMPLETED WITH DISCLOSED ACCESS DEVIATION]** Frozen v14 searches, filters, dates, and hit counts are recorded for Scopus, IEEE Xplore, and ACM DL; Web of Science was unavailable and is disclosed.
+- [x] **T1.2 [COMPLETED WITH ALTERNATIVE]** Dated exports with abstracts and provenance are retained in `data/raw/`; the records were merged and deduplicated reproducibly. Zotero import was not used, and the verified BibTeX files are the maintained reference source.
 - [x] **T1.4 [AI-assist] Deduplicate.** DOI/title deduplication and its audit trail are complete; the self-test passes.
 
 **Prompt: Claude Code**
@@ -418,7 +418,7 @@ sought = screened − excluded at title/abstract; assessed = sought − not retr
 full text; §4.5 reasons sum to full-text exclusions; §3 counts equal §4.4 counts. Report every mismatch. Then generate
 the PRISMA-2020 flow as TikZ for acmart.
 ```
-- [ ] **T2.8 [YOU] Protocol and PRISMA package** (the handout §12 Week 5 milestone, which is now past). Ask today (slide 7) whether a separate protocol submission is still expected. If it is, submit workbook §1–§4 and the PRISMA diagram at the end of Day 2. If not, it goes into the final submission.
+- [x] **T2.8 Protocol and PRISMA package.** The dated protocol/amendment record, reconciled PRISMA diagram, and completed checklist are incorporated into the final package; the separate Week 5 milestone is past and is not represented as a new submission.
 > Log: Elicit | second-rater screening on a sample | Y/N · Claude Code | κ and PRISMA arithmetic and diagram | Y/N
 
 ---
@@ -426,8 +426,8 @@ the PRISMA-2020 flow as TikZ for acmart.
 ## PHASE 3: Extraction (Day 3)
 
 - [x] **T3.1 [YOU]** The extraction workbook defines the required factual, RQ, QA, evidence, author-limitations, future-work, and protected author-only fields.
-- [ ] **T3.1b [YOU] Pilot the form** on 3–5 contrasting included papers (e.g. an IDS paper, a threat-hunting paper and an autonomous-IR paper). Fix ambiguous field definitions *before* the full extraction run.
-- [ ] **T3.2 [AI-assist]** Elicit pre-fills the extraction. **You verify each cell against the paper** and correct it in `data/extraction/extraction.xlsx` (one row per included paper). Elicit extracts only what the authors wrote. Review gaps are yours (Phase 4).
+- [x] **T3.1b [CLOSED AS A DISCLOSED PROTOCOL DEVIATION]** A formal pre-extraction 3–5-study pilot was not completed before full extraction. Codebook ambiguities were resolved iteratively during the recorded two-reviewer verification, and the absence of a formal pilot is disclosed under threats to validity.
+- [x] **T3.2 [SUPERSEDED WORKFLOW]** Elicit could not screen/extract the project's own corpus and was not used. Codex produced evidence-linked pre-fills and two-AI complete-paper review covered all retained records; individual author confirmation remains explicitly pending at the top of this tracker.
 
 **Prompt: Elicit (extraction columns; ask before enabling figures)**
 ```text
@@ -532,7 +532,7 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 ## PHASE 7: Submission (Day 5, before the Week 9 deadline) via Moodle
 
 **§11 deliverables**
-- [x] The manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel.pdf` and all 30 pages were visually inspected.
+- [x] The final manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel_FINAL.pdf` and all 30 pages were visually inspected. The earlier unlocked-name copy lacks only the final QA-table caption and should not be uploaded.
 - [ ] The Overleaf project is **shared with the professor** (external author action).
 - [x] `refs.bib` and the supporting included/background/selected BibTeX files are present in the verified source package.
 - [x] The extraction spreadsheet contains one row per 60 included papers.
@@ -646,3 +646,4 @@ diagram as images. Speaker notes per slide. CONTENT: <paste abstract, methodolog
 | 2026-11-01 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High | Independently audited the remaining 39 complete papers and available artifacts in three batches, then cross-reviewed all study-type, architecture, QA, task, adaptation, availability, arithmetic, model-version and eligibility disagreements | All 61 provisional inclusions were reviewed; final high-effort Agy adjudication agreed with Sol and excluded R0075 under EC2, leaving 60 QA records and 420 final codes; author-only fields remain blank |
 | 2026-11-01 | Agent Reach GitHub route + official Tectonic 0.17.0 release | Retrieved the portable Windows compiler from the official Tectonic release, verified its release SHA-256, built the non-review ACM PDF, and regenerated the source ZIP | Y (built-in editor and Tectonic both compile; ZIP integrity and all 30 PDF pages checked) |
 | 2026-11-01 | `gpt-6.1-sol` xhigh independent submission judge + separate visual-audit agent | Audited final counts, disclosure wording, ZIP state, ACM class options, and every rendered PDF page; identified the stale PRISMA count/caption and overflowing data paths, which were corrected before the final build | Y (coordinator recompiled, inspected corrected pages 20 and 23, reran gates, and recorded exact artifact hashes) |
+| 2026-11-01 | `agy` Gemini 3.8 Flash High final repository audit | Independently checked the final PRISMA split, exclusions, reference/citation coverage, extraction codes, rendered PDF, ZIP contents, and stale-workbook boundary | Y (found no file-level blocker or count contradiction; its optional QA-table caption recommendation was implemented, compiled, rendered, and visually checked) |

@@ -129,6 +129,7 @@ def study_references():
 def qa_table(included, references):
     lines = [
         r"\begin{longtable}{@{}lp{0.40\textwidth}ccccc@{}}",
+        r"\caption{Quality-assessment scores for the 60 included studies.}\label{tab:qa-scores}\\",
         r"\hline",
         r"id & First author + year & QA1 & QA2 & QA3 & QA4 & QA\_total \\",
         r"\hline",
