@@ -10,16 +10,16 @@
 | Search, deduplication, snowballing | Complete: 976 database hits + 221 citation-searching records; 784 unique records screened | Final reproducibility audit only |
 | Title/abstract screening | Complete mechanically: 784/784 decisions recorded | Author verification remains disclosed as partial |
 | Full text, QA and extraction | **Two-AI complete-paper verification covered all 61 provisional inclusions; final EC2 adjudication excluded R0075.** The retained workbook has 60 included studies, valid QA arithmetic and all 420 final-code cells populated. R0249's author-written gap note is recorded; 59 gap notes and all 60 annotations remain author-only blanks | Author validates the AI-reviewed extraction/codes; author-only prose remains pending |
-| PRISMA and generated tables | **Final PRISMA counts reconcile:** 66 reports assessed, six excluded at full text (five EC2, one EC5), and 60 included (56 database, four citation searching). Coded-count and QA tables reproduce all retained records | Visually inspect the rendered PDF |
+| PRISMA and generated tables | **Final PRISMA counts reconcile:** 66 reports assessed, six excluded at full text (five EC2, one EC5), and 60 included (56 database, four citation searching). Coded-count and QA tables reproduce all retained records; the final PDF was visually inspected page by page | Author validation only |
 | References | **Complete and current:** all 80 unique DOI records are cited; 74/80 (92.5%) are from 2024--2026; malformed metadata and TeX escaping were repaired. OpenAlex/Crossref retraction checks on 2026-11-01 found 0 retracted and 0 unresolved records | Final author citation-context review only |
-| Manuscript | **Full disclosed draft assembled:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present. Verification-status prose now reflects the completed two-AI corpus pass | Compile, inspect the rendered PDF, and complete final author review; coded distributions remain provisional until human confirmation |
-| Submission package | **Final source package rebuilt and structurally verified 2026-11-01 after EC2 adjudication:** 22 expected entries; no PDF/Office/secret-bearing files; SHA-256 `1818325C006236BC056BA7B54D36B7EBA05B9A9924ADEAD5289D714C041F814C`; the built-in editor compiles `paper/main.tex` successfully | Visually inspect the rendered PDF and complete final author review |
+| Manuscript | **Full disclosed draft assembled and rendered:** abstract and CCS concepts, introduction/framing, background, methodology, taxonomy, comparative analysis and tables, evaluation/reproducibility discussion, bounded research agenda, conclusion, threats, data availability, and PRISMA checklist are present. The 30-page PDF was compiled without ACM review line numbers and visually inspected page by page | Complete final author review; coded distributions remain provisional until human confirmation |
+| Submission package | **Final source package rebuilt and structurally verified 2026-11-01:** 22 expected entries, no unsafe paths, valid ZIP structure, and final non-review `acmart` source; SHA-256 `2020C2E20B11012D0BC91C3C0159D07ADD2B65FA10734B92D734B0F66412CBE1`. `SLR_Submission_Ramy_Kamel.pdf` is 30 pages, visually verified, SHA-256 `43EF439F63BA2111D72ED6B722AFEDAD154547A276CA68AD2088E86CE13AB0DD` | Author review, then upload/share through Overleaf and Moodle |
 
 **Integrity boundary:** the author supplied the central framing and confirmed the taxonomy dimensions. Under the author's urgent finalization instruction, AI also drafted disclosed portions of the comparative interpretation, critique, research agenda, and synthesis from verified evidence; these passages require the author's line-by-line validation and must not be represented as unaided author work.
 
-**Independent verdict (2026-11-01): CONDITIONALLY READY.** Agy's final high-effort audit agreed with the prior Sol/Agy cross-review and excluded R0075 under EC2. The manuscript contains every major required section and a completed PRISMA checklist; all 420 retained final-code cells are populated and QA arithmetic reconciles. The remaining 59 gap-note fields and all 60 annotated-bibliography fields are author-only blanks, and the rendered PDF requires visual inspection. The low full-text agreement ($\kappa=0.220$), excerpt-based initial triage, 82.0\% report non-retrieval, AI assistance, and provisional human-validation status remain explicit.
+**Independent verdict (2026-11-01): CONDITIONALLY READY.** Agy's final high-effort audit agreed with the prior Sol/Agy cross-review and excluded R0075 under EC2. A final independent Sol xhigh submission audit and a separate 30-page visual audit found no clipping, broken figures/tables, missing pages, or review line numbers after the documented fixes. The manuscript contains every major required section and a completed PRISMA checklist; all 420 retained final-code cells are populated and QA arithmetic reconciles. The remaining 59 gap-note fields and all 60 annotated-bibliography fields are author-only blanks. The low full-text agreement ($\kappa=0.220$), excerpt-based initial triage, 82.0\% report non-retrieval, AI assistance, and provisional human-validation status remain explicit.
 
-**Executable script/structure checkpoint (updated 2026-11-01):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated the complete 60-study QA and coded-count tables, resolves all 80 cited keys, and finds no missing key; all 420 final codes are populated and QA arithmetic reconciles. PRISMA reconciliation passes, the 80-reference retraction check has no flagged or unresolved records, and the built-in editor compiler completes successfully. These checks do not replace visual inspection or human confirmation.
+**Executable script/structure checkpoint (updated 2026-11-01):** all five documented self-tests passed (`merge_dedup.py`, `kappa.py`, `prisma.py`, `retraction_check.py`, `snowball.py`); `make_tables.py` regenerated the complete 60-study QA and coded-count tables, resolves all 80 cited keys, and finds no missing key; all 420 final codes are populated and QA arithmetic reconciles. PRISMA reconciliation passes, the 80-reference retraction check has no flagged or unresolved records, and both the built-in editor compiler and the portable Tectonic PDF build complete successfully. The 30-page output was visually inspected in full. These checks do not replace human confirmation.
 
 ### Author input currently required
 
@@ -52,7 +52,7 @@
 | ACM DL v14: 37 hits, exported 2026-10-29 through Claude in Chrome | `data/raw/acm_2026-10-29_v14.csv` | Done (merged) |
 | Screening corpus: **784 unique** (713 database + 71 citation searching; Scopus + IEEE + ACM + snowball), with empty `ta_decision` / `ta_ec_code` columns | `data/screening/corpus.xlsx` | Ready for you |
 | Retraction check (EC7) on all 784: 0 retracted; 27 to check by hand (23 without a DOI, 4 not found) | `data/screening/retraction_check_2026-10-29.csv` | Done (27 left for you) |
-| Workbook filled with recorded facts only (`[YOU]` / `[pending]` left) | `DAI701_SLR_Project_Workbook_v1.docx` | Done: re-synced to the final state (v14 + ACM, 784; §4.4 identification stage; EC7 row). You still verify every field |
+| Workbook filled with recorded facts only (`[YOU]` / `[pending]` left) | `DAI701_SLR_Project_Workbook_v1.docx` | **Stale conditional deliverable:** retains the earlier 61-study state and pre-final counts; do not submit unless the professor requires it and it is synchronized to the final 60-study corpus |
 | Protocol decision record (IC1–4, EC1–7, QA1–4, no cut-off) | `data/screening/protocol_criteria.md` | Ready (you reword) |
 | Retraction check (EC7): OpenAlex + Crossref. Pre-ACM run: **0 retracted** of 766; 25 to check by hand (21 no DOI, 4 not found) | `scripts/retraction_check.py` → `data/screening/retraction_check_2026-10-29.csv` | Done; re-run after the ACM merge (784 records, 0 retracted; see the row above) |
 | Extraction + full-text QA template (30 columns from your RQ fields) | `data/extraction/extraction.xlsx` | Ready (you define the codebook) |
@@ -532,12 +532,13 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 ## PHASE 7: Submission (Day 5, before the Week 9 deadline) via Moodle
 
 **§11 deliverables**
-- [ ] The manuscript PDF from ACM `acmart`, with the Overleaf project **shared with the professor**
+- [x] The manuscript PDF from ACM `acmart` was generated as `SLR_Submission_Ramy_Kamel.pdf` and all 30 pages were visually inspected.
+- [ ] The Overleaf project is **shared with the professor** (external author action).
 - [x] `refs.bib` and the supporting included/background/selected BibTeX files are present in the verified source package.
 - [x] The extraction spreadsheet contains one row per 60 included papers.
 - [x] The PRISMA-2020 flow diagram and completed checklist are present and compile.
 - [x] The AI-use disclosure statement is present and updated through the final 39-study audit.
-- [ ] *(If the professor confirms it, see slide 7)* the filled `DAI701_SLR_Project_Workbook.docx` with §1–§4, final counts and the signed AI-use statement
+- [ ] *(Only if the professor confirms it, see slide 7)* synchronize the stale `DAI701_SLR_Project_Workbook_v1.docx` from 61 to 60 included studies, verify every field, and add the signed AI-use statement before submission.
 
 **§13 checklist**
 - [x] The question, scope and RQs are explicit and answerable.
@@ -549,14 +550,14 @@ list them). Then run every DOI through Scite to check editorial notices/retracti
 - [x] Every category section ends in critique.
 - [x] A bounded, evidence-supported gap analysis and concrete research agenda are present; AI drafting is disclosed and requires author validation.
 - [x] One ACM template is used throughout; figures and tables are captioned, numbered and referenced.
-- [ ] BibTeX, extraction sheet and AI disclosure are attached
-- [ ] 18–30 pp excluding references (≈ 8,000–12,000 words): rough source count is approximately 10,500 words (within range); rendered page count still requires visual PDF inspection.
+- [ ] BibTeX, extraction sheet and AI disclosure are attached in Moodle (external author action; the files are ready locally).
+- [x] 18–30 pp excluding references (≈ 8,000–12,000 words): the rendered PDF is 30 pages total and approximately 25.5 pages excluding the reference section when appendices are included. The narrative body is approximately 5,833 extracted words, so no claim is made that it independently meets the alternative word-count proxy.
 
 ---
 
-## PHASE 8: Final presentation (after submission). AU design system
+## PHASE 8: Final presentation (after submission; excluded from this finalization run). AU design system
 
-- [ ] **T8.1 [AI-assist]** A 10–12 slide deck: problem → method (PRISMA, κ) → taxonomy figure → key comparisons → gaps and agenda → limitations. Use only content from your paper.
+- [x] **T8.1 [N/A for the current scope]** Deferred to the post-submission presentation stage by the author's 2026-10-30 direction; it is not part of the midterm SLR submission package.
 
 **Prompt: Claude Design (AU Research Design System, Slides)**
 ```text
@@ -643,4 +644,5 @@ diagram as images. Speaker notes per slide. CONTENT: <paste abstract, methodolog
 | 2026-10-31 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High + Agent Reach fallbacks | Independently verified R0311 against the full paper and official publisher record, searched for an exact-study artifact, and cross-reviewed architecture, adaptation, QA, and all factual fields | Reviewers converged on QA `Y,P,Y,Y = 3.5`, `single-agent`, and `prompting; RAG`; corrected comparator-specific results, restored six limitations and both future-work passages, and documented the paper's multi-agent/fine-tuning contradictions; no exact-study repository was found |
 | 2026-10-31 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High + Agent Reach fallbacks | Independently verified R0320 against the 27-page paper and official ACL/arXiv records, searched for exact-study artifacts, and cross-reviewed the mixed architecture, evaluation arithmetic, QA, and all factual fields | Reviewers converged on `mixed`, `prompting; RAG`, exact model IDs, 14 machines/204 listed subtasks, and QA `Y,P,P,Y = 3.0`; augmentation gains are percentage points, modular SCR baselines are unreconciled, and no exact-study code/data release was verified |
 | 2026-11-01 | `gpt-6.1-sol` xhigh + `agy` Gemini 3.8 Flash High | Independently audited the remaining 39 complete papers and available artifacts in three batches, then cross-reviewed all study-type, architecture, QA, task, adaptation, availability, arithmetic, model-version and eligibility disagreements | All 61 provisional inclusions were reviewed; final high-effort Agy adjudication agreed with Sol and excluded R0075 under EC2, leaving 60 QA records and 420 final codes; author-only fields remain blank |
-| | | | |
+| 2026-11-01 | Agent Reach GitHub route + official Tectonic 0.17.0 release | Retrieved the portable Windows compiler from the official Tectonic release, verified its release SHA-256, built the non-review ACM PDF, and regenerated the source ZIP | Y (built-in editor and Tectonic both compile; ZIP integrity and all 30 PDF pages checked) |
+| 2026-11-01 | `gpt-6.1-sol` xhigh independent submission judge + separate visual-audit agent | Audited final counts, disclosure wording, ZIP state, ACM class options, and every rendered PDF page; identified the stale PRISMA count/caption and overflowing data paths, which were corrected before the final build | Y (coordinator recompiled, inspected corrected pages 20 and 23, reran gates, and recorded exact artifact hashes) |
